@@ -8,27 +8,45 @@ import argparse
 import logging
 import os.path
 import sys
+import urllib.request
 import xml.etree.ElementTree as ET
 import yaml
 
 
-def update_dictionary(all_entries_per_table, name, comment_char, columns, path, xml_file):
+def update_dictionary(all_entries_per_table, name, comment_char, columns, path, file_type, xml_file):
     logger.info(f"Processing table {name} from {xml_file}")
-    if not os.path.isfile(path):
+    if file_type == "path":
+        if not os.path.isfile(path):
+            logger.warning(
+                f"The file {path} supposely containing the {name} table do not exists."
+            )
+            return(all_entries_per_table)
+        f = open(path, 'r')
+    elif file_type == "url":
+        try:
+            f = urllib.request.urlopen(path)
+        except:
+            logger.warning(
+                f"The url {path} supposely containing the {name} table do not exists."
+            )
+            return(all_entries_per_table)
+    else:
         logger.warning(
-            f"The file {path} supposely containing the {name} table do not exists."
+            f"The file_type {file_type} is not supported."
         )
         return(all_entries_per_table)
     if name not in all_entries_per_table.keys():
         all_entries_per_table[name] = []
-    with open(path, 'r') as f:
-        for line in f:
-            if comment_char is not None and line.startswith(comment_char):
-                continue
-            values = line.strip().split("\t")
-            dict_to_store = dict(zip(columns, values))
-            dict_to_store['xml_file'] = xml_file
-            all_entries_per_table[name].append(dict_to_store)
+    for line in f:
+        if file_type == "url":
+            line = line.decode('utf-8', errors='replace')
+        if comment_char is not None and line.startswith(comment_char):
+            continue
+        values = line.strip().split("\t")
+        dict_to_store = dict(zip(columns, values))
+        dict_to_store['xml_file'] = xml_file
+        all_entries_per_table[name].append(dict_to_store)
+    f.close()
     return(all_entries_per_table)
 
 
@@ -84,6 +102,10 @@ for xml_file in args.tool_data_table_conf:
                 columns = [c.strip() for c in info.text.split(',')]
             if info.tag == "file":
                 path = info.get('path')
-        all_entries_per_table = update_dictionary(all_entries_per_table, name, comment_char, columns, path, xml_file)
+                file_type = 'path'
+                if path is None:
+                    path = info.get('url')
+                    file_type = 'url'
+        all_entries_per_table = update_dictionary(all_entries_per_table, name, comment_char, columns, path, file_type, xml_file)
 
 yaml.dump(all_entries_per_table, args.output)
