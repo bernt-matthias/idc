@@ -12,6 +12,8 @@ There is one script that can be used to list all the indices available per table
 python sync/tool_data_table_conf_to_yaml.py -o sync/cvmfs_20260626.yml &> sync/cvmfs_20260626.log
 ```
 
+José ran the command for the usegalaxy.eu and the result is [here](./usegalaxy_eu_20260626.yaml).
+
 ### Get data_manager - table connection
 
 There is a script to get all the data_managers from iuc and the input/output tables.
