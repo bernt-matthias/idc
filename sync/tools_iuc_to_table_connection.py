@@ -26,17 +26,13 @@ for xml_file in Path(tools_iuc_path).glob('data_managers/*/data_manager/*xml'):
     if root.tag != "tool":
         continue
     dm_id = root.attrib.get('id')
+    # WARNING WE ARE NOT LOOKING INTO MACROS FILES
     # Get the from
     from_table = []
-    for e in root:
-        if e.tag == "inputs":
-            for p in e:
-                if p.tag == "param":
-                    for o in p:
-                        if o.tag == "options":
-                            if 'from_data_table' in o.attrib:
-                                from_table.append(o.get('from_data_table'))
-
+    options = root.findall('.//options')
+    for op in options:
+        if 'from_data_table' in op.keys():
+            from_table.append(op.get('from_data_table'))
     # Get the output tables
     out_tables = []
     dm_conf = os.path.join(os.path.dirname(os.path.dirname(xml_file)), "data_manager_conf.xml")
