@@ -38,6 +38,13 @@ def main(cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path):
     store = RefgetStore.on_disk(refget_store_path)
 
     fasta_all = _read_fasta_all(cvmfs_yaml_path)
+    unique_vals = set()
+    for fasta_record in fasta_all:
+        if fasta_record.value not in unique_vals:
+            unique_vals.add(fasta_record.value)
+        else:
+            print(f"Duplicate unique_build_id value found: {fasta_record.value}")
+
 
     os.chdir(rgsi_output_path)
     import_fasta_all(
