@@ -73,9 +73,14 @@ def import_fasta_all(
             unique_build_id + ".fa"
         )
 
+        json_summary_path = json_output_path.joinpath(unique_build_id)
+
         if not os.path.exists(local_fasta_path):
             print(f'Symlinking {local_fasta_path} to {cvmfs_fasta_path}...')
             local_fasta_path.symlink_to(cvmfs_fasta_path)
+        elif os.path.exists(json_summary_path):
+            print(f'JSON summary file {json_summary_path} already exists, skipping import...')
+            continue
 
         collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
         store.add_sequence_alias('galaxy_unique_build_id', fasta_record.value, collection.digest)
@@ -96,12 +101,8 @@ def import_fasta_all(
             "level_2": store.get_collection_level2(collection.digest),
         }
 
-        with open(
-            json_output_path.joinpath(unique_build_id), "w"
-        ) as refget_file:
+        with open(json_summary_path, "w") as refget_file:
             print(json.dumps(refget_metadata_blob, indent=2), file=refget_file)
-
-        break
 
 
 if __name__ == "__main__":
