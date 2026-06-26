@@ -81,7 +81,7 @@ def import_fasta_all(
         store.add_sequence_alias('galaxy_unique_build_id', fasta_record.value, collection.digest)
         store.add_sequence_alias('galaxy_dbkey', fasta_record.dbkey, collection.digest)
         store.add_sequence_alias('galaxy_name', fasta_record.name, collection.digest)
-        store.add_sequence_alias('galaxy_tool_data_table_conf', fasta_record.name, collection.digest)
+        store.add_sequence_alias('galaxy_tool_data_table_conf', fasta_record.xml_file, collection.digest)
 
         refget_metadata_blob = {
             "level_0": collection.digest,
