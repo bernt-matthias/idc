@@ -106,6 +106,9 @@ ENV/
 # Simon's working directory
 working/
 
+# PyCharm
+.idea
+
 # Ansible installed artifacts
 ansible/collections
 ansible/roles/*.*
