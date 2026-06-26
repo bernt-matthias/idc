@@ -83,10 +83,10 @@ def import_fasta_all(
             continue
 
         collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
-        store.add_sequence_alias('galaxy_unique_build_id', fasta_record.value, collection.digest)
-        store.add_sequence_alias('galaxy_dbkey', fasta_record.dbkey, collection.digest)
-        store.add_sequence_alias('galaxy_name', fasta_record.name, collection.digest)
-        store.add_sequence_alias('galaxy_tool_data_table_conf', fasta_record.xml_file, collection.digest)
+        store.add_collection_alias('galaxy_unique_build_id', fasta_record.value, collection.digest)
+        store.add_collection_alias('galaxy_dbkey', fasta_record.dbkey, collection.digest)
+        store.add_collection_alias('galaxy_name', fasta_record.name, collection.digest)
+        store.add_collection_alias('galaxy_tool_data_table_conf', fasta_record.xml_file, collection.digest)
 
         refget_metadata_blob = {
             "level_0": collection.digest,
@@ -99,6 +99,7 @@ def import_fasta_all(
                 "sorted_sequences": collection.sorted_sequences_digest,
             },
             "level_2": store.get_collection_level2(collection.digest),
+            "aliases": store.get_aliases_for_collection(collection.digest),
         }
 
         with open(json_summary_path, "w") as refget_file:

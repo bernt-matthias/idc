@@ -73,7 +73,25 @@ output_20260626/refget/json/Araly.json:
       "SQ.8a8KcjrqyGNPOC5UmLP0hiqn6xVOpRiq",
       (...)
     ]
-  }
+  },
+  "aliases": [
+    [
+      "galaxy_unique_build_id",
+      "Araly1"
+    ],
+    [
+      "galaxy_dbkey",
+      "Araly1"
+    ],
+    [
+      "galaxy_tool_data_table_conf",
+      "/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml"
+    ],
+    [
+      "galaxy_name",
+      "Arabidopsis lyrata: Araly1"
+    ]
+  ]
 }
 ```
 
@@ -104,5 +122,4 @@ A flat-file Refgetstore instance containing all the sequences and genome informa
 
 This works as a basis for efficient retrieval of sequences and genomes, metadata for identifying and comparing reference genomes, coordinate systems, genome browser compatibility and more. Based on this file structure, a web page + API for exploring supported genome browsers can easily be launched. See examples here: https://refget.databio.org/explore
 
-
-
+The Refgetstore can be uses as basis for comparing reference genomes across different Galaxy instances, as well as to align with source repositories (once their contents are indexed in a GA4GH Refget: sequence collections implementation near you!)
