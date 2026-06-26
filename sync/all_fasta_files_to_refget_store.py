@@ -66,10 +66,15 @@ def import_fasta_all(
             unique_build_id + ".fa"
         )
 
-        print(f'Symlinking {local_fasta_path} to {cvmfs_fasta_path}...')
-        local_fasta_path.symlink_to(cvmfs_fasta_path)
+        if not os.path.exists(local_fasta_path):
+            print(f'Symlinking {local_fasta_path} to {cvmfs_fasta_path}...')
+            local_fasta_path.symlink_to(cvmfs_fasta_path)
 
         collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
+        store.add_sequence_alias('galaxy_unique_build_id', fasta_record.value, collection.digest)
+        store.add_sequence_alias('galaxy_dbkey', fasta_record.dbkey, collection.digest)
+        store.add_sequence_alias('galaxy_name', fasta_record.name, collection.digest)
+        store.add_sequence_alias('galaxy_tool_data_table_conf', fasta_record.name, collection.digest)
 
         refget_metadata_blob = {
             "level_0": collection.digest,
