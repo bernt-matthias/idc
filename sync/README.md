@@ -125,3 +125,42 @@ This works as a basis for efficient retrieval of sequences and genomes, metadata
 Front-end implementation that can easily be installed on top of the Refgetstore output from this script is available here: https://github.com/refgenie/refget/tree/master/frontend
 
 The Refgetstore can be used as basis for comparing reference genomes across different Galaxy instances, as well as to align with source repositories (once their contents are indexed in a GA4GH Refget: sequence collections implementation near you!)
+
+## Ideas/TODO
+
+Keep in mind that the data_manager are run while we are working so there are always no.
+
+### Archeology
+
+Before we move anything.
+
+We need to write a postgres query to get the job details of all the data_manager to be submitted to both the eu and the org instance that is used for data management.
+
+### all_fasta table
+
+There are specificities for this table.
+
+1. The idea is to calculate the Refget Seqcol digest on each fasta file on both instances
+    a. Write a bash script that generate a single file per instance with all the digests of the all_fasta.
+2. Identify the common digests (probably level 0)
+    a. create a new loc file for EU with common that would link to cvmfs when available.
+    b. remove from the original loc EU file the corresponding.
+    c. if there are common values that do not point to the same things, we need to generate a loc file that would be compatible with other stuff on CVMFS.
+3. Identify the totally different (= no seq common)
+    a. list them into a new loc file that would go to CVMFS with the data moved
+4. Build a list of things in the middle and open discussion
+
+5. Refget store, this contains the fa so no store it twice.
+
+### fasta related tables
+
+0. For each fasta related table determine the way to find the files related (single file vs directory vs glob).
+
+1. Get checksums (separately for the fasta and other files) and identify the matching/not matching.
+2. Only potentially move the one that come from 'specific' fasta
+
+### Other indices
+
+0. For each table determine the way to find the files related (single file vs directory vs glob).
+1. Get checksums and identify the matching/not matching.
+
