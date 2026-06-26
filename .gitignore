@@ -53,6 +53,9 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+# But keep the logs from sync
+!sync/*.log
+
 
 # Flask stuff:
 instance/
