@@ -145,7 +145,7 @@ There are specificities for this table.
 2. Identify the common digests (probably level 0)
     a. create a new loc file for EU with common that would link to cvmfs when available.
     b. remove from the original loc EU file the corresponding.
-    c. if there are common values that do not point to the same things, we need to generate a loc file that would be compatible with other stuff on CVMFS.
+    c. if there are common values data should stay on EU.
 3. Identify the totally different (= no seq common)
     a. list them into a new loc file that would go to CVMFS with the data moved
 4. Build a list of things in the middle and open discussion
