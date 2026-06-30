@@ -44,6 +44,7 @@ def update_dictionary(all_entries_per_table, name, comment_char, columns, path, 
             continue
         values = line.strip().split("\t")
         dict_to_store = dict(zip(columns, values))
+        dict_to_store['loc_file'] = path
         dict_to_store['xml_file'] = xml_file
         all_entries_per_table[name].append(dict_to_store)
     f.close()
