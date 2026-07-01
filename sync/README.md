@@ -236,6 +236,11 @@ Before we move anything.
 
 We need to write a postgres query to get the job details of all the data_manager to be submitted to both the eu and the org instance that is used for data management.
 
+I (Lucille) think that the command is (if the database is called galaxy and if the schema is still working with 26.1...):
+```bash
+psql -d galaxy -c "COPY (SELECT  create_time, data_manager_id, job_parameter.job_id, name, value FROM job_parameter JOIN  data_manager_job_association ON job_parameter.job_id = data_manager_job_association.job_id) TO STDOUT WITH HEADER" > all_params_for_DM.tsv
+```
+
 ### all_fasta table
 
 There are specificities for this table.
