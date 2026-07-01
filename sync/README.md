@@ -126,6 +126,78 @@ Front-end implementation that can easily be installed on top of the Refgetstore 
 
 The Refgetstore can be used as basis for comparing reference genomes across different Galaxy instances, as well as to align with source repositories (once their contents are indexed in a GA4GH Refget: sequence collections implementation near you!)
 
+### Generate reget seqcol digest for all FASTA
+
+Highly inspired by the script above, the script `all_fasta_files_to_refget_seqcol_digest.py` takes as input the yaml output of `tool_data_table_conf_to_yaml.py` and generate a yaml file with contains all the digests (level 0, 1, 2) for each entry of the 'all_fasta' table.
+
+This script requires the dependencies listed in `requirements.txt`.
+
+```bash
+python all_fasta_files_to_refget_seqcol_digest.py cvmfs_20260701.yml cvmfs_20260701_dig.yml
+```
+
+The output yaml is like:
+```yaml
+Amel_4.5:
+  level_0: WVM-8x592B68KwfpbOcMBcAqeNz2ZZy0
+  level_1:
+    lengths: UzkbME4hSLXP0-L9KG6gXpQABvSeesda
+    name_length_pairs: FJrASCKexRm7izae_hgpkkxf2yQ3fZ91
+    names: aEK2wLGTcQ-QUcJo4LsteN7HJbE4BFVE
+    sequences: bqcttuF_838R5VjLDpXleJQAx2NxFb7p
+    sorted_name_length_pairs: y2EF8IlKTrlTsJg6YElzkVNWTLU7MyUa
+    sorted_sequences: ItxZpRoS1VB8l9oPe9pdlkxsX2R-ekqg
+  level_2:
+    lengths:
+    - 29893408
+    - 15549267
+    (...)
+    names:
+    - NC_007070.3
+    - NC_007071.3
+      (...)
+    sequences:
+    - SQ.9q0qXprsO7haivVB3EaU3-44101Q-kyx
+    - SQ.eTdIWaBZiw-V4oomq8niOL7IRM245Ste
+      (...)
+  original_info:
+    dbkey: Amel_4.5
+    loc_file: /cvmfs/data.galaxyproject.org/managed/location/all_fasta_dbkeys.loc
+    name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+    path: /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa
+    value: Amel_4.5
+    xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+apiMel4:
+  level_0: Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f
+  level_1:
+    lengths: cOFi1097Jk0uQG_WBsKDmq3-1BLqrydF
+    name_length_pairs: xFLsw2hjVc2RjK5XJOeQPqUkbfAaa6vZ
+    names: dc9JjlcTZm0EiOMZCPg8Pb8g_w1TQMnx
+    sequences: A7uSqpdLpcZki6LC1QenI3g7qu6NK02R
+    sorted_name_length_pairs: OVNLncQr0dTKG5a13uyASOoGiEd5Mn6z
+    sorted_sequences: ItxZpRoS1VB8l9oPe9pdlkxsX2R-ekqg
+  level_2:
+    lengths:
+    - 29893408
+    - 12965953
+      (...)
+    names:
+    - Group1
+    - Group10
+      (...)
+    sequences:
+    - SQ.9q0qXprsO7haivVB3EaU3-44101Q-kyx
+    - SQ.oES2Cq62esSQPuI3CTXKyuQ1ENEeADTp
+      (...)
+  original_info:
+    dbkey: apiMel4
+    loc_file: /cvmfs/data.galaxyproject.org/managed/location/all_fasta_dbkeys.loc
+    name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+    path: /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa
+    value: apiMel4
+    xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+```
+
 ## Ideas/TODO
 
 Keep in mind that the data_manager are run while we are working so there are always no.
