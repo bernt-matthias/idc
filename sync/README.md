@@ -198,6 +198,32 @@ apiMel4:
     xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
 ```
 
+### Generate a sample yaml with cvmfs paths to have a good idea of what is inside and do tests
+
+The paths are hard-written relative to the idc root.
+
+```bash
+python sync/generate_test_all_tables_content_yaml.py
+```
+
+The output is [here](./test.yml).
+
+I could then run the refet_seqcol_digest on the test:
+
+```bash
+$ python sync/all_fasta_files_to_refget_seqcol_digest.py sync/test.yml sync/test_dig.yml 
+Loading the big yaml file.
+Done
+Processing /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa...
+Added Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f (5321 seqs) from /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa in 0.0s
+Imported 1 file(s) in 1.1s (jobs=1)
+Processing /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa...
+Added WVM-8x592B68KwfpbOcMBcAqeNz2ZZy0 (5321 seqs) from /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa in 0.0s
+Imported 1 file(s) in 1.1s (jobs=1)
+```
+
+The output is [here](./test_dig.yml).
+
 ## Ideas/TODO
 
 Keep in mind that the data_manager are run while we are working so there are always no.
