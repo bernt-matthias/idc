@@ -10,17 +10,19 @@ Python requirements are listed in the `requirements.txt` file.
 
 ### Generate a big yaml per table from tool_data_table_conf
 
-There is one script that can be used to list all the indices available per table using as input all the tool_data_table_conf.xml (default are the 4 from CVMFS including the brc and vgp).
+There is one script that can be used to list all the indices available per data table using as input all the tool_data_table_conf.xml files (default are the 4 from CVMFS including the brc and vgp).
 
 ```bash
 python sync/tool_data_table_conf_to_yaml.py -o sync/cvmfs_20260626.yml &> sync/cvmfs_20260626.log
 ```
 
+One can use `--tool_data_table_conf` to specifiy the tool_data_table_conf.xml files to be considered. 
+
 José ran the command for the usegalaxy.eu and the result is [here](./usegalaxy_eu_20260626.yaml).
 
 ### Get data_manager - table connection
 
-There is a script to get all the data_managers from iuc and the input/output tables.
+There is a script to get all the `data_manager`s from iuc and the input/output data tables.
 The path to tools-iuc is hard coded, please change it if you want to use it.
 
 ```bash
@@ -126,7 +128,7 @@ Front-end implementation that can easily be installed on top of the Refgetstore 
 
 The Refgetstore can be used as basis for comparing reference genomes across different Galaxy instances, as well as to align with source repositories (once their contents are indexed in a GA4GH Refget: sequence collections implementation near you!)
 
-### Generate reget seqcol digest for all FASTA
+### Generate refget seqcol digest for all FASTA
 
 Highly inspired by the script above, the script `all_fasta_files_to_refget_seqcol_digest.py` takes as input the yaml output of `tool_data_table_conf_to_yaml.py` and generate a yaml file with contains all the digests (level 0, 1, 2) for each entry of the 'all_fasta' table.
 
@@ -226,7 +228,7 @@ The output is [here](./test_dig.yml).
 
 ## Ideas/TODO
 
-Keep in mind that the data_manager are run while we are working so there are always no.
+Keep in mind that the data_manager are run while we are working.
 
 ### Archeology
 
