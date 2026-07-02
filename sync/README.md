@@ -58,9 +58,8 @@ For each reference genome, the following output is generated:
 #### JSON file 
 Summary files with "GA4GH refget: sequence collections"-compatible digests, as well as overview of sequences, lengths, and names. E.g.:
 
-```
-/path/to/refget_output_20260626/json/Araly.json:
-
+_/path/to/refget_output_20260626/json/Araly.json:_
+```json
 {
   "level_0": "l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M",
   "level_1": {
@@ -98,14 +97,34 @@ Summary files with "GA4GH refget: sequence collections"-compatible digests, as w
 }
 ```
 
-In addition, an `all_fasta.json` file is generated with information about all the reference genomes that are processed.
+#### YAML file
+A summary YAML file is generated with digests and aliases for all the reference genomes that have been processed:
+
+_/path/to/refget_output_20260626/yaml/all_fasta.yml:_
+```yaml
+Araly1:
+  aliases:
+    galaxy_dbkey: Araly1
+    galaxy_loc_file: /cvmfs/data.galaxyproject.org/byhand/location/all_fasta.loc
+    galaxy_name: 'Arabidopsis lyrata: Araly1'
+    galaxy_tool_data_table_conf: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml
+    galaxy_unique_build_id: Araly1
+  level_0: l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M
+  level_1:
+    lengths: xsKk_SHSYpPTP7N5A6bG202Wn0Tvh0hn
+    name_length_pairs: eM-TewfJx_bpnWagwnnPt4HokRi9E-tn
+    names: 3V0VCjf1TJhSwmy5mSL74Cy86pB6H-IY
+    sequences: MNdUu4DfiQbTPy5DU7vCJoVSxQD5Qc92
+    sorted_name_length_pairs: AYTR0ln2-yvYlf0olj21uiYYUcYd2JtE
+    sorted_sequences: 09FMt4b0-sJhgHcdtgJAoAn-YHuXEPEs
+```
 
 #### RGSI file
 Similar content as the JSON file, but in tabular format:
 
-```
-/path/to/refget_output_20260626/rgsi/Araly.rgsi:
+_/path/to/refget_output_20260626/rgsi/Araly.rgsi:_
 
+```tsv
 ##seqcol_digest=l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M
 ##names_digest=3V0VCjf1TJhSwmy5mSL74Cy86pB6H-IY
 ##sequences_digest=MNdUu4DfiQbTPy5DU7vCJoVSxQD5Qc92
@@ -121,7 +140,7 @@ scaffold_2	19320864	dna3bit	8a8KcjrqyGNPOC5UmLP0hiqn6xVOpRiq	bf9836478cee70e09fc
 
 #### Refgetstore
 
-`/path/to/refget_output_20260626/store/`
+_`/path/to/refget_output_20260626/store/`_
 
 A flat-file Refgetstore instance containing all the sequences and genome information using an optimized storage structure, as [defined here](https://refgenie.org/refget/reference/refgetstore-format/).
 

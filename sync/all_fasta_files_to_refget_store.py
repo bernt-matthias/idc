@@ -1,6 +1,8 @@
 import argparse
 import json
 import os
+from copy import copy
+
 import yaml
 from pathlib import Path
 from typing import NamedTuple, Any
@@ -19,10 +21,6 @@ class FastaAllRecord(NamedTuple):
 
 def main(cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path, no_store: bool):
     refget_store_path = output_path.joinpath("store")
-    rgsi_output_path = output_path.joinpath("rgsi")
-    json_output_path = output_path.joinpath("json")
-    os.makedirs(rgsi_output_path, exist_ok=True)
-    os.makedirs(json_output_path, exist_ok=True)
 
     if no_store:
         store = None
@@ -36,9 +34,8 @@ def main(cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path, no_
 
     import_fasta_all(
         fasta_all,
+        output_path,
         cvmfs_mount_prefix,
-        rgsi_output_path,
-        json_output_path,
         store,
     )
 
@@ -65,11 +62,17 @@ def check_for_duplicate_genomes(fasta_all: list[FastaAllRecord]):
 
 def import_fasta_all(
     fasta_all: list[FastaAllRecord],
+    output_path: Path,
     cvmfs_mount_prefix: Path,
-    rgsi_output_path: Path,
-    json_output_path: Path,
     store: RefgetStore | None,
 ):
+    rgsi_output_path = output_path.joinpath("rgsi")
+    json_output_path = output_path.joinpath("json")
+    yaml_output_path = output_path.joinpath("yaml")
+    os.makedirs(rgsi_output_path, exist_ok=True)
+    os.makedirs(json_output_path, exist_ok=True)
+    os.makedirs(yaml_output_path, exist_ok=True)
+
     os.chdir(rgsi_output_path)
 
     for fasta_record in fasta_all:
@@ -121,7 +124,7 @@ def import_fasta_all(
             "aliases": dict(store.get_aliases_for_collection(collection.digest)),
         }
 
-        append_to_all_fasta_json_file(json_output_path, unique_build_id, refget_metadata_blob)
+        append_to_all_fasta_yaml_file(yaml_output_path, unique_build_id, refget_metadata_blob)
         write_single_genome_json_file(json_summary_path, refget_metadata_blob)
 
 
@@ -131,20 +134,23 @@ def write_single_genome_json_file(json_summary_path: Path, refget_metadata_blob:
         print(json.dumps(refget_metadata_blob, indent=2), file=refget_file)
 
 
-def append_to_all_fasta_json_file(json_output_path: Path, unique_build_id: str, refget_metadata_blob: dict[str, Any]):
-    all_fasta_json_path = json_output_path.joinpath("all_fasta.json")
-    print(f'Appending to all_fasta.json file: {all_fasta_json_path}')
+def append_to_all_fasta_yaml_file(yaml_output_path: Path, unique_build_id: str, refget_metadata_blob: dict[str, Any]):
+    all_fasta_yaml_path = yaml_output_path.joinpath('all_fasta.yml')
+    print(f'Appending refget digests and galaxy aliases for "{unique_build_id}" to: {all_fasta_yaml_path}')
 
-    if os.path.exists(all_fasta_json_path):
-        with open(all_fasta_json_path, "r") as all_fasta_file:
-            all_fasta_json = json.loads(all_fasta_file.read())
+    if os.path.exists(all_fasta_yaml_path):
+
+        with open(all_fasta_yaml_path, 'r') as all_fasta_yaml_file:
+            all_fasta_yaml = yaml.safe_load(all_fasta_yaml_file)
     else:
-        all_fasta_json = {}
+        all_fasta_yaml = {}
 
-    all_fasta_json[unique_build_id] = refget_metadata_blob
+    refget_metadata_blob_copy = copy(refget_metadata_blob)
+    del refget_metadata_blob_copy["level_2"]
+    all_fasta_yaml[unique_build_id] = refget_metadata_blob_copy
 
-    with open(all_fasta_json_path, "w") as all_fasta_file:
-        print(json.dumps(all_fasta_json, indent=2), file=all_fasta_file)
+    with open(all_fasta_yaml_path, "w") as all_fasta_file:
+        yaml.dump(all_fasta_yaml, all_fasta_file, default_flow_style=False)
 
 
 if __name__ == "__main__":
