@@ -152,78 +152,6 @@ sync/run_seqcolapi_from_refget_store.sh /path/to/refget_output_20260626/store/ 8
 
 This will first clone the refget repository available at "https://github.com/refgenie/refget.git under `sync/refget_clone` unless it already exists, before starting the API server
 
-### Generate refget seqcol digest for all FASTA
-
-Highly inspired by the script above, the script `all_fasta_files_to_refget_seqcol_digest.py` takes as input the yaml output of `tool_data_table_conf_to_yaml.py` and generate a yaml file with contains all the digests (level 0, 1, 2) for each entry of the 'all_fasta' table.
-
-This script requires the dependencies listed in `requirements.txt`.
-
-```bash
-python all_fasta_files_to_refget_seqcol_digest.py cvmfs_20260701.yml cvmfs_20260701_dig.yml
-```
-
-The output yaml is like:
-```yaml
-Amel_4.5:
-  level_0: WVM-8x592B68KwfpbOcMBcAqeNz2ZZy0
-  level_1:
-    lengths: UzkbME4hSLXP0-L9KG6gXpQABvSeesda
-    name_length_pairs: FJrASCKexRm7izae_hgpkkxf2yQ3fZ91
-    names: aEK2wLGTcQ-QUcJo4LsteN7HJbE4BFVE
-    sequences: bqcttuF_838R5VjLDpXleJQAx2NxFb7p
-    sorted_name_length_pairs: y2EF8IlKTrlTsJg6YElzkVNWTLU7MyUa
-    sorted_sequences: ItxZpRoS1VB8l9oPe9pdlkxsX2R-ekqg
-  level_2:
-    lengths:
-    - 29893408
-    - 15549267
-    (...)
-    names:
-    - NC_007070.3
-    - NC_007071.3
-      (...)
-    sequences:
-    - SQ.9q0qXprsO7haivVB3EaU3-44101Q-kyx
-    - SQ.eTdIWaBZiw-V4oomq8niOL7IRM245Ste
-      (...)
-  original_info:
-    dbkey: Amel_4.5
-    loc_file: /cvmfs/data.galaxyproject.org/managed/location/all_fasta_dbkeys.loc
-    name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
-    path: /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa
-    value: Amel_4.5
-    xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
-apiMel4:
-  level_0: Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f
-  level_1:
-    lengths: cOFi1097Jk0uQG_WBsKDmq3-1BLqrydF
-    name_length_pairs: xFLsw2hjVc2RjK5XJOeQPqUkbfAaa6vZ
-    names: dc9JjlcTZm0EiOMZCPg8Pb8g_w1TQMnx
-    sequences: A7uSqpdLpcZki6LC1QenI3g7qu6NK02R
-    sorted_name_length_pairs: OVNLncQr0dTKG5a13uyASOoGiEd5Mn6z
-    sorted_sequences: ItxZpRoS1VB8l9oPe9pdlkxsX2R-ekqg
-  level_2:
-    lengths:
-    - 29893408
-    - 12965953
-      (...)
-    names:
-    - Group1
-    - Group10
-      (...)
-    sequences:
-    - SQ.9q0qXprsO7haivVB3EaU3-44101Q-kyx
-    - SQ.oES2Cq62esSQPuI3CTXKyuQ1ENEeADTp
-      (...)
-  original_info:
-    dbkey: apiMel4
-    loc_file: /cvmfs/data.galaxyproject.org/managed/location/all_fasta_dbkeys.loc
-    name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
-    path: /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa
-    value: apiMel4
-    xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
-```
-
 ### Generate a sample yaml with cvmfs paths to have a good idea of what is inside and do tests
 
 The paths are hard-written relative to the idc root.
@@ -234,21 +162,13 @@ python sync/generate_test_all_tables_content_yaml.py
 
 The output is [here](./test.yml).
 
-I could then run the refet_seqcol_digest on the test:
+I could then run the refget_store with the option `--no-store` on the test:
 
 ```bash
-$ python sync/all_fasta_files_to_refget_seqcol_digest.py sync/test.yml sync/test_dig.yml 
-Loading the big yaml file.
-Done
-Processing /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa...
-Added Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f (5321 seqs) from /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa in 0.0s
-Imported 1 file(s) in 1.1s (jobs=1)
-Processing /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa...
-Added WVM-8x592B68KwfpbOcMBcAqeNz2ZZy0 (5321 seqs) from /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa in 0.0s
-Imported 1 file(s) in 1.1s (jobs=1)
+python sync/all_fasta_files_to_refget_store.py sync/test.yml sync/test_dig/ &> sync/test_dig.log
 ```
 
-The output is [here](./test_dig.yml).
+The output is [here](./test_dig/).
 
 
 ### Generate a yml with the content of the tables but fasta centric
