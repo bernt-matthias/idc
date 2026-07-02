@@ -7,7 +7,7 @@ import yaml
 from pathlib import Path
 from typing import NamedTuple, Any
 
-from gtars.refget import RefgetStore
+from gtars.refget import RefgetStore, SequenceCollectionMetadata
 
 
 class FastaAllRecord(NamedTuple):
@@ -104,11 +104,7 @@ def import_fasta_all(
             store = RefgetStore.in_memory()
 
         collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
-        store.add_collection_alias('galaxy_unique_build_id', fasta_record.value, collection.digest)
-        store.add_collection_alias('galaxy_dbkey', fasta_record.dbkey, collection.digest)
-        store.add_collection_alias('galaxy_name', fasta_record.name, collection.digest)
-        store.add_collection_alias('galaxy_loc_file', fasta_record.loc_file, collection.digest)
-        store.add_collection_alias('galaxy_tool_data_table_conf', fasta_record.xml_file, collection.digest)
+        add_galaxy_aliases_to_store(store, collection, fasta_record)
 
         refget_metadata_blob = {
             "level_0": collection.digest,
@@ -126,6 +122,27 @@ def import_fasta_all(
 
         append_to_all_fasta_yaml_file(yaml_output_path, unique_build_id, refget_metadata_blob)
         write_single_genome_json_file(json_summary_path, refget_metadata_blob)
+
+
+def add_galaxy_aliases_to_store(
+        store: RefgetStore,
+        collection: SequenceCollectionMetadata,
+        fasta_record: FastaAllRecord,
+):
+    def _add_safe_alias_to_store(
+        store: RefgetStore,
+        collection: SequenceCollectionMetadata,
+        alias: str,
+        value: str,
+    ):
+        # Exchange slashes with '!' to support values in URL for the Seqcol API implementation
+        store.add_collection_alias(alias, value.replace('/', '!'), collection.digest)
+
+    _add_safe_alias_to_store(store, collection, 'galaxy_unique_build_id', fasta_record.value)
+    _add_safe_alias_to_store(store, collection, 'galaxy_dbkey', fasta_record.dbkey)
+    _add_safe_alias_to_store(store, collection, 'galaxy_name', fasta_record.name)
+    _add_safe_alias_to_store(store, collection, 'galaxy_loc_file', fasta_record.loc_file)
+    _add_safe_alias_to_store(store, collection,'galaxy_tool_data_table_conf', fasta_record.xml_file)
 
 
 def write_single_genome_json_file(json_summary_path: Path, refget_metadata_blob: dict[str, Any]):

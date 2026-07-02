@@ -1,9 +1,9 @@
 Amel_4.5:
   aliases:
     galaxy_dbkey: Amel_4.5
-    galaxy_loc_file: /cvmfs/data.galaxyproject.org/managed/location/all_fasta_dbkeys.loc
-    galaxy_name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
-    galaxy_tool_data_table_conf: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+    galaxy_loc_file: '!cvmfs!data.galaxyproject.org!managed!location!all_fasta_dbkeys.loc'
+    galaxy_name: A. mellifera Nov. 2010 (GCF_000002195.4!Amel_4.5) (Amel_4.5)
+    galaxy_tool_data_table_conf: '!cvmfs!data.galaxyproject.org!managed!location!tool_data_table_conf.xml'
     galaxy_unique_build_id: Amel_4.5
   level_0: WVM-8x592B68KwfpbOcMBcAqeNz2ZZy0
   level_1:
@@ -16,9 +16,9 @@ Amel_4.5:
 apiMel4:
   aliases:
     galaxy_dbkey: apiMel4
-    galaxy_loc_file: /cvmfs/data.galaxyproject.org/managed/location/all_fasta_dbkeys.loc
-    galaxy_name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
-    galaxy_tool_data_table_conf: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+    galaxy_loc_file: '!cvmfs!data.galaxyproject.org!managed!location!all_fasta_dbkeys.loc'
+    galaxy_name: A. mellifera 04 Nov 2010 (Amel_4.5!apiMel4) (apiMel4)
+    galaxy_tool_data_table_conf: '!cvmfs!data.galaxyproject.org!managed!location!tool_data_table_conf.xml'
     galaxy_unique_build_id: apiMel4
   level_0: Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f
   level_1:

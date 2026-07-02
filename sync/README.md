@@ -89,8 +89,8 @@ _/path/to/refget_output_20260626/json/Araly.json:_
   },
   "aliases": {
     "galaxy_dbkey": "Araly1",
-    "galaxy_tool_data_table_conf": "/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml",
-    "galaxy_loc_file": "/cvmfs/data.galaxyproject.org/byhand/location/all_fasta.loc",
+    "galaxy_tool_data_table_conf": "!cvmfs!data.galaxyproject.org!byhand!location!tool_data_table_conf.xml",
+    "galaxy_loc_file": "!cvmfs!data.galaxyproject.org!byhand!location!all_fasta.loc",
     "galaxy_unique_build_id": "Araly1",
     "galaxy_name": "Arabidopsis lyrata: Araly1"
   }
@@ -105,9 +105,9 @@ _/path/to/refget_output_20260626/yaml/all_fasta.yml:_
 Araly1:
   aliases:
     galaxy_dbkey: Araly1
-    galaxy_loc_file: /cvmfs/data.galaxyproject.org/byhand/location/all_fasta.loc
+    galaxy_loc_file: !cvmfs!data.galaxyproject.org!byhand!location!all_fasta.loc
     galaxy_name: 'Arabidopsis lyrata: Araly1'
-    galaxy_tool_data_table_conf: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml
+    galaxy_tool_data_table_conf: !cvmfs!data.galaxyproject.org!byhand!location!tool_data_table_conf.xml
     galaxy_unique_build_id: Araly1
   level_0: l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M
   level_1:
