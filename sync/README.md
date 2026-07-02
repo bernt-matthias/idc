@@ -138,6 +138,16 @@ Front-end implementation that can easily be installed on top of the Refgetstore 
 
 The Refgetstore can be used as basis for comparing reference genomes across different Galaxy instances, as well as to align with source repositories (once their contents are indexed in a GA4GH Refget: sequence collections implementation near you!)
 
+### Refget: Sequence collections API on top of Refgetstore
+
+An extended version of the API which is defined as part of the [GA4GH Refget: Sequence Collections standard](https://ga4gh.github.io/refget/seqcols/#3-api-a-server-api-specification-for-retrieving-and-comparing-sequence-collections) can be installed on top of the Refgetstore by running e.g. the following:
+
+```
+sync/run_seqcolapi_from_refget_store.sh /path/to/refget_output_20260626/store/ 8100
+```
+
+This will first clone the refget repository available at "https://github.com/refgenie/refget.git under `sync/refget_clone` unless it already exists, before starting the API server
+
 ### Generate refget seqcol digest for all FASTA
 
 Highly inspired by the script above, the script `all_fasta_files_to_refget_seqcol_digest.py` takes as input the yaml output of `tool_data_table_conf_to_yaml.py` and generate a yaml file with contains all the digests (level 0, 1, 2) for each entry of the 'all_fasta' table.

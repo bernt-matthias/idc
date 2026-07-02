@@ -112,3 +112,5 @@ working/
 # Ansible installed artifacts
 ansible/collections
 ansible/roles/*.*
+
+sync/refget_clone
