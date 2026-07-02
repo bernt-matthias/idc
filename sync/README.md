@@ -226,6 +226,75 @@ Imported 1 file(s) in 1.1s (jobs=1)
 
 The output is [here](./test_dig.yml).
 
+
+## CVMFS inspection
+
+### Fasta files
+
+@sveinugu found some path to fasta that do not exists:
+
+```txt
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/ce6/seq/c6.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/panTro1/seq/panTro1canon.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/droYak1/seq/droYak1.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/fr1/seq/fr1.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/eriEur1/seq/eriEur1.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/lMaj5/seq/lMaj5.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/ornAna1/seq/ornAna1.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/ornAna1/seq/ornAna1.fa does not exist, skipping import...
+ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/rn3/seq/rn3canon.fa does not exist, skipping import...
+```
+
+#### ce6
+
+`/cvmfs/data.galaxyproject.org/byhand/ce6/seq/c6.fa`
+
+This is a typo and should be `/cvmfs/data.galaxyproject.org/byhand/ce6/seq/ce6.fa`
+
+#### panTro1
+
+`/cvmfs/data.galaxyproject.org/byhand/panTro1/seq/panTro1canon.fa`
+
+This should be `/cvmfs/data.galaxyproject.org/byhand/panTro1/seq/panTro1.fa`
+
+#### droYak1
+
+`/cvmfs/data.galaxyproject.org/byhand/droYak1/seq/droYak1.fa` could maybe reconstituted from what is in `/cvmfs/data.galaxyproject.org/byhand/droYak1/tmp` or with [nibFrag](https://genome.ucsc.edu/goldenpath/help/blatSpec.html#nibFragUsage).
+
+#### fr1
+
+There is a `chrUn.nib` in the `/cvmfs/data.galaxyproject.org/byhand/fr1/seq/` we could probably use [nibFrag](https://genome.ucsc.edu/goldenpath/help/blatSpec.html#nibFragUsage) to retrieve the fasta.
+
+#### eriEur1
+
+There is a `/cvmfs/data.galaxyproject.org/byhand/eriEur1/eriEur1.2bit` to be converted back to fasta...
+
+#### lMaj5
+
+There is a lot of nib files to be converted in `/cvmfs/data.galaxyproject.org/byhand/lMaj5/seq/`.
+
+#### ornAna1
+
+There are a lot of places where this supposely existing fasta is symlinked:
+
+```bash
+$ ls -alh /cvmfs/data.galaxyproject.org/byhand/ornAna1/*/*fa
+lrwxrwxrwx 1 cvmfs cvmfs   17 May 17  2014 /cvmfs/data.galaxyproject.org/byhand/ornAna1/bowtie_index/ornAna1.fa -> ../seq/ornAna1.fa
+lrwxrwxrwx 1 cvmfs cvmfs   17 May 17  2014 /cvmfs/data.galaxyproject.org/byhand/ornAna1/bwa_index/ornAna1.fa -> ../seq/ornAna1.fa
+lrwxrwxrwx 1 cvmfs cvmfs   17 May 17  2014 /cvmfs/data.galaxyproject.org/byhand/ornAna1/picard_index/ornAna1.fa -> ../seq/ornAna1.fa
+-rw-r--r-- 1 cvmfs cvmfs 5.7G Jun  9  2009 /cvmfs/data.galaxyproject.org/byhand/ornAna1/quality_scores/ornAna1.quals.fa
+lrwxrwxrwx 1 cvmfs cvmfs   17 May 17  2014 /cvmfs/data.galaxyproject.org/byhand/ornAna1/sam_index/ornAna1.fa -> ../seq/ornAna1.fa
+```
+
+According to the fa.fai the width of lines was 50bp.
+
+I tried to get the fasta back from the bowtie index with `bowtie-inspect /cvmfs/data.galaxyproject.org/byhand/ornAna1/bwa_index/ornAna1.fa` but I got `Could not locate a Bowtie index corresponding to basename "/cvmfs/data.galaxyproject.org/byhand/ornAna1/bwa_index/ornAna1.fa"`. We can probably download it again from [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/ornAna1/bigZips/ornAna1.fa.gz).
+
+#### rn3
+
+`/cvmfs/data.galaxyproject.org/byhand/rn3/seq/rn3canon.fa` should be replaced by `/cvmfs/data.galaxyproject.org/byhand/rn3/seq/rn3.fa`
+
+
 ## Ideas/TODO
 
 Keep in mind that the data_manager are run while we are working.
