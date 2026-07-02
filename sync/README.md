@@ -255,7 +255,23 @@ lrwxrwxrwx 1 cvmfs cvmfs   17 May 17  2014 /cvmfs/data.galaxyproject.org/byhand/
 
 According to the fa.fai the width of lines was 50bp.
 
-I tried to get the fasta back from the bowtie index with `bowtie-inspect /cvmfs/data.galaxyproject.org/byhand/ornAna1/bwa_index/ornAna1.fa` but I got `Could not locate a Bowtie index corresponding to basename "/cvmfs/data.galaxyproject.org/byhand/ornAna1/bwa_index/ornAna1.fa"`. We can probably download it again from [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/ornAna1/bigZips/ornAna1.fa.gz).
+We can get the fasta back from the bowtie index with `bowtie-inspect -a 50 /cvmfs/data.galaxyproject.org/byhand/ornAna1/bowtie_index/ornAna1`.
+
+```bash
+$ apptainer exec -B /cvmfs/ /cvmfs/singularity.galaxyproject.org/all/bowtie\:1.3.1--py312hf8dbd9f_10 bowtie-inspect -a 50 /cvmfs/data.galaxyproject.org/byhand/ornAna1/bowtie_index/ornAna1 | head
+>chr1
+GTGGCCTAGTGTAAAGAGCACAGCCCTGGGAGTCAGAGGTCGTGGGTCCG
+AATTCCAGCTCTGCCACTTGACTGCTGCGTGACCTTGGACAAGTCACTTC
+CCTTCTCCGAGCCTCATCTGGAAAGTGGGGATTGAGATCGTGATCCCAAC
+GTGGGGCGGGGACTGTGCCCACCCCGATTTGCTGGTATCCACCCCGGCGC
+TTAGGACAGTGCCCGGCACGTAGGAAGCGCTTAACAAATACCATCATTAT
+TATTACTGTATTTTTGAGTAGGACAGGAGAAGGCCTTGGCACCCACCTTT
+AGAAAGGAGGGGAAAAAAACCCGATTAAGTCACAGTCCAGAGTGTAACTC
+AGACACCCGGGAAAGATTCTAGAGTAAATGGTTGGGAGTGTGTGCATCAT
+CTCTGTAAAGTCTGGGTTGTAAAAAATAATTCTTTGAAAAGAGATCCTCT
+```
+
+Or get it back from [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/ornAna1/bigZips/ornAna1.fa.gz) but we need to check it matches the fai.
 
 #### rn3
 
