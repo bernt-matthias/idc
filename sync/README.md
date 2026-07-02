@@ -247,6 +247,29 @@ Imported 1 file(s) in 1.1s (jobs=1)
 The output is [here](./test_dig.yml).
 
 
+### Generate a yml with the content of the tables but fasta centric
+
+The final yml file is:
+
+The first level is dbkey (from the `__dbkeys__` table it takes the `len_path`), the second level is the 'value' field of the 'all_fasta' table in the associated dbkey value.
+
+In this first version, I assumed that the 'value' of the tables depending on the all_fasta table would match between them but it seems not the case.
+
+For example, in the EU db, 'hg18' has no dbkey entry (but is probably listed in the builds.txt), the value ine the all_fasta is 'hg18full' but in the bowtie2_indexes table the dbkey is hg18 and the value is hg18...
+
+Another example, for hg38, there is hg38full and hg38canon but for the picard_indexes or rnastar_index it is hg38 and we do not know which one.
+
+Sometimes there are some typos, for example in CVMFS in the bowtie2 index is 'galgal4' and 'galGal4' with names 'Chicken (Nov 2011, Gallus gallus)' and 'Chicken (Gallus gallus): galGal4' respectively.
+
+It would be more safe to rely on the output of the postgres query if possible. 
+
+Despite this, I ran this first version on the 2 yml I have and inspected the log files.
+
+```bash
+python sync/all_tables_content_to_fasta_based_yaml.py -i sync/cvmfs_20260701.yml -o sync/cvmfs_20260701_perdbkey.yml -log info 2> sync/cvmfs_20260701_perdbkey.log
+python sync/all_tables_content_to_fasta_based_yaml.py -i sync/usegalaxy_eu_20260626.yaml -o sync/usegalaxy_eu_20260626_perdbkey.yml -log info 2> sync/usegalaxy_eu_20260626_perdbkey.log
+```
+
 ## CVMFS inspection
 
 ### Fasta files
