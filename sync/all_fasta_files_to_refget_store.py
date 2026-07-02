@@ -178,4 +178,4 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-    main(args.tool_data_table_yaml_path, args.output_path, args.cvmfs_mount_prefix, args.no_store)
+    main(args.tool_data_table_yaml_path, Path.absolute(args.output_path), args.cvmfs_mount_prefix, args.no_store)
