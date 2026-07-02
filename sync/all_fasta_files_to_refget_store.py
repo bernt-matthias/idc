@@ -118,7 +118,7 @@ def import_fasta_all(
                 "sorted_sequences": collection.sorted_sequences_digest,
             },
             "level_2": store.get_collection_level2(collection.digest),
-            "aliases": store.get_aliases_for_collection(collection.digest),
+            "aliases": dict(store.get_aliases_for_collection(collection.digest)),
         }
 
         append_to_all_fasta_json_file(json_output_path, unique_build_id, refget_metadata_blob)

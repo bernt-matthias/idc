@@ -88,24 +88,13 @@ Summary files with "GA4GH refget: sequence collections"-compatible digests, as w
       (...)
     ]
   },
-  "aliases": [
-    [
-      "galaxy_unique_build_id",
-      "Araly1"
-    ],
-    [
-      "galaxy_dbkey",
-      "Araly1"
-    ],
-    [
-      "galaxy_tool_data_table_conf",
-      "/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml"
-    ],
-    [
-      "galaxy_name",
-      "Arabidopsis lyrata: Araly1"
-    ]
-  ]
+  "aliases": {
+    "galaxy_dbkey": "Araly1",
+    "galaxy_tool_data_table_conf": "/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml",
+    "galaxy_loc_file": "/cvmfs/data.galaxyproject.org/byhand/location/all_fasta.loc",
+    "galaxy_unique_build_id": "Araly1",
+    "galaxy_name": "Arabidopsis lyrata: Araly1"
+  }
 }
 ```
 
