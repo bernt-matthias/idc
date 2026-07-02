@@ -84,13 +84,16 @@ def import_fasta_all(
 
         json_summary_path = json_output_path.joinpath(unique_build_id + ".json")
 
-        if not os.path.exists(local_fasta_path):
-            if not os.path.exists(cvmfs_fasta_path):
-                print(f'WARNING: Fasta file {cvmfs_fasta_path} does not exist, skipping import...')
-                continue
+        if os.path.exists(cvmfs_fasta_path):
+            if os.path.islink(local_fasta_path):
+                os.unlink(local_fasta_path)
             print(f'Symlinking {local_fasta_path} to {cvmfs_fasta_path}...')
             local_fasta_path.symlink_to(cvmfs_fasta_path)
-        elif os.path.exists(json_summary_path):
+        else:
+            print(f'WARNING: Fasta file {cvmfs_fasta_path} does not exist, skipping import...')
+            continue
+
+        if os.path.exists(json_summary_path):
             print(f'JSON summary file {json_summary_path} already exists, skipping import...')
             continue
 
