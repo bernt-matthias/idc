@@ -48,8 +48,10 @@ Background info: https://refget.databio.org/
 Used to generate a refgetstore (See: https://refgenie.org/refget/refgetstore-explained/) from all available fasta files.
 
 ```bash
-python sync/tool_data_table_conf_to_yaml.py sync/cvmfs_20260626.yml /path/to/refget_output_20260626/ &> sync/refgetstore_20260626.log
+python sync/tool_data_table_conf_to_yaml.py sync/cvmfs_20260626.yml /path/to/refget_output_20260626/
 ```
+
+Note: the option '--no-store' can be used to skip generating the Refgetstore and only generate the summary files (currently only JSON).
 
 For each reference genome, the following output is generated:
 
@@ -106,6 +108,8 @@ Summary files with "GA4GH refget: sequence collections"-compatible digests, as w
   ]
 }
 ```
+
+In addition, an `all_fasta.json` file is generated with information about all the reference genomes that are processed.
 
 #### RGSI file
 Similar content as the JSON file, but in tabular format:
