@@ -4,7 +4,17 @@ The goal of this directory is to list all the indices used on the main instances
 
 ## Requirements
 
-Python requirements are listed in the `requirements.txt` file.
+Python requirements are listed in the `requirements.txt` file. It is recommended to use `uv` to install the dependencies in a virtual environment, e.g.:
+
+1. [Install uv](https://github.com/snarky/uv#installation)
+2. Run the following commands:
+
+```bash
+cd sync
+uv venv .venv
+. .venv/bin/activate
+uv pip install -r requirements.txt
+```
 
 ## Scripts
 
