@@ -38,7 +38,7 @@ Background info: https://refget.databio.org/
 Used to generate a refgetstore (See: https://refgenie.org/refget/refgetstore-explained/) from all available fasta files.
 
 ```bash
-python sync/tool_data_table_conf_to_yaml.py sync/cvmfs_20260626.yml output_20260626/ &> sync/refgetstore_20260626.log
+python sync/tool_data_table_conf_to_yaml.py sync/cvmfs_20260626.yml /path/to/refget_output_20260626/ &> sync/refgetstore_20260626.log
 ```
 
 For each reference genome, the following output is generated:
@@ -47,7 +47,7 @@ For each reference genome, the following output is generated:
 Summary files with "GA4GH refget: sequence collections"-compatible digests, as well as overview of sequences, lengths, and names. E.g.:
 
 ```
-output_20260626/refget/json/Araly.json:
+/path/to/refget_output_20260626/json/Araly.json:
 
 {
   "level_0": "l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M",
@@ -101,7 +101,7 @@ output_20260626/refget/json/Araly.json:
 Similar content as the JSON file, but in tabular format:
 
 ```
-output_20260626/refget/rgsi/Araly.rgsi:
+/path/to/refget_output_20260626/rgsi/Araly.rgsi:
 
 ##seqcol_digest=l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M
 ##names_digest=3V0VCjf1TJhSwmy5mSL74Cy86pB6H-IY
@@ -118,7 +118,7 @@ scaffold_2	19320864	dna3bit	8a8KcjrqyGNPOC5UmLP0hiqn6xVOpRiq	bf9836478cee70e09fc
 
 #### Refgetstore
 
-`output_20260626/refget/store/`
+`/path/to/refget_output_20260626/store/`
 
 A flat-file Refgetstore instance containing all the sequences and genome information using an optimized storage structure, as [defined here](https://refgenie.org/refget/reference/refgetstore-format/).
 

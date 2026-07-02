@@ -28,10 +28,9 @@ def _read_fasta_all(cvmfs_yaml_path: Path) -> list[FastaAllRecord]:
 
 
 def main(cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path):
-    refget_path = output_path.joinpath("refget")
-    refget_store_path = refget_path.joinpath("store")
-    rgsi_output_path = refget_path.joinpath("rgsi")
-    json_output_path = refget_path.joinpath("json")
+    refget_store_path = output_path.joinpath("store")
+    rgsi_output_path = output_path.joinpath("rgsi")
+    json_output_path = output_path.joinpath("json")
     os.makedirs(rgsi_output_path, exist_ok=True)
     os.makedirs(json_output_path, exist_ok=True)
 
