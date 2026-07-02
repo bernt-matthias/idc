@@ -48,7 +48,7 @@ Background info: https://refget.databio.org/
 Used to generate a refgetstore (See: https://refgenie.org/refget/refgetstore-explained/) from all available fasta files.
 
 ```bash
-python sync/tool_data_table_conf_to_yaml.py sync/cvmfs_20260626.yml /path/to/refget_output_20260626/ &> sync/refgetstore_20260626.log
+python sync/all_fasta_files_to_refget_store.py sync/cvmfs_20260626.yml /path/to/refget_output_20260626/ &> sync/refgetstore_20260626.log
 ```
 
 For each reference genome, the following output is generated:
