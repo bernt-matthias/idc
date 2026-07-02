@@ -44,7 +44,7 @@ def main(cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path):
         if fasta_record.value not in unique_vals:
             unique_vals.add(fasta_record.value)
         else:
-            print(f"Duplicate unique_build_id value found: {fasta_record.value}")
+            print(f"WARNING: Duplicate unique_build_id value found: {fasta_record.value}")
 
 
     os.chdir(rgsi_output_path)
@@ -77,6 +77,9 @@ def import_fasta_all(
         json_summary_path = json_output_path.joinpath(unique_build_id)
 
         if not os.path.exists(local_fasta_path):
+            if not os.path.exists(cvmfs_fasta_path):
+                print(f'WARNING: Fasta file {cvmfs_fasta_path} does not exist, skipping import...')
+                continue
             print(f'Symlinking {local_fasta_path} to {cvmfs_fasta_path}...')
             local_fasta_path.symlink_to(cvmfs_fasta_path)
         elif os.path.exists(json_summary_path):
