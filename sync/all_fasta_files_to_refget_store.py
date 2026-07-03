@@ -2,15 +2,17 @@ import argparse
 import json
 import os
 from copy import copy
+from dataclasses import dataclass, asdict
 
 import yaml
 from pathlib import Path
-from typing import NamedTuple, Any
+from typing import Any
 
 from gtars.refget import RefgetStore, SequenceCollectionMetadata
 
 
-class FastaAllRecord(NamedTuple):
+@dataclass
+class FastaAllRecord:
     dbkey: str
     name: str
     path: str
@@ -18,6 +20,13 @@ class FastaAllRecord(NamedTuple):
     loc_file: str
     xml_file: str
 
+@dataclass
+class AliasRecord:
+    galaxy_unique_build_id: str
+    galaxy_dbkey: str
+    galaxy_name: str
+    galaxy_loc_file: str
+    galaxy_tool_data_table_conf: str
 
 def main(cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path, no_store: bool):
     refget_store_path = output_path.joinpath("store")
@@ -109,15 +118,15 @@ def import_fasta_all(
         refget_metadata_blob = {
             "level_0": collection.digest,
             "level_1": {
-                "lengths": collection.lengths_digest,
                 "names": collection.names_digest,
+                "lengths": collection.lengths_digest,
                 "sequences": collection.sequences_digest,
                 "name_length_pairs": collection.name_length_pairs_digest,
                 "sorted_name_length_pairs": collection.sorted_name_length_pairs_digest,
                 "sorted_sequences": collection.sorted_sequences_digest,
             },
             "level_2": store.get_collection_level2(collection.digest),
-            "aliases": dict(store.get_aliases_for_collection(collection.digest)),
+            "aliases": asdict(AliasRecord(**dict(store.get_aliases_for_collection(collection.digest)))),
         }
 
         append_to_all_fasta_yaml_file(yaml_output_path, unique_build_id, refget_metadata_blob)
@@ -162,12 +171,21 @@ def append_to_all_fasta_yaml_file(yaml_output_path: Path, unique_build_id: str, 
     else:
         all_fasta_yaml = {}
 
-    refget_metadata_blob_copy = copy(refget_metadata_blob)
-    del refget_metadata_blob_copy["level_2"]
-    all_fasta_yaml[unique_build_id] = refget_metadata_blob_copy
+    all_fasta_metadata_blob = {
+        "level_0": refget_metadata_blob['level_0'],
+        "level_1": refget_metadata_blob['level_1'],
+        "level_2_peek": {
+            "sequence_count": len(refget_metadata_blob["level_2"]["sequences"]),
+            "first_name": refget_metadata_blob["level_2"]["names"][0],
+            "first_length": refget_metadata_blob["level_2"]["lengths"][0],
+            "first_sequence": refget_metadata_blob["level_2"]["sequences"][0],
+        },
+        "aliases": refget_metadata_blob['aliases'],
+    }
+    all_fasta_yaml[unique_build_id] = all_fasta_metadata_blob
 
     with open(all_fasta_yaml_path, "w") as all_fasta_file:
-        yaml.dump(all_fasta_yaml, all_fasta_file, default_flow_style=False)
+        yaml.dump(all_fasta_yaml, all_fasta_file, sort_keys=False, default_flow_style=False)
 
 
 if __name__ == "__main__":

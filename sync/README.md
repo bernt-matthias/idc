@@ -63,8 +63,8 @@ _/path/to/refget_output_20260626/json/Araly.json:_
 {
   "level_0": "l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M",
   "level_1": {
-    "lengths": "xsKk_SHSYpPTP7N5A6bG202Wn0Tvh0hn",
     "names": "3V0VCjf1TJhSwmy5mSL74Cy86pB6H-IY",
+    "lengths": "xsKk_SHSYpPTP7N5A6bG202Wn0Tvh0hn",
     "sequences": "MNdUu4DfiQbTPy5DU7vCJoVSxQD5Qc92",
     "name_length_pairs": "eM-TewfJx_bpnWagwnnPt4HokRi9E-tn",
     "sorted_name_length_pairs": "AYTR0ln2-yvYlf0olj21uiYYUcYd2JtE",
@@ -88,11 +88,11 @@ _/path/to/refget_output_20260626/json/Araly.json:_
     ]
   },
   "aliases": {
-    "galaxy_dbkey": "Araly1",
-    "galaxy_tool_data_table_conf": "!cvmfs!data.galaxyproject.org!byhand!location!tool_data_table_conf.xml",
-    "galaxy_loc_file": "!cvmfs!data.galaxyproject.org!byhand!location!all_fasta.loc",
     "galaxy_unique_build_id": "Araly1",
-    "galaxy_name": "Arabidopsis lyrata: Araly1"
+    "galaxy_dbkey": "Araly1",
+    "galaxy_name": "Arabidopsis lyrata: Araly1",
+    "galaxy_loc_file": "!cvmfs!data.galaxyproject.org!byhand!location!all_fasta.loc",
+    "galaxy_tool_data_table_conf": "!cvmfs!data.galaxyproject.org!byhand!location!tool_data_table_conf.xml"
   }
 }
 ```
@@ -103,20 +103,25 @@ A summary YAML file is generated with digests and aliases for all the reference 
 _/path/to/refget_output_20260626/yaml/all_fasta.yml:_
 ```yaml
 Araly1:
-  aliases:
-    galaxy_dbkey: Araly1
-    galaxy_loc_file: !cvmfs!data.galaxyproject.org!byhand!location!all_fasta.loc
-    galaxy_name: 'Arabidopsis lyrata: Araly1'
-    galaxy_tool_data_table_conf: !cvmfs!data.galaxyproject.org!byhand!location!tool_data_table_conf.xml
-    galaxy_unique_build_id: Araly1
   level_0: l89Tr5HaZx15ici2hCjfxuzyPd_pVO2M
   level_1:
-    lengths: xsKk_SHSYpPTP7N5A6bG202Wn0Tvh0hn
-    name_length_pairs: eM-TewfJx_bpnWagwnnPt4HokRi9E-tn
     names: 3V0VCjf1TJhSwmy5mSL74Cy86pB6H-IY
+    lengths: xsKk_SHSYpPTP7N5A6bG202Wn0Tvh0hn
     sequences: MNdUu4DfiQbTPy5DU7vCJoVSxQD5Qc92
+    name_length_pairs: eM-TewfJx_bpnWagwnnPt4HokRi9E-tn
     sorted_name_length_pairs: AYTR0ln2-yvYlf0olj21uiYYUcYd2JtE
     sorted_sequences: 09FMt4b0-sJhgHcdtgJAoAn-YHuXEPEs
+  level_2_peek:
+    sequence_count: 702
+    first_name: scaffold_1
+    first_length: 33132539
+    first_sequence: SQ.nVPkmXGwi5WlIoN0HP1HtwTP0gppbptW
+  aliases:
+    galaxy_unique_build_id: Araly1
+    galaxy_dbkey: Araly1
+    galaxy_name: 'Arabidopsis lyrata: Araly1'
+    galaxy_loc_file: '!cvmfs!data.galaxyproject.org!byhand!location!all_fasta.loc'
+    galaxy_tool_data_table_conf: '!cvmfs!data.galaxyproject.org!byhand!location!tool_data_table_conf.xml'```
 ```
 
 #### RGSI file

@@ -1,8 +1,8 @@
 {
   "level_0": "Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f",
   "level_1": {
-    "lengths": "cOFi1097Jk0uQG_WBsKDmq3-1BLqrydF",
     "names": "dc9JjlcTZm0EiOMZCPg8Pb8g_w1TQMnx",
+    "lengths": "cOFi1097Jk0uQG_WBsKDmq3-1BLqrydF",
     "sequences": "A7uSqpdLpcZki6LC1QenI3g7qu6NK02R",
     "name_length_pairs": "xFLsw2hjVc2RjK5XJOeQPqUkbfAaa6vZ",
     "sorted_name_length_pairs": "OVNLncQr0dTKG5a13uyASOoGiEd5Mn6z",
@@ -15980,10 +15980,10 @@
     ]
   },
   "aliases": {
+    "galaxy_unique_build_id": "apiMel4",
     "galaxy_dbkey": "apiMel4",
-    "galaxy_loc_file": "!cvmfs!data.galaxyproject.org!managed!location!all_fasta_dbkeys.loc",
-    "galaxy_tool_data_table_conf": "!cvmfs!data.galaxyproject.org!managed!location!tool_data_table_conf.xml",
     "galaxy_name": "A. mellifera 04 Nov 2010 (Amel_4.5!apiMel4) (apiMel4)",
-    "galaxy_unique_build_id": "apiMel4"
+    "galaxy_loc_file": "!cvmfs!data.galaxyproject.org!managed!location!all_fasta_dbkeys.loc",
+    "galaxy_tool_data_table_conf": "!cvmfs!data.galaxyproject.org!managed!location!tool_data_table_conf.xml"
   }
 }
