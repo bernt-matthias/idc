@@ -42,6 +42,8 @@ def update_dictionary(all_entries_per_table, name, comment_char, columns, path, 
             line = line.decode('utf-8', errors='replace')
         if comment_char is not None and line.startswith(comment_char):
             continue
+        if line.strip() == "":
+            continue
         values = line.strip().split("\t")
         dict_to_store = dict(zip(columns, values))
         dict_to_store['loc_file'] = path
