@@ -9,7 +9,7 @@ from pathlib import Path
 import yaml
 
 parser = argparse.ArgumentParser(
-    description="Rearrange the all_tables_content yaml file to have a dbkey centric view"
+    description="Take all_tables_content yaml file and add hash and manifest (contents + hashes). Output yaml per data table."
 )
 parser.add_argument(
     "-i", "--input", help="Full path to the output of tool_data_table_conf_to_yaml.py"
@@ -54,6 +54,9 @@ logger.info("Done")
 
 
 def file_hash(path):
+    """
+    compute hash for a file
+    """
     h = hashlib.sha256()
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
@@ -62,6 +65,13 @@ def file_hash(path):
 
 
 def iter_matching_files(pathspec):
+    """
+    iterate over a path given in a data table. cases:
+
+    - file: just iterate the file
+    - directory: iterate (recursive) over the directory contents
+    - else (prefix): iterate over the parents contents (recursively)
+    """
     p = Path(pathspec)
 
     if p.is_file():
@@ -83,6 +93,9 @@ def iter_matching_files(pathspec):
 
 
 def hash_one(args):
+    """
+    get the info stored in the manifest (path, size, hash, symlink)
+    """
     rel, path = args
     size = path.stat().st_size
     digest = file_hash(path)
@@ -90,6 +103,9 @@ def hash_one(args):
 
 
 def manifest_and_hash(root, max_workers=8):
+    """
+    comput manifest (all contents + metainfo) and a global hash
+    """
     root = Path(root)
 
     files = sorted(iter_matching_files(root))
