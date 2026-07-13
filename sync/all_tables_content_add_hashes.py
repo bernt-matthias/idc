@@ -3,26 +3,26 @@ import hashlib
 import logging
 import os.path
 import sys
-import yaml
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+
+import yaml
 
 parser = argparse.ArgumentParser(
     description="Rearrange the all_tables_content yaml file to have a dbkey centric view"
 )
 parser.add_argument(
-    '-i', '--input',
-    help="Full path to the output of tool_data_table_conf_to_yaml.py"
+    "-i", "--input", help="Full path to the output of tool_data_table_conf_to_yaml.py"
 )
 parser.add_argument(
-    '--threads',
+    "--threads",
     type=int,
     default=8,
-    help="Number of threads to use for hash computation"
+    help="Number of threads to use for hash computation",
 )
-parser.add_argument('-o', '--output', default='./',
-                    type=str,
-                    help="Prefix for the yaml ouput files")
+parser.add_argument(
+    "-o", "--output", default="./", type=str, help="Prefix for the yaml ouput files"
+)
 parser.add_argument(
     "-log",
     "--loglevel",
@@ -48,9 +48,10 @@ handler.setFormatter(formatter)
 
 # First load the yaml
 logger.info("Loading the big yaml file.")
-with open(args.input, 'r') as f:
+with open(args.input, "r") as f:
     all_tables_content = yaml.safe_load(f)
 logger.info("Done")
+
 
 def file_hash(path):
     h = hashlib.sha256()
@@ -59,6 +60,7 @@ def file_hash(path):
             h.update(chunk)
     return h.hexdigest()
 
+
 def iter_matching_files(pathspec):
     p = Path(pathspec)
 
@@ -66,20 +68,26 @@ def iter_matching_files(pathspec):
         yield (str(p.relative_to(p)), p)
 
     elif p.is_dir():
-        yield from sorted((str(f.relative_to(p)), f) for f in p.rglob("*") if not f.is_dir())
+        yield from sorted(
+            (str(f.relative_to(p)), f) for f in p.rglob("*") if not f.is_dir()
+        )
 
     else:
         # Treat final component as a filename prefix
         parent = p.parent
         prefix = p.name
 
-        yield from sorted((str(f.relative_to(parent)), f) for f in parent.rglob("*") if not f.is_dir())
+        yield from sorted(
+            (str(f.relative_to(parent)), f) for f in parent.rglob("*") if not f.is_dir()
+        )
+
 
 def hash_one(args):
     rel, path = args
     size = path.stat().st_size
     digest = file_hash(path)
-    return {'path': rel, 'size': size, 'digest': digest, 'symlink': path.is_symlink()}
+    return {"path": rel, "size": size, "digest": digest, "symlink": path.is_symlink()}
+
 
 def manifest_and_hash(root, max_workers=8):
     root = Path(root)
@@ -93,20 +101,23 @@ def manifest_and_hash(root, max_workers=8):
     master = hashlib.sha256()
 
     for m in manifest:
-        master.update(str(m['path']).encode())
+        master.update(str(m["path"]).encode())
         master.update(b"\0")
-        master.update(str(m['symlink']).encode())
+        master.update(str(m["symlink"]).encode())
         master.update(b"\0")
-        master.update(str(m['size']).encode())
+        master.update(str(m["size"]).encode())
         master.update(b"\0")
-        master.update(m['digest'].encode())
+        master.update(m["digest"].encode())
         master.update(b"\0")
 
     return manifest, master.hexdigest()
 
+
 for table_name in all_tables_content:
     content_with_hashes = {}
-    logger.info(f"Checking table {table_name}: {len(all_tables_content[table_name])} entries")
+    logger.info(
+        f"Checking table {table_name}: {len(all_tables_content[table_name])} entries"
+    )
     for entry in all_tables_content[table_name]:
         path = None
         for c in entry:
@@ -115,7 +126,7 @@ for table_name in all_tables_content:
         if path is None:
             continue
         try:
-            entry['manifest'], entry['digest'] = manifest_and_hash(path, args.threads)
+            entry["manifest"], entry["digest"] = manifest_and_hash(path, args.threads)
         except Exception as e:
             logger.error(f"Could not compute digest of {path}: {e}")
             continue
