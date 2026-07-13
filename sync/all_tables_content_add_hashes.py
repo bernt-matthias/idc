@@ -72,16 +72,25 @@ def iter_matching_files(pathspec):
     - directory: iterate (recursive) over the directory contents
     - else (prefix): iterate over the parents contents (recursively)
     """
-    p = Path(pathspec)
 
+    path_list = pathspec.split(",")
+    if len(path_list) > 1:
+        for p in path_list:
+            yield from iter_matching_files(p)
+        return
+
+    p = Path(pathspec)
     if p.is_file():
-        yield (str(p.relative_to(p)), p)
+        parent = p.parent
+        prefix = p.name
+        yield from sorted(
+            (str(f.relative_to(parent)), f) for f in parent.glob(f"{prefix}*") if not f.is_dir()
+        )
 
     elif p.is_dir():
         yield from sorted(
             (str(f.relative_to(p)), f) for f in p.rglob("*") if not f.is_dir()
         )
-
     else:
         # Treat final component as a filename prefix
         parent = p.parent
@@ -106,8 +115,6 @@ def manifest_and_hash(root, max_workers=8):
     """
     comput manifest (all contents + metainfo) and a global hash
     """
-    root = Path(root)
-
     files = sorted(iter_matching_files(root))
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
