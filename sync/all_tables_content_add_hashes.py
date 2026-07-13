@@ -72,16 +72,18 @@ def iter_matching_files(pathspec):
     - directory: iterate (recursive) over the directory contents
     - else (prefix): iterate over the parents contents (recursively)
     """
+
+    path_list = pathspec.split(",")
+    if len(path_list) > 1:
+        for p in path_list:
+            yield from iter_matching_files(p)
+        return
+
     p = Path(pathspec)
-
-    if p.is_file():
-        yield (str(p.relative_to(p)), p)
-
-    elif p.is_dir():
+    if p.is_file() or p.is_dir():
         yield from sorted(
             (str(f.relative_to(p)), f) for f in p.rglob("*") if not f.is_dir()
         )
-
     else:
         # Treat final component as a filename prefix
         parent = p.parent
