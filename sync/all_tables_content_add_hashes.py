@@ -7,45 +7,6 @@ import yaml
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-tables_to_include = [
-    'all_fasta',
-    'alignseq_seq',
-    'bmtagger',
-    'bowtie2_indexes',
-    'bowtie_indexes',
-    'bwa_indexes',
-    'bwa_indexes_color',
-    'bwa_mem2_indexes',
-    'bwa_mem_indexes',
-    'bwameth_indexes',
-    'data_manager_fetch_refseq',
-    'fasta_indexes',
-    'gatk_picard_indexes',
-    'hisat2_indexes',
-    'homer_preparse',
-    # 'indexed_maf_files',
-    'kallisto_indexes',
-    # 'liftOver',
-    'malt_indices',
-    'mash_sketches',
-    'mosaik_indexes',
-    'ngs_sim_fasta',
-    'picard_indexes',
-    'rnastar_index2',
-    'rnastar_index2x_versioned',
-    'sam_fa_indexes',
-    'salmon_indexes_versioned',
-    'srma_indexes',
-    'tophat_indexes',
-    'tophat_indexes_color',
-    'tophat2_indexes',
-    'twobit',
-    'vsnp_dnaprints',
-    'vsnp_excel',
-    'vsnp_genbank'
-]
-
-
 parser = argparse.ArgumentParser(
     description="Rearrange the all_tables_content yaml file to have a dbkey centric view"
 )
@@ -144,8 +105,6 @@ def manifest_and_hash(root, max_workers=8):
     return manifest, master.hexdigest()
 
 for table_name in all_tables_content:
-    if table_name in tables_to_include:
-        continue
     content_with_hashes = {}
     logger.info(f"Checking table {table_name}: {len(all_tables_content[table_name])} entries")
     for entry in all_tables_content[table_name]:
