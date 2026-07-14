@@ -115,7 +115,7 @@ def manifest_and_hash(root, max_workers=8):
     """
     comput manifest (all contents + metainfo) and a global hash
     """
-    files = sorted(iter_matching_files(root))
+    files = iter_matching_files(root)
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         manifest = list(executor.map(hash_one, [f for f in files]))
