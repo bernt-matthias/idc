@@ -41,6 +41,22 @@ python sync/tools_iuc_to_table_connection.py
 
 The output is [here](./dm_iuc.tsv).
 
+### Generate datatable entry hashes and manifests
+
+`python sync/all_tables_content_add_hashes.py -i YAML_FILE -o OUT_DIRECTORY/ [--threads THREADS]` takes the yaml file that has been created with `tool_data_table_conf_to_yaml` and adds to each entry: 
+
+- manifest, i.e. the (sorted) list of all files in the data table entry with size, file hash, info if its a symlink
+- and a hash digest of the manifest
+
+The output is one yaml file per data table. The given number of threads will be used to process the files in the manifest in parallel (the global manifest is computed in a single thread). This may help to hide slow IO.
+
+The manifest contains the following: if the data table entry
+
+- refers to a directory: then the manifest contains all files contained (recursively) in the directory
+- refers to a file: then the manifest contains all file paths containing the filename as prefix
+- is a file prefix: then the manifest contains all file paths that have this prefix
+- is a comma separated list: the manifest is computed as the concatenation of the manifests of the list elements
+
 
 ### Generate Refgetstore instance from all FASTA tables - including "GA4GH refget: sequence collections"-compatible digests and chromLen info ++
 Background info: https://refget.databio.org/
