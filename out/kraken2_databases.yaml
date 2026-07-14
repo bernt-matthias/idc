@@ -1,0 +1,77 @@
+kraken2_databases:
+- digest: 8e30d436eb944bc8057958fbf1aa773a067d12e56da93a4de9c3a8bbd8e9b61a
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/kraken2_databases.loc
+  manifest:
+  - digest: null
+    path: database100mers.kmer_distrib
+    size: 232516735
+    symlink: false
+  - digest: null
+    path: database150mers.kmer_distrib
+    size: 181378406
+    symlink: false
+  - digest: null
+    path: database200mers.kmer_distrib
+    size: 148328312
+    symlink: false
+  - digest: null
+    path: database250mers.kmer_distrib
+    size: 121428922
+    symlink: false
+  - digest: null
+    path: database300mers.kmer_distrib
+    size: 107541499
+    symlink: false
+  - digest: null
+    path: database50mers.kmer_distrib
+    size: 320048597
+    symlink: false
+  - digest: null
+    path: database75mers.kmer_distrib
+    size: 274459961
+    symlink: false
+  - digest: null
+    path: hash.k2d
+    size: 250471005652
+    symlink: false
+  - digest: null
+    path: inspect.txt
+    size: 118851670
+    symlink: false
+  - digest: null
+    path: ktaxonomy.tsv
+    size: 112606295
+    symlink: false
+  - digest: null
+    path: library_report.tsv
+    size: 24463048038
+    symlink: false
+  - digest: null
+    path: names.dmp
+    size: 250403746
+    symlink: false
+  - digest: null
+    path: nodes.dmp
+    size: 197487639
+    symlink: false
+  - digest: null
+    path: opts.k2d
+    size: 64
+    symlink: false
+  - digest: null
+    path: seqid2taxid.map
+    size: 2138452236
+    symlink: false
+  - digest: null
+    path: taxo.k2d
+    size: 171576156
+    symlink: false
+  - digest: null
+    path: unmapped_accessions.txt
+    size: 153171
+    symlink: false
+  name: 'Prebuilt Refseq indexes:  core_nt (Very large collection, inclusive of GenBank,
+    RefSeq, TPA and PDB) (Version:  2024-09-04 - Downloaded: 2025-02-05T204609Z)'
+  path: /cvmfs/data.galaxyproject.org/byhand/kraken2_databases/2025-02-05T204609Z_standard_prebuilt_core_nt_2024-09-04
+  value: 2025-02-05T204609Z_standard_prebuilt_core_nt_2024-09-04
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

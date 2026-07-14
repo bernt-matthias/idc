@@ -1,0 +1,12 @@
+perm_base_indexes:
+- digest: 0f34b49604d9b9c22e395e064a9c028d287711f6d1b9fe50da24ab9a9054bb12
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/perm_base_index.loc
+  manifest:
+  - digest: null
+    path: hg19_base_F3_50.index
+    size: 13261610998
+    symlink: false
+  name: 'Human (Homo sapiens) hg19: seed=F3 (3 mismatches), read length=50'
+  path: /cvmfs/data.galaxyproject.org/byhand/hg19/perm_index/hg19_base_F3_50.index
+  value: hg19_F3_50
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

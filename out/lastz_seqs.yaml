@@ -1,0 +1,12 @@
+lastz_seqs:
+- digest: cc6b8d2417b6689557e44abab73e2191be3b0b4ada96bbcc5d1b57639cd5bcc9
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/lastz_seqs.loc
+  manifest:
+  - digest: null
+    path: Araly1.2bit
+    size: 52883594
+    symlink: false
+  name: 'Arabidopsis lyrata: Araly1'
+  path: /cvmfs/data.galaxyproject.org/byhand/Araly1/seq/Araly1.2bit
+  value: Araly1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

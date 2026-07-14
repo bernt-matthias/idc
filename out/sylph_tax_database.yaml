@@ -1,0 +1,37 @@
+sylph_tax_database:
+- digest: af1d933b121aa612ab2521d8d4d854603a9ed136954d302e29e56c57204bdc31
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/sylph_tax_database.loc
+  manifest:
+  - digest: null
+    path: IMGVR_4.1_metadata.tsv.gz
+    size: 27474934
+    symlink: false
+  - digest: null
+    path: fungi_refseq_2024-07-25_metadata.tsv.gz
+    size: 12510
+    symlink: false
+  - digest: null
+    path: gtdb_r214_metadata.tsv.gz
+    size: 6511799
+    symlink: false
+  - digest: null
+    path: gtdb_r220_metadata.tsv.gz
+    size: 12587613
+    symlink: false
+  - digest: null
+    path: ocean_dna_metadata.tsv.gz
+    size: 245487
+    symlink: false
+  - digest: null
+    path: soil_smag_metadata.tsv.gz
+    size: 432433
+    symlink: false
+  - digest: null
+    path: tara_SMAGs_metadata.tsv.gz
+    size: 11837
+    symlink: false
+  name: sylph tax database 1.2.0
+  path: /cvmfs/data.galaxyproject.org/byhand/sylph_tax/sylph_tax_metadata_1.2.0
+  value: sylph_tax_downloaded_08112025
+  version: '1'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

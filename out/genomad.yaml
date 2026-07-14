@@ -1,0 +1,152 @@
+genomad:
+- digest: c12421fb39f70bd176869cf4427d78229b8745c046f1e571af3bb5472657d591
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/genomad.loc
+  manifest:
+  - digest: null
+    path: .ipynb_checkpoints/version-checkpoint.txt
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_db
+    size: 1396775922
+    symlink: false
+  - digest: null
+    path: genomad_db.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_db.index
+    size: 4984038
+    symlink: false
+  - digest: null
+    path: genomad_db.lookup
+    size: 6042109
+    symlink: false
+  - digest: null
+    path: genomad_db.source
+    size: 21
+    symlink: false
+  - digest: null
+    path: genomad_db_h
+    size: 4330043
+    symlink: false
+  - digest: null
+    path: genomad_db_h.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_db_h.index
+    size: 3932553
+    symlink: false
+  - digest: null
+    path: genomad_db_mapping
+    size: 984583
+    symlink: false
+  - digest: null
+    path: genomad_db_taxonomy
+    size: 2752871
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db
+    size: 137616
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db.index
+    size: 220
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db.lookup
+    size: 238
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db.source
+    size: 24
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db_h
+    size: 184
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db_h.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_integrase_db_h.index
+    size: 135
+    symlink: false
+  - digest: null
+    path: genomad_marker_metadata.tsv
+    size: 45157629
+    symlink: false
+  - digest: null
+    path: genomad_mini_db
+    size: 1396775922
+    symlink: false
+  - digest: null
+    path: genomad_mini_db.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_mini_db.index
+    size: 925297
+    symlink: false
+  - digest: null
+    path: genomad_mini_db.lookup
+    size: 6042109
+    symlink: false
+  - digest: null
+    path: genomad_mini_db.source
+    size: 21
+    symlink: false
+  - digest: null
+    path: genomad_mini_db_h
+    size: 4330043
+    symlink: false
+  - digest: null
+    path: genomad_mini_db_h.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: genomad_mini_db_h.index
+    size: 3932553
+    symlink: false
+  - digest: null
+    path: genomad_mini_db_mapping
+    size: 984583
+    symlink: false
+  - digest: null
+    path: genomad_mini_db_taxonomy
+    size: 2752871
+    symlink: false
+  - digest: null
+    path: mini_set_ids
+    size: 274300
+    symlink: false
+  - digest: null
+    path: names.dmp
+    size: 689784
+    symlink: false
+  - digest: null
+    path: nodes.dmp
+    size: 870066
+    symlink: false
+  - digest: null
+    path: plasmid_hallmark_annotation.txt
+    size: 1972
+    symlink: false
+  - digest: null
+    path: version.txt
+    size: 4
+    symlink: false
+  - digest: null
+    path: virus_hallmark_annotation.txt
+    size: 12907
+    symlink: false
+  name: Version 1.7
+  path: /cvmfs/data.galaxyproject.org/byhand/genomad_databases/1.7
+  value: '1.7'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

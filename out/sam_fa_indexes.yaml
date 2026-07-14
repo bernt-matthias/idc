@@ -1,0 +1,16 @@
+sam_fa_indexes:
+- digest: 6b871415d1e26778a7bb0d7d4d3233cd5c9004f551c0ea5e3f2f0515004dd2a1
+  line_type: index
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/sam_fa_indices.loc
+  manifest:
+  - digest: null
+    path: Xanthomonas_oryzae_KACC10331.fa
+    size: 5012037
+    symlink: true
+  - digest: null
+    path: Xanthomonas_oryzae_KACC10331.fa.fai
+    size: 20
+    symlink: false
+  path: /cvmfs/data.galaxyproject.org/byhand/microbes/12931/sam_index/Xanthomonas_oryzae_KACC10331.fa
+  value: '12931'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

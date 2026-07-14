@@ -1,0 +1,12 @@
+dada2_species:
+- digest: 954c7210a72b2455b584876f748ef64f1094474a2fc289d7a49632278a9797f9
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/dada2_species.loc
+  manifest:
+  - digest: null
+    path: silva_132.species
+    size: 61339953
+    symlink: false
+  name: Silva version 132
+  path: /cvmfs/data.galaxyproject.org/byhand/dada2/silva_132.species
+  value: silva_132
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

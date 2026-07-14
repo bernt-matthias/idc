@@ -1,0 +1,93 @@
+rnastar_index2x_versioned:
+- dbkey: apiMel4
+  digest: d6224a69384f8cd527a21ee63ad7d3649eace7b2c4eafef78559b96b4491c2b0
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/rnastar_index2x_versioned.loc
+  manifest:
+  - digest: null
+    path: Genome
+    size: 1614807040
+    symlink: false
+  - digest: null
+    path: Log.out
+    size: 604349
+    symlink: false
+  - digest: null
+    path: SA
+    size: 1890255687
+    symlink: false
+  - digest: null
+    path: SAindex
+    size: 1565873619
+    symlink: false
+  - digest: null
+    path: chrLength.txt
+    size: 26423
+    symlink: false
+  - digest: null
+    path: chrName.txt
+    size: 47860
+    symlink: false
+  - digest: null
+    path: chrNameLength.txt
+    size: 74283
+    symlink: false
+  - digest: null
+    path: chrStart.txt
+    size: 55552
+    symlink: false
+  - digest: null
+    path: genomeParameters.txt
+    size: 751
+    symlink: false
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/rnastar/2.7.4a/apiMel4/apiMel4/dataset_95aec843-8c04-4d1e-ab44-6888c1fdfefb_files
+  value: apiMel4
+  version: 2.7.4a
+  with_gene_model: '0'
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: Amel_4.5
+  digest: 076b6004fa62c2f4e0e381e440b5ef1cf9de6ffd702d3b89f98262057496ebcb
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/rnastar_index2x_versioned.loc
+  manifest:
+  - digest: null
+    path: Genome
+    size: 1614807040
+    symlink: false
+  - digest: null
+    path: Log.out
+    size: 678808
+    symlink: false
+  - digest: null
+    path: SA
+    size: 1890255687
+    symlink: false
+  - digest: null
+    path: SAindex
+    size: 1565873619
+    symlink: false
+  - digest: null
+    path: chrLength.txt
+    size: 26423
+    symlink: false
+  - digest: null
+    path: chrName.txt
+    size: 79764
+    symlink: false
+  - digest: null
+    path: chrNameLength.txt
+    size: 106187
+    symlink: false
+  - digest: null
+    path: chrStart.txt
+    size: 55553
+    symlink: false
+  - digest: null
+    path: genomeParameters.txt
+    size: 755
+    symlink: false
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/rnastar/2.7.4a/Amel_4.5/Amel_4.5/dataset_c53a2b2d-8347-4188-82ad-aed87c416f38_files
+  value: Amel_4.5
+  version: 2.7.4a
+  with_gene_model: '0'
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

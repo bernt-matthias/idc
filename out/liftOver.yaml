@@ -1,0 +1,12 @@
+liftOver:
+- dbkey: ailMel1
+  digest: e0651cac6499764052a1cc1de8bcb4714a33d78633874d5d8c2d0ebfa86fa10e
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/liftOver.loc
+  manifest:
+  - digest: null
+    path: ailMel1ToCanFam2.over.chain
+    size: 206144816
+    symlink: false
+  name: canFam2
+  value: /cvmfs/data.galaxyproject.org/byhand/ailMel1/liftOver/ailMel1ToCanFam2.over.chain
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

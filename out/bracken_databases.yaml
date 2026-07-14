@@ -1,0 +1,12 @@
+bracken_databases:
+- digest: 80209d0f2b672d290e63be0dbaa78216bd92b65c442dd25cded668c115983dad
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bracken_databases.loc
+  manifest:
+  - digest: null
+    path: database100mers.kmer_distrib
+    size: 2712990
+    symlink: false
+  name: PlusPF (2021-05-17)
+  path: /cvmfs/data.galaxyproject.org/byhand/bracken_databases/k2_pluspf_20210517/database100mers.kmer_distrib
+  value: k2_pluspf_20210517
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

@@ -1,0 +1,13 @@
+metasbt_databases:
+- digest: f7a1ab57b7c6a9811ad64cc3718aea816c692fea1e8324b74b3a7d15fcd56c57
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/metasbt_databases.loc
+  manifest:
+  - digest: null
+    path: MetaSBT-Viruses-20250115.tar.gz
+    size: 593837675
+    symlink: false
+  name: Viruses (References)
+  path: /cvmfs/data.galaxyproject.org/byhand/MetaSBT/MetaSBT-Viruses-20250115.tar.gz
+  value: viruses_20250115
+  version: '20250115'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

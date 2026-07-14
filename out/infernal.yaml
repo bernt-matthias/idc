@@ -1,0 +1,28 @@
+infernal:
+- digest: c9e58561a0ddedc2ea7655373af544fc9da619e4cc215c0f9164e0f98823ce0d
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/infernal.loc
+  manifest:
+  - digest: null
+    path: Rfam.cm.1_1
+    size: 175759448
+    symlink: false
+  - digest: null
+    path: Rfam.cm.1_1.i1f
+    size: 21394754
+    symlink: false
+  - digest: null
+    path: Rfam.cm.1_1.i1i
+    size: 207697
+    symlink: false
+  - digest: null
+    path: Rfam.cm.1_1.i1m
+    size: 121787216
+    symlink: false
+  - digest: null
+    path: Rfam.cm.1_1.i1p
+    size: 43384078
+    symlink: false
+  name: RFAM 11.0 2013-09-02
+  path: /cvmfs/data.galaxyproject.org/byhand/infernal/02-09-2013/Rfam.cm.1_1
+  value: rfam_11_0
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

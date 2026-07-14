@@ -1,0 +1,25 @@
+picard_indexes:
+- dbkey: apiMel4
+  digest: d838d7d5ee32c584062733f9b01610f517ee5d4fad8bd70368b4a7e828c34020
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/picard_index.loc
+  manifest:
+  - digest: null
+    path: apiMel4.fa
+    size: 253471381
+    symlink: true
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/picard_index/apiMel4/apiMel4.fa
+  value: apiMel4
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: Amel_4.5
+  digest: 0c9468fa454739bec6d748db8530bf6bb800cd76de8f79f93bb18928fefcfc8f
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/picard_index.loc
+  manifest:
+  - digest: null
+    path: Amel_4.5.fa
+    size: 253503285
+    symlink: true
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/picard_index/Amel_4.5/Amel_4.5.fa
+  value: Amel_4.5
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

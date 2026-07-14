@@ -1,0 +1,17 @@
+mosaik_indexes:
+- dbkey: Araly1
+  digest: 8e812fa81b1fec19bd0dd521eb4524a66d07895652206036a914434f2579bd2a
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/mosaik_index.loc
+  manifest:
+  - digest: null
+    path: Araly1.fa
+    size: 209881243
+    symlink: true
+  - digest: null
+    path: Araly1.fa.fai
+    size: 24114
+    symlink: true
+  name: 'Arabidopsis lyrata: Araly1'
+  path: /cvmfs/data.galaxyproject.org/byhand/Araly1/picard_index/Araly1.fa
+  value: Araly1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

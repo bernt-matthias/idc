@@ -1,0 +1,42 @@
+metaphlan_database_versioned:
+- db_version: SGB
+  dbkey: mpa_vOct22_CHOCOPhlAnSGB_202212
+  digest: 01f33af8c844fe47e21755ccc5ba3222c6c62274feb79ff5d2ea52d5fdeb2bd9
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/metaphlan_database_versioned.loc
+  manifest:
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.1.bt2l
+    size: 3978538203
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.2.bt2l
+    size: 5311606700
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.3.bt2l
+    size: 100610041
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.4.bt2l
+    size: 2655803348
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.pkl
+    size: 73781868
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.rev.1.bt2l
+    size: 3978538203
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212.rev.2.bt2l
+    size: 5311606700
+    symlink: false
+  - digest: null
+    path: mpa_vOct22_CHOCOPhlAnSGB_202212_VINFO.csv
+    size: 44092
+    symlink: false
+  name: MetaPhlAn clade-specific marker genes (mpa_vOct22_CHOCOPhlAnSGB_202212)
+  path: /cvmfs/data.galaxyproject.org/byhand/metaphlan/mpa_vOct22_CHOCOPhlAnSGB_202212
+  value: mpa_vOct22_CHOCOPhlAnSGB_202212-03042023
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

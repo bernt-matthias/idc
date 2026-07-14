@@ -1,0 +1,23 @@
+__dbkeys__:
+- digest: 5e2cd5d9cb96f104b8c13403881b31afc63f1ff35ce5aff6876a20f410c7509f
+  len_path: /cvmfs/data.galaxyproject.org/managed/len/Amel_4.5.len
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/dbkeys.loc
+  manifest:
+  - digest: null
+    path: Amel_4.5.len
+    size: 106187
+    symlink: false
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  value: Amel_4.5
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- digest: 84440aceb5a6d9d60ddbb3d27ab41a4f8228ed5de0a77cdf40294763b29b1ca1
+  len_path: /cvmfs/data.galaxyproject.org/managed/len/ucsc/apiMel4.len
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/dbkeys_ucsc.loc
+  manifest:
+  - digest: null
+    path: apiMel4.len
+    size: 74283
+    symlink: false
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  value: apiMel4
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

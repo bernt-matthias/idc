@@ -1,0 +1,48 @@
+ncbi_fcs_gx_databases_ext:
+- digest: ac9d2539a54046318f880c78726794131e7877bd23ecf236c52180cd697926fe
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/ncbi_fcs_gx_databases_ext.loc
+  local_manifest: /cvmfs/data.galaxyproject.org/byhand/ncbi_fcs_gx/all
+  manifest:
+  - digest: null
+    path: all.README.txt
+    size: 187
+    symlink: false
+  - digest: null
+    path: all.assemblies.tsv
+    size: 8887448
+    symlink: false
+  - digest: null
+    path: all.blast_div.tsv.gz
+    size: 8241107
+    symlink: false
+  - digest: null
+    path: all.gxi
+    size: 321216733352
+    symlink: false
+  - digest: null
+    path: all.gxs
+    size: 177317125807
+    symlink: false
+  - digest: null
+    path: all.manifest
+    size: 1652
+    symlink: false
+  - digest: null
+    path: all.meta.jsonl
+    size: 59
+    symlink: false
+  - digest: null
+    path: all.seq_info.tsv.gz
+    size: 22549956
+    symlink: false
+  - digest: null
+    path: all.taxa.tsv
+    size: 6385518
+    symlink: false
+  name: Complete GX database
+  phone_home: '1'
+  phone_home_label: usegalaxy.org
+  source_manifest: https://ncbi-fcs-gx.s3.amazonaws.com/gxdb/latest/all.manifest
+  use_source_manifest: '1'
+  value: all
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

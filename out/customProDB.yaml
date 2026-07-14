@@ -1,0 +1,29 @@
+customProDB:
+- dbkey: ce11
+  digest: b097ee72cc418a7a3d572e2368ea1c38f7ff95174010bff94cd58b47ddb6aee8
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/customProDB.loc
+  manifest:
+  - digest: null
+    path: exon_anno.RData
+    size: 4745805
+    symlink: false
+  - digest: null
+    path: ids.RData
+    size: 788907
+    symlink: false
+  - digest: null
+    path: old/exon_anno.RData
+    size: 4741738
+    symlink: false
+  - digest: null
+    path: procodingseq.RData
+    size: 11649909
+    symlink: false
+  - digest: null
+    path: proseq.RData
+    size: 6471089
+    symlink: false
+  name: C.elegans (Ensembl 89 celegans) (ce11/WBcel235)
+  path: /cvmfs/data.galaxyproject.org/byhand/customProDB/omicron-data.duckdns.org/customProDB/ensembl/celegans-may2017
+  value: ce11_WBcel235
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

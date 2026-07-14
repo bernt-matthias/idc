@@ -1,0 +1,13 @@
+dada2_taxonomy:
+- digest: a1e3669fd4c1c15c37cc86b77240a89915888482e32160f1b0afdb83063c2109
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/dada2_taxonomy.loc
+  manifest:
+  - digest: null
+    path: silva_132.taxonomy
+    size: 60083420
+    symlink: false
+  name: Silva version 132
+  path: /cvmfs/data.galaxyproject.org/byhand/dada2/silva_132.taxonomy
+  taxlevels: Kingdom,Phylum,Class,Order,Family,Genus,Species
+  value: silva_132
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

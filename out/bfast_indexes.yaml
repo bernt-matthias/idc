@@ -1,0 +1,10 @@
+bfast_indexes:
+- dbkey: hg18
+  digest: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  formats: fastqsanger
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bfast_indexes.loc
+  manifest: []
+  name: 'hg18: 40+ bp NT Space reads'
+  path: /cvmfs/data.galaxyproject.org/byhand/hg18/bfast_index/nt/40+/hg18.fa
+  value: hg18_nt_40+
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

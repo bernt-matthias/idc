@@ -1,0 +1,8 @@
+ccat_configurations:
+- digest: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/ccat_configurations.loc
+  manifest: []
+  name: CCAT 3.0 provided Transcription Factor Binding
+  path: /cvmfs/data.galaxyproject.org/byhand/ccat/3.0/config_TF.txt
+  value: ccat_3.0_tf_config
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

@@ -1,0 +1,89 @@
+eggnog_mapper_db_versioned:
+- digest: d8c6736967aa2e16c8d9ee19e65efe62ff891fd25c637a1ff176f4439c309f0c
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/eggnog_mapper_db_versioned.loc
+  manifest:
+  - digest: null
+    path: eggnog.db
+    size: 41370988544
+    symlink: false
+  - digest: null
+    path: eggnog.taxa.db
+    size: 278003712
+    symlink: false
+  - digest: null
+    path: eggnog.taxa.db.traverse.pkl
+    size: 6628719
+    symlink: false
+  - digest: null
+    path: eggnog_proteins.dmnd
+    size: 9285439161
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db
+    size: 8935328308
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db.index
+    size: 574383273
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db.lookup
+    size: 795244706
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db.source
+    size: 19
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db_h
+    size: 560509536
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db_h.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: mmseqs/mmseqs.db_h.index
+    size: 524917045
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.clans.tsv.gz
+    size: 304729
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm
+    size: 1372159421
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm.h3f
+    size: 310624148
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm.h3i
+    size: 1153233
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm.h3m
+    size: 568043178
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm.h3m.ssi
+    size: 1153237
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm.h3p
+    size: 668124941
+    symlink: false
+  - digest: null
+    path: pfam/Pfam-A.hmm.idmap
+    size: 237562
+    symlink: false
+  name: 5.0.2
+  path: /cvmfs/data.galaxyproject.org/byhand/eggnog_data/5.0.2
+  value: 5.0.2
+  version: 5.0.2
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

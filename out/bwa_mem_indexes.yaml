@@ -1,0 +1,65 @@
+bwa_mem_indexes:
+- dbkey: apiMel4
+  digest: d5dcc8d0536c8d5a1a9117a16f4f765642a65a6382dc7a478a6aab910eec48fc
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/bwa_mem_index.loc
+  manifest:
+  - digest: null
+    path: apiMel4.fa
+    size: 253471381
+    symlink: true
+  - digest: null
+    path: apiMel4.fa.amb
+    size: 191230
+    symlink: false
+  - digest: null
+    path: apiMel4.fa.ann
+    size: 186191
+    symlink: false
+  - digest: null
+    path: apiMel4.fa.bwt
+    size: 250287092
+    symlink: false
+  - digest: null
+    path: apiMel4.fa.pac
+    size: 62571752
+    symlink: false
+  - digest: null
+    path: apiMel4.fa.sa
+    size: 125143552
+    symlink: false
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/bwa_mem_index/apiMel4/apiMel4.fa
+  value: apiMel4
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: Amel_4.5
+  digest: 4f3a98db0e9aa51df8487f7f48cc1878ea2579e5f0edc8513d36cce102cfafd6
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/bwa_mem_index.loc
+  manifest:
+  - digest: null
+    path: Amel_4.5.fa
+    size: 253503285
+    symlink: true
+  - digest: null
+    path: Amel_4.5.fa.amb
+    size: 191497
+    symlink: false
+  - digest: null
+    path: Amel_4.5.fa.ann
+    size: 218096
+    symlink: false
+  - digest: null
+    path: Amel_4.5.fa.bwt
+    size: 250287092
+    symlink: false
+  - digest: null
+    path: Amel_4.5.fa.pac
+    size: 62571752
+    symlink: false
+  - digest: null
+    path: Amel_4.5.fa.sa
+    size: 125143552
+    symlink: false
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/bwa_mem_index/Amel_4.5/Amel_4.5.fa
+  value: Amel_4.5
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

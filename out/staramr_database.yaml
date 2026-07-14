@@ -1,0 +1,1228 @@
+staramr_database:
+- digest: f6f21cae120c5c53a446026c609846825f65c7659936e9bfac7421d007b12883
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/staramr_database.loc
+  manifest:
+  - digest: null
+    path: update/plasmidfinder/.git/HEAD
+    size: 41
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/config
+    size: 287
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/description
+    size: 73
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/applypatch-msg.sample
+    size: 478
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/commit-msg.sample
+    size: 896
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/fsmonitor-watchman.sample
+    size: 4726
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/post-update.sample
+    size: 189
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/pre-applypatch.sample
+    size: 424
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/pre-commit.sample
+    size: 1649
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/pre-merge-commit.sample
+    size: 416
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/pre-push.sample
+    size: 1374
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/pre-rebase.sample
+    size: 4904
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/pre-receive.sample
+    size: 544
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/prepare-commit-msg.sample
+    size: 1510
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/push-to-checkout.sample
+    size: 2783
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/sendemail-validate.sample
+    size: 2308
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/hooks/update.sample
+    size: 3650
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/index
+    size: 1066
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/info/exclude
+    size: 240
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/logs/HEAD
+    size: 377
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/logs/refs/heads/master
+    size: 206
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/logs/refs/remotes/origin/HEAD
+    size: 206
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/objects/pack/pack-0486494c451bc7f0195902627a0fb8a4e0884603.idx
+    size: 11376
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/objects/pack/pack-0486494c451bc7f0195902627a0fb8a4e0884603.pack
+    size: 255314
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/objects/pack/pack-0486494c451bc7f0195902627a0fb8a4e0884603.rev
+    size: 1524
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/packed-refs
+    size: 169
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/refs/heads/master
+    size: 41
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.git/refs/remotes/origin/HEAD
+    size: 32
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/.gitignore
+    size: 11
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/INSTALL.py
+    size: 1909
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/Inc18.fsa
+    size: 60460
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/NT_Rep.fsa
+    size: 9307
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/Rep1.fsa
+    size: 66326
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/Rep2.fsa
+    size: 15252
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/Rep3.fsa
+    size: 53608
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/RepA_N.fsa
+    size: 87238
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/RepL.fsa
+    size: 7829
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/Rep_trans.fsa
+    size: 36180
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/VERSION.txt
+    size: 5
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/config
+    size: 469
+    symlink: false
+  - digest: null
+    path: update/plasmidfinder/enterobacteriales.fsa
+    size: 77573
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/HEAD
+    size: 41
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/config
+    size: 285
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/description
+    size: 73
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/applypatch-msg.sample
+    size: 478
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/commit-msg.sample
+    size: 896
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/fsmonitor-watchman.sample
+    size: 4726
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/post-update.sample
+    size: 189
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/pre-applypatch.sample
+    size: 424
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/pre-commit.sample
+    size: 1649
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/pre-merge-commit.sample
+    size: 416
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/pre-push.sample
+    size: 1374
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/pre-rebase.sample
+    size: 4904
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/pre-receive.sample
+    size: 544
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/prepare-commit-msg.sample
+    size: 1510
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/push-to-checkout.sample
+    size: 2783
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/sendemail-validate.sample
+    size: 2308
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/hooks/update.sample
+    size: 3650
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/index
+    size: 18171
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/info/exclude
+    size: 240
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/logs/HEAD
+    size: 375
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/logs/refs/heads/master
+    size: 204
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/logs/refs/remotes/origin/HEAD
+    size: 204
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/objects/pack/pack-510c5e42ec8182c1f5096036ae4e84b16a2c5dfb.idx
+    size: 42792
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/objects/pack/pack-510c5e42ec8182c1f5096036ae4e84b16a2c5dfb.pack
+    size: 1184461
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/objects/pack/pack-510c5e42ec8182c1f5096036ae4e84b16a2c5dfb.rev
+    size: 6012
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/packed-refs
+    size: 3253
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/refs/heads/master
+    size: 41
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.git/refs/remotes/origin/HEAD
+    size: 32
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.gitattributes
+    size: 491
+    symlink: false
+  - digest: null
+    path: update/pointfinder/.gitignore
+    size: 36
+    symlink: false
+  - digest: null
+    path: update/pointfinder/INSTALL.py
+    size: 5472
+    symlink: false
+  - digest: null
+    path: update/pointfinder/README.md
+    size: 8698
+    symlink: false
+  - digest: null
+    path: update/pointfinder/VERSION
+    size: 6
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/23S.fsa
+    size: 2972
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/RNA_genes.txt
+    size: 4
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/campylobacter.fsa
+    size: 14966
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/cmeA.fsa
+    size: 1141
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/cmeB.fsa
+    size: 3189
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/cmeR.fsa
+    size: 664
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/genes.txt
+    size: 34
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/gyrA.fsa
+    size: 5272
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/gyrA_2.fsa
+    size: 2613
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/phenotypes.txt
+    size: 4809
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/porA.fsa
+    size: 1315
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/resistens-overview.txt
+    size: 3649
+    symlink: false
+  - digest: null
+    path: update/pointfinder/campylobacter/rpsL.fsa
+    size: 412
+    symlink: false
+  - digest: null
+    path: update/pointfinder/config
+    size: 665
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/RNA_genes.txt
+    size: 0
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/enterococcus_faecalis.fsa
+    size: 5077
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/genes.txt
+    size: 10
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/gyrA.fsa
+    size: 2571
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/parC.fsa
+    size: 2528
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/phenotypes.txt
+    size: 1135
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecalis/resistens-overview.txt
+    size: 918
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/RNA_genes.txt
+    size: 0
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/enterococcus_faecium.fsa
+    size: 7125
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/genes.txt
+    size: 16
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/gyrA.fsa
+    size: 2530
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/parC.fsa
+    size: 2505
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/pbp5.fsa
+    size: 2090
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/phenotypes.txt
+    size: 5006
+    symlink: false
+  - digest: null
+    path: update/pointfinder/enterococcus_faecium/resistens-overview.txt
+    size: 3961
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/16S-rrsB.fsa
+    size: 1587
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/16S-rrsC.fsa
+    size: 1587
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/16S-rrsH.fsa
+    size: 1587
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/23S.fsa
+    size: 2963
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/RNA_genes.txt
+    size: 31
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/ampC-promoter-size-53bp.fsa
+    size: 174
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/escherichia_coli.fsa
+    size: 24117
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/folP.fsa
+    size: 878
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/genes.txt
+    size: 95
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/gyrA.fsa
+    size: 2684
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/gyrB.fsa
+    size: 2468
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/parC.fsa
+    size: 2310
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/parE.fsa
+    size: 1939
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/phenotypes.txt
+    size: 13292
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/pmrA.fsa
+    size: 697
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/pmrB.fsa
+    size: 1126
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/resistens-overview.txt
+    size: 10898
+    symlink: false
+  - digest: null
+    path: update/pointfinder/escherichia_coli/rpoB.fsa
+    size: 4105
+    symlink: false
+  - digest: null
+    path: update/pointfinder/helicobacter_pylori/RNA_genes.txt
+    size: 0
+    symlink: false
+  - digest: null
+    path: update/pointfinder/helicobacter_pylori/genes.txt
+    size: 5
+    symlink: false
+  - digest: null
+    path: update/pointfinder/helicobacter_pylori/helicobacter_pylori.fsa
+    size: 8818
+    symlink: false
+  - digest: null
+    path: update/pointfinder/helicobacter_pylori/phenotypes.txt
+    size: 364
+    symlink: false
+  - digest: null
+    path: update/pointfinder/helicobacter_pylori/resistens-overview.txt
+    size: 228
+    symlink: false
+  - digest: null
+    path: update/pointfinder/helicobacter_pylori/rpoB.fsa
+    size: 8818
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/RNA_genes.txt
+    size: 0
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/acrR.fsa
+    size: 691
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/gene_accessions.txt
+    size: 54
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/genes.txt
+    size: 51
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/gyrA.fsa
+    size: 2685
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/gyrB.fsa
+    size: 2459
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/klebsiella.fsa
+    size: 9696
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/ompK35.fsa
+    size: 1134
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/ompK36.fsa
+    size: 1144
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/ompK37.fsa
+    size: 1181
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/parC.fsa
+    size: 2311
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/phenotypes.txt
+    size: 13028
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/ramR.fsa
+    size: 623
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/resistens-overview.txt
+    size: 11107
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/retired_genes/gyrA.fsa
+    size: 2672
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/retired_genes/parC.fsa
+    size: 2298
+    symlink: false
+  - digest: null
+    path: update/pointfinder/klebsiella/rpsL.fsa
+    size: 399
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/RNA_genes.txt
+    size: 8
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/Rv0678.fsa
+    size: 527
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/ahpC-promoter-size-180bp.fsa
+    size: 807
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/alr.fsa
+    size: 1262
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/drrA.fsa
+    size: 1029
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/eis-promoter-size-119bp.fsa
+    size: 1374
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/embA-promoter-size-115bp.fsa
+    size: 3476
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/embB.fsa
+    size: 3363
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/embC.fsa
+    size: 3350
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/embR.fsa
+    size: 1202
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/ethA-promoter-size-74bp.fsa
+    size: 3476
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/ethR.fsa
+    size: 679
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/fabG1-promoter-size-223bp.fsa
+    size: 1012
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/folC.fsa
+    size: 1503
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/genes.txt
+    size: 379
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/gidB.fsa
+    size: 703
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/gyrA.fsa
+    size: 2571
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/gyrB.fsa
+    size: 2075
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/idsA2-promoter-size-181bp.fsa
+    size: 1287
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/inhA.fsa
+    size: 840
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/iniA.fsa
+    size: 1969
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/kasA.fsa
+    size: 1287
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/katG-promoter-size-107bp.fsa
+    size: 2391
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/mycobacterium_tuberculosis.fsa
+    size: 55741
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/nuoA-promoter-size-365bp.fsa
+    size: 791
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/panD.fsa
+    size: 444
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/phenotypes.txt
+    size: 91973
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/pncA-promoter-size-107bp.fsa
+    size: 706
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/resistens-overview.txt
+    size: 57649
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/ribD.fsa
+    size: 807
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rplC.fsa
+    size: 682
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rpoB.fsa
+    size: 3588
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rpoC.fsa
+    size: 4026
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rpsA.fsa
+    size: 1485
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rpsL.fsa
+    size: 399
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rrl.fsa
+    size: 3200
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/rrs.fsa
+    size: 1624
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/thyA.fsa
+    size: 822
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/thyX-promoter-size-259bp.fsa
+    size: 1054
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/tlyA.fsa
+    size: 837
+    symlink: false
+  - digest: null
+    path: update/pointfinder/mycobacterium_tuberculosis/ubiA.fsa
+    size: 940
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/16S-rRNA.fsa
+    size: 1590
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/23S-rRNA-a1.fsa
+    size: 2966
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/23S-rRNA-a2.fsa
+    size: 2965
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/23S-rRNA-a3.fsa
+    size: 2965
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/23S-rRNA-a4.fsa
+    size: 2972
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/RNA_genes.txt
+    size: 57
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/genes.txt
+    size: 172
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/gyrA.fsa
+    size: 2815
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/macAB-promoter-size-225bp.fsa
+    size: 260
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/mtrC-promoter-size-174bp.fsa
+    size: 1462
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/mtrR-promoter-size-66bp.fsa
+    size: 737
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/neisseria_gonorrhoeae.fsa
+    size: 29547
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/parC.fsa
+    size: 2355
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/penA.fsa
+    size: 1789
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/phenotypes.txt
+    size: 6054
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/pilQ.fsa
+    size: 2246
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/ponA.fsa
+    size: 2450
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/porB.fsa
+    size: 1080
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/resistens-overview.txt
+    size: 4558
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/rpsE.fsa
+    size: 545
+    symlink: false
+  - digest: null
+    path: update/pointfinder/neisseria_gonorrhoeae/rpsJ.fsa
+    size: 335
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/CRT.fsa
+    size: 1315
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/DHFR.fsa
+    size: 1877
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/DHPS.fsa
+    size: 2176
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/K13.fsa
+    size: 2236
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/MDR.fsa
+    size: 4349
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/PIP.fsa
+    size: 2326
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/RNA_genes.txt
+    size: 0
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/config
+    size: 363
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/genes.txt
+    size: 26
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/phenotypes.txt
+    size: 1772
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/plasmodium_falciparum.fsa
+    size: 14279
+    symlink: false
+  - digest: null
+    path: update/pointfinder/plasmodium_falciparum/resistens-overview.txt
+    size: 1091
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/16S-rrsD.fsa
+    size: 1593
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/RNA_genes.txt
+    size: 9
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/acrB.fsa
+    size: 3214
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/genes.txt
+    size: 44
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/gyrA.fsa
+    size: 2694
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/gyrB.fsa
+    size: 2469
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/parC.fsa
+    size: 2311
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/parE.fsa
+    size: 1940
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/phenotypes.txt
+    size: 7137
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/pmrA.fsa
+    size: 698
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/pmrB.fsa
+    size: 1106
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/resistens-overview.txt
+    size: 5030
+    symlink: false
+  - digest: null
+    path: update/pointfinder/salmonella/salmonella.fsa
+    size: 16025
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/23S.fsa
+    size: 2989
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/RNA_genes.txt
+    size: 4
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/dfrB.fsa
+    size: 506
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/fusA.fsa
+    size: 2135
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/genes.txt
+    size: 73
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/grlA.fsa
+    size: 2462
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/grlB.fsa
+    size: 2044
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/gyrA.fsa
+    size: 2727
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/ileS.fsa
+    size: 2818
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/pbp2.fsa
+    size: 2237
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/pbp4-promoter-size-304bp.fsa
+    size: 429
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/pbp4.fsa
+    size: 1334
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/phenotypes.txt
+    size: 15504
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/resistens-overview.txt
+    size: 9701
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/rpoB.fsa
+    size: 3630
+    symlink: false
+  - digest: null
+    path: update/pointfinder/staphylococcus_aureus/staphylococcus_aureus.fsa
+    size: 23321
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/HEAD
+    size: 41
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/config
+    size: 283
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/description
+    size: 73
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/applypatch-msg.sample
+    size: 478
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/commit-msg.sample
+    size: 896
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/fsmonitor-watchman.sample
+    size: 4726
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/post-update.sample
+    size: 189
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/pre-applypatch.sample
+    size: 424
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/pre-commit.sample
+    size: 1649
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/pre-merge-commit.sample
+    size: 416
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/pre-push.sample
+    size: 1374
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/pre-rebase.sample
+    size: 4904
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/pre-receive.sample
+    size: 544
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/prepare-commit-msg.sample
+    size: 1510
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/push-to-checkout.sample
+    size: 2783
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/sendemail-validate.sample
+    size: 2308
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/hooks/update.sample
+    size: 3650
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/index
+    size: 2378
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/info/exclude
+    size: 240
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/logs/HEAD
+    size: 373
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/logs/refs/heads/master
+    size: 202
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/logs/refs/remotes/origin/HEAD
+    size: 202
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/objects/pack/pack-8a704c9d836f70ed66745b5935e43fc382fc9241.idx
+    size: 35764
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/objects/pack/pack-8a704c9d836f70ed66745b5935e43fc382fc9241.pack
+    size: 24352641
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/objects/pack/pack-8a704c9d836f70ed66745b5935e43fc382fc9241.rev
+    size: 5008
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/packed-refs
+    size: 3105
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/refs/heads/master
+    size: 41
+    symlink: false
+  - digest: null
+    path: update/resfinder/.git/refs/remotes/origin/HEAD
+    size: 32
+    symlink: false
+  - digest: null
+    path: update/resfinder/.gitignore
+    size: 11
+    symlink: false
+  - digest: null
+    path: update/resfinder/CHECK-entries.sh
+    size: 2385
+    symlink: false
+  - digest: null
+    path: update/resfinder/INSTALL.py
+    size: 5507
+    symlink: false
+  - digest: null
+    path: update/resfinder/README.md
+    size: 5500
+    symlink: false
+  - digest: null
+    path: update/resfinder/VERSION
+    size: 7
+    symlink: false
+  - digest: null
+    path: update/resfinder/all.fsa
+    size: 3117482
+    symlink: false
+  - digest: null
+    path: update/resfinder/aminoglycoside.fsa
+    size: 201172
+    symlink: false
+  - digest: null
+    path: update/resfinder/antibiotic_classes.txt
+    size: 2573
+    symlink: false
+  - digest: null
+    path: update/resfinder/beta-lactam.fsa
+    size: 1874538
+    symlink: false
+  - digest: null
+    path: update/resfinder/colistin.fsa
+    size: 177430
+    symlink: false
+  - digest: null
+    path: update/resfinder/config
+    size: 900
+    symlink: false
+  - digest: null
+    path: update/resfinder/fosfomycin.fsa
+    size: 19645
+    symlink: false
+  - digest: null
+    path: update/resfinder/fusidicacid.fsa
+    size: 2007
+    symlink: false
+  - digest: null
+    path: update/resfinder/glycopeptide.fsa
+    size: 104092
+    symlink: false
+  - digest: null
+    path: update/resfinder/history.txt
+    size: 44836
+    symlink: false
+  - digest: null
+    path: update/resfinder/macrolide.fsa
+    size: 174164
+    symlink: false
+  - digest: null
+    path: update/resfinder/misc.fsa
+    size: 2567
+    symlink: false
+  - digest: null
+    path: update/resfinder/nitroimidazole.fsa
+    size: 7387
+    symlink: false
+  - digest: null
+    path: update/resfinder/notes.txt
+    size: 90969
+    symlink: false
+  - digest: null
+    path: update/resfinder/oxazolidinone.fsa
+    size: 43776
+    symlink: false
+  - digest: null
+    path: update/resfinder/phenicol.fsa
+    size: 44606
+    symlink: false
+  - digest: null
+    path: update/resfinder/phenotype_panels.txt
+    size: 2617
+    symlink: false
+  - digest: null
+    path: update/resfinder/phenotypes.txt
+    size: 520006
+    symlink: false
+  - digest: null
+    path: update/resfinder/pseudomonicacid.fsa
+    size: 9435
+    symlink: false
+  - digest: null
+    path: update/resfinder/quinolone.fsa
+    size: 92641
+    symlink: false
+  - digest: null
+    path: update/resfinder/rifampicin.fsa
+    size: 4881
+    symlink: false
+  - digest: null
+    path: update/resfinder/sulphonamide.fsa
+    size: 46857
+    symlink: false
+  - digest: null
+    path: update/resfinder/tetracycline.fsa
+    size: 259196
+    symlink: false
+  - digest: null
+    path: update/resfinder/trimethoprim.fsa
+    size: 53086
+    symlink: false
+  name: 'starAMR databases with ResFinder: 2.4.0_d1e607b_2024-08-06, PointFinder:
+    4.1.1_694919f_2024-08-08, PlasmidFinder: 3e77502_2024-03-07'
+  path: /cvmfs/data.galaxyproject.org/byhand/staramr/resfinder_d1e607b_pointfinder_694919f_plasmidfinder_3e77502
+  plasmidfinder_commit: 3e77502
+  pointfinder_commit: 694919f
+  resfinder_commit: d1e607b
+  value: staramr_downloaded_07042025_resfinder_d1e607b_pointfinder_694919f_plasmidfinder_3e77502
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

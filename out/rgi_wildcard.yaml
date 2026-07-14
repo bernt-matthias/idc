@@ -1,0 +1,16 @@
+rgi_wildcard:
+- card_version: 4.0.1
+  digest: 54a8559417fb5bf94dd5af0139ac1b5d10a589535726b4332ae37960f6a014ef
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/rgi_wildcard.loc
+  manifest:
+  - digest: null
+    path: index-for-model-sequences.txt
+    size: 1354583827
+    symlink: false
+  name: WildCARD 4.0.2 (CARD 4.0.1)
+  value: wildcard_4_0_2
+  wildcard_annotation: /cvmfs/data.galaxyproject.org/byhand/rgi_wildcard/wildcard_4_0_2/wildcard_annotation.fasta
+  wildcard_annotation_all_models: /cvmfs/data.galaxyproject.org/byhand/rgi_wildcard/wildcard_4_0_2/wildcard_annotation_all.fasta
+  wildcard_index: /cvmfs/data.galaxyproject.org/byhand/rgi_wildcard/wildcard_4_0_2/index-for-model-sequences.txt
+  wildcard_version: 4.0.2
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

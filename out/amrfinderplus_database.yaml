@@ -1,0 +1,600 @@
+amrfinderplus_database:
+- digest: 3eb8f11f654c86fa7f5b6310c801c8bcd1d2bf12be10ead9411c7d345a283916
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/amrfinderplus.loc
+  manifest:
+  - digest: null
+    path: AMR.LIB
+    size: 99944583
+    symlink: false
+  - digest: null
+    path: AMR.LIB.h3f
+    size: 18565101
+    symlink: false
+  - digest: null
+    path: AMR.LIB.h3i
+    size: 71753
+    symlink: false
+  - digest: null
+    path: AMR.LIB.h3m
+    size: 41430771
+    symlink: false
+  - digest: null
+    path: AMR.LIB.h3p
+    size: 48693013
+    symlink: false
+  - digest: null
+    path: AMRProt
+    size: 3977349
+    symlink: false
+  - digest: null
+    path: AMRProt-mutation.tab
+    size: 142477
+    symlink: false
+  - digest: null
+    path: AMRProt-suppress
+    size: 608
+    symlink: false
+  - digest: null
+    path: AMRProt-susceptible.tab
+    size: 3833
+    symlink: false
+  - digest: null
+    path: AMRProt.pdb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMRProt.phr
+    size: 1597089
+    symlink: false
+  - digest: null
+    path: AMRProt.pin
+    size: 66440
+    symlink: false
+  - digest: null
+    path: AMRProt.pjs
+    size: 562
+    symlink: false
+  - digest: null
+    path: AMRProt.pot
+    size: 99368
+    symlink: false
+  - digest: null
+    path: AMRProt.psq
+    size: 2867225
+    symlink: false
+  - digest: null
+    path: AMRProt.ptf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMRProt.pto
+    size: 33124
+    symlink: false
+  - digest: null
+    path: AMR_CDS
+    size: 9311257
+    symlink: false
+  - digest: null
+    path: AMR_CDS.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_CDS.nhr
+    size: 1519831
+    symlink: false
+  - digest: null
+    path: AMR_CDS.nin
+    size: 96660
+    symlink: false
+  - digest: null
+    path: AMR_CDS.njs
+    size: 565
+    symlink: false
+  - digest: null
+    path: AMR_CDS.not
+    size: 96464
+    symlink: false
+  - digest: null
+    path: AMR_CDS.nsq
+    size: 2052512
+    symlink: false
+  - digest: null
+    path: AMR_CDS.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_CDS.nto
+    size: 32156
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii
+    size: 303
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.nhr
+    size: 130
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.nin
+    size: 264
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.njs
+    size: 768
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.nsq
+    size: 59
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Acinetobacter_baumannii.tab
+    size: 452
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter
+    size: 6971
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.nhr
+    size: 348
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.nin
+    size: 272
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.njs
+    size: 680
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.not
+    size: 44
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.nsq
+    size: 1684
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.nto
+    size: 16
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Campylobacter.tab
+    size: 1499
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile
+    size: 2990
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.nhr
+    size: 114
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.nin
+    size: 272
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.njs
+    size: 778
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.nsq
+    size: 727
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Clostridioides_difficile.tab
+    size: 295
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis
+    size: 2984
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.nhr
+    size: 112
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.nin
+    size: 264
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.njs
+    size: 751
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.nsq
+    size: 726
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecalis.tab
+    size: 390
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium
+    size: 2989
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.nhr
+    size: 112
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.nin
+    size: 264
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.njs
+    size: 742
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.nsq
+    size: 727
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Enterococcus_faecium.tab
+    size: 388
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia
+    size: 7791
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.nhr
+    size: 588
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.nin
+    size: 288
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.njs
+    size: 662
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.not
+    size: 68
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.nsq
+    size: 1865
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.nto
+    size: 24
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Escherichia.tab
+    size: 7650
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca
+    size: 166
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.nhr
+    size: 122
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.nin
+    size: 256
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.njs
+    size: 723
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.nsq
+    size: 27
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Klebsiella_oxytoca.tab
+    size: 726
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae
+    size: 6074
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.nhr
+    size: 806
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.nin
+    size: 324
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.njs
+    size: 752
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.not
+    size: 80
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.nsq
+    size: 1395
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.nto
+    size: 28
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Neisseria_gonorrhoeae.tab
+    size: 2291
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella
+    size: 1612
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.nhr
+    size: 117
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.nin
+    size: 240
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.njs
+    size: 652
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.nsq
+    size: 386
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Salmonella.tab
+    size: 406
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus
+    size: 3393
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.nhr
+    size: 247
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.nin
+    size: 276
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.njs
+    size: 752
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.not
+    size: 32
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.nsq
+    size: 809
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.nto
+    size: 12
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Staphylococcus_aureus.tab
+    size: 1779
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae
+    size: 2990
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.nhr
+    size: 110
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.nin
+    size: 272
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.njs
+    size: 779
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.not
+    size: 20
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.nsq
+    size: 728
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.nto
+    size: 8
+    symlink: false
+  - digest: null
+    path: AMR_DNA-Streptococcus_pneumoniae.tab
+    size: 825
+    symlink: false
+  - digest: null
+    path: ReferenceGeneCatalog.txt
+    size: 1867307
+    symlink: false
+  - digest: null
+    path: ReferenceGeneHierarchy.txt
+    size: 1014406
+    symlink: false
+  - digest: null
+    path: amr_targets.fa
+    size: 1562275
+    symlink: false
+  - digest: null
+    path: bla.tsv
+    size: 15516
+    symlink: false
+  - digest: null
+    path: changelog.txt
+    size: 1495730
+    symlink: false
+  - digest: null
+    path: changes.txt
+    size: 1495730
+    symlink: false
+  - digest: null
+    path: database_format_version.txt
+    size: 7
+    symlink: false
+  - digest: null
+    path: fam.tab
+    size: 309323
+    symlink: false
+  - digest: null
+    path: mcr.tsv
+    size: 536
+    symlink: false
+  - digest: null
+    path: qnr.tsv
+    size: 413
+    symlink: false
+  - digest: null
+    path: taxgroup.tab
+    size: 1200
+    symlink: false
+  - digest: null
+    path: version.txt
+    size: 13
+    symlink: false
+  name: V3.12-2024-01-31.1
+  path: /cvmfs/data.galaxyproject.org/byhand/amrfinderplus-db/amrfinderplus_V3.12_2024-01-31.1
+  value: amrfinderplus_V3.12_2024-01-31.1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

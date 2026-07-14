@@ -1,0 +1,13 @@
+humann_utility_mapping:
+- dbkey: 3.6.0
+  digest: 6fe0039e741ecac749548049f10d36e7f4ef6b750a67a10a7fd26f19bf42fe9d
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/humann_utility_mapping.loc
+  manifest:
+  - digest: null
+    path: utility_mapping-full-map_pfam_name-3.6.0-29032023.gz
+    size: 219469
+    symlink: false
+  name: Mapping (full) between Pfam domains ids and names 2023
+  path: /cvmfs/data.galaxyproject.org/byhand/humann/data/utility_mapping/utility_mapping-full-map_pfam_name-3.6.0-29032023.gz
+  value: utility_mapping-full-map_pfam_name-3.6.0-29032023.gz
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

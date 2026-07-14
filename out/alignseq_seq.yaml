@@ -1,0 +1,12 @@
+alignseq_seq:
+- digest: 5f57bdd3515de91b04925891fd2087eb3e1094ad73cb4ff738651669d6b2ad98
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/alignseq.loc
+  manifest:
+  - digest: null
+    path: hg19_rCRS_pUC18_phiX174.2bit
+    size: 805509734
+    symlink: false
+  path: /cvmfs/data.galaxyproject.org/managed/seq/hg19_rCRS_pUC18_phiX174.2bit
+  type: seq
+  value: hg19_rCRS_pUC18_phiX174
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

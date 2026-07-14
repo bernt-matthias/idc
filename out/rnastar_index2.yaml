@@ -1,0 +1,83 @@
+rnastar_index2:
+- dbkey: apiMel4
+  digest: 74d18d30a006a2630a30162c8497ffcdb593981846b90e480948c8225db390f2
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/rnastar_index2.loc
+  manifest:
+  - digest: null
+    path: Genome
+    size: 1614807040
+    symlink: false
+  - digest: null
+    path: SA
+    size: 1890255687
+    symlink: false
+  - digest: null
+    path: SAindex
+    size: 1565873619
+    symlink: false
+  - digest: null
+    path: chrLength.txt
+    size: 26423
+    symlink: false
+  - digest: null
+    path: chrName.txt
+    size: 47860
+    symlink: false
+  - digest: null
+    path: chrNameLength.txt
+    size: 74283
+    symlink: false
+  - digest: null
+    path: chrStart.txt
+    size: 55552
+    symlink: false
+  - digest: null
+    path: genomeParameters.txt
+    size: 576
+    symlink: false
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/rnastar_index2/apiMel4/dataset_1130463_files
+  value: apiMel4
+  with-gtf: '0'
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: Amel_4.5
+  digest: 73d0a9f41e29159ee04ac88838f34205c2c744e62893749a30781d3ec0597542
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/rnastar_index2.loc
+  manifest:
+  - digest: null
+    path: Genome
+    size: 1614807040
+    symlink: false
+  - digest: null
+    path: SA
+    size: 1890255687
+    symlink: false
+  - digest: null
+    path: SAindex
+    size: 1565873619
+    symlink: false
+  - digest: null
+    path: chrLength.txt
+    size: 26423
+    symlink: false
+  - digest: null
+    path: chrName.txt
+    size: 79764
+    symlink: false
+  - digest: null
+    path: chrNameLength.txt
+    size: 106187
+    symlink: false
+  - digest: null
+    path: chrStart.txt
+    size: 55553
+    symlink: false
+  - digest: null
+    path: genomeParameters.txt
+    size: 580
+    symlink: false
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/rnastar_index2/Amel_4.5/dataset_1130464_files
+  value: Amel_4.5
+  with-gtf: '0'
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

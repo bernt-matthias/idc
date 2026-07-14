@@ -1,0 +1,14 @@
+checkm2:
+- dbkey: 1.0.2
+  digest: 49d3ee94d41515637f8c972d6e317c9ccedf5f1ec908f20975a9937f0403e315
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/checkm2.loc
+  manifest:
+  - digest: null
+    path: uniref100.KO.1.dmnd
+    size: 3082500605
+    symlink: false
+  name: CheckM2 diamond DB downloaded with version 1.0.2
+  path: /cvmfs/data.galaxyproject.org/byhand/checkm2/1.0.2/uniref100.KO.1.dmnd
+  value: 1.0.2
+  version: 1.0.2
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

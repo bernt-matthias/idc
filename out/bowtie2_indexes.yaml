@@ -1,0 +1,73 @@
+bowtie2_indexes:
+- dbkey: apiMel4
+  digest: 42142e9f91775b19a8e1309a19aaebf4f619a76913ef626c6622321ba72e2172
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/bowtie2_indices.loc
+  manifest:
+  - digest: null
+    path: apiMel4.1.bt2
+    size: 80853741
+    symlink: false
+  - digest: null
+    path: apiMel4.2.bt2
+    size: 57280480
+    symlink: false
+  - digest: null
+    path: apiMel4.3.bt2
+    size: 162107
+    symlink: false
+  - digest: null
+    path: apiMel4.4.bt2
+    size: 57280476
+    symlink: false
+  - digest: null
+    path: apiMel4.fa
+    size: 253471381
+    symlink: true
+  - digest: null
+    path: apiMel4.rev.1.bt2
+    size: 80853741
+    symlink: false
+  - digest: null
+    path: apiMel4.rev.2.bt2
+    size: 57280480
+    symlink: false
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/bowtie2_index/apiMel4/apiMel4
+  value: apiMel4
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: Amel_4.5
+  digest: c03189de84346dacb4fc98ee7694fbcb19cf8f22665a7e7a590538257d1e72f1
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/bowtie2_indices.loc
+  manifest:
+  - digest: null
+    path: Amel_4.5.1.bt2
+    size: 80885645
+    symlink: false
+  - digest: null
+    path: Amel_4.5.2.bt2
+    size: 57280480
+    symlink: false
+  - digest: null
+    path: Amel_4.5.3.bt2
+    size: 162107
+    symlink: false
+  - digest: null
+    path: Amel_4.5.4.bt2
+    size: 57280476
+    symlink: false
+  - digest: null
+    path: Amel_4.5.fa
+    size: 253503285
+    symlink: true
+  - digest: null
+    path: Amel_4.5.rev.1.bt2
+    size: 80885645
+    symlink: false
+  - digest: null
+    path: Amel_4.5.rev.2.bt2
+    size: 57280480
+    symlink: false
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/bowtie2_index/Amel_4.5/Amel_4.5
+  value: Amel_4.5
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

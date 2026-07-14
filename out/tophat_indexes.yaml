@@ -1,0 +1,65 @@
+tophat_indexes:
+- dbkey: Araly1
+  digest: bf25b943ae0ee3b97714fb815ecba4cdfb24c87115fdfc577324697ebf24d403
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bowtie_indices.loc
+  manifest:
+  - digest: null
+    path: Araly1.1.ebwt
+    size: 56828098
+    symlink: false
+  - digest: null
+    path: Araly1.2.ebwt
+    size: 23002748
+    symlink: false
+  - digest: null
+    path: Araly1.3.ebwt
+    size: 32966
+    symlink: false
+  - digest: null
+    path: Araly1.4.ebwt
+    size: 46005482
+    symlink: false
+  - digest: null
+    path: Araly1.fa
+    size: 209881243
+    symlink: true
+  - digest: null
+    path: Araly1.rev.1.ebwt
+    size: 56828098
+    symlink: false
+  - digest: null
+    path: Araly1.rev.2.ebwt
+    size: 23002748
+    symlink: false
+  - digest: null
+    path: cs/Araly1.1.ebwt
+    size: 56827074
+    symlink: false
+  - digest: null
+    path: cs/Araly1.2.ebwt
+    size: 23002288
+    symlink: false
+  - digest: null
+    path: cs/Araly1.3.ebwt
+    size: 32966
+    symlink: false
+  - digest: null
+    path: cs/Araly1.4.ebwt
+    size: 46005482
+    symlink: false
+  - digest: null
+    path: cs/Araly1.fa
+    size: 209881243
+    symlink: true
+  - digest: null
+    path: cs/Araly1.rev.1.ebwt
+    size: 56827074
+    symlink: false
+  - digest: null
+    path: cs/Araly1.rev.2.ebwt
+    size: 23002288
+    symlink: false
+  name: 'Arabidopsis lyrata: Araly1'
+  path: /cvmfs/data.galaxyproject.org/byhand/Araly1/bowtie_index/Araly1
+  value: Araly1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

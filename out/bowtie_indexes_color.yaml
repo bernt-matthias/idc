@@ -1,0 +1,37 @@
+bowtie_indexes_color:
+- dbkey: Araly1
+  digest: 82c16c5fc467f76ccaa5a132075ec857dd7ba1b35fd82a16bedd35cfbcbe6c83
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bowtie_indices_color.loc
+  manifest:
+  - digest: null
+    path: Araly1.1.ebwt
+    size: 56827074
+    symlink: false
+  - digest: null
+    path: Araly1.2.ebwt
+    size: 23002288
+    symlink: false
+  - digest: null
+    path: Araly1.3.ebwt
+    size: 32966
+    symlink: false
+  - digest: null
+    path: Araly1.4.ebwt
+    size: 46005482
+    symlink: false
+  - digest: null
+    path: Araly1.fa
+    size: 209881243
+    symlink: true
+  - digest: null
+    path: Araly1.rev.1.ebwt
+    size: 56827074
+    symlink: false
+  - digest: null
+    path: Araly1.rev.2.ebwt
+    size: 23002288
+    symlink: false
+  name: 'Arabidopsis lyrata: Araly1'
+  path: /cvmfs/data.galaxyproject.org/byhand/Araly1/bowtie_index/cs/Araly1
+  value: Araly1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

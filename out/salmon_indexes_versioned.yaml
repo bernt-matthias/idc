@@ -1,0 +1,78 @@
+salmon_indexes_versioned:
+- dbkey: hg38
+  digest: 76ed1495fb8b3a8da2c3f4e8be9c5efb011c1cb48737d21afa6cf451429f8c0b
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/salmon_indexes_versioned.loc
+  manifest:
+  - digest: null
+    path: Salmon_data_manager_json.html
+    size: 160
+    symlink: false
+  - digest: null
+    path: _gx_data_bundle_index.json
+    size: 1275
+    symlink: false
+  - digest: null
+    path: complete_ref_lens.bin
+    size: 1828
+    symlink: false
+  - digest: null
+    path: ctable.bin
+    size: 5517365776
+    symlink: false
+  - digest: null
+    path: ctg_offsets.bin
+    size: 355882448
+    symlink: false
+  - digest: null
+    path: duplicate_clusters.tsv
+    size: 25
+    symlink: false
+  - digest: null
+    path: info.json
+    size: 1087
+    symlink: false
+  - digest: null
+    path: mphf.bin
+    size: 1583122324
+    symlink: false
+  - digest: null
+    path: pos.bin
+    size: 9970428216
+    symlink: false
+  - digest: null
+    path: pre_indexing.log
+    size: 496
+    symlink: false
+  - digest: null
+    path: rank.bin
+    size: 539389160
+    symlink: false
+  - digest: null
+    path: refAccumLengths.bin
+    size: 3648
+    symlink: false
+  - digest: null
+    path: ref_indexing.log
+    size: 28020
+    symlink: false
+  - digest: null
+    path: reflengths.bin
+    size: 1828
+    symlink: false
+  - digest: null
+    path: refseq.bin
+    size: 802321560
+    symlink: false
+  - digest: null
+    path: seq.bin
+    size: 1078778288
+    symlink: false
+  - digest: null
+    path: versionInfo.json
+    size: 126
+    symlink: false
+  name: 'Human (Homo sapiens) (b38): hg38'
+  path: /cvmfs/data.galaxyproject.org/byhand/hg38/salmon_index/hg38/q7
+  value: hg38
+  version: q7
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

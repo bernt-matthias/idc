@@ -1,0 +1,33 @@
+bwa_mem2_indexes:
+- dbkey: mm39
+  digest: 2b293626d121dd9d559a6d5fba9abde17f66d9d683fae424bab4ece870549606
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bwa_mem2_index.loc
+  manifest:
+  - digest: null
+    path: mm39.fa
+    size: 2782787884
+    symlink: false
+  - digest: null
+    path: mm39.fa.0123
+    size: 5456444902
+    symlink: false
+  - digest: null
+    path: mm39.fa.amb
+    size: 5961
+    symlink: false
+  - digest: null
+    path: mm39.fa.ann
+    size: 2702
+    symlink: false
+  - digest: null
+    path: mm39.fa.bwt.2bit.64
+    size: 8866723049
+    symlink: false
+  - digest: null
+    path: mm39.fa.pac
+    size: 682055614
+    symlink: false
+  name: 'Mouse (Mus Musculus): GRCm39/mm39'
+  path: /cvmfs/data.galaxyproject.org/byhand/mm39/bwa_mem2_index/mm39/mm39.fa
+  value: mm39
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

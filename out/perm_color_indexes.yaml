@@ -1,0 +1,12 @@
+perm_color_indexes:
+- digest: 70a3c4b66299902f3c0214226ac0746a4a6c1984f1809bf7f28db5f4bc030c89
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/perm_color_index.loc
+  manifest:
+  - digest: null
+    path: hg19_color_F3_50.index
+    size: 13261611011
+    symlink: false
+  name: 'Human (Homo sapiens) hg19: seed=F3 (3 mismatches), read length=50'
+  path: /cvmfs/data.galaxyproject.org/byhand/hg19/perm_index/hg19_color_F3_50.index
+  value: hg19_F3_50
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

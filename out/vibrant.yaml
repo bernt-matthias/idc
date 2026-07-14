@@ -1,0 +1,105 @@
+vibrant:
+- digest: 85a39a2ac9e1b4b550ecba35a285d879e8c7a507bd85b79c461f6307b52759ba
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/vibrant.loc
+  manifest:
+  - digest: null
+    path: databases/KEGG_profiles_prokaryotes.HMM
+    size: 2202599516
+    symlink: false
+  - digest: null
+    path: databases/KEGG_profiles_prokaryotes.HMM.h3f
+    size: 358699672
+    symlink: false
+  - digest: null
+    path: databases/KEGG_profiles_prokaryotes.HMM.h3i
+    size: 331213
+    symlink: false
+  - digest: null
+    path: databases/KEGG_profiles_prokaryotes.HMM.h3m
+    size: 913171019
+    symlink: false
+  - digest: null
+    path: databases/KEGG_profiles_prokaryotes.HMM.h3p
+    size: 1071798431
+    symlink: false
+  - digest: null
+    path: databases/Pfam-A_v32.HMM
+    size: 1434541235
+    symlink: false
+  - digest: null
+    path: databases/Pfam-A_v32.HMM.h3f
+    size: 328550912
+    symlink: false
+  - digest: null
+    path: databases/Pfam-A_v32.HMM.h3i
+    size: 1237210
+    symlink: false
+  - digest: null
+    path: databases/Pfam-A_v32.HMM.h3m
+    size: 593831723
+    symlink: false
+  - digest: null
+    path: databases/Pfam-A_v32.HMM.h3p
+    size: 698539111
+    symlink: false
+  - digest: null
+    path: databases/VIBRANT_setup.log
+    size: 1796
+    symlink: false
+  - digest: null
+    path: databases/VIBRANT_setup.py
+    size: 12606
+    symlink: false
+  - digest: null
+    path: databases/VOGDB94_phage.HMM
+    size: 1571311553
+    symlink: false
+  - digest: null
+    path: databases/VOGDB94_phage.HMM.h3f
+    size: 356412268
+    symlink: false
+  - digest: null
+    path: databases/VOGDB94_phage.HMM.h3i
+    size: 671482
+    symlink: false
+  - digest: null
+    path: databases/VOGDB94_phage.HMM.h3m
+    size: 650256440
+    symlink: false
+  - digest: null
+    path: databases/VOGDB94_phage.HMM.h3p
+    size: 766172726
+    symlink: false
+  - digest: null
+    path: databases/profile_names/VIBRANT_kegg_profiles.txt
+    size: 80262
+    symlink: false
+  - digest: null
+    path: databases/profile_names/VIBRANT_vog_profiles.txt
+    size: 191818
+    symlink: false
+  - digest: null
+    path: files/VIBRANT_AMGs.tsv
+    size: 22682
+    symlink: false
+  - digest: null
+    path: files/VIBRANT_KEGG_pathways_summary.tsv
+    size: 66853
+    symlink: false
+  - digest: null
+    path: files/VIBRANT_categories.tsv
+    size: 289041
+    symlink: false
+  - digest: null
+    path: files/VIBRANT_machine_model.sav
+    size: 1535848
+    symlink: false
+  - digest: null
+    path: files/VIBRANT_names.tsv
+    size: 2211847
+    symlink: false
+  name: Version 1.2.1
+  path: /cvmfs/data.galaxyproject.org/byhand/vibrant_databases/1.2.1
+  value: 1.2.1
+  version: 1.2.1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

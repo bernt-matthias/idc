@@ -1,0 +1,3558 @@
+snpeffv_genomedb:
+- digest: e2e25bb7d3201501a61f189e020c9c33530dbb0469b10feffacbadbee73b2d2b
+  key: SnpEff4.3_GRCh38.86
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/snpeffv_genomedb.loc
+  manifest:
+  - digest: null
+    path: GRCh37.75/interactions.bin
+    size: 25402932
+    symlink: false
+  - digest: null
+    path: GRCh37.75/motif.bin
+    size: 3788145
+    symlink: false
+  - digest: null
+    path: GRCh37.75/nextProt.bin
+    size: 6564179
+    symlink: false
+  - digest: null
+    path: GRCh37.75/pwms.bin
+    size: 38000
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_CD4.bin
+    size: 8442330
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_GM06990.bin
+    size: 3157164
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_GM12878.bin
+    size: 10741574
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_H1ESC.bin
+    size: 8186299
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_HMEC.bin
+    size: 5128261
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_HSMM.bin
+    size: 5930296
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_HUVEC.bin
+    size: 7282155
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_HeLa-S3.bin
+    size: 6967873
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_HepG2.bin
+    size: 9810111
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_IMR90.bin
+    size: 7423293
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_K562.bin
+    size: 11611728
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_NH-A.bin
+    size: 3922171
+    symlink: false
+  - digest: null
+    path: GRCh37.75/regulation_NHEK.bin
+    size: 7349228
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.1.bin
+    size: 36281121
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.10.bin
+    size: 20252588
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.11.bin
+    size: 21597979
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.12.bin
+    size: 21934842
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.13.bin
+    size: 11046486
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.14.bin
+    size: 14635386
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.15.bin
+    size: 15738158
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.16.bin
+    size: 13492748
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.17.bin
+    size: 14503973
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.18.bin
+    size: 10943148
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.19.bin
+    size: 10348130
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.2.bin
+    size: 37925468
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.20.bin
+    size: 9096167
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.21.bin
+    size: 5324292
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.22.bin
+    size: 6406583
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.3.bin
+    size: 33239416
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.4.bin
+    size: 26921755
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.5.bin
+    size: 26381076
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.6.bin
+    size: 23269995
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.7.bin
+    size: 25578329
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.8.bin
+    size: 22667704
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.9.bin
+    size: 16468567
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1091_PATCH.bin
+    size: 116658
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1257_PATCH.bin
+    size: 590149
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1287_PATCH.bin
+    size: 755373
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1424_PATCH.bin
+    size: 133438
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1433_PATCH.bin
+    size: 490234
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1436_HG1432_PATCH.bin
+    size: 317502
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1459_PATCH.bin
+    size: 448992
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG1497_PATCH.bin
+    size: 493746
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HG375_PATCH.bin
+    size: 22217
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR5_1_CTG1.bin
+    size: 265938
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_APD.bin
+    size: 287895
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_COX.bin
+    size: 653504
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_DBB.bin
+    size: 587150
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_MANN.bin
+    size: 548187
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_MCF.bin
+    size: 523851
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_QBL.bin
+    size: 592827
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.HSCHR6_MHC_SSTO.bin
+    size: 554467
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.X.bin
+    size: 16293669
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.Y.bin
+    size: 1716962
+    symlink: false
+  - digest: null
+    path: GRCh37.75/sequence.bin
+    size: 9337184
+    symlink: false
+  - digest: null
+    path: GRCh37.75/snpEffectPredictor.bin
+    size: 105436101
+    symlink: false
+  - digest: null
+    path: GRCh38.86/cytoBand.txt.gz
+    size: 9882
+    symlink: false
+  - digest: null
+    path: GRCh38.86/interactions.bin
+    size: 25226100
+    symlink: false
+  - digest: null
+    path: GRCh38.86/motif.bin
+    size: 8023050
+    symlink: false
+  - digest: null
+    path: GRCh38.86/nextProt.bin
+    size: 6692027
+    symlink: false
+  - digest: null
+    path: GRCh38.86/pwms.bin
+    size: 38000
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ATF3-GM12878_enriched_sites.bin
+    size: 18557
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ATF3-H1ESC_enriched_sites.bin
+    size: 30639
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ATF3-HepG2_enriched_sites.bin
+    size: 24283
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ATF3-K562_enriched_sites.bin
+    size: 10196
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BAF155-HeLa-S3_enriched_sites.bin
+    size: 30661
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BAF170-HeLa-S3_enriched_sites.bin
+    size: 8113
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BATF-GM12878_enriched_sites.bin
+    size: 179376
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BCL11A-GM12878_enriched_sites.bin
+    size: 88087
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BCL11A-H1ESC_enriched_sites.bin
+    size: 18820
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BCL3-GM12878_enriched_sites.bin
+    size: 104744
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BCL3-K562_enriched_sites.bin
+    size: 10437
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BCLAF1-GM12878_enriched_sites.bin
+    size: 226091
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BCLAF1-K562_enriched_sites.bin
+    size: 17373
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_BHLHE40-HepG2_enriched_sites.bin
+    size: 17158
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Brg1-HeLa-S3_enriched_sites.bin
+    size: 26588
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Brg1-K562_enriched_sites.bin
+    size: 10044
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-A549_enriched_sites.bin
+    size: 435166
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-DND-41_enriched_sites.bin
+    size: 369688
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-GM12878_enriched_sites.bin
+    size: 421038
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-H1ESC_enriched_sites.bin
+    size: 646565
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-HMEC_enriched_sites.bin
+    size: 565815
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-HSMM_enriched_sites.bin
+    size: 535627
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-HSMMtube_enriched_sites.bin
+    size: 418566
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-HUVEC_enriched_sites.bin
+    size: 485286
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-HeLa-S3_enriched_sites.bin
+    size: 421320
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-HepG2_enriched_sites.bin
+    size: 388025
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-IMR90_enriched_sites.bin
+    size: 544255
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-K562_enriched_sites.bin
+    size: 339886
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-Monocytes-CD14_enriched_sites.bin
+    size: 294503
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-NH-A_enriched_sites.bin
+    size: 321809
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-NHDF-AD_enriched_sites.bin
+    size: 552686
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-NHEK_enriched_sites.bin
+    size: 631578
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-NHLF_enriched_sites.bin
+    size: 206350
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCF-Osteobl_enriched_sites.bin
+    size: 442679
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_CTCFL-K562_enriched_sites.bin
+    size: 113060
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cfos-HeLa-S3_enriched_sites.bin
+    size: 63925
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cfos-K562_enriched_sites.bin
+    size: 42740
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cjun-HUVEC_enriched_sites.bin
+    size: 46729
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cjun-HeLa-S3_enriched_sites.bin
+    size: 104836
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cjun-K562_enriched_sites.bin
+    size: 45841
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cmyc-HeLa-S3_enriched_sites.bin
+    size: 39212
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Cmyc-K562_enriched_sites.bin
+    size: 29577
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-A549_enriched_sites.bin
+    size: 359005
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 903763
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 539823
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 315649
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-GM12878_enriched_sites.bin
+    size: 413393
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-H1ESC_enriched_sites.bin
+    size: 486447
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-HMEC_enriched_sites.bin
+    size: 193850
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-HSMM_enriched_sites.bin
+    size: 1276909
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-HSMMtube_enriched_sites.bin
+    size: 777811
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-HUVEC_enriched_sites.bin
+    size: 473497
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-HeLa-S3_enriched_sites.bin
+    size: 120640
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-HepG2_enriched_sites.bin
+    size: 557729
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-IMR90_enriched_sites.bin
+    size: 748674
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-K562_enriched_sites.bin
+    size: 362488
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-M0_macrophage_(VB)_enriched_sites.bin
+    size: 3605
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-M1_macrophage_(VB)_enriched_sites.bin
+    size: 1357900
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-M2_macrophage_(VB)_enriched_sites.bin
+    size: 1194502
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-Monocytes-CD14_enriched_sites.bin
+    size: 692459
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-NH-A_enriched_sites.bin
+    size: 1583538
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-NHDF-AD_enriched_sites.bin
+    size: 2076518
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-NHEK_enriched_sites.bin
+    size: 97045
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-NHLF_enriched_sites.bin
+    size: 1084000
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_DNase1-Osteobl_enriched_sites.bin
+    size: 1031
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_E2F6-HeLa-S3_enriched_sites.bin
+    size: 10024
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_E2F6-K562_enriched_sites.bin
+    size: 77021
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_EBF1-GM12878_enriched_sites.bin
+    size: 191710
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ELF1-GM12878_enriched_sites.bin
+    size: 222971
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ELF1-HepG2_enriched_sites.bin
+    size: 168012
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ELF1-K562_enriched_sites.bin
+    size: 113291
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ETS1-GM12878_enriched_sites.bin
+    size: 60729
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ETS1-K562_enriched_sites.bin
+    size: 134773
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Egr1-GM12878_enriched_sites.bin
+    size: 155477
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Egr1-H1ESC_enriched_sites.bin
+    size: 72561
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Egr1-K562_enriched_sites.bin
+    size: 347585
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_FOSL1-H1ESC_enriched_sites.bin
+    size: 11983
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_FOSL1-K562_enriched_sites.bin
+    size: 106468
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_FOSL2-HepG2_enriched_sites.bin
+    size: 92695
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_FOXA1-HepG2_enriched_sites.bin
+    size: 412025
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_FOXA2-HepG2_enriched_sites.bin
+    size: 121124
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Gabp-GM12878_enriched_sites.bin
+    size: 46952
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Gabp-H1ESC_enriched_sites.bin
+    size: 75429
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Gabp-HeLa-S3_enriched_sites.bin
+    size: 77101
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Gabp-HepG2_enriched_sites.bin
+    size: 180614
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Gabp-K562_enriched_sites.bin
+    size: 89918
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Gata2-K562_enriched_sites.bin
+    size: 69160
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AK5ac-IMR90_enriched_sites.bin
+    size: 3163419
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZ-GM12878_enriched_sites.bin
+    size: 453189
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZ-HSMM_enriched_sites.bin
+    size: 347603
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZ-HSMMtube_enriched_sites.bin
+    size: 269983
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZ-HepG2_enriched_sites.bin
+    size: 115684
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZ-K562_enriched_sites.bin
+    size: 540175
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZ-Osteobl_enriched_sites.bin
+    size: 311280
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2AZac-neutrophil_(VB)_enriched_sites.bin
+    size: 166561
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK120ac-H1ESC_enriched_sites.bin
+    size: 3105
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK120ac-IMR90_enriched_sites.bin
+    size: 342458
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK12ac-IMR90_enriched_sites.bin
+    size: 5382120
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK15ac-H1ESC_enriched_sites.bin
+    size: 12462
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK15ac-H9ESC_enriched_sites.bin
+    size: 6440
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK15ac-IMR90_enriched_sites.bin
+    size: 151193
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK20ac-H1ESC_enriched_sites.bin
+    size: 37235
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK20ac-IMR90_enriched_sites.bin
+    size: 189693
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK5ac-H1ESC_enriched_sites.bin
+    size: 21671
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H2BK5ac-H9ESC_enriched_sites.bin
+    size: 9414
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K14ac-IMR90_enriched_sites.bin
+    size: 6854648
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K18ac-H1ESC_enriched_sites.bin
+    size: 67920
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K18ac-H9ESC_enriched_sites.bin
+    size: 3317
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K18ac-IMR90_enriched_sites.bin
+    size: 511117
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K23ac-H1ESC_enriched_sites.bin
+    size: 1072
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K23ac-H9ESC_enriched_sites.bin
+    size: 8937
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K23ac-IMR90_enriched_sites.bin
+    size: 227423
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K23me2-H9ESC_enriched_sites.bin
+    size: 451431
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-A549_enriched_sites.bin
+    size: 232114
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Aorta_enriched_sites.bin
+    size: 302406
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-B_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 311546
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 46976
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 129149
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 6579
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 696
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-CM_CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 181053
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-DND-41_enriched_sites.bin
+    size: 390164
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-EM_CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 300676
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-EPC_(VB)_enriched_sites.bin
+    size: 218289
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Adrenal_Gland_enriched_sites.bin
+    size: 449943
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Intestine_Large_enriched_sites.bin
+    size: 565515
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Intestine_Small_enriched_sites.bin
+    size: 618349
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Muscle_Leg_enriched_sites.bin
+    size: 506914
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Muscle_Trunk_enriched_sites.bin
+    size: 210567
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Stomach_enriched_sites.bin
+    size: 348708
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Fetal_Thymus_enriched_sites.bin
+    size: 388208
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-GM12878_enriched_sites.bin
+    size: 333865
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Gastric_enriched_sites.bin
+    size: 140232
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-H1-mesenchymal_enriched_sites.bin
+    size: 706546
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-H1-neuronal_progenitor_enriched_sites.bin
+    size: 68183
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-H1-trophoblast_enriched_sites.bin
+    size: 9215
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-H1ESC_enriched_sites.bin
+    size: 517411
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-H9_enriched_sites.bin
+    size: 4965
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HMEC_enriched_sites.bin
+    size: 249183
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HSMM_enriched_sites.bin
+    size: 411600
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HSMMtube_enriched_sites.bin
+    size: 261391
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HUVEC_enriched_sites.bin
+    size: 110041
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HUVEC_prol_(CB)_enriched_sites.bin
+    size: 390551
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HeLa-S3_enriched_sites.bin
+    size: 403623
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-HepG2_enriched_sites.bin
+    size: 298531
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-IMR90_enriched_sites.bin
+    size: 673604
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-K562_enriched_sites.bin
+    size: 158090
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Left_Ventricle_enriched_sites.bin
+    size: 273142
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Lung_enriched_sites.bin
+    size: 239342
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-M0_macrophage_(CB)_enriched_sites.bin
+    size: 119695
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-M0_macrophage_(VB)_enriched_sites.bin
+    size: 165947
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-M1_macrophage_(CB)_enriched_sites.bin
+    size: 58327
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-M1_macrophage_(VB)_enriched_sites.bin
+    size: 88930
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-M2_macrophage_(CB)_enriched_sites.bin
+    size: 204047
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-M2_macrophage_(VB)_enriched_sites.bin
+    size: 9766
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-MSC_(VB)_enriched_sites.bin
+    size: 60692
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Monocytes-CD14_(PB)_Roadmap_enriched_sites.bin
+    size: 269935
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Monocytes-CD14_enriched_sites.bin
+    size: 451711
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-NH-A_enriched_sites.bin
+    size: 161902
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-NHDF-AD_enriched_sites.bin
+    size: 264019
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-NHEK_enriched_sites.bin
+    size: 225046
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-NHLF_enriched_sites.bin
+    size: 223828
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Natural_Killer_cells_(PB)_enriched_sites.bin
+    size: 401859
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Osteobl_enriched_sites.bin
+    size: 372819
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Ovary_enriched_sites.bin
+    size: 161185
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Pancreas_enriched_sites.bin
+    size: 132585
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Placenta_enriched_sites.bin
+    size: 403238
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Psoas_Muscle_enriched_sites.bin
+    size: 467420
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Right_Atrium_enriched_sites.bin
+    size: 291323
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Small_Intestine_enriched_sites.bin
+    size: 342054
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Spleen_enriched_sites.bin
+    size: 328542
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-T_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 303709
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-Thymus_enriched_sites.bin
+    size: 188182
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-eosinophil_(VB)_enriched_sites.bin
+    size: 84989
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-erythroblast_(CB)_enriched_sites.bin
+    size: 78247
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-iPS-20b_enriched_sites.bin
+    size: 3403
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-iPS_DF_19.11_enriched_sites.bin
+    size: 237764
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-iPS_DF_6.9_enriched_sites.bin
+    size: 1416
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-naive_B_cell_(VB)_enriched_sites.bin
+    size: 198221
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-neutro_myelocyte_(BM)_enriched_sites.bin
+    size: 174200
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-neutrophil_(CB)_enriched_sites.bin
+    size: 95355
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27ac-neutrophil_(VB)_enriched_sites.bin
+    size: 158516
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-A549_enriched_sites.bin
+    size: 8658593
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-B_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 383833
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 7200710
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 5214994
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD38-_naive_B_cell_(CB)_enriched_sites.bin
+    size: 990896
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD38-_naive_B_cell_(VB)_enriched_sites.bin
+    size: 879523
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD4_ab_T_cell_(CB)_enriched_sites.bin
+    size: 1184052
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 1593706
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 6779356
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-CM_CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 2471694
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-DND-41_enriched_sites.bin
+    size: 6837061
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-EM_CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 1391573
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-EPC_(VB)_enriched_sites.bin
+    size: 2651865
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Adrenal_Gland_enriched_sites.bin
+    size: 3501973
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Intestine_Large_enriched_sites.bin
+    size: 3987712
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Intestine_Small_enriched_sites.bin
+    size: 585172
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Muscle_Leg_enriched_sites.bin
+    size: 533436
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Muscle_Trunk_enriched_sites.bin
+    size: 1737714
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Stomach_enriched_sites.bin
+    size: 1149757
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Fetal_Thymus_enriched_sites.bin
+    size: 1144003
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-GM12878_enriched_sites.bin
+    size: 4003744
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Gastric_enriched_sites.bin
+    size: 463
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-H1-mesenchymal_enriched_sites.bin
+    size: 1454012
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-H1-neuronal_progenitor_enriched_sites.bin
+    size: 251559
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-H1-trophoblast_enriched_sites.bin
+    size: 392928
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-H1ESC_enriched_sites.bin
+    size: 136996
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-H9_enriched_sites.bin
+    size: 454286
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-HMEC_enriched_sites.bin
+    size: 471697
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-HSMM_enriched_sites.bin
+    size: 310094
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-HSMMtube_enriched_sites.bin
+    size: 11143391
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-HUVEC_enriched_sites.bin
+    size: 3010925
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-HUVEC_prol_(CB)_enriched_sites.bin
+    size: 12389906
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-HepG2_enriched_sites.bin
+    size: 6484720
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-IMR90_enriched_sites.bin
+    size: 261
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-K562_enriched_sites.bin
+    size: 785552
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-M0_macrophage_(CB)_enriched_sites.bin
+    size: 4530157
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-M0_macrophage_(VB)_enriched_sites.bin
+    size: 12743718
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-M1_macrophage_(CB)_enriched_sites.bin
+    size: 618574
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-M1_macrophage_(VB)_enriched_sites.bin
+    size: 8745520
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-M2_macrophage_(CB)_enriched_sites.bin
+    size: 6342638
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-M2_macrophage_(VB)_enriched_sites.bin
+    size: 12243033
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-MSC_(VB)_enriched_sites.bin
+    size: 917190
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Monocytes-CD14_(PB)_Roadmap_enriched_sites.bin
+    size: 664576
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Monocytes-CD14_enriched_sites.bin
+    size: 3300337
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-NH-A_enriched_sites.bin
+    size: 800870
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-NHDF-AD_enriched_sites.bin
+    size: 306337
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-NHEK_enriched_sites.bin
+    size: 1571943
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-NHLF_enriched_sites.bin
+    size: 290606
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Natural_Killer_cells_(PB)_enriched_sites.bin
+    size: 877471
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Osteobl_enriched_sites.bin
+    size: 2167977
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Placenta_enriched_sites.bin
+    size: 500624
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Psoas_Muscle_enriched_sites.bin
+    size: 173177
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Small_Intestine_enriched_sites.bin
+    size: 2020988
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Spleen_enriched_sites.bin
+    size: 2106
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-T_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 3562486
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-Thymus_enriched_sites.bin
+    size: 228575
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-eosinophil_(VB)_enriched_sites.bin
+    size: 3225478
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-erythroblast_(CB)_enriched_sites.bin
+    size: 3544516
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-iPS-20b_enriched_sites.bin
+    size: 3615980
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-iPS_DF_19.11_enriched_sites.bin
+    size: 50626
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-iPS_DF_6.9_enriched_sites.bin
+    size: 126562
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-naive_B_cell_(To)_enriched_sites.bin
+    size: 2686976
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-naive_B_cell_(VB)_enriched_sites.bin
+    size: 9382723
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-neutro_myelocyte_(BM)_enriched_sites.bin
+    size: 1454202
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-neutrophil_(CB)_enriched_sites.bin
+    size: 3818966
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K27me3-neutrophil_(VB)_enriched_sites.bin
+    size: 16596788
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-A549_enriched_sites.bin
+    size: 5400797
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-B_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 970526
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 4526192
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 6480451
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD38-_naive_B_cell_(CB)_enriched_sites.bin
+    size: 2921151
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD38-_naive_B_cell_(VB)_enriched_sites.bin
+    size: 2128162
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD4_ab_T_cell_(CB)_enriched_sites.bin
+    size: 1708121
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 5378894
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 5389943
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 712727
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-CM_CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 832440
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-DND-41_enriched_sites.bin
+    size: 3514357
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-EM_CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 3746139
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-EPC_(VB)_enriched_sites.bin
+    size: 1866794
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Adrenal_Gland_enriched_sites.bin
+    size: 1319998
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Intestine_Large_enriched_sites.bin
+    size: 5329253
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Intestine_Small_enriched_sites.bin
+    size: 2764025
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Muscle_Leg_enriched_sites.bin
+    size: 2571778
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Muscle_Trunk_enriched_sites.bin
+    size: 2176024
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Stomach_enriched_sites.bin
+    size: 3379829
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Fetal_Thymus_enriched_sites.bin
+    size: 1494404
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-GM12878_enriched_sites.bin
+    size: 4654880
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Gastric_enriched_sites.bin
+    size: 1894947
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-H1-mesenchymal_enriched_sites.bin
+    size: 16285602
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-H1-neuronal_progenitor_enriched_sites.bin
+    size: 1694736
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-H1-trophoblast_enriched_sites.bin
+    size: 7961279
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-H1ESC_enriched_sites.bin
+    size: 162
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-H9_enriched_sites.bin
+    size: 1632500
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-HMEC_enriched_sites.bin
+    size: 764369
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-HSMM_enriched_sites.bin
+    size: 3375328
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-HSMMtube_enriched_sites.bin
+    size: 1848383
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-HUVEC_enriched_sites.bin
+    size: 2280480
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-HUVEC_prol_(CB)_enriched_sites.bin
+    size: 4535129
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-HepG2_enriched_sites.bin
+    size: 4380966
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-IMR90_enriched_sites.bin
+    size: 901769
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Left_Ventricle_enriched_sites.bin
+    size: 1206605
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Lung_enriched_sites.bin
+    size: 2511160
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-M0_macrophage_(CB)_enriched_sites.bin
+    size: 4313508
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-M0_macrophage_(VB)_enriched_sites.bin
+    size: 3072351
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-M1_macrophage_(CB)_enriched_sites.bin
+    size: 619468
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-M1_macrophage_(VB)_enriched_sites.bin
+    size: 3928916
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-M2_macrophage_(CB)_enriched_sites.bin
+    size: 2618141
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-M2_macrophage_(VB)_enriched_sites.bin
+    size: 5778636
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-MSC_(VB)_enriched_sites.bin
+    size: 2096796
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Monocytes-CD14_(PB)_Roadmap_enriched_sites.bin
+    size: 580546
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Monocytes-CD14_enriched_sites.bin
+    size: 1155771
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-NH-A_enriched_sites.bin
+    size: 1658566
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-NHDF-AD_enriched_sites.bin
+    size: 632536
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-NHEK_enriched_sites.bin
+    size: 4705087
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-NHLF_enriched_sites.bin
+    size: 1263194
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Natural_Killer_cells_(PB)_enriched_sites.bin
+    size: 1126186
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Osteobl_enriched_sites.bin
+    size: 3012067
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Pancreas_enriched_sites.bin
+    size: 3463788
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Placenta_enriched_sites.bin
+    size: 848919
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Psoas_Muscle_enriched_sites.bin
+    size: 981314
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Right_Atrium_enriched_sites.bin
+    size: 3383053
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Small_Intestine_enriched_sites.bin
+    size: 73463
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Spleen_enriched_sites.bin
+    size: 1568281
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-T_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 1074412
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-Thymus_enriched_sites.bin
+    size: 2504573
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-eosinophil_(VB)_enriched_sites.bin
+    size: 2364329
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-erythroblast_(CB)_enriched_sites.bin
+    size: 1633622
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-iPS-20b_enriched_sites.bin
+    size: 5232463
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-iPS_DF_19.11_enriched_sites.bin
+    size: 1532409
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-iPS_DF_6.9_enriched_sites.bin
+    size: 1130702
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-naive_B_cell_(To)_enriched_sites.bin
+    size: 2561186
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-naive_B_cell_(VB)_enriched_sites.bin
+    size: 5774097
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-neutro_myelocyte_(BM)_enriched_sites.bin
+    size: 4254209
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-neutrophil_(CB)_enriched_sites.bin
+    size: 2604485
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K36me3-neutrophil_(VB)_enriched_sites.bin
+    size: 10298173
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4ac-H1ESC_enriched_sites.bin
+    size: 1946
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4ac-H9ESC_enriched_sites.bin
+    size: 1926
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4ac-IMR90_enriched_sites.bin
+    size: 491341
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-A549_enriched_sites.bin
+    size: 6843702
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-B_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 1655414
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 4546587
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 4077558
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD38-_naive_B_cell_(CB)_enriched_sites.bin
+    size: 1234604
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD38-_naive_B_cell_(VB)_enriched_sites.bin
+    size: 1848437
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD4_ab_T_cell_(CB)_enriched_sites.bin
+    size: 1184063
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 2823883
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 3604593
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 1724324
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-CM_CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 1726554
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-DND-41_enriched_sites.bin
+    size: 1661013
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-EM_CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 924655
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-EPC_(VB)_enriched_sites.bin
+    size: 1404283
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Adrenal_Gland_enriched_sites.bin
+    size: 2334626
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Intestine_Large_enriched_sites.bin
+    size: 2222771
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Intestine_Small_enriched_sites.bin
+    size: 2271999
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Muscle_Leg_enriched_sites.bin
+    size: 2242673
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Muscle_Trunk_enriched_sites.bin
+    size: 1482964
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Stomach_enriched_sites.bin
+    size: 1827696
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Fetal_Thymus_enriched_sites.bin
+    size: 1309993
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-GM12878_enriched_sites.bin
+    size: 2939424
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Gastric_enriched_sites.bin
+    size: 2641489
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-H1-mesenchymal_enriched_sites.bin
+    size: 14646589
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-H1-neuronal_progenitor_enriched_sites.bin
+    size: 3356370
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-H1-trophoblast_enriched_sites.bin
+    size: 7436419
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-H1ESC_enriched_sites.bin
+    size: 382
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-H9_enriched_sites.bin
+    size: 4082018
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HMEC_enriched_sites.bin
+    size: 2448631
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HSMM_enriched_sites.bin
+    size: 1338801
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HSMMtube_enriched_sites.bin
+    size: 1915027
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HUVEC_enriched_sites.bin
+    size: 1600694
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HUVEC_prol_(CB)_enriched_sites.bin
+    size: 3757671
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HeLa-S3_enriched_sites.bin
+    size: 1380592
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-HepG2_enriched_sites.bin
+    size: 3107681
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-IMR90_enriched_sites.bin
+    size: 2115186
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-K562_enriched_sites.bin
+    size: 6929829
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Left_Ventricle_enriched_sites.bin
+    size: 4122291
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Lung_enriched_sites.bin
+    size: 1243722
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-M0_macrophage_(CB)_enriched_sites.bin
+    size: 2456510
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-M0_macrophage_(VB)_enriched_sites.bin
+    size: 5704146
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-M1_macrophage_(CB)_enriched_sites.bin
+    size: 2184535
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-M1_macrophage_(VB)_enriched_sites.bin
+    size: 4722008
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-M2_macrophage_(CB)_enriched_sites.bin
+    size: 3042360
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-M2_macrophage_(VB)_enriched_sites.bin
+    size: 4469662
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-MSC_(VB)_enriched_sites.bin
+    size: 3497282
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Monocytes-CD14_(PB)_Roadmap_enriched_sites.bin
+    size: 1612598
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Monocytes-CD14_enriched_sites.bin
+    size: 1230211
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-NH-A_enriched_sites.bin
+    size: 1875672
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-NHDF-AD_enriched_sites.bin
+    size: 2916966
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-NHEK_enriched_sites.bin
+    size: 1675287
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-NHLF_enriched_sites.bin
+    size: 1249567
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Natural_Killer_cells_(PB)_enriched_sites.bin
+    size: 1564965
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Osteobl_enriched_sites.bin
+    size: 2725902
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Pancreas_enriched_sites.bin
+    size: 4185201
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Placenta_enriched_sites.bin
+    size: 2156186
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Psoas_Muscle_enriched_sites.bin
+    size: 3722967
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Right_Atrium_enriched_sites.bin
+    size: 2050425
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Small_Intestine_enriched_sites.bin
+    size: 575595
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Spleen_enriched_sites.bin
+    size: 1803369
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-T_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 836996
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-Thymus_enriched_sites.bin
+    size: 658437
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-eosinophil_(VB)_enriched_sites.bin
+    size: 968038
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-erythroblast_(CB)_enriched_sites.bin
+    size: 2286869
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-iPS-20b_enriched_sites.bin
+    size: 7284672
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-iPS_DF_19.11_enriched_sites.bin
+    size: 11048981
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-iPS_DF_6.9_enriched_sites.bin
+    size: 2114057
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-naive_B_cell_(To)_enriched_sites.bin
+    size: 1448177
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-naive_B_cell_(VB)_enriched_sites.bin
+    size: 4601688
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-neutro_myelocyte_(BM)_enriched_sites.bin
+    size: 1355166
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-neutrophil_(CB)_enriched_sites.bin
+    size: 3210113
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me1-neutrophil_(VB)_enriched_sites.bin
+    size: 13536472
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-A549_enriched_sites.bin
+    size: 589471
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-DND-41_enriched_sites.bin
+    size: 207245
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-GM12878_enriched_sites.bin
+    size: 479677
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-H1ESC_enriched_sites.bin
+    size: 1213387
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-HMEC_enriched_sites.bin
+    size: 368500
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-HSMM_enriched_sites.bin
+    size: 361772
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-HSMMtube_enriched_sites.bin
+    size: 309504
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-HUVEC_enriched_sites.bin
+    size: 304138
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-HeLa-S3_enriched_sites.bin
+    size: 322766
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-HepG2_enriched_sites.bin
+    size: 656278
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-IMR90_enriched_sites.bin
+    size: 749039
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-K562_enriched_sites.bin
+    size: 234793
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-Monocytes-CD14_enriched_sites.bin
+    size: 196583
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-NH-A_enriched_sites.bin
+    size: 587032
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-NHDF-AD_enriched_sites.bin
+    size: 584029
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-NHEK_enriched_sites.bin
+    size: 335028
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-NHLF_enriched_sites.bin
+    size: 159
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me2-Osteobl_enriched_sites.bin
+    size: 480493
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-A549_enriched_sites.bin
+    size: 286155
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Aorta_enriched_sites.bin
+    size: 326336
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-B_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 282132
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 239999
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 271884
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD38-_naive_B_cell_(VB)_enriched_sites.bin
+    size: 78936
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD4_ab_T_cell_(CB)_enriched_sites.bin
+    size: 4565
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 257
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 107761
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 6831
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-CM_CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 2516
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-DND-41_enriched_sites.bin
+    size: 83088
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-EM_CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 32917
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-EPC_(VB)_enriched_sites.bin
+    size: 265448
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Adrenal_Gland_enriched_sites.bin
+    size: 248427
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Intestine_Large_enriched_sites.bin
+    size: 321809
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Intestine_Small_enriched_sites.bin
+    size: 347743
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Muscle_Leg_enriched_sites.bin
+    size: 315159
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Muscle_Trunk_enriched_sites.bin
+    size: 140634
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Stomach_enriched_sites.bin
+    size: 296565
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Fetal_Thymus_enriched_sites.bin
+    size: 268247
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-GM12878_enriched_sites.bin
+    size: 330788
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Gastric_enriched_sites.bin
+    size: 188982
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-H1-mesenchymal_enriched_sites.bin
+    size: 132196
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-H1-neuronal_progenitor_enriched_sites.bin
+    size: 327673
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-H1-trophoblast_enriched_sites.bin
+    size: 264927
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-H1ESC_enriched_sites.bin
+    size: 617128
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-H9_enriched_sites.bin
+    size: 348940
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HMEC_enriched_sites.bin
+    size: 282110
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HSMM_enriched_sites.bin
+    size: 273579
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HSMMtube_enriched_sites.bin
+    size: 129215
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HUVEC_enriched_sites.bin
+    size: 172266
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HUVEC_prol_(CB)_enriched_sites.bin
+    size: 186444
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HeLa-S3_enriched_sites.bin
+    size: 257466
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-HepG2_enriched_sites.bin
+    size: 336766
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-IMR90_enriched_sites.bin
+    size: 268727
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-K562_enriched_sites.bin
+    size: 293721
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Left_Ventricle_enriched_sites.bin
+    size: 156102
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Lung_enriched_sites.bin
+    size: 181890
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-M0_macrophage_(CB)_enriched_sites.bin
+    size: 2076
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-M0_macrophage_(VB)_enriched_sites.bin
+    size: 182813
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-M1_macrophage_(CB)_enriched_sites.bin
+    size: 54303
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-M1_macrophage_(VB)_enriched_sites.bin
+    size: 218659
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-M2_macrophage_(CB)_enriched_sites.bin
+    size: 243565
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-M2_macrophage_(VB)_enriched_sites.bin
+    size: 639
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-MSC_(VB)_enriched_sites.bin
+    size: 273367
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Monocytes-CD14_(PB)_Roadmap_enriched_sites.bin
+    size: 293536
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Monocytes-CD14_enriched_sites.bin
+    size: 324692
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-NH-A_enriched_sites.bin
+    size: 270251
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-NHDF-AD_enriched_sites.bin
+    size: 350623
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-NHEK_enriched_sites.bin
+    size: 239869
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-NHLF_enriched_sites.bin
+    size: 164919
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Natural_Killer_cells_(PB)_enriched_sites.bin
+    size: 291208
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Osteobl_enriched_sites.bin
+    size: 353508
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Ovary_enriched_sites.bin
+    size: 330132
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Pancreas_enriched_sites.bin
+    size: 290476
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Placenta_enriched_sites.bin
+    size: 290672
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Psoas_Muscle_enriched_sites.bin
+    size: 317501
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Right_Atrium_enriched_sites.bin
+    size: 378391
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Small_Intestine_enriched_sites.bin
+    size: 160609
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Spleen_enriched_sites.bin
+    size: 86685
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-T_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 314278
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-Thymus_enriched_sites.bin
+    size: 291397
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-eosinophil_(VB)_enriched_sites.bin
+    size: 33000
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-erythroblast_(CB)_enriched_sites.bin
+    size: 86061
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-iPS-20b_enriched_sites.bin
+    size: 381554
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-iPS_DF_19.11_enriched_sites.bin
+    size: 260155
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-iPS_DF_6.9_enriched_sites.bin
+    size: 104234
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-naive_B_cell_(To)_enriched_sites.bin
+    size: 283586
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-naive_B_cell_(VB)_enriched_sites.bin
+    size: 292662
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-neutro_myelocyte_(BM)_enriched_sites.bin
+    size: 226271
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-neutrophil_(CB)_enriched_sites.bin
+    size: 222995
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K4me3-neutrophil_(VB)_enriched_sites.bin
+    size: 250956
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K56ac-H1ESC_enriched_sites.bin
+    size: 5313
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K56ac-H9ESC_enriched_sites.bin
+    size: 13232
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K56ac-IMR90_enriched_sites.bin
+    size: 91141
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me1-IMR90_enriched_sites.bin
+    size: 707250
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-GM12878_enriched_sites.bin
+    size: 432265
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-H9ESC_enriched_sites.bin
+    size: 1149079
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-HSMM_enriched_sites.bin
+    size: 1812914
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-HSMMtube_enriched_sites.bin
+    size: 2953016
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-HeLa-S3_enriched_sites.bin
+    size: 1088492
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-HepG2_enriched_sites.bin
+    size: 1058148
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-IMR90_enriched_sites.bin
+    size: 914646
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K79me2-K562_enriched_sites.bin
+    size: 966697
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-A549_enriched_sites.bin
+    size: 313464
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-DND-41_enriched_sites.bin
+    size: 291800
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-GM12878_enriched_sites.bin
+    size: 226838
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-H1-mesenchymal_enriched_sites.bin
+    size: 140282
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-H1-neuronal_progenitor_enriched_sites.bin
+    size: 70566
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-H1-trophoblast_enriched_sites.bin
+    size: 118972
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-H1ESC_enriched_sites.bin
+    size: 396949
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-H9_enriched_sites.bin
+    size: 2089
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-HMEC_enriched_sites.bin
+    size: 101362
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-HSMM_enriched_sites.bin
+    size: 233371
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-HSMMtube_enriched_sites.bin
+    size: 232930
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-HUVEC_enriched_sites.bin
+    size: 132121
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-HeLa-S3_enriched_sites.bin
+    size: 311637
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-HepG2_enriched_sites.bin
+    size: 258944
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-IMR90_enriched_sites.bin
+    size: 398967
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-K562_enriched_sites.bin
+    size: 240339
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-Monocytes-CD14_enriched_sites.bin
+    size: 205163
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-NH-A_enriched_sites.bin
+    size: 422825
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-NHDF-AD_enriched_sites.bin
+    size: 298026
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-NHEK_enriched_sites.bin
+    size: 240829
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-NHLF_enriched_sites.bin
+    size: 175010
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9ac-iPS-20b_enriched_sites.bin
+    size: 110694
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me1-K562_enriched_sites.bin
+    size: 56580
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me1-NHEK_enriched_sites.bin
+    size: 19388
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Aorta_enriched_sites.bin
+    size: 3323
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-B_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 1106693
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD14_CD16-_monocyte_(CB)_enriched_sites.bin
+    size: 10535965
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD14_CD16-_monocyte_(VB)_enriched_sites.bin
+    size: 13840120
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD38-_naive_B_cell_(CB)_enriched_sites.bin
+    size: 3508084
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD38-_naive_B_cell_(VB)_enriched_sites.bin
+    size: 9583758
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD4_ab_T_cell_(CB)_enriched_sites.bin
+    size: 9160707
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 4823875
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD8_ab_T_cell_(CB)_enriched_sites.bin
+    size: 9990768
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CD8_ab_T_cell_(VB)_enriched_sites.bin
+    size: 342279
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-CM_CD4_ab_T_cell_(VB)_enriched_sites.bin
+    size: 66744
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-EPC_(VB)_enriched_sites.bin
+    size: 3339564
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Adrenal_Gland_enriched_sites.bin
+    size: 392694
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Intestine_Large_enriched_sites.bin
+    size: 585227
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Intestine_Small_enriched_sites.bin
+    size: 2730999
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Muscle_Leg_enriched_sites.bin
+    size: 2790836
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Muscle_Trunk_enriched_sites.bin
+    size: 1437625
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Stomach_enriched_sites.bin
+    size: 2655488
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Fetal_Thymus_enriched_sites.bin
+    size: 1074775
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Gastric_enriched_sites.bin
+    size: 542022
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-H1-mesenchymal_enriched_sites.bin
+    size: 9138156
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-H1-neuronal_progenitor_enriched_sites.bin
+    size: 1912324
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-H1-trophoblast_enriched_sites.bin
+    size: 5807633
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-H9_enriched_sites.bin
+    size: 5587554
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-HUVEC_prol_(CB)_enriched_sites.bin
+    size: 19221497
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Left_Ventricle_enriched_sites.bin
+    size: 13013
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Lung_enriched_sites.bin
+    size: 5645268
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-M0_macrophage_(CB)_enriched_sites.bin
+    size: 6429938
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-M0_macrophage_(VB)_enriched_sites.bin
+    size: 15444555
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-M1_macrophage_(CB)_enriched_sites.bin
+    size: 7744420
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-M1_macrophage_(VB)_enriched_sites.bin
+    size: 17597395
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-M2_macrophage_(CB)_enriched_sites.bin
+    size: 7172878
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-M2_macrophage_(VB)_enriched_sites.bin
+    size: 13821726
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-MSC_(VB)_enriched_sites.bin
+    size: 1024291
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Monocytes-CD14_(PB)_Roadmap_enriched_sites.bin
+    size: 2304734
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Natural_Killer_cells_(PB)_enriched_sites.bin
+    size: 1406696
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Pancreas_enriched_sites.bin
+    size: 1094941
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Placenta_enriched_sites.bin
+    size: 2881754
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Psoas_Muscle_enriched_sites.bin
+    size: 9188
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Small_Intestine_enriched_sites.bin
+    size: 371549
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Spleen_enriched_sites.bin
+    size: 884649
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-T_cells_(PB)_Roadmap_enriched_sites.bin
+    size: 344732
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-Thymus_enriched_sites.bin
+    size: 440430
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-eosinophil_(VB)_enriched_sites.bin
+    size: 4847555
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-erythroblast_(CB)_enriched_sites.bin
+    size: 8393861
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-iPS-20b_enriched_sites.bin
+    size: 2279829
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-iPS_DF_19.11_enriched_sites.bin
+    size: 6704044
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-iPS_DF_6.9_enriched_sites.bin
+    size: 23072
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-naive_B_cell_(To)_enriched_sites.bin
+    size: 2493957
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-naive_B_cell_(VB)_enriched_sites.bin
+    size: 9209062
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-neutro_myelocyte_(BM)_enriched_sites.bin
+    size: 1452381
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-neutrophil_(CB)_enriched_sites.bin
+    size: 13406032
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H3K9me3-neutrophil_(VB)_enriched_sites.bin
+    size: 15473752
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-A549_enriched_sites.bin
+    size: 551426
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-DND-41_enriched_sites.bin
+    size: 4216668
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-H1ESC_enriched_sites.bin
+    size: 9796
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-HSMM_enriched_sites.bin
+    size: 175620
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-HSMMtube_enriched_sites.bin
+    size: 751702
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-HepG2_enriched_sites.bin
+    size: 587840
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-Monocytes-CD14_enriched_sites.bin
+    size: 559785
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-NH-A_enriched_sites.bin
+    size: 4960820
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-NHEK_enriched_sites.bin
+    size: 299399
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-NHLF_enriched_sites.bin
+    size: 21301
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K20me1-Osteobl_enriched_sites.bin
+    size: 3319810
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K5ac-H1ESC_enriched_sites.bin
+    size: 211074
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K5ac-H9ESC_enriched_sites.bin
+    size: 5681
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K5ac-IMR90_enriched_sites.bin
+    size: 405197
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K8ac-IMR90_enriched_sites.bin
+    size: 2767107
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K91ac-H1ESC_enriched_sites.bin
+    size: 5649
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K91ac-H9ESC_enriched_sites.bin
+    size: 7377
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_H4K91ac-IMR90_enriched_sites.bin
+    size: 244095
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HDAC2-H1ESC_enriched_sites.bin
+    size: 41111
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HDAC2-HepG2_enriched_sites.bin
+    size: 107097
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HDAC2-K562_enriched_sites.bin
+    size: 16456
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HDAC8-K562_enriched_sites.bin
+    size: 5496
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HEY1-HepG2_enriched_sites.bin
+    size: 246951
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HEY1-K562_enriched_sites.bin
+    size: 92018
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HNF4A-HepG2_enriched_sites.bin
+    size: 196618
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_HNF4G-HepG2_enriched_sites.bin
+    size: 135971
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_IRF4-GM12878_enriched_sites.bin
+    size: 81382
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Ini1-HeLa-S3_enriched_sites.bin
+    size: 88091
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Ini1-K562_enriched_sites.bin
+    size: 5170
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Junb-K562_enriched_sites.bin
+    size: 75515
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Jund-GM12878_enriched_sites.bin
+    size: 9139
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Jund-H1ESC_enriched_sites.bin
+    size: 74342
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Jund-HeLa-S3_enriched_sites.bin
+    size: 247004
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Jund-HepG2_enriched_sites.bin
+    size: 112182
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Jund-K562_enriched_sites.bin
+    size: 36102
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_MEF2A-GM12878_enriched_sites.bin
+    size: 107071
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_MEF2A-K562_enriched_sites.bin
+    size: 34894
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_MEF2C-GM12878_enriched_sites.bin
+    size: 27790
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Max-HUVEC_enriched_sites.bin
+    size: 39479
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Max-HeLa-S3_enriched_sites.bin
+    size: 142102
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Max-K562_enriched_sites.bin
+    size: 15671
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM10847_enriched_sites.bin
+    size: 30133
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM12891_enriched_sites.bin
+    size: 150289
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM12892_enriched_sites.bin
+    size: 37856
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM15510_enriched_sites.bin
+    size: 20700
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM18505_enriched_sites.bin
+    size: 27752
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM18526_enriched_sites.bin
+    size: 20978
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM18951_enriched_sites.bin
+    size: 58538
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM19099_enriched_sites.bin
+    size: 123106
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NFKB-GM19193_enriched_sites.bin
+    size: 57286
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_NR4A1-K562_enriched_sites.bin
+    size: 3371
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nanog-H1ESC_enriched_sites.bin
+    size: 30342
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nfe2-K562_enriched_sites.bin
+    size: 11237
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrf1-HeLa-S3_enriched_sites.bin
+    size: 42447
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrsf-GM12878_enriched_sites.bin
+    size: 61879
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrsf-HeLa-S3_enriched_sites.bin
+    size: 75749
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrsf-HepG2_enriched_sites.bin
+    size: 60702
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrsf-K562_enriched_sites.bin
+    size: 128069
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrsf-PFSK1_enriched_sites.bin
+    size: 40234
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Nrsf-Panc1_enriched_sites.bin
+    size: 51256
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_POU2F2-GM12878_enriched_sites.bin
+    size: 151903
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_POU2F2-GM12891_enriched_sites.bin
+    size: 217162
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_POU5F1-H1ESC_enriched_sites.bin
+    size: 30855
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PU1-GM12878_enriched_sites.bin
+    size: 282335
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PU1-GM12891_enriched_sites.bin
+    size: 474489
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PU1-K562_enriched_sites.bin
+    size: 88727
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Pax5-GM12878_enriched_sites.bin
+    size: 86288
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Pax5-GM12891_enriched_sites.bin
+    size: 55745
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Pax5-GM12892_enriched_sites.bin
+    size: 20684
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Pbx3-GM12878_enriched_sites.bin
+    size: 22694
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-GM12878_enriched_sites.bin
+    size: 207703
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-H1ESC_enriched_sites.bin
+    size: 437309
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-HUVEC_enriched_sites.bin
+    size: 22899
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-HeLa-S3_enriched_sites.bin
+    size: 248617
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-HepG2_enriched_sites.bin
+    size: 9498
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-K562_enriched_sites.bin
+    size: 217327
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolII-NHEK_enriched_sites.bin
+    size: 59036
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolIII-GM12878_enriched_sites.bin
+    size: 3245
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_PolIII-K562_enriched_sites.bin
+    size: 487
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_RXRA-GM12878_enriched_sites.bin
+    size: 5782
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_RXRA-H1ESC_enriched_sites.bin
+    size: 7117
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_RXRA-HepG2_enriched_sites.bin
+    size: 44577
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Rad21-GM12878_enriched_sites.bin
+    size: 378436
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Rad21-H1ESC_enriched_sites.bin
+    size: 702709
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Rad21-HepG2_enriched_sites.bin
+    size: 499145
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Rad21-K562_enriched_sites.bin
+    size: 98194
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Rad21-SKNSHRA_enriched_sites.bin
+    size: 732765
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SIX5-GM12878_enriched_sites.bin
+    size: 43309
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SIX5-H1ESC_enriched_sites.bin
+    size: 33521
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SIX5-K562_enriched_sites.bin
+    size: 44031
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SP1-GM12878_enriched_sites.bin
+    size: 159544
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SP1-H1ESC_enriched_sites.bin
+    size: 164050
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SP1-HepG2_enriched_sites.bin
+    size: 11845
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SP1-K562_enriched_sites.bin
+    size: 40242
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_SP2-K562_enriched_sites.bin
+    size: 32206
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Sin3Ak20-H1ESC_enriched_sites.bin
+    size: 98597
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Sin3Ak20-HepG2_enriched_sites.bin
+    size: 90540
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Sin3Ak20-K562_enriched_sites.bin
+    size: 101092
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Srf-GM12878_enriched_sites.bin
+    size: 48937
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Srf-H1ESC_enriched_sites.bin
+    size: 40210
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Srf-HepG2_enriched_sites.bin
+    size: 33033
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Srf-K562_enriched_sites.bin
+    size: 39492
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF1-GM12878_enriched_sites.bin
+    size: 64220
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF1-GM12891_enriched_sites.bin
+    size: 157470
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF1-GM12892_enriched_sites.bin
+    size: 25983
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF1-HeLa-S3_enriched_sites.bin
+    size: 123109
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF1-HepG2_enriched_sites.bin
+    size: 205463
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF1-K562_enriched_sites.bin
+    size: 178136
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF7-H1ESC_enriched_sites.bin
+    size: 48762
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_TAF7-K562_enriched_sites.bin
+    size: 31196
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_THAP1-K562_enriched_sites.bin
+    size: 27873
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tcf12-GM12878_enriched_sites.bin
+    size: 83159
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tcf12-H1ESC_enriched_sites.bin
+    size: 54479
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tcf12-HepG2_enriched_sites.bin
+    size: 1737
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tr4-GM12878_enriched_sites.bin
+    size: 39577
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tr4-HeLa-S3_enriched_sites.bin
+    size: 22998
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tr4-HepG2_enriched_sites.bin
+    size: 19429
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Tr4-K562_enriched_sites.bin
+    size: 7707
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_USF1-GM12878_enriched_sites.bin
+    size: 36202
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_USF1-H1ESC_enriched_sites.bin
+    size: 277232
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_USF1-HepG2_enriched_sites.bin
+    size: 165319
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_USF1-K562_enriched_sites.bin
+    size: 126930
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_USF1-SKNSHRA_enriched_sites.bin
+    size: 209269
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_XRCC4-K562_enriched_sites.bin
+    size: 1734
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-GM12878_enriched_sites.bin
+    size: 59815
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-GM12891_enriched_sites.bin
+    size: 102555
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-GM12892_enriched_sites.bin
+    size: 86936
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-H1ESC_enriched_sites.bin
+    size: 171161
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-HCT116_enriched_sites.bin
+    size: 61253
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-HepG2_enriched_sites.bin
+    size: 65552
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-K562_enriched_sites.bin
+    size: 88639
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_Yy1-SKNSHRA_enriched_sites.bin
+    size: 189316
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ZBTB33-GM12878_enriched_sites.bin
+    size: 20682
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ZBTB33-HCT116_enriched_sites.bin
+    size: 23330
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ZBTB33-HepG2_enriched_sites.bin
+    size: 17513
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ZBTB33-K562_enriched_sites.bin
+    size: 29267
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ZBTB7A-K562_enriched_sites.bin
+    size: 171640
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_ZEB1-GM12878_enriched_sites.bin
+    size: 38484
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_p300-GM12878_enriched_sites.bin
+    size: 7397
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_p300-H1ESC_enriched_sites.bin
+    size: 46310
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_p300-HepG2_enriched_sites.bin
+    size: 157602
+    symlink: false
+  - digest: null
+    path: GRCh38.86/regulation_p300-SKNSHRA_enriched_sites.bin
+    size: 471176
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.1.bin
+    size: 37500000
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.10.bin
+    size: 20507500
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.11.bin
+    size: 21877803
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.12.bin
+    size: 22516283
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.13.bin
+    size: 11909963
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.14.bin
+    size: 14940820
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.15.bin
+    size: 16068602
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.16.bin
+    size: 13904289
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.17.bin
+    size: 14776796
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.18.bin
+    size: 11059642
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.19.bin
+    size: 10468413
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.2.bin
+    size: 38427510
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.20.bin
+    size: 9409648
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.21.bin
+    size: 5757186
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.22.bin
+    size: 6483381
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.3.bin
+    size: 33879928
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.4.bin
+    size: 27133359
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.5.bin
+    size: 26814366
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.6.bin
+    size: 24078519
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.7.bin
+    size: 25814593
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.8.bin
+    size: 22879615
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.9.bin
+    size: 17142478
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.X.bin
+    size: 16963176
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.Y.bin
+    size: 1737748
+    symlink: false
+  - digest: null
+    path: GRCh38.86/sequence.bin
+    size: 119185
+    symlink: false
+  - digest: null
+    path: GRCh38.86/snpEffectPredictor.bin
+    size: 102274517
+    symlink: false
+  - digest: null
+    path: hg19/interactions.bin
+    size: 23400675
+    symlink: false
+  - digest: null
+    path: hg19/nextProt.bin
+    size: 5729907
+    symlink: false
+  - digest: null
+    path: hg19/pwms.bin
+    size: 38000
+    symlink: false
+  - digest: null
+    path: hg19/sequence.1.bin
+    size: 32507325
+    symlink: false
+  - digest: null
+    path: hg19/sequence.10.bin
+    size: 18936141
+    symlink: false
+  - digest: null
+    path: hg19/sequence.11.bin
+    size: 17732909
+    symlink: false
+  - digest: null
+    path: hg19/sequence.12.bin
+    size: 17718503
+    symlink: false
+  - digest: null
+    path: hg19/sequence.13.bin
+    size: 11052890
+    symlink: false
+  - digest: null
+    path: hg19/sequence.14.bin
+    size: 10904778
+    symlink: false
+  - digest: null
+    path: hg19/sequence.15.bin
+    size: 12590614
+    symlink: false
+  - digest: null
+    path: hg19/sequence.16.bin
+    size: 10664049
+    symlink: false
+  - digest: null
+    path: hg19/sequence.17.bin
+    size: 12586344
+    symlink: false
+  - digest: null
+    path: hg19/sequence.17_ctg5_hap1.bin
+    size: 301402
+    symlink: false
+  - digest: null
+    path: hg19/sequence.18.bin
+    size: 8958166
+    symlink: false
+  - digest: null
+    path: hg19/sequence.19.bin
+    size: 8431474
+    symlink: false
+  - digest: null
+    path: hg19/sequence.2.bin
+    size: 31285344
+    symlink: false
+  - digest: null
+    path: hg19/sequence.20.bin
+    size: 8189691
+    symlink: false
+  - digest: null
+    path: hg19/sequence.21.bin
+    size: 4109500
+    symlink: false
+  - digest: null
+    path: hg19/sequence.22.bin
+    size: 5786096
+    symlink: false
+  - digest: null
+    path: hg19/sequence.3.bin
+    size: 27241650
+    symlink: false
+  - digest: null
+    path: hg19/sequence.4.bin
+    size: 20685086
+    symlink: false
+  - digest: null
+    path: hg19/sequence.5.bin
+    size: 21472624
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6.bin
+    size: 21227856
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_apd_hap1.bin
+    size: 265199
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_cox_hap2.bin
+    size: 576450
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_dbb_hap3.bin
+    size: 501447
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_mann_hap4.bin
+    size: 531201
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_mcf_hap5.bin
+    size: 515990
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_qbl_hap6.bin
+    size: 586604
+    symlink: false
+  - digest: null
+    path: hg19/sequence.6_ssto_hap7.bin
+    size: 495294
+    symlink: false
+  - digest: null
+    path: hg19/sequence.7.bin
+    size: 21802897
+    symlink: false
+  - digest: null
+    path: hg19/sequence.8.bin
+    size: 17835896
+    symlink: false
+  - digest: null
+    path: hg19/sequence.9.bin
+    size: 14858126
+    symlink: false
+  - digest: null
+    path: hg19/sequence.X.bin
+    size: 14693733
+    symlink: false
+  - digest: null
+    path: hg19/sequence.Y.bin
+    size: 1288165
+    symlink: false
+  - digest: null
+    path: hg19/sequence.bin
+    size: 321442
+    symlink: false
+  - digest: null
+    path: hg19/snpEffectPredictor.bin
+    size: 52630202
+    symlink: false
+  - digest: null
+    path: hg38/interactions.bin
+    size: 23495281
+    symlink: false
+  - digest: null
+    path: hg38/nextProt.bin
+    size: 5688284
+    symlink: false
+  - digest: null
+    path: hg38/pwms.bin
+    size: 38000
+    symlink: false
+  - digest: null
+    path: hg38/sequence.1.bin
+    size: 32265090
+    symlink: false
+  - digest: null
+    path: hg38/sequence.10.bin
+    size: 18785294
+    symlink: false
+  - digest: null
+    path: hg38/sequence.11.bin
+    size: 17742156
+    symlink: false
+  - digest: null
+    path: hg38/sequence.12.bin
+    size: 17721500
+    symlink: false
+  - digest: null
+    path: hg38/sequence.13.bin
+    size: 11062985
+    symlink: false
+  - digest: null
+    path: hg38/sequence.14.bin
+    size: 10905102
+    symlink: false
+  - digest: null
+    path: hg38/sequence.14_KI270847v1_alt.bin
+    size: 308710
+    symlink: false
+  - digest: null
+    path: hg38/sequence.15.bin
+    size: 12649402
+    symlink: false
+  - digest: null
+    path: hg38/sequence.15_KI270905v1_alt.bin
+    size: 829349
+    symlink: false
+  - digest: null
+    path: hg38/sequence.16.bin
+    size: 10770380
+    symlink: false
+  - digest: null
+    path: hg38/sequence.16_KI270853v1_alt.bin
+    size: 473940
+    symlink: false
+  - digest: null
+    path: hg38/sequence.17.bin
+    size: 12700008
+    symlink: false
+  - digest: null
+    path: hg38/sequence.17_GL000258v2_alt.bin
+    size: 357502
+    symlink: false
+  - digest: null
+    path: hg38/sequence.17_KI270857v1_alt.bin
+    size: 471727
+    symlink: false
+  - digest: null
+    path: hg38/sequence.17_KI270908v1_alt.bin
+    size: 291216
+    symlink: false
+  - digest: null
+    path: hg38/sequence.18.bin
+    size: 8960488
+    symlink: false
+  - digest: null
+    path: hg38/sequence.19.bin
+    size: 8424717
+    symlink: false
+  - digest: null
+    path: hg38/sequence.2.bin
+    size: 31278455
+    symlink: false
+  - digest: null
+    path: hg38/sequence.20.bin
+    size: 8206807
+    symlink: false
+  - digest: null
+    path: hg38/sequence.21.bin
+    size: 4272503
+    symlink: false
+  - digest: null
+    path: hg38/sequence.22.bin
+    size: 5796113
+    symlink: false
+  - digest: null
+    path: hg38/sequence.3.bin
+    size: 27194150
+    symlink: false
+  - digest: null
+    path: hg38/sequence.4.bin
+    size: 20679101
+    symlink: false
+  - digest: null
+    path: hg38/sequence.5.bin
+    size: 21507677
+    symlink: false
+  - digest: null
+    path: hg38/sequence.5_GL339449v2_alt.bin
+    size: 321277
+    symlink: false
+  - digest: null
+    path: hg38/sequence.5_KI270897v1_alt.bin
+    size: 259269
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6.bin
+    size: 21222421
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000250v2_alt.bin
+    size: 306425
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000251v2_alt.bin
+    size: 576609
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000252v2_alt.bin
+    size: 506869
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000253v2_alt.bin
+    size: 531301
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000254v2_alt.bin
+    size: 500602
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000255v2_alt.bin
+    size: 525085
+    symlink: false
+  - digest: null
+    path: hg38/sequence.6_GL000256v2_alt.bin
+    size: 515809
+    symlink: false
+  - digest: null
+    path: hg38/sequence.7.bin
+    size: 21782983
+    symlink: false
+  - digest: null
+    path: hg38/sequence.8.bin
+    size: 17761958
+    symlink: false
+  - digest: null
+    path: hg38/sequence.9.bin
+    size: 14893989
+    symlink: false
+  - digest: null
+    path: hg38/sequence.X.bin
+    size: 14632995
+    symlink: false
+  - digest: null
+    path: hg38/sequence.Y.bin
+    size: 1215494
+    symlink: false
+  - digest: null
+    path: hg38/sequence.bin
+    size: 6893930
+    symlink: false
+  - digest: null
+    path: hg38/snpEffectPredictor.bin
+    size: 54943884
+    symlink: false
+  name: 'Homo sapiens : GRCh38.86'
+  path: /cvmfs/data.galaxyproject.org/byhand/snpEff/v4_3/data
+  value: GRCh38.86
+  version: SnpEff4.3
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

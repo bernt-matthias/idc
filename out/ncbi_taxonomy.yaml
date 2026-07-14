@@ -1,0 +1,44 @@
+ncbi_taxonomy:
+- digest: 658ec44cb3d7131db7be4e1df03352b516e499f28c24d0454e8f35a4599613e9
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/ncbi_taxonomy.loc
+  manifest:
+  - digest: null
+    path: citations.dmp
+    size: 18674698
+    symlink: false
+  - digest: null
+    path: delnodes.dmp
+    size: 4175698
+    symlink: false
+  - digest: null
+    path: division.dmp
+    size: 452
+    symlink: false
+  - digest: null
+    path: gc.prt
+    size: 16444
+    symlink: false
+  - digest: null
+    path: gencode.dmp
+    size: 4921
+    symlink: false
+  - digest: null
+    path: merged.dmp
+    size: 1116686
+    symlink: false
+  - digest: null
+    path: names.dmp
+    size: 201444458
+    symlink: false
+  - digest: null
+    path: nodes.dmp
+    size: 157483651
+    symlink: false
+  - digest: null
+    path: readme.txt
+    size: 2666
+    symlink: false
+  name: '2020-12-03'
+  path: /cvmfs/data.galaxyproject.org/byhand/ncbi_taxonomy/2020-12-03
+  value: '2020-12-03'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

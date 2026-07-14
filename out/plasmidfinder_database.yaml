@@ -1,0 +1,161 @@
+plasmidfinder_database:
+- date: '2019_08_28'
+  digest: 8301fa1c0add451fac052b2f8bc1ce6a0c6500beb5cb935e72bf5bd7c41cc7f4
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/plasmidfinder_database.loc
+  manifest:
+  - digest: null
+    path: .git/HEAD
+    size: 41
+    symlink: false
+  - digest: null
+    path: .git/config
+    size: 294
+    symlink: false
+  - digest: null
+    path: .git/description
+    size: 73
+    symlink: false
+  - digest: null
+    path: .git/hooks/applypatch-msg.sample
+    size: 478
+    symlink: false
+  - digest: null
+    path: .git/hooks/commit-msg.sample
+    size: 896
+    symlink: false
+  - digest: null
+    path: .git/hooks/fsmonitor-watchman.sample
+    size: 4655
+    symlink: false
+  - digest: null
+    path: .git/hooks/post-update.sample
+    size: 189
+    symlink: false
+  - digest: null
+    path: .git/hooks/pre-applypatch.sample
+    size: 424
+    symlink: false
+  - digest: null
+    path: .git/hooks/pre-commit.sample
+    size: 1643
+    symlink: false
+  - digest: null
+    path: .git/hooks/pre-merge-commit.sample
+    size: 416
+    symlink: false
+  - digest: null
+    path: .git/hooks/pre-push.sample
+    size: 1374
+    symlink: false
+  - digest: null
+    path: .git/hooks/pre-rebase.sample
+    size: 4997
+    symlink: false
+  - digest: null
+    path: .git/hooks/pre-receive.sample
+    size: 544
+    symlink: false
+  - digest: null
+    path: .git/hooks/prepare-commit-msg.sample
+    size: 1789
+    symlink: false
+  - digest: null
+    path: .git/hooks/push-to-checkout.sample
+    size: 2783
+    symlink: false
+  - digest: null
+    path: .git/hooks/update.sample
+    size: 3650
+    symlink: false
+  - digest: null
+    path: .git/index
+    size: 986
+    symlink: false
+  - digest: null
+    path: .git/info/exclude
+    size: 240
+    symlink: false
+  - digest: null
+    path: .git/logs/HEAD
+    size: 462
+    symlink: false
+  - digest: null
+    path: .git/logs/refs/heads/master
+    size: 254
+    symlink: false
+  - digest: null
+    path: .git/logs/refs/remotes/origin/HEAD
+    size: 254
+    symlink: false
+  - digest: null
+    path: .git/objects/pack/pack-b8005c4d701f94ae5416285f97189041171854ea.idx
+    size: 11124
+    symlink: false
+  - digest: null
+    path: .git/objects/pack/pack-b8005c4d701f94ae5416285f97189041171854ea.pack
+    size: 253148
+    symlink: false
+  - digest: null
+    path: .git/packed-refs
+    size: 169
+    symlink: false
+  - digest: null
+    path: .git/refs/heads/master
+    size: 41
+    symlink: false
+  - digest: null
+    path: .git/refs/remotes/origin/HEAD
+    size: 32
+    symlink: false
+  - digest: null
+    path: .gitignore
+    size: 11
+    symlink: false
+  - digest: null
+    path: INSTALL.py
+    size: 1909
+    symlink: false
+  - digest: null
+    path: Inc18.fsa
+    size: 58920
+    symlink: false
+  - digest: null
+    path: NT_Rep.fsa
+    size: 9307
+    symlink: false
+  - digest: null
+    path: Rep1.fsa
+    size: 66324
+    symlink: false
+  - digest: null
+    path: Rep2.fsa
+    size: 15250
+    symlink: false
+  - digest: null
+    path: Rep3.fsa
+    size: 53606
+    symlink: false
+  - digest: null
+    path: RepA_N.fsa
+    size: 87236
+    symlink: false
+  - digest: null
+    path: RepL.fsa
+    size: 7847
+    symlink: false
+  - digest: null
+    path: Rep_trans.fsa
+    size: 36178
+    symlink: false
+  - digest: null
+    path: config
+    size: 496
+    symlink: false
+  - digest: null
+    path: enterobacteriaceae.fsa
+    size: 65411
+    symlink: false
+  name: '2.1_2019_08_28'
+  path: /cvmfs/data.galaxyproject.org/byhand/plasmidfinder-db/2.1_2019_08_28
+  value: plasmidfinder_1307168_2019_08_28
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

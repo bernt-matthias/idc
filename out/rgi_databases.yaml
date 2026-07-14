@@ -1,0 +1,40 @@
+rgi_databases:
+- digest: db42bf17572c7ed4e675d1776db507218827b60bc320437353f3284d8d9ca0bb
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/rgi_databases.loc
+  manifest:
+  - digest: null
+    path: RGI_Database_Builder_(JSON)_data_manager_json.html
+    size: 110
+    symlink: false
+  - digest: null
+    path: _gx_data_bundle_index.json
+    size: 971
+    symlink: false
+  - digest: null
+    path: card.json
+    size: 42440566
+    symlink: false
+  - digest: null
+    path: protein.db.dmnd
+    size: 2621488
+    symlink: false
+  - digest: null
+    path: protein.db.phr
+    size: 829617
+    symlink: false
+  - digest: null
+    path: protein.db.pin
+    size: 50552
+    symlink: false
+  - digest: null
+    path: protein.db.psq
+    size: 2081826
+    symlink: false
+  - digest: null
+    path: proteindb.fsa
+    size: 2520600
+    symlink: false
+  name: CARD_data-2025-May
+  path: /cvmfs/data.galaxyproject.org/byhand/rgi_databases/card_data-2025-may
+  value: card_data-2025-may
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

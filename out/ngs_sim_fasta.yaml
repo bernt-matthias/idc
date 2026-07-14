@@ -1,0 +1,13 @@
+ngs_sim_fasta:
+- dbkey: hg19
+  digest: c03e0546f7f6e69f13f1054ad1ba9741187dde50356fd4860ee8d5b77dbcdac2
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/ngs_sim_fasta.loc
+  manifest:
+  - digest: null
+    path: chrM.fa
+    size: 16909
+    symlink: false
+  name: 'Human: hg19 chrM'
+  path: /cvmfs/data.galaxyproject.org/byhand/hg19/seq/chrM.fa
+  value: hg19chrM
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

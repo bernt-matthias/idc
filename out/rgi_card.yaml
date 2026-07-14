@@ -1,0 +1,15 @@
+rgi_card:
+- card_annotation: /cvmfs/data.galaxyproject.org/byhand/rgi_card/card_4_0_1/card_annotation.fasta
+  card_annotation_all_models: /cvmfs/data.galaxyproject.org/byhand/rgi_card/card_4_0_1/card_annotation_all.fasta
+  card_json: /cvmfs/data.galaxyproject.org/byhand/rgi_card/card_4_0_1/card.json
+  card_version: 4.0.1
+  digest: 33507babbe1004df7e6848985ac2d641bfc6a77172e9f44e723caecd54b29d44
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/rgi_card.loc
+  manifest:
+  - digest: null
+    path: card.json
+    size: 42440566
+    symlink: false
+  name: CARD 4.0.1
+  value: card_4_0_1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

@@ -1,0 +1,689 @@
+mitos:
+- digest: 07047b4e59172178b485905617541653c4dc1ed2ee54f05757fd7ac0f32f527a
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/mitos.loc
+  manifest:
+  - digest: null
+    path: auxinfo.json
+    size: 3802807
+    symlink: false
+  - digest: null
+    path: featureNuc/OH.fas
+    size: 3426855
+    symlink: false
+  - digest: null
+    path: featureNuc/OH.fas.nhr
+    size: 365342
+    symlink: false
+  - digest: null
+    path: featureNuc/OH.fas.nin
+    size: 39788
+    symlink: false
+  - digest: null
+    path: featureNuc/OH.fas.nsq
+    size: 821120
+    symlink: false
+  - digest: null
+    path: featureProt/atp6.fas
+    size: 1052427
+    symlink: false
+  - digest: null
+    path: featureProt/atp6.fas.phr
+    size: 423725
+    symlink: false
+  - digest: null
+    path: featureProt/atp6.fas.pin
+    size: 30712
+    symlink: false
+  - digest: null
+    path: featureProt/atp6.fas.psq
+    size: 865849
+    symlink: false
+  - digest: null
+    path: featureProt/atp8.fas
+    size: 385819
+    symlink: false
+  - digest: null
+    path: featureProt/atp8.fas.phr
+    size: 401706
+    symlink: false
+  - digest: null
+    path: featureProt/atp8.fas.pin
+    size: 29136
+    symlink: false
+  - digest: null
+    path: featureProt/atp8.fas.psq
+    size: 209046
+    symlink: false
+  - digest: null
+    path: featureProt/atp9.fas
+    size: 5994
+    symlink: false
+  - digest: null
+    path: featureProt/atp9.fas.phr
+    size: 5216
+    symlink: false
+  - digest: null
+    path: featureProt/atp9.fas.pin
+    size: 472
+    symlink: false
+  - digest: null
+    path: featureProt/atp9.fas.psq
+    size: 3646
+    symlink: false
+  - digest: null
+    path: featureProt/cob.fas
+    size: 1641125
+    symlink: false
+  - digest: null
+    path: featureProt/cob.fas.phr
+    size: 425619
+    symlink: false
+  - digest: null
+    path: featureProt/cob.fas.pin
+    size: 30704
+    symlink: false
+  - digest: null
+    path: featureProt/cob.fas.psq
+    size: 1452591
+    symlink: false
+  - digest: null
+    path: featureProt/cox1.fas
+    size: 2169805
+    symlink: false
+  - digest: null
+    path: featureProt/cox1.fas.phr
+    size: 423330
+    symlink: false
+  - digest: null
+    path: featureProt/cox1.fas.pin
+    size: 30768
+    symlink: false
+  - digest: null
+    path: featureProt/cox1.fas.psq
+    size: 1984056
+    symlink: false
+  - digest: null
+    path: featureProt/cox2.fas
+    size: 1070889
+    symlink: false
+  - digest: null
+    path: featureProt/cox2.fas.phr
+    size: 424560
+    symlink: false
+  - digest: null
+    path: featureProt/cox2.fas.pin
+    size: 30776
+    symlink: false
+  - digest: null
+    path: featureProt/cox2.fas.psq
+    size: 883972
+    symlink: false
+  - digest: null
+    path: featureProt/cox3.fas
+    size: 1189597
+    symlink: false
+  - digest: null
+    path: featureProt/cox3.fas.phr
+    size: 424398
+    symlink: false
+  - digest: null
+    path: featureProt/cox3.fas.pin
+    size: 30744
+    symlink: false
+  - digest: null
+    path: featureProt/cox3.fas.psq
+    size: 1002594
+    symlink: false
+  - digest: null
+    path: featureProt/dpo.fas
+    size: 2630
+    symlink: false
+  - digest: null
+    path: featureProt/dpo.fas.phr
+    size: 646
+    symlink: false
+  - digest: null
+    path: featureProt/dpo.fas.pin
+    size: 144
+    symlink: false
+  - digest: null
+    path: featureProt/dpo.fas.psq
+    size: 2351
+    symlink: false
+  - digest: null
+    path: featureProt/lagli.fas
+    size: 2903
+    symlink: false
+  - digest: null
+    path: featureProt/lagli.fas.phr
+    size: 784
+    symlink: false
+  - digest: null
+    path: featureProt/lagli.fas.pin
+    size: 152
+    symlink: false
+  - digest: null
+    path: featureProt/lagli.fas.psq
+    size: 2547
+    symlink: false
+  - digest: null
+    path: featureProt/msh1.fas
+    size: 18735
+    symlink: false
+  - digest: null
+    path: featureProt/msh1.fas.phr
+    size: 1996
+    symlink: false
+  - digest: null
+    path: featureProt/msh1.fas.pin
+    size: 240
+    symlink: false
+  - digest: null
+    path: featureProt/msh1.fas.psq
+    size: 17838
+    symlink: false
+  - digest: null
+    path: featureProt/mttb.fas
+    size: 2083
+    symlink: false
+  - digest: null
+    path: featureProt/mttb.fas.phr
+    size: 766
+    symlink: false
+  - digest: null
+    path: featureProt/mttb.fas.pin
+    size: 152
+    symlink: false
+  - digest: null
+    path: featureProt/mttb.fas.psq
+    size: 1745
+    symlink: false
+  - digest: null
+    path: featureProt/nad1.fas
+    size: 1409819
+    symlink: false
+  - digest: null
+    path: featureProt/nad1.fas.phr
+    size: 425261
+    symlink: false
+  - digest: null
+    path: featureProt/nad1.fas.pin
+    size: 30712
+    symlink: false
+  - digest: null
+    path: featureProt/nad1.fas.psq
+    size: 1221705
+    symlink: false
+  - digest: null
+    path: featureProt/nad2.fas
+    size: 1503044
+    symlink: false
+  - digest: null
+    path: featureProt/nad2.fas.phr
+    size: 422245
+    symlink: false
+  - digest: null
+    path: featureProt/nad2.fas.pin
+    size: 30640
+    symlink: false
+  - digest: null
+    path: featureProt/nad2.fas.psq
+    size: 1317388
+    symlink: false
+  - digest: null
+    path: featureProt/nad3.fas
+    size: 635128
+    symlink: false
+  - digest: null
+    path: featureProt/nad3.fas.phr
+    size: 425342
+    symlink: false
+  - digest: null
+    path: featureProt/nad3.fas.pin
+    size: 30704
+    symlink: false
+  - digest: null
+    path: featureProt/nad3.fas.psq
+    size: 446871
+    symlink: false
+  - digest: null
+    path: featureProt/nad4.fas
+    size: 1933684
+    symlink: false
+  - digest: null
+    path: featureProt/nad4.fas.phr
+    size: 429392
+    symlink: false
+  - digest: null
+    path: featureProt/nad4.fas.pin
+    size: 30696
+    symlink: false
+  - digest: null
+    path: featureProt/nad4.fas.psq
+    size: 1741315
+    symlink: false
+  - digest: null
+    path: featureProt/nad4l.fas
+    size: 568228
+    symlink: false
+  - digest: null
+    path: featureProt/nad4l.fas.phr
+    size: 431507
+    symlink: false
+  - digest: null
+    path: featureProt/nad4l.fas.pin
+    size: 30656
+    symlink: false
+  - digest: null
+    path: featureProt/nad4l.fas.psq
+    size: 373434
+    symlink: false
+  - digest: null
+    path: featureProt/nad5.fas
+    size: 2474204
+    symlink: false
+  - digest: null
+    path: featureProt/nad5.fas.phr
+    size: 429465
+    symlink: false
+  - digest: null
+    path: featureProt/nad5.fas.pin
+    size: 30704
+    symlink: false
+  - digest: null
+    path: featureProt/nad5.fas.psq
+    size: 2281824
+    symlink: false
+  - digest: null
+    path: featureProt/nad6.fas
+    size: 851943
+    symlink: false
+  - digest: null
+    path: featureProt/nad6.fas.phr
+    size: 432165
+    symlink: false
+  - digest: null
+    path: featureProt/nad6.fas.pin
+    size: 30720
+    symlink: false
+  - digest: null
+    path: featureProt/nad6.fas.psq
+    size: 656987
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp6.db
+    size: 105173
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp6.db.h3f
+    size: 21046
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp6.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp6.db.h3m
+    size: 43774
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp6.db.h3p
+    size: 50761
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp8.db
+    size: 33097
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp8.db.h3f
+    size: 12694
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp8.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp8.db.h3m
+    size: 13704
+    symlink: false
+  - digest: null
+    path: featureProtHMM/atp8.db.h3p
+    size: 16397
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cob.db
+    size: 169807
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cob.db.h3f
+    size: 29397
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cob.db.h3i
+    size: 131
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cob.db.h3m
+    size: 70739
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cob.db.h3p
+    size: 82692
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox1.db
+    size: 240023
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox1.db.h3f
+    size: 38678
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox1.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox1.db.h3m
+    size: 100034
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox1.db.h3p
+    size: 117041
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox2.db
+    size: 107033
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox2.db.h3f
+    size: 21974
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox2.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox2.db.h3m
+    size: 44550
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox2.db.h3p
+    size: 51961
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox3.db
+    size: 120516
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox3.db.h3f
+    size: 23830
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox3.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox3.db.h3m
+    size: 50176
+    symlink: false
+  - digest: null
+    path: featureProtHMM/cox3.db.h3p
+    size: 59181
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad1.db
+    size: 144233
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad1.db.h3f
+    size: 26614
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad1.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad1.db.h3m
+    size: 60070
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad1.db.h3p
+    size: 70041
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad2.db
+    size: 164227
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad2.db.h3f
+    size: 28470
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad2.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad2.db.h3m
+    size: 68412
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad2.db.h3p
+    size: 79685
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad3.db
+    size: 53093
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad3.db.h3f
+    size: 14550
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad3.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad3.db.h3m
+    size: 22046
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad3.db.h3p
+    size: 25449
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4.db
+    size: 205612
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4.db.h3f
+    size: 34038
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4.db.h3m
+    size: 85678
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4.db.h3p
+    size: 99577
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4l.db
+    size: 43327
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4l.db.h3f
+    size: 13623
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4l.db.h3i
+    size: 135
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4l.db.h3m
+    size: 17973
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad4l.db.h3p
+    size: 21222
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad5.db
+    size: 304657
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad5.db.h3f
+    size: 46102
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad5.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad5.db.h3m
+    size: 127000
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad5.db.h3p
+    size: 148381
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad6.db
+    size: 77738
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad6.db.h3f
+    size: 18262
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad6.db.h3i
+    size: 133
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad6.db.h3m
+    size: 32328
+    symlink: false
+  - digest: null
+    path: featureProtHMM/nad6.db.h3p
+    size: 38093
+    symlink: false
+  - digest: null
+    path: ncRNA/Intron_gpI.cm
+    size: 190938
+    symlink: false
+  - digest: null
+    path: ncRNA/Intron_gpII.cm
+    size: 62582
+    symlink: false
+  - digest: null
+    path: ncRNA/OL.cm
+    size: 23485
+    symlink: false
+  - digest: null
+    path: ncRNA/rrnL.cm
+    size: 1034935
+    symlink: false
+  - digest: null
+    path: ncRNA/rrnS.cm
+    size: 596143
+    symlink: false
+  - digest: null
+    path: ncRNA/tRNA.cm
+    size: 48952
+    symlink: false
+  - digest: null
+    path: ncRNA/trnA.cm
+    size: 47677
+    symlink: false
+  - digest: null
+    path: ncRNA/trnC.cm
+    size: 47680
+    symlink: false
+  - digest: null
+    path: ncRNA/trnD.cm
+    size: 48942
+    symlink: false
+  - digest: null
+    path: ncRNA/trnE.cm
+    size: 48326
+    symlink: false
+  - digest: null
+    path: ncRNA/trnF.cm
+    size: 47046
+    symlink: false
+  - digest: null
+    path: ncRNA/trnG.cm
+    size: 47680
+    symlink: false
+  - digest: null
+    path: ncRNA/trnH.cm
+    size: 47680
+    symlink: false
+  - digest: null
+    path: ncRNA/trnI.cm
+    size: 48941
+    symlink: false
+  - digest: null
+    path: ncRNA/trnK.cm
+    size: 49577
+    symlink: false
+  - digest: null
+    path: ncRNA/trnL1.cm
+    size: 50845
+    symlink: false
+  - digest: null
+    path: ncRNA/trnL2.cm
+    size: 50216
+    symlink: false
+  - digest: null
+    path: ncRNA/trnM.cm
+    size: 48943
+    symlink: false
+  - digest: null
+    path: ncRNA/trnN.cm
+    size: 50209
+    symlink: false
+  - digest: null
+    path: ncRNA/trnP.cm
+    size: 47679
+    symlink: false
+  - digest: null
+    path: ncRNA/trnQ.cm
+    size: 49577
+    symlink: false
+  - digest: null
+    path: ncRNA/trnR.cm
+    size: 48311
+    symlink: false
+  - digest: null
+    path: ncRNA/trnS1.cm
+    size: 47694
+    symlink: false
+  - digest: null
+    path: ncRNA/trnS2.cm
+    size: 48951
+    symlink: false
+  - digest: null
+    path: ncRNA/trnT.cm
+    size: 48313
+    symlink: false
+  - digest: null
+    path: ncRNA/trnV.cm
+    size: 48944
+    symlink: false
+  - digest: null
+    path: ncRNA/trnW.cm
+    size: 48942
+    symlink: false
+  - digest: null
+    path: ncRNA/trnY.cm
+    size: 48944
+    symlink: false
+  name: RefSeq63 Metazoa
+  path: /cvmfs/data.galaxyproject.org/byhand/mitos/refseq63m
+  type: mitos2
+  value: refseq63m
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

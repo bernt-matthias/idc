@@ -1,0 +1,89 @@
+hisat2_indexes:
+- dbkey: Amel_4.5
+  digest: ca9afbe3c2eed2148d20e79e70eac37dae2245f7e5df3e6b5281c1d47ac9ac25
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/hisat2_indexes.loc
+  manifest:
+  - digest: null
+    path: Amel_4.5.1.ht2
+    size: 69975073
+    symlink: false
+  - digest: null
+    path: Amel_4.5.2.ht2
+    size: 57280480
+    symlink: false
+  - digest: null
+    path: Amel_4.5.3.ht2
+    size: 162107
+    symlink: false
+  - digest: null
+    path: Amel_4.5.4.ht2
+    size: 57280476
+    symlink: false
+  - digest: null
+    path: Amel_4.5.5.ht2
+    size: 140710329
+    symlink: false
+  - digest: null
+    path: Amel_4.5.6.ht2
+    size: 58245116
+    symlink: false
+  - digest: null
+    path: Amel_4.5.7.ht2
+    size: 8
+    symlink: false
+  - digest: null
+    path: Amel_4.5.8.ht2
+    size: 8
+    symlink: false
+  - digest: null
+    path: Amel_4.5.fa
+    size: 253503285
+    symlink: true
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/hisat2_index/Amel_4.5/Amel_4.5
+  value: Amel_4.5
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: apiMel4
+  digest: 8ae862df0fafd4f693c7606b8d7c67a7e858b271c1f95691a1a4ccda30e3b77b
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/hisat2_indexes.loc
+  manifest:
+  - digest: null
+    path: apiMel4.1.ht2
+    size: 69943169
+    symlink: false
+  - digest: null
+    path: apiMel4.2.ht2
+    size: 57280480
+    symlink: false
+  - digest: null
+    path: apiMel4.3.ht2
+    size: 162107
+    symlink: false
+  - digest: null
+    path: apiMel4.4.ht2
+    size: 57280476
+    symlink: false
+  - digest: null
+    path: apiMel4.5.ht2
+    size: 140710329
+    symlink: false
+  - digest: null
+    path: apiMel4.6.ht2
+    size: 58245116
+    symlink: false
+  - digest: null
+    path: apiMel4.7.ht2
+    size: 8
+    symlink: false
+  - digest: null
+    path: apiMel4.8.ht2
+    size: 8
+    symlink: false
+  - digest: null
+    path: apiMel4.fa
+    size: 253471381
+    symlink: true
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/hisat2_index/apiMel4/apiMel4
+  value: apiMel4
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

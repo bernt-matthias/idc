@@ -1,0 +1,464 @@
+blastdb:
+- digest: f9739b2da8d9d6d2ee087e978aea57ebab0dfa8597b1fbb503942df5f4a65aa8
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/blastdb.loc
+  manifest:
+  - digest: null
+    path: htgs.00.nhd
+    size: 329204
+    symlink: false
+  - digest: null
+    path: htgs.00.nhi
+    size: 7733
+    symlink: false
+  - digest: null
+    path: htgs.00.nhr
+    size: 3023166
+    symlink: false
+  - digest: null
+    path: htgs.00.nin
+    size: 244148
+    symlink: false
+  - digest: null
+    path: htgs.00.nnd
+    size: 162680
+    symlink: false
+  - digest: null
+    path: htgs.00.nni
+    size: 684
+    symlink: false
+  - digest: null
+    path: htgs.00.nog
+    size: 81368
+    symlink: false
+  - digest: null
+    path: htgs.00.nsd
+    size: 628513
+    symlink: false
+  - digest: null
+    path: htgs.00.nsi
+    size: 14310
+    symlink: false
+  - digest: null
+    path: htgs.00.nsq
+    size: 808968692
+    symlink: false
+  - digest: null
+    path: htgs.01.nhd
+    size: 281886
+    symlink: false
+  - digest: null
+    path: htgs.01.nhi
+    size: 6638
+    symlink: false
+  - digest: null
+    path: htgs.01.nhr
+    size: 2712316
+    symlink: false
+  - digest: null
+    path: htgs.01.nin
+    size: 210140
+    symlink: false
+  - digest: null
+    path: htgs.01.nnd
+    size: 140008
+    symlink: false
+  - digest: null
+    path: htgs.01.nni
+    size: 596
+    symlink: false
+  - digest: null
+    path: htgs.01.nog
+    size: 70032
+    symlink: false
+  - digest: null
+    path: htgs.01.nsd
+    size: 538320
+    symlink: false
+  - digest: null
+    path: htgs.01.nsi
+    size: 12281
+    symlink: false
+  - digest: null
+    path: htgs.01.nsq
+    size: 767815374
+    symlink: false
+  - digest: null
+    path: htgs.02.nhd
+    size: 245247
+    symlink: false
+  - digest: null
+    path: htgs.02.nhi
+    size: 5823
+    symlink: false
+  - digest: null
+    path: htgs.02.nhr
+    size: 2279941
+    symlink: false
+  - digest: null
+    path: htgs.02.nin
+    size: 183932
+    symlink: false
+  - digest: null
+    path: htgs.02.nnd
+    size: 122528
+    symlink: false
+  - digest: null
+    path: htgs.02.nni
+    size: 524
+    symlink: false
+  - digest: null
+    path: htgs.02.nog
+    size: 61296
+    symlink: false
+  - digest: null
+    path: htgs.02.nsd
+    size: 468320
+    symlink: false
+  - digest: null
+    path: htgs.02.nsi
+    size: 10713
+    symlink: false
+  - digest: null
+    path: htgs.02.nsq
+    size: 658849466
+    symlink: false
+  - digest: null
+    path: htgs.03.nhd
+    size: 227960
+    symlink: false
+  - digest: null
+    path: htgs.03.nhi
+    size: 5406
+    symlink: false
+  - digest: null
+    path: htgs.03.nhr
+    size: 2161408
+    symlink: false
+  - digest: null
+    path: htgs.03.nin
+    size: 171584
+    symlink: false
+  - digest: null
+    path: htgs.03.nnd
+    size: 114296
+    symlink: false
+  - digest: null
+    path: htgs.03.nni
+    size: 492
+    symlink: false
+  - digest: null
+    path: htgs.03.nog
+    size: 57180
+    symlink: false
+  - digest: null
+    path: htgs.03.nsd
+    size: 435140
+    symlink: false
+  - digest: null
+    path: htgs.03.nsi
+    size: 9977
+    symlink: false
+  - digest: null
+    path: htgs.03.nsq
+    size: 759307730
+    symlink: false
+  - digest: null
+    path: htgs.04.nhd
+    size: 155455
+    symlink: false
+  - digest: null
+    path: htgs.04.nhi
+    size: 3731
+    symlink: false
+  - digest: null
+    path: htgs.04.nhr
+    size: 1509821
+    symlink: false
+  - digest: null
+    path: htgs.04.nin
+    size: 119444
+    symlink: false
+  - digest: null
+    path: htgs.04.nnd
+    size: 79536
+    symlink: false
+  - digest: null
+    path: htgs.04.nni
+    size: 356
+    symlink: false
+  - digest: null
+    path: htgs.04.nog
+    size: 39800
+    symlink: false
+  - digest: null
+    path: htgs.04.nsd
+    size: 296208
+    symlink: false
+  - digest: null
+    path: htgs.04.nsi
+    size: 6850
+    symlink: false
+  - digest: null
+    path: htgs.04.nsq
+    size: 395687278
+    symlink: false
+  - digest: null
+    path: htgs.05.nhd
+    size: 98949
+    symlink: false
+  - digest: null
+    path: htgs.05.nhi
+    size: 2401
+    symlink: false
+  - digest: null
+    path: htgs.05.nhr
+    size: 958910
+    symlink: false
+  - digest: null
+    path: htgs.05.nin
+    size: 76424
+    symlink: false
+  - digest: null
+    path: htgs.05.nnd
+    size: 50856
+    symlink: false
+  - digest: null
+    path: htgs.05.nni
+    size: 244
+    symlink: false
+  - digest: null
+    path: htgs.05.nog
+    size: 25460
+    symlink: false
+  - digest: null
+    path: htgs.05.nsd
+    size: 188604
+    symlink: false
+  - digest: null
+    path: htgs.05.nsi
+    size: 4388
+    symlink: false
+  - digest: null
+    path: htgs.05.nsq
+    size: 276461240
+    symlink: false
+  - digest: null
+    path: htgs.06.nhd
+    size: 213682
+    symlink: false
+  - digest: null
+    path: htgs.06.nhi
+    size: 5067
+    symlink: false
+  - digest: null
+    path: htgs.06.nhr
+    size: 1936748
+    symlink: false
+  - digest: null
+    path: htgs.06.nin
+    size: 161336
+    symlink: false
+  - digest: null
+    path: htgs.06.nnd
+    size: 107464
+    symlink: false
+  - digest: null
+    path: htgs.06.nni
+    size: 468
+    symlink: false
+  - digest: null
+    path: htgs.06.nog
+    size: 53764
+    symlink: false
+  - digest: null
+    path: htgs.06.nsd
+    size: 407691
+    symlink: false
+  - digest: null
+    path: htgs.06.nsi
+    size: 9363
+    symlink: false
+  - digest: null
+    path: htgs.06.nsq
+    size: 632259524
+    symlink: false
+  - digest: null
+    path: htgs.07.nhd
+    size: 195719
+    symlink: false
+  - digest: null
+    path: htgs.07.nhi
+    size: 4659
+    symlink: false
+  - digest: null
+    path: htgs.07.nhr
+    size: 1844567
+    symlink: false
+  - digest: null
+    path: htgs.07.nin
+    size: 148412
+    symlink: false
+  - digest: null
+    path: htgs.07.nnd
+    size: 98848
+    symlink: false
+  - digest: null
+    path: htgs.07.nni
+    size: 436
+    symlink: false
+  - digest: null
+    path: htgs.07.nog
+    size: 49456
+    symlink: false
+  - digest: null
+    path: htgs.07.nsd
+    size: 373249
+    symlink: false
+  - digest: null
+    path: htgs.07.nsi
+    size: 8585
+    symlink: false
+  - digest: null
+    path: htgs.07.nsq
+    size: 540891170
+    symlink: false
+  - digest: null
+    path: htgs.08.nhd
+    size: 279385
+    symlink: false
+  - digest: null
+    path: htgs.08.nhi
+    size: 6602
+    symlink: false
+  - digest: null
+    path: htgs.08.nhr
+    size: 2704398
+    symlink: false
+  - digest: null
+    path: htgs.08.nin
+    size: 208400
+    symlink: false
+  - digest: null
+    path: htgs.08.nnd
+    size: 138864
+    symlink: false
+  - digest: null
+    path: htgs.08.nni
+    size: 588
+    symlink: false
+  - digest: null
+    path: htgs.08.nog
+    size: 69452
+    symlink: false
+  - digest: null
+    path: htgs.08.nsd
+    size: 533556
+    symlink: false
+  - digest: null
+    path: htgs.08.nsi
+    size: 12189
+    symlink: false
+  - digest: null
+    path: htgs.08.nsq
+    size: 737365004
+    symlink: false
+  - digest: null
+    path: htgs.09.nhd
+    size: 420022
+    symlink: false
+  - digest: null
+    path: htgs.09.nhi
+    size: 9851
+    symlink: false
+  - digest: null
+    path: htgs.09.nhr
+    size: 4227411
+    symlink: false
+  - digest: null
+    path: htgs.09.nin
+    size: 309260
+    symlink: false
+  - digest: null
+    path: htgs.09.nnd
+    size: 206088
+    symlink: false
+  - digest: null
+    path: htgs.09.nni
+    size: 852
+    symlink: false
+  - digest: null
+    path: htgs.09.nog
+    size: 103072
+    symlink: false
+  - digest: null
+    path: htgs.09.nsd
+    size: 802344
+    symlink: false
+  - digest: null
+    path: htgs.09.nsi
+    size: 18241
+    symlink: false
+  - digest: null
+    path: htgs.09.nsq
+    size: 996004229
+    symlink: false
+  - digest: null
+    path: htgs.10.nhd
+    size: 23789
+    symlink: false
+  - digest: null
+    path: htgs.10.nhi
+    size: 618
+    symlink: false
+  - digest: null
+    path: htgs.10.nhr
+    size: 247599
+    symlink: false
+  - digest: null
+    path: htgs.10.nin
+    size: 19112
+    symlink: false
+  - digest: null
+    path: htgs.10.nnd
+    size: 12648
+    symlink: false
+  - digest: null
+    path: htgs.10.nni
+    size: 100
+    symlink: false
+  - digest: null
+    path: htgs.10.nog
+    size: 6356
+    symlink: false
+  - digest: null
+    path: htgs.10.nsd
+    size: 45225
+    symlink: false
+  - digest: null
+    path: htgs.10.nsi
+    size: 1110
+    symlink: false
+  - digest: null
+    path: htgs.10.nsq
+    size: 44077663
+    symlink: false
+  - digest: null
+    path: htgs.nal
+    size: 274
+    symlink: false
+  - digest: null
+    path: md5.diff.download_v_source
+    size: 0
+    symlink: false
+  - digest: null
+    path: md5.download
+    size: 539
+    symlink: false
+  - digest: null
+    path: md5.source
+    size: 539
+    symlink: false
+  name: htgs 13-Apr-2014
+  path: /cvmfs/data.galaxyproject.org/byhand/blastdb/htgs/13apr2014/htgs
+  value: 13apr2014-htgs
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

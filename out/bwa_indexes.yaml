@@ -1,0 +1,41 @@
+bwa_indexes:
+- dbkey: Araly1
+  digest: 7fbbf5afd54a55acff6370262c64005fcc1627ab1b0178af80abebe523697dbb
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bwa_index.loc
+  manifest:
+  - digest: null
+    path: Araly1.fa.amb
+    size: 47199
+    symlink: false
+  - digest: null
+    path: Araly1.fa.ann
+    size: 27671
+    symlink: false
+  - digest: null
+    path: Araly1.fa.bwt
+    size: 77593400
+    symlink: false
+  - digest: null
+    path: Araly1.fa.pac
+    size: 51728901
+    symlink: false
+  - digest: null
+    path: Araly1.fa.rbwt
+    size: 77593400
+    symlink: false
+  - digest: null
+    path: Araly1.fa.rpac
+    size: 51728901
+    symlink: false
+  - digest: null
+    path: Araly1.fa.rsa
+    size: 25864476
+    symlink: false
+  - digest: null
+    path: Araly1.fa.sa
+    size: 25864476
+    symlink: false
+  name: 'Arabidopsis lyrata: Araly1'
+  path: /cvmfs/data.galaxyproject.org/byhand/Araly1/bwa_index/Araly1.fa
+  value: Araly1
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

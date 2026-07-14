@@ -1,0 +1,210 @@
+maf_indexes:
+- digest: 83dd86dfdfd4867bb2c97b0f0aa5b9bbd8164bcf5818cc3ad511ea51458a9558
+  exists_in_maf: hg38,panTro5,panPan2,gorGor5,ponAbe2,nomLeu3,rheMac8,macFas5,macNem1,cerAty1,papAnu3,chlSab2,manLeu1,nasLar1,colAng1,rhiRox1,rhiBie1,calJac3,saiBol1,cebCap1,aotNan1,tarSyr2,micMur3,proCoq1,eulMac1,eulFla1,otoGar3,mm10,canFam3,dasNov3
+  indexed_for: hg38,panTro5,panPan2,gorGor5,ponAbe2,nomLeu3,rheMac8,macFas5,macNem1,cerAty1,papAnu3,chlSab2,manLeu1,nasLar1,colAng1,rhiRox1,rhiBie1,calJac3,saiBol1,cebCap1,aotNan1,tarSyr2,micMur3,proCoq1,eulMac1,eulFla1,otoGar3,mm10,canFam3,dasNov3
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/maf_indexes.loc
+  manifest:
+  - digest: null
+    path: chr1.maf
+    size: 13292820287
+    symlink: false
+  - digest: null
+    path: chr1.maf.index
+    size: 1116289618
+    symlink: false
+  - digest: null
+    path: chr10.maf
+    size: 7690007924
+    symlink: false
+  - digest: null
+    path: chr10.maf.index
+    size: 631176936
+    symlink: false
+  - digest: null
+    path: chr11.maf
+    size: 7464466381
+    symlink: false
+  - digest: null
+    path: chr11.maf.index
+    size: 601946576
+    symlink: false
+  - digest: null
+    path: chr12.maf
+    size: 7585192247
+    symlink: false
+  - digest: null
+    path: chr12.maf.index
+    size: 614735171
+    symlink: false
+  - digest: null
+    path: chr13.maf
+    size: 5559957082
+    symlink: false
+  - digest: null
+    path: chr13.maf.index
+    size: 433238352
+    symlink: false
+  - digest: null
+    path: chr14.maf
+    size: 5174677220
+    symlink: false
+  - digest: null
+    path: chr14.maf.index
+    size: 406819757
+    symlink: false
+  - digest: null
+    path: chr15.maf
+    size: 4808949873
+    symlink: false
+  - digest: null
+    path: chr15.maf.index
+    size: 386163009
+    symlink: false
+  - digest: null
+    path: chr16.maf
+    size: 4761818424
+    symlink: false
+  - digest: null
+    path: chr16.maf.index
+    size: 375572759
+    symlink: false
+  - digest: null
+    path: chr17.maf
+    size: 5005180709
+    symlink: false
+  - digest: null
+    path: chr17.maf.index
+    size: 405038605
+    symlink: false
+  - digest: null
+    path: chr18.maf
+    size: 4333964217
+    symlink: false
+  - digest: null
+    path: chr18.maf.index
+    size: 329493579
+    symlink: false
+  - digest: null
+    path: chr19.maf
+    size: 3151324185
+    symlink: false
+  - digest: null
+    path: chr19.maf.index
+    size: 210548970
+    symlink: false
+  - digest: null
+    path: chr2.maf
+    size: 13883786092
+    symlink: false
+  - digest: null
+    path: chr2.maf.index
+    size: 1172493760
+    symlink: false
+  - digest: null
+    path: chr20.maf
+    size: 3623919348
+    symlink: false
+  - digest: null
+    path: chr20.maf.index
+    size: 236771613
+    symlink: false
+  - digest: null
+    path: chr21.maf
+    size: 2079308628
+    symlink: false
+  - digest: null
+    path: chr21.maf.index
+    size: 137275906
+    symlink: false
+  - digest: null
+    path: chr22.maf
+    size: 2133510055
+    symlink: false
+  - digest: null
+    path: chr22.maf.index
+    size: 143379998
+    symlink: false
+  - digest: null
+    path: chr3.maf
+    size: 11324105907
+    symlink: false
+  - digest: null
+    path: chr3.maf.index
+    size: 948147572
+    symlink: false
+  - digest: null
+    path: chr4.maf
+    size: 10428133873
+    symlink: false
+  - digest: null
+    path: chr4.maf.index
+    size: 840739702
+    symlink: false
+  - digest: null
+    path: chr5.maf
+    size: 10107220012
+    symlink: false
+  - digest: null
+    path: chr5.maf.index
+    size: 827113628
+    symlink: false
+  - digest: null
+    path: chr6.maf
+    size: 10062832872
+    symlink: false
+  - digest: null
+    path: chr6.maf.index
+    size: 827071158
+    symlink: false
+  - digest: null
+    path: chr7.maf
+    size: 9042106461
+    symlink: false
+  - digest: null
+    path: chr7.maf.index
+    size: 752520533
+    symlink: false
+  - digest: null
+    path: chr8.maf
+    size: 8129948285
+    symlink: false
+  - digest: null
+    path: chr8.maf.index
+    size: 652975433
+    symlink: false
+  - digest: null
+    path: chr9.maf
+    size: 6785698533
+    symlink: false
+  - digest: null
+    path: chr9.maf.index
+    size: 538563706
+    symlink: false
+  - digest: null
+    path: chrM.maf
+    size: 751063
+    symlink: false
+  - digest: null
+    path: chrM.maf.index
+    size: 148884
+    symlink: false
+  - digest: null
+    path: chrX.maf
+    size: 6915409361
+    symlink: false
+  - digest: null
+    path: chrX.maf.index
+    size: 508022671
+    symlink: false
+  - digest: null
+    path: chrY.maf
+    size: 646039358
+    symlink: false
+  - digest: null
+    path: chrY.maf.index
+    size: 40781497
+    symlink: false
+  name: 30-way multiZ (hg38)
+  path: /cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr18.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr1.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr19.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr10.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr2.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr11.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr15.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr3.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr4.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr20.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr12.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr16.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr5.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr17.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr6.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr21.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr13.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr22.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr14.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr7.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr9.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chrX.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chr8.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chrM.maf,/cvmfs/data.galaxyproject.org/managed/align/30_WAY_MULTIZ_HG38/chrY.maf
+  value: 30_WAY_MULTIZ_HG38
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

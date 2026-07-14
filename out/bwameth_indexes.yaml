@@ -1,0 +1,37 @@
+bwameth_indexes:
+- dbkey: hg19
+  digest: e2c1e0233ef947bfe8fed2bbf92d70c9f0d55664890893de6861a4d6353a8466
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bwameth_indexes.loc
+  manifest:
+  - digest: null
+    path: hg19.fa
+    size: 3199905909
+    symlink: true
+  - digest: null
+    path: hg19.fa.bwameth.c2t
+    size: 6337068774
+    symlink: false
+  - digest: null
+    path: hg19.fa.bwameth.c2t.amb
+    size: 17266
+    symlink: false
+  - digest: null
+    path: hg19.fa.bwameth.c2t.ann
+    size: 8258
+    symlink: false
+  - digest: null
+    path: hg19.fa.bwameth.c2t.bwt
+    size: 6274322616
+    symlink: false
+  - digest: null
+    path: hg19.fa.bwameth.c2t.pac
+    size: 1568580634
+    symlink: false
+  - digest: null
+    path: hg19.fa.bwameth.c2t.sa
+    size: 3137161320
+    symlink: false
+  name: Human (hg19)
+  path: /cvmfs/data.galaxyproject.org/byhand/hg19/bwameth_index/hg19.fa
+  value: hg19
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

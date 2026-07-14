@@ -1,0 +1,17 @@
+gatk_picard_indexes:
+- dbkey: hg_g1k_v37
+  digest: ea00d6d52233f26703e52a46066fadbec61f4bd49c50328903b2c5b6e4aa9902
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/gatk_sorted_picard_index.loc
+  manifest:
+  - digest: null
+    path: hg_g1k_v37.fa
+    size: 3153506519
+    symlink: true
+  - digest: null
+    path: hg_g1k_v37.fa.fai
+    size: 2746
+    symlink: true
+  name: 'Human (Homo sapiens) (b37): hg_g1k_v37'
+  path: /cvmfs/data.galaxyproject.org/byhand/hg_g1k_v37/picard_index/hg_g1k_v37.fa
+  value: hg_g1k_v37
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

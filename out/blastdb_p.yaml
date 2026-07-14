@@ -1,0 +1,1288 @@
+blastdb_p:
+- digest: 698fed01eb7c2013735e30acf59630b2c44632b3bc12c9ac805d3f0ce8e04717
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/blastdb_p.loc
+  manifest:
+  - digest: null
+    path: nr.00.phd
+    size: 149766823
+    symlink: false
+  - digest: null
+    path: nr.00.phi
+    size: 3346302
+    symlink: false
+  - digest: null
+    path: nr.00.phr
+    size: 2024792769
+    symlink: false
+  - digest: null
+    path: nr.00.pin
+    size: 64404822
+    symlink: false
+  - digest: null
+    path: nr.00.pog
+    size: 32202348
+    symlink: false
+  - digest: null
+    path: nr.00.ppd
+    size: 64404632
+    symlink: false
+  - digest: null
+    path: nr.00.ppi
+    size: 251628
+    symlink: false
+  - digest: null
+    path: nr.00.psq
+    size: 2918826519
+    symlink: false
+  - digest: null
+    path: nr.01.phd
+    size: 135821199
+    symlink: false
+  - digest: null
+    path: nr.01.phi
+    size: 3035637
+    symlink: false
+  - digest: null
+    path: nr.01.phr
+    size: 1836432476
+    symlink: false
+  - digest: null
+    path: nr.01.pin
+    size: 58453262
+    symlink: false
+  - digest: null
+    path: nr.01.pog
+    size: 29226568
+    symlink: false
+  - digest: null
+    path: nr.01.ppd
+    size: 58453072
+    symlink: false
+  - digest: null
+    path: nr.01.ppi
+    size: 228380
+    symlink: false
+  - digest: null
+    path: nr.01.psq
+    size: 2651272027
+    symlink: false
+  - digest: null
+    path: nr.02.phd
+    size: 123479833
+    symlink: false
+  - digest: null
+    path: nr.02.phi
+    size: 2760456
+    symlink: false
+  - digest: null
+    path: nr.02.phr
+    size: 1667441758
+    symlink: false
+  - digest: null
+    path: nr.02.pin
+    size: 53182638
+    symlink: false
+  - digest: null
+    path: nr.02.pog
+    size: 26591256
+    symlink: false
+  - digest: null
+    path: nr.02.ppd
+    size: 53182448
+    symlink: false
+  - digest: null
+    path: nr.02.ppi
+    size: 207788
+    symlink: false
+  - digest: null
+    path: nr.02.psq
+    size: 2411096646
+    symlink: false
+  - digest: null
+    path: nr.03.phd
+    size: 160946468
+    symlink: false
+  - digest: null
+    path: nr.03.phi
+    size: 3595837
+    symlink: false
+  - digest: null
+    path: nr.03.phr
+    size: 2175213465
+    symlink: false
+  - digest: null
+    path: nr.03.pin
+    size: 69178022
+    symlink: false
+  - digest: null
+    path: nr.03.pog
+    size: 34588948
+    symlink: false
+  - digest: null
+    path: nr.03.ppd
+    size: 69177832
+    symlink: false
+  - digest: null
+    path: nr.03.ppi
+    size: 270276
+    symlink: false
+  - digest: null
+    path: nr.03.psq
+    size: 3137518299
+    symlink: false
+  - digest: null
+    path: nr.04.phd
+    size: 168331195
+    symlink: false
+  - digest: null
+    path: nr.04.phi
+    size: 3759990
+    symlink: false
+  - digest: null
+    path: nr.04.phr
+    size: 2270317014
+    symlink: false
+  - digest: null
+    path: nr.04.pin
+    size: 72328478
+    symlink: false
+  - digest: null
+    path: nr.04.pog
+    size: 36164176
+    symlink: false
+  - digest: null
+    path: nr.04.ppd
+    size: 72328288
+    symlink: false
+  - digest: null
+    path: nr.04.ppi
+    size: 282580
+    symlink: false
+  - digest: null
+    path: nr.04.psq
+    size: 3277744613
+    symlink: false
+  - digest: null
+    path: nr.05.phd
+    size: 147882116
+    symlink: false
+  - digest: null
+    path: nr.05.phi
+    size: 3304110
+    symlink: false
+  - digest: null
+    path: nr.05.phr
+    size: 1995678068
+    symlink: false
+  - digest: null
+    path: nr.05.pin
+    size: 63599646
+    symlink: false
+  - digest: null
+    path: nr.05.pog
+    size: 31799760
+    symlink: false
+  - digest: null
+    path: nr.05.ppd
+    size: 63599456
+    symlink: false
+  - digest: null
+    path: nr.05.ppi
+    size: 248484
+    symlink: false
+  - digest: null
+    path: nr.05.psq
+    size: 2881800717
+    symlink: false
+  - digest: null
+    path: nr.06.phd
+    size: 129471654
+    symlink: false
+  - digest: null
+    path: nr.06.phi
+    size: 2894082
+    symlink: false
+  - digest: null
+    path: nr.06.phr
+    size: 1750983320
+    symlink: false
+  - digest: null
+    path: nr.06.pin
+    size: 55741366
+    symlink: false
+  - digest: null
+    path: nr.06.pog
+    size: 27870620
+    symlink: false
+  - digest: null
+    path: nr.06.ppd
+    size: 55741176
+    symlink: false
+  - digest: null
+    path: nr.06.ppi
+    size: 217788
+    symlink: false
+  - digest: null
+    path: nr.06.psq
+    size: 2526797851
+    symlink: false
+  - digest: null
+    path: nr.07.phd
+    size: 188897772
+    symlink: false
+  - digest: null
+    path: nr.07.phi
+    size: 4218229
+    symlink: false
+  - digest: null
+    path: nr.07.phr
+    size: 2546906919
+    symlink: false
+  - digest: null
+    path: nr.07.pin
+    size: 81052886
+    symlink: false
+  - digest: null
+    path: nr.07.pog
+    size: 40526380
+    symlink: false
+  - digest: null
+    path: nr.07.ppd
+    size: 81052696
+    symlink: false
+  - digest: null
+    path: nr.07.ppi
+    size: 316660
+    symlink: false
+  - digest: null
+    path: nr.07.psq
+    size: 3673902907
+    symlink: false
+  - digest: null
+    path: nr.08.phd
+    size: 158343683
+    symlink: false
+  - digest: null
+    path: nr.08.phi
+    size: 3537537
+    symlink: false
+  - digest: null
+    path: nr.08.phr
+    size: 2138619663
+    symlink: false
+  - digest: null
+    path: nr.08.pin
+    size: 68065998
+    symlink: false
+  - digest: null
+    path: nr.08.pog
+    size: 34032936
+    symlink: false
+  - digest: null
+    path: nr.08.ppd
+    size: 68065808
+    symlink: false
+  - digest: null
+    path: nr.08.ppi
+    size: 265932
+    symlink: false
+  - digest: null
+    path: nr.08.psq
+    size: 3086227687
+    symlink: false
+  - digest: null
+    path: nr.09.phd
+    size: 177837619
+    symlink: false
+  - digest: null
+    path: nr.09.phi
+    size: 3972474
+    symlink: false
+  - digest: null
+    path: nr.09.phr
+    size: 2398136276
+    symlink: false
+  - digest: null
+    path: nr.09.pin
+    size: 76388430
+    symlink: false
+  - digest: null
+    path: nr.09.pog
+    size: 38194152
+    symlink: false
+  - digest: null
+    path: nr.09.ppd
+    size: 76388240
+    symlink: false
+  - digest: null
+    path: nr.09.ppi
+    size: 298436
+    symlink: false
+  - digest: null
+    path: nr.09.psq
+    size: 3463663031
+    symlink: false
+  - digest: null
+    path: nr.10.phd
+    size: 171261688
+    symlink: false
+  - digest: null
+    path: nr.10.phi
+    size: 3826082
+    symlink: false
+  - digest: null
+    path: nr.10.phr
+    size: 2311903969
+    symlink: false
+  - digest: null
+    path: nr.10.pin
+    size: 73580678
+    symlink: false
+  - digest: null
+    path: nr.10.pog
+    size: 36790276
+    symlink: false
+  - digest: null
+    path: nr.10.ppd
+    size: 73580488
+    symlink: false
+  - digest: null
+    path: nr.10.ppi
+    size: 287468
+    symlink: false
+  - digest: null
+    path: nr.10.psq
+    size: 3335307187
+    symlink: false
+  - digest: null
+    path: nr.11.phd
+    size: 152752366
+    symlink: false
+  - digest: null
+    path: nr.11.phi
+    size: 3413178
+    symlink: false
+  - digest: null
+    path: nr.11.phr
+    size: 2063930100
+    symlink: false
+  - digest: null
+    path: nr.11.pin
+    size: 65679446
+    symlink: false
+  - digest: null
+    path: nr.11.pog
+    size: 32839660
+    symlink: false
+  - digest: null
+    path: nr.11.ppd
+    size: 65679256
+    symlink: false
+  - digest: null
+    path: nr.11.ppi
+    size: 256604
+    symlink: false
+  - digest: null
+    path: nr.11.psq
+    size: 2977842009
+    symlink: false
+  - digest: null
+    path: nr.12.phd
+    size: 205414310
+    symlink: false
+  - digest: null
+    path: nr.12.phi
+    size: 4580978
+    symlink: false
+  - digest: null
+    path: nr.12.phr
+    size: 2757048680
+    symlink: false
+  - digest: null
+    path: nr.12.pin
+    size: 87746670
+    symlink: false
+  - digest: null
+    path: nr.12.pog
+    size: 43873272
+    symlink: false
+  - digest: null
+    path: nr.12.ppd
+    size: 87746480
+    symlink: false
+  - digest: null
+    path: nr.12.ppi
+    size: 342804
+    symlink: false
+  - digest: null
+    path: nr.12.psq
+    size: 3977893700
+    symlink: false
+  - digest: null
+    path: nr.13.phd
+    size: 143062899
+    symlink: false
+  - digest: null
+    path: nr.13.phi
+    size: 3197034
+    symlink: false
+  - digest: null
+    path: nr.13.phr
+    size: 1932615468
+    symlink: false
+  - digest: null
+    path: nr.13.pin
+    size: 61543750
+    symlink: false
+  - digest: null
+    path: nr.13.pog
+    size: 30771812
+    symlink: false
+  - digest: null
+    path: nr.13.ppd
+    size: 61543560
+    symlink: false
+  - digest: null
+    path: nr.13.ppi
+    size: 240452
+    symlink: false
+  - digest: null
+    path: nr.13.psq
+    size: 2790114298
+    symlink: false
+  - digest: null
+    path: nr.14.phd
+    size: 167103760
+    symlink: false
+  - digest: null
+    path: nr.14.phi
+    size: 3733126
+    symlink: false
+  - digest: null
+    path: nr.14.phr
+    size: 2258042058
+    symlink: false
+  - digest: null
+    path: nr.14.pin
+    size: 71804926
+    symlink: false
+  - digest: null
+    path: nr.14.pog
+    size: 35902400
+    symlink: false
+  - digest: null
+    path: nr.14.ppd
+    size: 71804736
+    symlink: false
+  - digest: null
+    path: nr.14.ppi
+    size: 280532
+    symlink: false
+  - digest: null
+    path: nr.14.psq
+    size: 3255218218
+    symlink: false
+  - digest: null
+    path: nr.15.phd
+    size: 159174591
+    symlink: false
+  - digest: null
+    path: nr.15.phi
+    size: 3556100
+    symlink: false
+  - digest: null
+    path: nr.15.phr
+    size: 2152674373
+    symlink: false
+  - digest: null
+    path: nr.15.pin
+    size: 68421118
+    symlink: false
+  - digest: null
+    path: nr.15.pog
+    size: 34210496
+    symlink: false
+  - digest: null
+    path: nr.15.ppd
+    size: 68420928
+    symlink: false
+  - digest: null
+    path: nr.15.ppi
+    size: 267316
+    symlink: false
+  - digest: null
+    path: nr.15.psq
+    size: 3102421100
+    symlink: false
+  - digest: null
+    path: nr.16.phd
+    size: 173140535
+    symlink: false
+  - digest: null
+    path: nr.16.phi
+    size: 3867679
+    symlink: false
+  - digest: null
+    path: nr.16.phr
+    size: 2337384368
+    symlink: false
+  - digest: null
+    path: nr.16.pin
+    size: 74381734
+    symlink: false
+  - digest: null
+    path: nr.16.pog
+    size: 37190804
+    symlink: false
+  - digest: null
+    path: nr.16.ppd
+    size: 74381544
+    symlink: false
+  - digest: null
+    path: nr.16.ppi
+    size: 290604
+    symlink: false
+  - digest: null
+    path: nr.16.psq
+    size: 3371722898
+    symlink: false
+  - digest: null
+    path: nr.17.phd
+    size: 160266617
+    symlink: false
+  - digest: null
+    path: nr.17.phi
+    size: 3580706
+    symlink: false
+  - digest: null
+    path: nr.17.phr
+    size: 2164207544
+    symlink: false
+  - digest: null
+    path: nr.17.pin
+    size: 68886718
+    symlink: false
+  - digest: null
+    path: nr.17.pog
+    size: 34443296
+    symlink: false
+  - digest: null
+    path: nr.17.ppd
+    size: 68886528
+    symlink: false
+  - digest: null
+    path: nr.17.ppi
+    size: 269132
+    symlink: false
+  - digest: null
+    path: nr.17.psq
+    size: 3122401506
+    symlink: false
+  - digest: null
+    path: nr.18.phd
+    size: 154573055
+    symlink: false
+  - digest: null
+    path: nr.18.phi
+    size: 3453596
+    symlink: false
+  - digest: null
+    path: nr.18.phr
+    size: 2088704352
+    symlink: false
+  - digest: null
+    path: nr.18.pin
+    size: 66454902
+    symlink: false
+  - digest: null
+    path: nr.18.pog
+    size: 33227388
+    symlink: false
+  - digest: null
+    path: nr.18.ppd
+    size: 66454712
+    symlink: false
+  - digest: null
+    path: nr.18.ppi
+    size: 259636
+    symlink: false
+  - digest: null
+    path: nr.18.psq
+    size: 3011932695
+    symlink: false
+  - digest: null
+    path: nr.19.phd
+    size: 165154931
+    symlink: false
+  - digest: null
+    path: nr.19.phi
+    size: 3689265
+    symlink: false
+  - digest: null
+    path: nr.19.phr
+    size: 2232422936
+    symlink: false
+  - digest: null
+    path: nr.19.pin
+    size: 70973134
+    symlink: false
+  - digest: null
+    path: nr.19.pog
+    size: 35486504
+    symlink: false
+  - digest: null
+    path: nr.19.ppd
+    size: 70972944
+    symlink: false
+  - digest: null
+    path: nr.19.ppi
+    size: 277284
+    symlink: false
+  - digest: null
+    path: nr.19.psq
+    size: 3218406330
+    symlink: false
+  - digest: null
+    path: nr.20.phd
+    size: 199863201
+    symlink: false
+  - digest: null
+    path: nr.20.phi
+    size: 4458822
+    symlink: false
+  - digest: null
+    path: nr.20.phr
+    size: 2686274018
+    symlink: false
+  - digest: null
+    path: nr.20.pin
+    size: 85495814
+    symlink: false
+  - digest: null
+    path: nr.20.pog
+    size: 42747844
+    symlink: false
+  - digest: null
+    path: nr.20.ppd
+    size: 85495624
+    symlink: false
+  - digest: null
+    path: nr.20.ppi
+    size: 334012
+    symlink: false
+  - digest: null
+    path: nr.20.psq
+    size: 3875716742
+    symlink: false
+  - digest: null
+    path: nr.21.phd
+    size: 171101399
+    symlink: false
+  - digest: null
+    path: nr.21.phi
+    size: 3822252
+    symlink: false
+  - digest: null
+    path: nr.21.phr
+    size: 2309260696
+    symlink: false
+  - digest: null
+    path: nr.21.pin
+    size: 73511454
+    symlink: false
+  - digest: null
+    path: nr.21.pog
+    size: 36755664
+    symlink: false
+  - digest: null
+    path: nr.21.ppd
+    size: 73511264
+    symlink: false
+  - digest: null
+    path: nr.21.ppi
+    size: 287204
+    symlink: false
+  - digest: null
+    path: nr.21.psq
+    size: 3332501894
+    symlink: false
+  - digest: null
+    path: nr.22.phd
+    size: 186639060
+    symlink: false
+  - digest: null
+    path: nr.22.phi
+    size: 4168565
+    symlink: false
+  - digest: null
+    path: nr.22.phr
+    size: 2513930940
+    symlink: false
+  - digest: null
+    path: nr.22.pin
+    size: 80137702
+    symlink: false
+  - digest: null
+    path: nr.22.pog
+    size: 40068788
+    symlink: false
+  - digest: null
+    path: nr.22.ppd
+    size: 80137512
+    symlink: false
+  - digest: null
+    path: nr.22.ppi
+    size: 313084
+    symlink: false
+  - digest: null
+    path: nr.22.psq
+    size: 3634003861
+    symlink: false
+  - digest: null
+    path: nr.23.phd
+    size: 159014998
+    symlink: false
+  - digest: null
+    path: nr.23.phi
+    size: 3552490
+    symlink: false
+  - digest: null
+    path: nr.23.phr
+    size: 2146519025
+    symlink: false
+  - digest: null
+    path: nr.23.pin
+    size: 68352462
+    symlink: false
+  - digest: null
+    path: nr.23.pog
+    size: 34176168
+    symlink: false
+  - digest: null
+    path: nr.23.ppd
+    size: 68352272
+    symlink: false
+  - digest: null
+    path: nr.23.ppi
+    size: 267052
+    symlink: false
+  - digest: null
+    path: nr.23.psq
+    size: 3096747469
+    symlink: false
+  - digest: null
+    path: nr.24.phd
+    size: 197777030
+    symlink: false
+  - digest: null
+    path: nr.24.phi
+    size: 4412886
+    symlink: false
+  - digest: null
+    path: nr.24.phr
+    size: 2659699863
+    symlink: false
+  - digest: null
+    path: nr.24.pin
+    size: 84649750
+    symlink: false
+  - digest: null
+    path: nr.24.pog
+    size: 42324812
+    symlink: false
+  - digest: null
+    path: nr.24.ppd
+    size: 84649560
+    symlink: false
+  - digest: null
+    path: nr.24.ppi
+    size: 330708
+    symlink: false
+  - digest: null
+    path: nr.24.psq
+    size: 3838003439
+    symlink: false
+  - digest: null
+    path: nr.25.phd
+    size: 169576090
+    symlink: false
+  - digest: null
+    path: nr.25.phi
+    size: 3788039
+    symlink: false
+  - digest: null
+    path: nr.25.phr
+    size: 2288487217
+    symlink: false
+  - digest: null
+    path: nr.25.pin
+    size: 72861166
+    symlink: false
+  - digest: null
+    path: nr.25.pog
+    size: 36430520
+    symlink: false
+  - digest: null
+    path: nr.25.ppd
+    size: 72860976
+    symlink: false
+  - digest: null
+    path: nr.25.ppi
+    size: 284660
+    symlink: false
+  - digest: null
+    path: nr.25.psq
+    size: 3303343028
+    symlink: false
+  - digest: null
+    path: nr.26.phd
+    size: 185450343
+    symlink: false
+  - digest: null
+    path: nr.26.phi
+    size: 4142149
+    symlink: false
+  - digest: null
+    path: nr.26.phr
+    size: 2501400618
+    symlink: false
+  - digest: null
+    path: nr.26.pin
+    size: 79637198
+    symlink: false
+  - digest: null
+    path: nr.26.pog
+    size: 39818536
+    symlink: false
+  - digest: null
+    path: nr.26.ppd
+    size: 79637008
+    symlink: false
+  - digest: null
+    path: nr.26.ppi
+    size: 311132
+    symlink: false
+  - digest: null
+    path: nr.26.psq
+    size: 3610516996
+    symlink: false
+  - digest: null
+    path: nr.27.phd
+    size: 153340484
+    symlink: false
+  - digest: null
+    path: nr.27.phi
+    size: 3425904
+    symlink: false
+  - digest: null
+    path: nr.27.phr
+    size: 2072071942
+    symlink: false
+  - digest: null
+    path: nr.27.pin
+    size: 65928950
+    symlink: false
+  - digest: null
+    path: nr.27.pog
+    size: 32964412
+    symlink: false
+  - digest: null
+    path: nr.27.ppd
+    size: 65928760
+    symlink: false
+  - digest: null
+    path: nr.27.ppi
+    size: 257580
+    symlink: false
+  - digest: null
+    path: nr.27.psq
+    size: 2990749321
+    symlink: false
+  - digest: null
+    path: nr.28.phd
+    size: 159711089
+    symlink: false
+  - digest: null
+    path: nr.28.phi
+    size: 3568070
+    symlink: false
+  - digest: null
+    path: nr.28.phr
+    size: 2160417942
+    symlink: false
+  - digest: null
+    path: nr.28.pin
+    size: 68649518
+    symlink: false
+  - digest: null
+    path: nr.28.pog
+    size: 34324696
+    symlink: false
+  - digest: null
+    path: nr.28.ppd
+    size: 68649328
+    symlink: false
+  - digest: null
+    path: nr.28.ppi
+    size: 268212
+    symlink: false
+  - digest: null
+    path: nr.28.psq
+    size: 3112517069
+    symlink: false
+  - digest: null
+    path: nr.29.phd
+    size: 180982211
+    symlink: false
+  - digest: null
+    path: nr.29.phi
+    size: 4042399
+    symlink: false
+  - digest: null
+    path: nr.29.phr
+    size: 2440021368
+    symlink: false
+  - digest: null
+    path: nr.29.pin
+    size: 77730454
+    symlink: false
+  - digest: null
+    path: nr.29.pog
+    size: 38865164
+    symlink: false
+  - digest: null
+    path: nr.29.ppd
+    size: 77730264
+    symlink: false
+  - digest: null
+    path: nr.29.ppi
+    size: 303684
+    symlink: false
+  - digest: null
+    path: nr.29.psq
+    size: 3524876061
+    symlink: false
+  - digest: null
+    path: nr.30.phd
+    size: 181875639
+    symlink: false
+  - digest: null
+    path: nr.30.phi
+    size: 4062185
+    symlink: false
+  - digest: null
+    path: nr.30.phr
+    size: 2452087177
+    symlink: false
+  - digest: null
+    path: nr.30.pin
+    size: 78109782
+    symlink: false
+  - digest: null
+    path: nr.30.pog
+    size: 39054828
+    symlink: false
+  - digest: null
+    path: nr.30.ppd
+    size: 78109592
+    symlink: false
+  - digest: null
+    path: nr.30.ppi
+    size: 305164
+    symlink: false
+  - digest: null
+    path: nr.30.psq
+    size: 3542943018
+    symlink: false
+  - digest: null
+    path: nr.31.phd
+    size: 204292905
+    symlink: false
+  - digest: null
+    path: nr.31.phi
+    size: 4556082
+    symlink: false
+  - digest: null
+    path: nr.31.phr
+    size: 2740890419
+    symlink: false
+  - digest: null
+    path: nr.31.pin
+    size: 87290614
+    symlink: false
+  - digest: null
+    path: nr.31.pog
+    size: 43645244
+    symlink: false
+  - digest: null
+    path: nr.31.ppd
+    size: 87290424
+    symlink: false
+  - digest: null
+    path: nr.31.ppi
+    size: 341028
+    symlink: false
+  - digest: null
+    path: nr.31.psq
+    size: 3957348561
+    symlink: false
+  - digest: null
+    path: nr.32.phd
+    size: 146138310
+    symlink: false
+  - digest: null
+    path: nr.32.phi
+    size: 3265404
+    symlink: false
+  - digest: null
+    path: nr.32.phr
+    size: 1975315274
+    symlink: false
+  - digest: null
+    path: nr.32.pin
+    size: 62856414
+    symlink: false
+  - digest: null
+    path: nr.32.pog
+    size: 31428144
+    symlink: false
+  - digest: null
+    path: nr.32.ppd
+    size: 62856224
+    symlink: false
+  - digest: null
+    path: nr.32.ppi
+    size: 245580
+    symlink: false
+  - digest: null
+    path: nr.32.psq
+    size: 2850053779
+    symlink: false
+  - digest: null
+    path: nr.33.phd
+    size: 120980241
+    symlink: false
+  - digest: null
+    path: nr.33.phi
+    size: 2704964
+    symlink: false
+  - digest: null
+    path: nr.33.phr
+    size: 1638769951
+    symlink: false
+  - digest: null
+    path: nr.33.pin
+    size: 52116942
+    symlink: false
+  - digest: null
+    path: nr.33.pog
+    size: 26058408
+    symlink: false
+  - digest: null
+    path: nr.33.ppd
+    size: 52116752
+    symlink: false
+  - digest: null
+    path: nr.33.ppi
+    size: 203628
+    symlink: false
+  - digest: null
+    path: nr.33.psq
+    size: 2363331454
+    symlink: false
+  - digest: null
+    path: nr.34.phd
+    size: 174351856
+    symlink: false
+  - digest: null
+    path: nr.34.phi
+    size: 3894900
+    symlink: false
+  - digest: null
+    path: nr.34.phr
+    size: 2353140617
+    symlink: false
+  - digest: null
+    path: nr.34.pin
+    size: 74898862
+    symlink: false
+  - digest: null
+    path: nr.34.pog
+    size: 37449368
+    symlink: false
+  - digest: null
+    path: nr.34.ppd
+    size: 74898672
+    symlink: false
+  - digest: null
+    path: nr.34.ppi
+    size: 292620
+    symlink: false
+  - digest: null
+    path: nr.34.psq
+    size: 3395789839
+    symlink: false
+  - digest: null
+    path: nr.35.phd
+    size: 146056711
+    symlink: false
+  - digest: null
+    path: nr.35.phi
+    size: 3263768
+    symlink: false
+  - digest: null
+    path: nr.35.phr
+    size: 1973738925
+    symlink: false
+  - digest: null
+    path: nr.35.pin
+    size: 62821022
+    symlink: false
+  - digest: null
+    path: nr.35.pog
+    size: 31410448
+    symlink: false
+  - digest: null
+    path: nr.35.ppd
+    size: 62820832
+    symlink: false
+  - digest: null
+    path: nr.35.ppi
+    size: 245444
+    symlink: false
+  - digest: null
+    path: nr.35.psq
+    size: 2847766782
+    symlink: false
+  - digest: null
+    path: nr.36.phd
+    size: 156167875
+    symlink: false
+  - digest: null
+    path: nr.36.phi
+    size: 3489213
+    symlink: false
+  - digest: null
+    path: nr.36.phr
+    size: 2109224239
+    symlink: false
+  - digest: null
+    path: nr.36.pin
+    size: 67137494
+    symlink: false
+  - digest: null
+    path: nr.36.pog
+    size: 33568684
+    symlink: false
+  - digest: null
+    path: nr.36.ppd
+    size: 67137304
+    symlink: false
+  - digest: null
+    path: nr.36.ppi
+    size: 262300
+    symlink: false
+  - digest: null
+    path: nr.36.psq
+    size: 3044365994
+    symlink: false
+  - digest: null
+    path: nr.37.phd
+    size: 196379722
+    symlink: false
+  - digest: null
+    path: nr.37.phi
+    size: 4382418
+    symlink: false
+  - digest: null
+    path: nr.37.phr
+    size: 2640790203
+    symlink: false
+  - digest: null
+    path: nr.37.pin
+    size: 84083734
+    symlink: false
+  - digest: null
+    path: nr.37.pog
+    size: 42041804
+    symlink: false
+  - digest: null
+    path: nr.37.ppd
+    size: 84083544
+    symlink: false
+  - digest: null
+    path: nr.37.ppi
+    size: 328500
+    symlink: false
+  - digest: null
+    path: nr.37.psq
+    size: 3811747849
+    symlink: false
+  - digest: null
+    path: nr.38.phd
+    size: 69342237
+    symlink: false
+  - digest: null
+    path: nr.38.phi
+    size: 1553530
+    symlink: false
+  - digest: null
+    path: nr.38.phr
+    size: 944794544
+    symlink: false
+  - digest: null
+    path: nr.38.pin
+    size: 30074366
+    symlink: false
+  - digest: null
+    path: nr.38.pog
+    size: 15037120
+    symlink: false
+  - digest: null
+    path: nr.38.ppd
+    size: 30074176
+    symlink: false
+  - digest: null
+    path: nr.38.ppi
+    size: 117524
+    symlink: false
+  - digest: null
+    path: nr.38.psq
+    size: 1364467859
+    symlink: false
+  - digest: null
+    path: nr.pal
+    size: 443
+    symlink: false
+  - digest: null
+    path: nr.pdb
+    size: 30443528192
+    symlink: false
+  - digest: null
+    path: nr.pos
+    size: 10392839136
+    symlink: false
+  - digest: null
+    path: nr.pot
+    size: 4864721444
+    symlink: false
+  - digest: null
+    path: nr.ptf
+    size: 118693888
+    symlink: false
+  - digest: null
+    path: nr.pto
+    size: 2141927576
+    symlink: false
+  - digest: null
+    path: taxdb.btd
+    size: 149567446
+    symlink: false
+  - digest: null
+    path: taxdb.bti
+    size: 15813456
+    symlink: false
+  name: NCBI NR (non redundant) 2021-01-15
+  path: /cvmfs/data.galaxyproject.org/byhand/blastdb/nr/20210115/nr
+  value: nr_20210115
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

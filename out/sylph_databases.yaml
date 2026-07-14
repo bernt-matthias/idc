@@ -1,0 +1,15 @@
+sylph_databases:
+- clade: prokaryote
+  digest: 61f5132671b3854dc2137e0193ec054ffceed8dcc518f57de66d73d519138649
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/sylph_databases.loc
+  manifest:
+  - digest: null
+    path: gtdb-r220-c200-dbv1.syldb
+    size: 14061572967
+    symlink: false
+  name: sylph database gtdb-r220-c200-dbv1.syldb
+  path: /cvmfs/data.galaxyproject.org/byhand/sylph/gtdb-r220-c200-dbv1.syldb
+  sylph_tax_identifier: GTDB_r220
+  value: sylph_downloaded_07112025_gtdb-r220-c200-dbv1.syldb
+  version: '1'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

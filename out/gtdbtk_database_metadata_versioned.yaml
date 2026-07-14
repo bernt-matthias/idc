@@ -1,0 +1,17 @@
+gtdbtk_database_metadata_versioned:
+- digest: a4282d8c7b657eba2f31e5b97a378ec53a6105f81d7e9f2a500ea6a4b2b4117e
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/gtdbtk_database_metadata_versioned.loc
+  manifest:
+  - digest: null
+    path: ar53_metadata_r220.tsv
+    size: 16289104
+    symlink: false
+  - digest: null
+    path: bac120_metadata_r220.tsv
+    size: 781617665
+    symlink: false
+  name: GTDB-Tk Database Version 220 Metadata from 09-10-2024
+  path: /cvmfs/data.galaxyproject.org/byhand/gtdbtk_database_metadata_versioned/_release_220_downloaded_2024-09-10
+  value: GTDB-Tk Database Version 220 Metadata from 09-10-2024 _release_220_downloaded_2024-09-10
+  version: '220'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

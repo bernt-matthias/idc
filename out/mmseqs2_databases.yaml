@@ -1,0 +1,55 @@
+mmseqs2_databases:
+- digest: da3fe9d682ddc5a54ded9a8b8d66fe7f3fd98404869769c214b3653e02840ceb
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/mmseqs2_databases.loc
+  manifest:
+  - digest: null
+    path: database
+    size: 16993490752
+    symlink: false
+  - digest: null
+    path: database.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: database.index
+    size: 1412816485
+    symlink: false
+  - digest: null
+    path: database.lookup
+    size: 1844351164
+    symlink: false
+  - digest: null
+    path: database.source
+    size: 20
+    symlink: false
+  - digest: null
+    path: database.version
+    size: 311
+    symlink: false
+  - digest: null
+    path: database_h
+    size: 6874974365
+    symlink: false
+  - digest: null
+    path: database_h.dbtype
+    size: 4
+    symlink: false
+  - digest: null
+    path: database_h.index
+    size: 1387155709
+    symlink: false
+  - digest: null
+    path: database_mapping
+    size: 908193607
+    symlink: false
+  - digest: null
+    path: database_taxonomy
+    size: 746482441
+    symlink: false
+  name: UniRef50 07112025
+  path: /cvmfs/data.galaxyproject.org/byhand/mmseqs2/UniRef50
+  taxonomy: 'yes'
+  type: aminoacid
+  value: UniRef50-17-b804f-07112025
+  version: 17-b804f
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

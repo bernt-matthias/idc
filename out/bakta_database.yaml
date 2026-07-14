@@ -1,0 +1,121 @@
+bakta_database:
+- bakta_version: '1.7'
+  dbkey: '7669534'
+  digest: e0d110e5d9f90893c87da5ddf234ee524c664d75a71c7d89659e641ecac79b61
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bakta_database.loc
+  manifest:
+  - digest: null
+    path: antifam.h3f
+    size: 3783634
+    symlink: false
+  - digest: null
+    path: antifam.h3i
+    size: 16386
+    symlink: false
+  - digest: null
+    path: antifam.h3m
+    size: 6007098
+    symlink: false
+  - digest: null
+    path: antifam.h3p
+    size: 7097472
+    symlink: false
+  - digest: null
+    path: bakta.db
+    size: 28919668736
+    symlink: false
+  - digest: null
+    path: expert-protein-sequences.dmnd
+    size: 13582972
+    symlink: false
+  - digest: null
+    path: ncRNA-genes.i1f
+    size: 8597571
+    symlink: false
+  - digest: null
+    path: ncRNA-genes.i1i
+    size: 75494
+    symlink: false
+  - digest: null
+    path: ncRNA-genes.i1m
+    size: 56361495
+    symlink: false
+  - digest: null
+    path: ncRNA-genes.i1p
+    size: 19513941
+    symlink: false
+  - digest: null
+    path: ncRNA-regions.i1f
+    size: 2482695
+    symlink: false
+  - digest: null
+    path: ncRNA-regions.i1i
+    size: 23328
+    symlink: false
+  - digest: null
+    path: ncRNA-regions.i1m
+    size: 13602546
+    symlink: false
+  - digest: null
+    path: ncRNA-regions.i1p
+    size: 4728456
+    symlink: false
+  - digest: null
+    path: oric.fna
+    size: 4184974
+    symlink: false
+  - digest: null
+    path: orit.fna
+    size: 135978
+    symlink: false
+  - digest: null
+    path: pfam.h3f
+    size: 127756241
+    symlink: false
+  - digest: null
+    path: pfam.h3i
+    size: 535953
+    symlink: false
+  - digest: null
+    path: pfam.h3m
+    size: 208854118
+    symlink: false
+  - digest: null
+    path: pfam.h3p
+    size: 245872924
+    symlink: false
+  - digest: null
+    path: psc.dmnd
+    size: 34111660895
+    symlink: false
+  - digest: null
+    path: rRNA.i1f
+    size: 180623
+    symlink: false
+  - digest: null
+    path: rRNA.i1i
+    size: 309
+    symlink: false
+  - digest: null
+    path: rRNA.i1m
+    size: 2141632
+    symlink: false
+  - digest: null
+    path: rRNA.i1p
+    size: 733969
+    symlink: false
+  - digest: null
+    path: rfam-go.tsv
+    size: 89234
+    symlink: false
+  - digest: null
+    path: sorf.dmnd
+    size: 2230607
+    symlink: false
+  - digest: null
+    path: version.json
+    size: 836
+    symlink: false
+  path: /cvmfs/data.galaxyproject.org/byhand/bakta_database/7669534
+  value: V5.0_2023-02-20
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

@@ -1,0 +1,277 @@
+deeparg:
+- db_version: 1.0.4
+  digest: f6f475e2b0c1465b5ea2610f77f2bd03ee9174aa4fb0472876b290f51c836903
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/deeparg.loc
+  manifest:
+  - digest: null
+    path: LICENSE
+    size: 179
+    symlink: false
+  - digest: null
+    path: README.md
+    size: 65
+    symlink: false
+  - digest: null
+    path: __MACOSX/._deeparg
+    size: 220
+    symlink: false
+  - digest: null
+    path: __MACOSX/deeparg/._bin
+    size: 220
+    symlink: false
+  - digest: null
+    path: __MACOSX/deeparg/._database
+    size: 220
+    symlink: false
+  - digest: null
+    path: __MACOSX/deeparg/._gg13
+    size: 220
+    symlink: false
+  - digest: null
+    path: __MACOSX/deeparg/._model
+    size: 220
+    symlink: false
+  - digest: null
+    path: __MACOSX/deeparg/._scripts
+    size: 220
+    symlink: false
+  - digest: null
+    path: bin/.DS_Store
+    size: 6148
+    symlink: false
+  - digest: null
+    path: bin/__init__.py
+    size: 2
+    symlink: false
+  - digest: null
+    path: bin/diamond
+    size: 6866795
+    symlink: false
+  - digest: null
+    path: database/v1/features.dmnd
+    size: 6007897
+    symlink: false
+  - digest: null
+    path: database/v1/features.fasta
+    size: 5768209
+    symlink: false
+  - digest: null
+    path: database/v1/features.gene.length
+    size: 746836
+    symlink: false
+  - digest: null
+    path: database/v2/deeparg.fasta
+    size: 5725434
+    symlink: false
+  - digest: null
+    path: database/v2/features.dmnd
+    size: 6032560
+    symlink: false
+  - digest: null
+    path: database/v2/features.fasta
+    size: 5835992
+    symlink: false
+  - digest: null
+    path: database/v2/features.gene.length
+    size: 772239
+    symlink: false
+  - digest: null
+    path: deeparg.gz
+    size: 1883983799
+    symlink: false
+  - digest: null
+    path: gg13/dataset.1.bt2
+    size: 625274108
+    symlink: false
+  - digest: null
+    path: gg13/dataset.2.bt2
+    size: 442330464
+    symlink: false
+  - digest: null
+    path: gg13/dataset.3.bt2
+    size: 12748310
+    symlink: false
+  - digest: null
+    path: gg13/dataset.4.bt2
+    size: 442330458
+    symlink: false
+  - digest: null
+    path: gg13/dataset.len
+    size: 16834555
+    symlink: false
+  - digest: null
+    path: gg13/dataset.rev.1.bt2
+    size: 625274108
+    symlink: false
+  - digest: null
+    path: gg13/dataset.rev.2.bt2
+    size: 442330464
+    symlink: false
+  - digest: null
+    path: model/v1/metadata_LS.pkl
+    size: 840424
+    symlink: false
+  - digest: null
+    path: model/v1/metadata_SS.pkl
+    size: 840424
+    symlink: false
+  - digest: null
+    path: model/v1/model_LS.pkl
+    size: 129883961
+    symlink: false
+  - digest: null
+    path: model/v1/model_SS.pkl
+    size: 129883961
+    symlink: false
+  - digest: null
+    path: model/v2/metadata_LS.pkl
+    size: 847525
+    symlink: false
+  - digest: null
+    path: model/v2/metadata_SS.pkl
+    size: 847333
+    symlink: false
+  - digest: null
+    path: model/v2/model_LS.pkl
+    size: 108459961
+    symlink: false
+  - digest: null
+    path: model/v2/model_SS.pkl
+    size: 108435961
+    symlink: false
+  - digest: null
+    path: scripts/.DS_Store.gz
+    size: 392
+    symlink: false
+  - digest: null
+    path: scripts/.ipynb_checkpoints/main-checkpoint.ipynb.gz
+    size: 22002
+    symlink: false
+  - digest: null
+    path: scripts/clusters/.DS_Store.gz
+    size: 206
+    symlink: false
+  - digest: null
+    path: scripts/clusters/CLUSTERS.csv.gz
+    size: 363433
+    symlink: false
+  - digest: null
+    path: scripts/clusters/alignment.tsv.gz
+    size: 104859439
+    symlink: false
+  - digest: null
+    path: scripts/clusters/cluster.tsv.gz
+    size: 377544
+    symlink: false
+  - digest: null
+    path: scripts/clusters/clusters.fasta.gz
+    size: 3785628
+    symlink: false
+  - digest: null
+    path: scripts/clusters/clusters.gz
+    size: 442748
+    symlink: false
+  - digest: null
+    path: scripts/clusters/clusters.rep_hit.tsv.gz
+    size: 251195
+    symlink: false
+  - digest: null
+    path: scripts/clusters/process_clusters.py.gz
+    size: 397
+    symlink: false
+  - digest: null
+    path: scripts/db/.DS_Store.gz
+    size: 206
+    symlink: false
+  - digest: null
+    path: scripts/db/ANNOTATION_FULL2.json.gz
+    size: 682824
+    symlink: false
+  - digest: null
+    path: scripts/db/CLUSTERS.csv.json.gz
+    size: 395935
+    symlink: false
+  - digest: null
+    path: scripts/db/FilteredDatabase.json.gz
+    size: 369541
+    symlink: false
+  - digest: null
+    path: scripts/db/alignment.tsv.json.gz
+    size: 20404093
+    symlink: false
+  - digest: null
+    path: scripts/fasta/.DS_Store.gz
+    size: 206
+    symlink: false
+  - digest: null
+    path: scripts/fasta/ARGS.fasta.gz
+    size: 567963
+    symlink: false
+  - digest: null
+    path: scripts/fasta/ardb.fasta.gz
+    size: 899438
+    symlink: false
+  - digest: null
+    path: scripts/fasta/card.fasta.gz
+    size: 256768
+    symlink: false
+  - digest: null
+    path: scripts/fasta/snp.fasta.gz
+    size: 24364
+    symlink: false
+  - digest: null
+    path: scripts/fasta/uniprot.fasta.gz
+    size: 5563000
+    symlink: false
+  - digest: null
+    path: scripts/main.ipynb
+    size: 119254
+    symlink: false
+  - digest: null
+    path: scripts/metadata/.DS_Store.gz
+    size: 206
+    symlink: false
+  - digest: null
+    path: scripts/metadata/1st_stage_metadata.txt.gz
+    size: 977296
+    symlink: false
+  - digest: null
+    path: scripts/metadata/add_labels.py.gz
+    size: 875
+    symlink: false
+  - digest: null
+    path: scripts/metadata/keywords.gz
+    size: 430
+    symlink: false
+  - digest: null
+    path: scripts/metadata/metadata.tsv.gz
+    size: 1023499
+    symlink: false
+  - digest: null
+    path: scripts/metadata/metadata_with_multilabels.json.gz
+    size: 1207579
+    symlink: false
+  - digest: null
+    path: scripts/metadata/process.py.gz
+    size: 2280
+    symlink: false
+  - digest: null
+    path: scripts/metadata/process_card_annotation.py.gz
+    size: 779
+    symlink: false
+  - digest: null
+    path: scripts/metadata/rev_metadata.json.gz
+    size: 1480295
+    symlink: false
+  - digest: null
+    path: scripts/metadata/rev_terms.txt.gz
+    size: 775
+    symlink: false
+  - digest: null
+    path: scripts/utils.py
+    size: 22719
+    symlink: false
+  name: Files needed for running deepARG v-1.0.4-07112025
+  path: /cvmfs/data.galaxyproject.org/byhand/deeparg/deeparg_1.0.4
+  value: deeparg_1.0.4-07112025
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

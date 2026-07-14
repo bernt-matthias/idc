@@ -1,0 +1,1637 @@
+iphop:
+- digest: 556c04840ea248844fa62df92557884b3fe21803bb3726e139ddf409a36163e8
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/iphop.loc
+  manifest:
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.fna
+    size: 295290792
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.nhr
+    size: 404555093
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.nin
+    size: 46593884
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.not
+    size: 46593752
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.nsq
+    size: 35429600
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: db/All_CRISPR_spacers_nr_clean.nto
+    size: 15531252
+    symlink: false
+  - digest: null
+    path: db/GTDBtk_and_newrepr_s2_mat.pkl
+    size: 6295773409
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.00.nhr
+    size: 37198951
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.00.nin
+    size: 4578360
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.00.nsq
+    size: 2999996890
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.01.nhr
+    size: 37011651
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.01.nin
+    size: 4547460
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.01.nsq
+    size: 2999991800
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.02.nhr
+    size: 38306592
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.02.nin
+    size: 4713864
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.02.nsq
+    size: 2999978891
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.03.nhr
+    size: 38443924
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.03.nin
+    size: 4736136
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.03.nsq
+    size: 2999995418
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.04.nhr
+    size: 38690776
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.04.nin
+    size: 4758960
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.04.nsq
+    size: 2999978720
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.05.nhr
+    size: 40340840
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.05.nin
+    size: 4967460
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.05.nsq
+    size: 2999989157
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.06.nhr
+    size: 37871707
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.06.nin
+    size: 4661412
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.06.nsq
+    size: 2999940344
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.07.nhr
+    size: 37845314
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.07.nin
+    size: 4653816
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.07.nsq
+    size: 2998845725
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.08.nhr
+    size: 37672538
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.08.nin
+    size: 4635000
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.08.nsq
+    size: 2999988350
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.09.nhr
+    size: 38271759
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.09.nin
+    size: 4712220
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.09.nsq
+    size: 2999998729
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.10.nhr
+    size: 36154317
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.10.nin
+    size: 4444872
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.10.nsq
+    size: 2999986324
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.11.nhr
+    size: 37786808
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.11.nin
+    size: 4649004
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.11.nsq
+    size: 2999996852
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.12.nhr
+    size: 38877185
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.12.nin
+    size: 4780536
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.12.nsq
+    size: 2999410536
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.13.nhr
+    size: 38537452
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.13.nin
+    size: 4744776
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.13.nsq
+    size: 2999999732
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.14.nhr
+    size: 38597962
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.14.nin
+    size: 4753332
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.14.nsq
+    size: 2999986987
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.15.nhr
+    size: 38190024
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.15.nin
+    size: 4698348
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.15.nsq
+    size: 2999995870
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.16.nhr
+    size: 38910276
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.16.nin
+    size: 4788876
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.16.nsq
+    size: 2999974325
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.17.nhr
+    size: 37173696
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.17.nin
+    size: 4573164
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.17.nsq
+    size: 2999941848
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.18.nhr
+    size: 37158331
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.18.nin
+    size: 4568184
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.18.nsq
+    size: 2999996601
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.19.nhr
+    size: 37627503
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.19.nin
+    size: 4630476
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.19.nsq
+    size: 2999984418
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.20.nhr
+    size: 36719183
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.20.nin
+    size: 4512552
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.20.nsq
+    size: 2999992815
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.21.nhr
+    size: 38763845
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.21.nin
+    size: 4770180
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.21.nsq
+    size: 2999995563
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.22.nhr
+    size: 40113040
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.22.nin
+    size: 4940568
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.22.nsq
+    size: 2999996868
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.23.nhr
+    size: 38253872
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.23.nin
+    size: 4706844
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.23.nsq
+    size: 2999994728
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.24.nhr
+    size: 38511089
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.24.nin
+    size: 4738404
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.24.nsq
+    size: 2999993050
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.25.nhr
+    size: 66617767
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.25.nin
+    size: 8213016
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.25.nsq
+    size: 2999993450
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.26.nhr
+    size: 72112188
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.26.nin
+    size: 8890788
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.26.nsq
+    size: 2999991203
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.27.nhr
+    size: 71939299
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.27.nin
+    size: 8868300
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.27.nsq
+    size: 2999935332
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.28.nhr
+    size: 74104884
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.28.nin
+    size: 9133440
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.28.nsq
+    size: 2999998033
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.29.nhr
+    size: 74702717
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.29.nin
+    size: 9208032
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.29.nsq
+    size: 2999997896
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.30.nhr
+    size: 72759188
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.30.nin
+    size: 8973696
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.30.nsq
+    size: 2999999748
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.31.nhr
+    size: 73203671
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.31.nin
+    size: 9030828
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.31.nsq
+    size: 2999995007
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.32.nhr
+    size: 75240064
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.32.nin
+    size: 9275292
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.32.nsq
+    size: 2999942309
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.33.nhr
+    size: 74160453
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.33.nin
+    size: 9138228
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.33.nsq
+    size: 2999999289
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.34.nhr
+    size: 72245040
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.34.nin
+    size: 8909664
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.34.nsq
+    size: 2999995738
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.35.nhr
+    size: 73929751
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.35.nin
+    size: 9118944
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.35.nsq
+    size: 2999999984
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.36.nhr
+    size: 73655660
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.36.nin
+    size: 9081420
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.36.nsq
+    size: 2999999952
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.37.nhr
+    size: 74207473
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.37.nin
+    size: 9148848
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.37.nsq
+    size: 2999994355
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.38.nhr
+    size: 72651424
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.38.nin
+    size: 8960064
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.38.nsq
+    size: 2999999626
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.39.nhr
+    size: 70689959
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.39.nin
+    size: 8716584
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.39.nsq
+    size: 2999999429
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.40.nhr
+    size: 76425443
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.40.nin
+    size: 9423408
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.40.nsq
+    size: 2999994669
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.41.nhr
+    size: 71265067
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.41.nin
+    size: 8785944
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.41.nsq
+    size: 2999995932
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.42.nhr
+    size: 70925061
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.42.nin
+    size: 8745048
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.42.nsq
+    size: 2999998728
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.43.nhr
+    size: 71990164
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.43.nin
+    size: 8875668
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.43.nsq
+    size: 2999995557
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.44.nhr
+    size: 72305769
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.44.nin
+    size: 8911608
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.44.nsq
+    size: 2999997390
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.45.nhr
+    size: 72049742
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.45.nin
+    size: 8882508
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.45.nsq
+    size: 2999994108
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.46.nhr
+    size: 73338317
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.46.nin
+    size: 9043836
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.46.nsq
+    size: 2999987883
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.47.nhr
+    size: 72315272
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.47.nin
+    size: 8917884
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.47.nsq
+    size: 2999975560
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.48.nhr
+    size: 73892271
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.48.nin
+    size: 9114468
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.48.nsq
+    size: 2999999048
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.49.nhr
+    size: 71908416
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.49.nin
+    size: 8865384
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.49.nsq
+    size: 2999987352
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.50.nhr
+    size: 72254115
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.50.nin
+    size: 8902452
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.50.nsq
+    size: 2999999358
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.51.nhr
+    size: 73429543
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.51.nin
+    size: 9053952
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.51.nsq
+    size: 2999954644
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.52.nhr
+    size: 74297322
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.52.nin
+    size: 9157944
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.52.nsq
+    size: 2999998310
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.53.nhr
+    size: 72149624
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.53.nin
+    size: 8894580
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.53.nsq
+    size: 2999999096
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.54.nhr
+    size: 73051625
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.54.nin
+    size: 9003288
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.54.nsq
+    size: 2999207464
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.55.nhr
+    size: 73340854
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.55.nin
+    size: 9046920
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.55.nsq
+    size: 2999998999
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.56.nhr
+    size: 75050925
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.56.nin
+    size: 9254304
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.56.nsq
+    size: 2999996250
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.57.nhr
+    size: 74488945
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.57.nin
+    size: 9186900
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.57.nsq
+    size: 2998633813
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.58.nhr
+    size: 105716608
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.58.nin
+    size: 13225800
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.58.nsq
+    size: 2999999115
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.59.nhr
+    size: 28336080
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.59.nin
+    size: 3559068
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.59.nsq
+    size: 715556956
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.nal
+    size: 1065
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.ndb
+    size: 20480
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.njs
+    size: 5362
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.not
+    size: 430775000
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.ntf
+    size: 16384
+    symlink: false
+  - digest: null
+    path: db/Host_Genomes/Host_Genomes.nto
+    size: 143591668
+    symlink: false
+  - digest: null
+    path: db/php_db
+    size: 445416877
+    symlink: false
+  - digest: null
+    path: db/rafah_data/HP_Ranger_Model_3_Filtered_0.9_Valids.hmm.h3f
+    size: 997114050
+    symlink: false
+  - digest: null
+    path: db/rafah_data/HP_Ranger_Model_3_Filtered_0.9_Valids.hmm.h3i
+    size: 2138801
+    symlink: false
+  - digest: null
+    path: db/rafah_data/HP_Ranger_Model_3_Filtered_0.9_Valids.hmm.h3m
+    size: 2097371949
+    symlink: false
+  - digest: null
+    path: db/rafah_data/HP_Ranger_Model_3_Filtered_0.9_Valids.hmm.h3p
+    size: 2466616050
+    symlink: false
+  - digest: null
+    path: db/rafah_data/HP_Ranger_Model_3_Valid_Cols.txt
+    size: 954438
+    symlink: false
+  - digest: null
+    path: db/rafah_data/MMSeqs_Clusters_Ranger_Model_1+2+3_Clean.RData
+    size: 85667970
+    symlink: false
+  - digest: null
+    path: db/rafah_data/RaFAH_ref_cds.count.tsv
+    size: 567243
+    symlink: false
+  - digest: null
+    path: db/rafah_data/RaFAH_ref_cds.dmnd
+    size: 380208432
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_1.pkl.gz
+    size: 572841773
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_10.pkl.gz
+    size: 586838555
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_100.pkl.gz
+    size: 535183444
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_101.pkl.gz
+    size: 562812274
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_102.pkl.gz
+    size: 629385029
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_103.pkl.gz
+    size: 496946546
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_104.pkl.gz
+    size: 509363611
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_105.pkl.gz
+    size: 558416398
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_106.pkl.gz
+    size: 521834140
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_107.pkl.gz
+    size: 689113907
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_108.pkl.gz
+    size: 590644612
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_109.pkl.gz
+    size: 660037823
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_11.pkl.gz
+    size: 598180197
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_110.pkl.gz
+    size: 725101286
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_111.pkl.gz
+    size: 712866454
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_112.pkl.gz
+    size: 725893227
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_113.pkl.gz
+    size: 728987975
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_114.pkl.gz
+    size: 735775190
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_115.pkl.gz
+    size: 748230176
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_116.pkl.gz
+    size: 731969954
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_117.pkl.gz
+    size: 737496162
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_118.pkl.gz
+    size: 738345642
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_119.pkl.gz
+    size: 723631186
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_12.pkl.gz
+    size: 585359738
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_120.pkl.gz
+    size: 747524512
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_121.pkl.gz
+    size: 749548232
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_122.pkl.gz
+    size: 754336037
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_123.pkl.gz
+    size: 764857179
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_124.pkl.gz
+    size: 731633910
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_125.pkl.gz
+    size: 742477729
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_126.pkl.gz
+    size: 766406873
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_127.pkl.gz
+    size: 761336759
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_128.pkl.gz
+    size: 741228591
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_129.pkl.gz
+    size: 742818233
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_13.pkl.gz
+    size: 579302471
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_130.pkl.gz
+    size: 748012312
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_131.pkl.gz
+    size: 734972266
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_132.pkl.gz
+    size: 743961778
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_133.pkl.gz
+    size: 739507505
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_134.pkl.gz
+    size: 740001769
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_135.pkl.gz
+    size: 758121111
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_136.pkl.gz
+    size: 787189780
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_137.pkl.gz
+    size: 752422984
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_138.pkl.gz
+    size: 779508403
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_139.pkl.gz
+    size: 853943660
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_14.pkl.gz
+    size: 601695387
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_140.pkl.gz
+    size: 747140218
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_141.pkl.gz
+    size: 736607667
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_142.pkl.gz
+    size: 688528883
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_143.pkl.gz
+    size: 677754970
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_144.pkl.gz
+    size: 605030162
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_145.pkl.gz
+    size: 552670529
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_146.pkl.gz
+    size: 553138401
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_147.pkl.gz
+    size: 542522986
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_148.pkl.gz
+    size: 571230133
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_149.pkl.gz
+    size: 562327736
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_15.pkl.gz
+    size: 578552780
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_150.pkl.gz
+    size: 548429828
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_151.pkl.gz
+    size: 553909401
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_152.pkl.gz
+    size: 582106817
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_153.pkl.gz
+    size: 570210086
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_154.pkl.gz
+    size: 623626121
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_155.pkl.gz
+    size: 562885586
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_156.pkl.gz
+    size: 552857229
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_157.pkl.gz
+    size: 567160855
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_158.pkl.gz
+    size: 531699746
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_159.pkl.gz
+    size: 554780404
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_16.pkl.gz
+    size: 606846383
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_160.pkl.gz
+    size: 517157874
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_161.pkl.gz
+    size: 564056735
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_162.pkl.gz
+    size: 583218765
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_163.pkl.gz
+    size: 590499486
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_164.pkl.gz
+    size: 650041408
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_165.pkl.gz
+    size: 592424675
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_166.pkl.gz
+    size: 602563303
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_167.pkl.gz
+    size: 631787280
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_168.pkl.gz
+    size: 607817336
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_169.pkl.gz
+    size: 641726795
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_17.pkl.gz
+    size: 600745419
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_170.pkl.gz
+    size: 637929143
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_171.pkl.gz
+    size: 625516596
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_172.pkl.gz
+    size: 609478889
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_173.pkl.gz
+    size: 705396409
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_174.pkl.gz
+    size: 676888214
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_175.pkl.gz
+    size: 679828619
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_176.pkl.gz
+    size: 675699711
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_177.pkl.gz
+    size: 695987446
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_178.pkl.gz
+    size: 590543372
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_179.pkl.gz
+    size: 655267472
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_18.pkl.gz
+    size: 567564605
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_180.pkl.gz
+    size: 653585701
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_181.pkl.gz
+    size: 657162526
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_182.pkl.gz
+    size: 634381878
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_183.pkl.gz
+    size: 607454170
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_184.pkl.gz
+    size: 590395398
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_185.pkl.gz
+    size: 588276797
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_186.pkl.gz
+    size: 671228407
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_187.pkl.gz
+    size: 611530857
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_188.pkl.gz
+    size: 523043237
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_189.pkl.gz
+    size: 535333400
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_19.pkl.gz
+    size: 535295526
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_190.pkl.gz
+    size: 584425660
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_191.pkl.gz
+    size: 491410462
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_192.pkl.gz
+    size: 426831611
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_193.pkl.gz
+    size: 14350166
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_2.pkl.gz
+    size: 494612519
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_20.pkl.gz
+    size: 568499141
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_21.pkl.gz
+    size: 673949094
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_22.pkl.gz
+    size: 644849741
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_23.pkl.gz
+    size: 591428922
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_24.pkl.gz
+    size: 538208854
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_25.pkl.gz
+    size: 526945838
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_26.pkl.gz
+    size: 521415698
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_27.pkl.gz
+    size: 569849172
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_28.pkl.gz
+    size: 568981247
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_29.pkl.gz
+    size: 544721376
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_3.pkl.gz
+    size: 577577079
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_30.pkl.gz
+    size: 605867110
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_31.pkl.gz
+    size: 639708699
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_32.pkl.gz
+    size: 633935391
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_33.pkl.gz
+    size: 652300148
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_34.pkl.gz
+    size: 590495413
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_35.pkl.gz
+    size: 596309096
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_36.pkl.gz
+    size: 543163862
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_37.pkl.gz
+    size: 591612157
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_38.pkl.gz
+    size: 619711332
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_39.pkl.gz
+    size: 568159957
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_4.pkl.gz
+    size: 572026323
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_40.pkl.gz
+    size: 641220330
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_41.pkl.gz
+    size: 612650157
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_42.pkl.gz
+    size: 602506356
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_43.pkl.gz
+    size: 674298413
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_44.pkl.gz
+    size: 603428180
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_45.pkl.gz
+    size: 580932532
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_46.pkl.gz
+    size: 575068827
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_47.pkl.gz
+    size: 647527977
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_48.pkl.gz
+    size: 520069507
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_49.pkl.gz
+    size: 600870754
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_5.pkl.gz
+    size: 569057602
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_50.pkl.gz
+    size: 619550991
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_51.pkl.gz
+    size: 633140183
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_52.pkl.gz
+    size: 592889749
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_53.pkl.gz
+    size: 515511265
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_54.pkl.gz
+    size: 567582058
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_55.pkl.gz
+    size: 558546137
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_56.pkl.gz
+    size: 574873753
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_57.pkl.gz
+    size: 738526011
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_58.pkl.gz
+    size: 641752711
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_59.pkl.gz
+    size: 656581394
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_6.pkl.gz
+    size: 511827848
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_60.pkl.gz
+    size: 643754491
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_61.pkl.gz
+    size: 616579242
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_62.pkl.gz
+    size: 633750912
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_63.pkl.gz
+    size: 644189825
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_64.pkl.gz
+    size: 670609793
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_65.pkl.gz
+    size: 656709252
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_66.pkl.gz
+    size: 641933201
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_67.pkl.gz
+    size: 650303233
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_68.pkl.gz
+    size: 665203558
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_69.pkl.gz
+    size: 659660634
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_7.pkl.gz
+    size: 543152980
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_70.pkl.gz
+    size: 608251551
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_71.pkl.gz
+    size: 607418758
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_72.pkl.gz
+    size: 489779364
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_73.pkl.gz
+    size: 687427739
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_74.pkl.gz
+    size: 599718960
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_75.pkl.gz
+    size: 662648667
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_76.pkl.gz
+    size: 663909136
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_77.pkl.gz
+    size: 668009699
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_78.pkl.gz
+    size: 613291983
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_79.pkl.gz
+    size: 621298125
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_8.pkl.gz
+    size: 640637476
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_80.pkl.gz
+    size: 573498980
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_81.pkl.gz
+    size: 600738755
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_82.pkl.gz
+    size: 626958165
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_83.pkl.gz
+    size: 547434058
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_84.pkl.gz
+    size: 544890356
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_85.pkl.gz
+    size: 374849485
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_86.pkl.gz
+    size: 419730152
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_87.pkl.gz
+    size: 561581163
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_88.pkl.gz
+    size: 611505233
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_89.pkl.gz
+    size: 654049731
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_9.pkl.gz
+    size: 560829249
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_90.pkl.gz
+    size: 547455203
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_91.pkl.gz
+    size: 594435115
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_92.pkl.gz
+    size: 513914624
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_93.pkl.gz
+    size: 568324586
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_94.pkl.gz
+    size: 620330950
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_95.pkl.gz
+    size: 624310481
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_96.pkl.gz
+    size: 534077285
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_97.pkl.gz
+    size: 484572496
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_98.pkl.gz
+    size: 560870784
+    symlink: false
+  - digest: null
+    path: db/rewish_models/Batch_99.pkl.gz
+    size: 577416891
+    symlink: false
+  - digest: null
+    path: db/wish_data/Decoy_db/Decoy_phages.fna
+    size: 29129335
+    symlink: false
+  - digest: null
+    path: db_infos/All_CRISPR_array_size.tsv
+    size: 17875877
+    symlink: false
+  - digest: null
+    path: db_infos/All_CRISPR_spacers_nr_clean.metrics.csv
+    size: 359230896
+    symlink: false
+  - digest: null
+    path: db_infos/Host_Genomes.tsv
+    size: 217548967
+    symlink: false
+  - digest: null
+    path: db_infos/List_contigs_removed_blast.tsv
+    size: 786
+    symlink: false
+  - digest: null
+    path: db_infos/Translate_genus_to_full_taxo.tsv
+    size: 87787
+    symlink: false
+  - digest: null
+    path: db_infos/Wish_negFits.csv
+    size: 10701589
+    symlink: false
+  - digest: null
+    path: db_infos/gtdbtk.ar53.decorated.tree
+    size: 485786
+    symlink: false
+  - digest: null
+    path: db_infos/gtdbtk.bac120.decorated.tree
+    size: 8958985
+    symlink: false
+  - digest: null
+    path: md5checkfile.txt
+    size: 28821
+    symlink: false
+  name: Version iPHoP_db_Jun25_rw
+  path: /cvmfs/data.galaxyproject.org/byhand/iphop/iPHoP_db_Jun25_rw
+  value: iPHoP_db_Jun25_rw
+  version: iPHoP_db_Jun25_rw
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

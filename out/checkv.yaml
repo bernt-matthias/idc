@@ -1,0 +1,369 @@
+checkv:
+- digest: 6b8de4cb7986b03db13ef10699bb36cac6505a5cf481a0fa85a693faa54843a1
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/checkv.loc
+  manifest:
+  - digest: null
+    path: README.txt
+    size: 4678
+    symlink: false
+  - digest: null
+    path: genome_db/changelog.tsv
+    size: 111614
+    symlink: false
+  - digest: null
+    path: genome_db/checkv_error.tsv
+    size: 93418
+    symlink: false
+  - digest: null
+    path: genome_db/checkv_info.tsv
+    size: 10864827
+    symlink: false
+  - digest: null
+    path: genome_db/checkv_reps.dmnd
+    size: 951291516
+    symlink: false
+  - digest: null
+    path: genome_db/checkv_reps.faa
+    size: 891509356
+    symlink: false
+  - digest: null
+    path: genome_db/checkv_reps.fna
+    size: 2700593605
+    symlink: false
+  - digest: null
+    path: genome_db/checkv_reps.tsv
+    size: 1790967
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms.tsv
+    size: 1448347
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/1.hmm
+    size: 17758112
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/10.hmm
+    size: 17734763
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/11.hmm
+    size: 15677385
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/12.hmm
+    size: 14968687
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/13.hmm
+    size: 14427541
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/14.hmm
+    size: 47896893
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/15.hmm
+    size: 53613318
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/16.hmm
+    size: 39255884
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/17.hmm
+    size: 30664397
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/18.hmm
+    size: 24419544
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/19.hmm
+    size: 21733840
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/2.hmm
+    size: 17586546
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/20.hmm
+    size: 29281618
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/21.hmm
+    size: 28036680
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/22.hmm
+    size: 29207941
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/23.hmm
+    size: 29727752
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/24.hmm
+    size: 49021639
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/25.hmm
+    size: 53355444
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/26.hmm
+    size: 39400333
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/27.hmm
+    size: 39384985
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/28.hmm
+    size: 49228043
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/29.hmm
+    size: 42046113
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/3.hmm
+    size: 15230349
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/30.hmm
+    size: 38538184
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/31.hmm
+    size: 41312789
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/32.hmm
+    size: 49757628
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/33.hmm
+    size: 50654080
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/34.hmm
+    size: 53432922
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/35.hmm
+    size: 47950073
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/36.hmm
+    size: 45204681
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/37.hmm
+    size: 47808636
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/38.hmm
+    size: 41696211
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/39.hmm
+    size: 46789233
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/4.hmm
+    size: 16156507
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/40.hmm
+    size: 38731771
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/41.hmm
+    size: 29155014
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/42.hmm
+    size: 31356317
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/43.hmm
+    size: 26094794
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/44.hmm
+    size: 25375906
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/45.hmm
+    size: 24690452
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/46.hmm
+    size: 23436324
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/47.hmm
+    size: 23123356
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/48.hmm
+    size: 20321234
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/49.hmm
+    size: 20494671
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/5.hmm
+    size: 15391278
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/50.hmm
+    size: 20282593
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/51.hmm
+    size: 31326957
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/52.hmm
+    size: 21003399
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/53.hmm
+    size: 17758159
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/54.hmm
+    size: 10912367
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/55.hmm
+    size: 13612609
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/56.hmm
+    size: 15043434
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/57.hmm
+    size: 13516850
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/58.hmm
+    size: 15312215
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/59.hmm
+    size: 11785595
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/6.hmm
+    size: 16190528
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/60.hmm
+    size: 13013712
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/61.hmm
+    size: 12134821
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/62.hmm
+    size: 17028967
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/63.hmm
+    size: 15563747
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/64.hmm
+    size: 26899996
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/65.hmm
+    size: 29671668
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/66.hmm
+    size: 40748150
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/67.hmm
+    size: 31148961
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/68.hmm
+    size: 29759398
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/69.hmm
+    size: 26619266
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/7.hmm
+    size: 18793313
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/70.hmm
+    size: 20403518
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/71.hmm
+    size: 23676664
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/72.hmm
+    size: 23072639
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/73.hmm
+    size: 21177766
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/74.hmm
+    size: 21386525
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/75.hmm
+    size: 26451321
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/76.hmm
+    size: 29638805
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/77.hmm
+    size: 43112627
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/78.hmm
+    size: 35967870
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/79.hmm
+    size: 35960383
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/8.hmm
+    size: 15554771
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/80.hmm
+    size: 29989472
+    symlink: false
+  - digest: null
+    path: hmm_db/checkv_hmms/9.hmm
+    size: 17743945
+    symlink: false
+  - digest: null
+    path: hmm_db/genome_lengths.tsv
+    size: 7578092
+    symlink: false
+  name: Version 1.5
+  path: /cvmfs/data.galaxyproject.org/byhand/checkv/checkv-db
+  value: '1.5'
+  version: '1.5'
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

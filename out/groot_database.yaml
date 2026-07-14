@@ -1,0 +1,2417 @@
+groot_database:
+- digest: 88983b7f8c54cbb863b0dcc0d2ac28e563287c7541bd9a18d86f7615ddceec1c
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/groot_database.loc
+  manifest:
+  - digest: null
+    path: .DS_Store
+    size: 6148
+    symlink: false
+  - digest: null
+    path: ._.DS_Store
+    size: 120
+    symlink: false
+  - digest: null
+    path: ._cluster-1.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-167.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-168.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-171.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-225.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-286.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-293.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-3.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-32.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-36.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-409.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-411.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-42.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-437.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-507.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-58.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: ._cluster-61.msa
+    size: 176
+    symlink: false
+  - digest: null
+    path: cluster-1.msa
+    size: 1180
+    symlink: false
+  - digest: null
+    path: cluster-10.msa
+    size: 1179
+    symlink: false
+  - digest: null
+    path: cluster-100.msa
+    size: 1667
+    symlink: false
+  - digest: null
+    path: cluster-101.msa
+    size: 1662
+    symlink: false
+  - digest: null
+    path: cluster-102.msa
+    size: 1686
+    symlink: false
+  - digest: null
+    path: cluster-103.msa
+    size: 1729
+    symlink: false
+  - digest: null
+    path: cluster-104.msa
+    size: 1625
+    symlink: false
+  - digest: null
+    path: cluster-105.msa
+    size: 1395
+    symlink: false
+  - digest: null
+    path: cluster-106.msa
+    size: 1589
+    symlink: false
+  - digest: null
+    path: cluster-107.msa
+    size: 2396
+    symlink: false
+  - digest: null
+    path: cluster-108.msa
+    size: 1771
+    symlink: false
+  - digest: null
+    path: cluster-109.msa
+    size: 2366
+    symlink: false
+  - digest: null
+    path: cluster-11.msa
+    size: 1555
+    symlink: false
+  - digest: null
+    path: cluster-110.msa
+    size: 1720
+    symlink: false
+  - digest: null
+    path: cluster-111.msa
+    size: 1634
+    symlink: false
+  - digest: null
+    path: cluster-112.msa
+    size: 1658
+    symlink: false
+  - digest: null
+    path: cluster-113.msa
+    size: 1594
+    symlink: false
+  - digest: null
+    path: cluster-114.msa
+    size: 1120
+    symlink: false
+  - digest: null
+    path: cluster-115.msa
+    size: 1153
+    symlink: false
+  - digest: null
+    path: cluster-116.msa
+    size: 1158
+    symlink: false
+  - digest: null
+    path: cluster-117.msa
+    size: 1639
+    symlink: false
+  - digest: null
+    path: cluster-118.msa
+    size: 1689
+    symlink: false
+  - digest: null
+    path: cluster-119.msa
+    size: 1752
+    symlink: false
+  - digest: null
+    path: cluster-12.msa
+    size: 4549
+    symlink: false
+  - digest: null
+    path: cluster-120.msa
+    size: 1776
+    symlink: false
+  - digest: null
+    path: cluster-121.msa
+    size: 1610
+    symlink: false
+  - digest: null
+    path: cluster-122.msa
+    size: 6125
+    symlink: false
+  - digest: null
+    path: cluster-123.msa
+    size: 2346
+    symlink: false
+  - digest: null
+    path: cluster-124.msa
+    size: 1787
+    symlink: false
+  - digest: null
+    path: cluster-125.msa
+    size: 20462
+    symlink: false
+  - digest: null
+    path: cluster-126.msa
+    size: 2379
+    symlink: false
+  - digest: null
+    path: cluster-127.msa
+    size: 7191
+    symlink: false
+  - digest: null
+    path: cluster-128.msa
+    size: 2373
+    symlink: false
+  - digest: null
+    path: cluster-129.msa
+    size: 22466
+    symlink: false
+  - digest: null
+    path: cluster-13.msa
+    size: 1772
+    symlink: false
+  - digest: null
+    path: cluster-130.msa
+    size: 1908
+    symlink: false
+  - digest: null
+    path: cluster-131.msa
+    size: 1905
+    symlink: false
+  - digest: null
+    path: cluster-132.msa
+    size: 2412
+    symlink: false
+  - digest: null
+    path: cluster-133.msa
+    size: 4789
+    symlink: false
+  - digest: null
+    path: cluster-134.msa
+    size: 1946
+    symlink: false
+  - digest: null
+    path: cluster-135.msa
+    size: 2713
+    symlink: false
+  - digest: null
+    path: cluster-136.msa
+    size: 2365
+    symlink: false
+  - digest: null
+    path: cluster-137.msa
+    size: 2414
+    symlink: false
+  - digest: null
+    path: cluster-138.msa
+    size: 2589
+    symlink: false
+  - digest: null
+    path: cluster-139.msa
+    size: 5562
+    symlink: false
+  - digest: null
+    path: cluster-14.msa
+    size: 6764
+    symlink: false
+  - digest: null
+    path: cluster-140.msa
+    size: 3970
+    symlink: false
+  - digest: null
+    path: cluster-141.msa
+    size: 3169
+    symlink: false
+  - digest: null
+    path: cluster-142.msa
+    size: 1929
+    symlink: false
+  - digest: null
+    path: cluster-143.msa
+    size: 3588
+    symlink: false
+  - digest: null
+    path: cluster-144.msa
+    size: 1836
+    symlink: false
+  - digest: null
+    path: cluster-145.msa
+    size: 1847
+    symlink: false
+  - digest: null
+    path: cluster-146.msa
+    size: 94893
+    symlink: false
+  - digest: null
+    path: cluster-147.msa
+    size: 1940
+    symlink: false
+  - digest: null
+    path: cluster-148.msa
+    size: 2130
+    symlink: false
+  - digest: null
+    path: cluster-149.msa
+    size: 2646
+    symlink: false
+  - digest: null
+    path: cluster-15.msa
+    size: 1014
+    symlink: false
+  - digest: null
+    path: cluster-150.msa
+    size: 1846
+    symlink: false
+  - digest: null
+    path: cluster-151.msa
+    size: 1770
+    symlink: false
+  - digest: null
+    path: cluster-152.msa
+    size: 3792
+    symlink: false
+  - digest: null
+    path: cluster-153.msa
+    size: 7731
+    symlink: false
+  - digest: null
+    path: cluster-154.msa
+    size: 1814
+    symlink: false
+  - digest: null
+    path: cluster-155.msa
+    size: 2736
+    symlink: false
+  - digest: null
+    path: cluster-156.msa
+    size: 1815
+    symlink: false
+  - digest: null
+    path: cluster-157.msa
+    size: 7978
+    symlink: false
+  - digest: null
+    path: cluster-158.msa
+    size: 4760
+    symlink: false
+  - digest: null
+    path: cluster-159.msa
+    size: 7324
+    symlink: false
+  - digest: null
+    path: cluster-16.msa
+    size: 1024
+    symlink: false
+  - digest: null
+    path: cluster-160.msa
+    size: 2384
+    symlink: false
+  - digest: null
+    path: cluster-161.msa
+    size: 5997
+    symlink: false
+  - digest: null
+    path: cluster-162.msa
+    size: 1531
+    symlink: false
+  - digest: null
+    path: cluster-163.msa
+    size: 2839
+    symlink: false
+  - digest: null
+    path: cluster-164.msa
+    size: 1854
+    symlink: false
+  - digest: null
+    path: cluster-165.msa
+    size: 13238
+    symlink: false
+  - digest: null
+    path: cluster-166.msa
+    size: 9276
+    symlink: false
+  - digest: null
+    path: cluster-167.msa
+    size: 42799
+    symlink: false
+  - digest: null
+    path: cluster-168.msa
+    size: 40145
+    symlink: false
+  - digest: null
+    path: cluster-169.msa
+    size: 18590
+    symlink: false
+  - digest: null
+    path: cluster-17.msa
+    size: 999
+    symlink: false
+  - digest: null
+    path: cluster-170.msa
+    size: 3695
+    symlink: false
+  - digest: null
+    path: cluster-171.msa
+    size: 1833
+    symlink: false
+  - digest: null
+    path: cluster-172.msa
+    size: 2751
+    symlink: false
+  - digest: null
+    path: cluster-173.msa
+    size: 2032
+    symlink: false
+  - digest: null
+    path: cluster-174.msa
+    size: 10746
+    symlink: false
+  - digest: null
+    path: cluster-175.msa
+    size: 1585
+    symlink: false
+  - digest: null
+    path: cluster-176.msa
+    size: 1488
+    symlink: false
+  - digest: null
+    path: cluster-177.msa
+    size: 1841
+    symlink: false
+  - digest: null
+    path: cluster-178.msa
+    size: 1868
+    symlink: false
+  - digest: null
+    path: cluster-179.msa
+    size: 1771
+    symlink: false
+  - digest: null
+    path: cluster-18.msa
+    size: 1032
+    symlink: false
+  - digest: null
+    path: cluster-180.msa
+    size: 6583
+    symlink: false
+  - digest: null
+    path: cluster-181.msa
+    size: 12021
+    symlink: false
+  - digest: null
+    path: cluster-182.msa
+    size: 21066
+    symlink: false
+  - digest: null
+    path: cluster-183.msa
+    size: 1798
+    symlink: false
+  - digest: null
+    path: cluster-184.msa
+    size: 2388
+    symlink: false
+  - digest: null
+    path: cluster-185.msa
+    size: 14975
+    symlink: false
+  - digest: null
+    path: cluster-186.msa
+    size: 1822
+    symlink: false
+  - digest: null
+    path: cluster-187.msa
+    size: 1585
+    symlink: false
+  - digest: null
+    path: cluster-188.msa
+    size: 7372
+    symlink: false
+  - digest: null
+    path: cluster-189.msa
+    size: 1873
+    symlink: false
+  - digest: null
+    path: cluster-19.msa
+    size: 994
+    symlink: false
+  - digest: null
+    path: cluster-190.msa
+    size: 4242
+    symlink: false
+  - digest: null
+    path: cluster-191.msa
+    size: 6493
+    symlink: false
+  - digest: null
+    path: cluster-192.msa
+    size: 1833
+    symlink: false
+  - digest: null
+    path: cluster-193.msa
+    size: 1608
+    symlink: false
+  - digest: null
+    path: cluster-194.msa
+    size: 1558
+    symlink: false
+  - digest: null
+    path: cluster-195.msa
+    size: 5534
+    symlink: false
+  - digest: null
+    path: cluster-196.msa
+    size: 7160
+    symlink: false
+  - digest: null
+    path: cluster-197.msa
+    size: 7112
+    symlink: false
+  - digest: null
+    path: cluster-198.msa
+    size: 3147
+    symlink: false
+  - digest: null
+    path: cluster-199.msa
+    size: 1556
+    symlink: false
+  - digest: null
+    path: cluster-2.msa
+    size: 1691
+    symlink: false
+  - digest: null
+    path: cluster-20.msa
+    size: 994
+    symlink: false
+  - digest: null
+    path: cluster-200.msa
+    size: 7107
+    symlink: false
+  - digest: null
+    path: cluster-201.msa
+    size: 1556
+    symlink: false
+  - digest: null
+    path: cluster-202.msa
+    size: 2283
+    symlink: false
+  - digest: null
+    path: cluster-203.msa
+    size: 4667
+    symlink: false
+  - digest: null
+    path: cluster-204.msa
+    size: 2281
+    symlink: false
+  - digest: null
+    path: cluster-205.msa
+    size: 2280
+    symlink: false
+  - digest: null
+    path: cluster-206.msa
+    size: 1526
+    symlink: false
+  - digest: null
+    path: cluster-207.msa
+    size: 1511
+    symlink: false
+  - digest: null
+    path: cluster-208.msa
+    size: 1514
+    symlink: false
+  - digest: null
+    path: cluster-209.msa
+    size: 1512
+    symlink: false
+  - digest: null
+    path: cluster-21.msa
+    size: 1726
+    symlink: false
+  - digest: null
+    path: cluster-210.msa
+    size: 1570
+    symlink: false
+  - digest: null
+    path: cluster-211.msa
+    size: 1526
+    symlink: false
+  - digest: null
+    path: cluster-212.msa
+    size: 18682
+    symlink: false
+  - digest: null
+    path: cluster-213.msa
+    size: 1851
+    symlink: false
+  - digest: null
+    path: cluster-214.msa
+    size: 2459
+    symlink: false
+  - digest: null
+    path: cluster-215.msa
+    size: 27343
+    symlink: false
+  - digest: null
+    path: cluster-216.msa
+    size: 1859
+    symlink: false
+  - digest: null
+    path: cluster-217.msa
+    size: 4105
+    symlink: false
+  - digest: null
+    path: cluster-218.msa
+    size: 4120
+    symlink: false
+  - digest: null
+    path: cluster-219.msa
+    size: 6012
+    symlink: false
+  - digest: null
+    path: cluster-22.msa
+    size: 1814
+    symlink: false
+  - digest: null
+    path: cluster-220.msa
+    size: 1557
+    symlink: false
+  - digest: null
+    path: cluster-221.msa
+    size: 1473
+    symlink: false
+  - digest: null
+    path: cluster-222.msa
+    size: 12083
+    symlink: false
+  - digest: null
+    path: cluster-223.msa
+    size: 9807
+    symlink: false
+  - digest: null
+    path: cluster-224.msa
+    size: 31974
+    symlink: false
+  - digest: null
+    path: cluster-225.msa
+    size: 71961
+    symlink: false
+  - digest: null
+    path: cluster-226.msa
+    size: 17990
+    symlink: false
+  - digest: null
+    path: cluster-227.msa
+    size: 1721
+    symlink: false
+  - digest: null
+    path: cluster-228.msa
+    size: 1733
+    symlink: false
+  - digest: null
+    path: cluster-229.msa
+    size: 4253
+    symlink: false
+  - digest: null
+    path: cluster-23.msa
+    size: 1882
+    symlink: false
+  - digest: null
+    path: cluster-230.msa
+    size: 2542
+    symlink: false
+  - digest: null
+    path: cluster-231.msa
+    size: 1664
+    symlink: false
+  - digest: null
+    path: cluster-232.msa
+    size: 14904
+    symlink: false
+  - digest: null
+    path: cluster-233.msa
+    size: 4295
+    symlink: false
+  - digest: null
+    path: cluster-234.msa
+    size: 7021
+    symlink: false
+  - digest: null
+    path: cluster-235.msa
+    size: 9664
+    symlink: false
+  - digest: null
+    path: cluster-236.msa
+    size: 3499
+    symlink: false
+  - digest: null
+    path: cluster-237.msa
+    size: 7623
+    symlink: false
+  - digest: null
+    path: cluster-238.msa
+    size: 4459
+    symlink: false
+  - digest: null
+    path: cluster-239.msa
+    size: 1736
+    symlink: false
+  - digest: null
+    path: cluster-24.msa
+    size: 1699
+    symlink: false
+  - digest: null
+    path: cluster-240.msa
+    size: 1657
+    symlink: false
+  - digest: null
+    path: cluster-241.msa
+    size: 6164
+    symlink: false
+  - digest: null
+    path: cluster-242.msa
+    size: 1731
+    symlink: false
+  - digest: null
+    path: cluster-243.msa
+    size: 2539
+    symlink: false
+  - digest: null
+    path: cluster-244.msa
+    size: 3483
+    symlink: false
+  - digest: null
+    path: cluster-245.msa
+    size: 1716
+    symlink: false
+  - digest: null
+    path: cluster-246.msa
+    size: 1733
+    symlink: false
+  - digest: null
+    path: cluster-247.msa
+    size: 3515
+    symlink: false
+  - digest: null
+    path: cluster-248.msa
+    size: 1729
+    symlink: false
+  - digest: null
+    path: cluster-249.msa
+    size: 4394
+    symlink: false
+  - digest: null
+    path: cluster-25.msa
+    size: 1792
+    symlink: false
+  - digest: null
+    path: cluster-250.msa
+    size: 1734
+    symlink: false
+  - digest: null
+    path: cluster-251.msa
+    size: 1727
+    symlink: false
+  - digest: null
+    path: cluster-252.msa
+    size: 1679
+    symlink: false
+  - digest: null
+    path: cluster-253.msa
+    size: 1731
+    symlink: false
+  - digest: null
+    path: cluster-254.msa
+    size: 1623
+    symlink: false
+  - digest: null
+    path: cluster-255.msa
+    size: 4282
+    symlink: false
+  - digest: null
+    path: cluster-256.msa
+    size: 1668
+    symlink: false
+  - digest: null
+    path: cluster-257.msa
+    size: 1652
+    symlink: false
+  - digest: null
+    path: cluster-258.msa
+    size: 1735
+    symlink: false
+  - digest: null
+    path: cluster-259.msa
+    size: 1670
+    symlink: false
+  - digest: null
+    path: cluster-26.msa
+    size: 1112
+    symlink: false
+  - digest: null
+    path: cluster-260.msa
+    size: 1817
+    symlink: false
+  - digest: null
+    path: cluster-261.msa
+    size: 1708
+    symlink: false
+  - digest: null
+    path: cluster-262.msa
+    size: 1624
+    symlink: false
+  - digest: null
+    path: cluster-263.msa
+    size: 1792
+    symlink: false
+  - digest: null
+    path: cluster-264.msa
+    size: 1604
+    symlink: false
+  - digest: null
+    path: cluster-265.msa
+    size: 1759
+    symlink: false
+  - digest: null
+    path: cluster-266.msa
+    size: 12046
+    symlink: false
+  - digest: null
+    path: cluster-267.msa
+    size: 9241
+    symlink: false
+  - digest: null
+    path: cluster-268.msa
+    size: 1813
+    symlink: false
+  - digest: null
+    path: cluster-269.msa
+    size: 4428
+    symlink: false
+  - digest: null
+    path: cluster-27.msa
+    size: 1184
+    symlink: false
+  - digest: null
+    path: cluster-270.msa
+    size: 5048
+    symlink: false
+  - digest: null
+    path: cluster-271.msa
+    size: 3604
+    symlink: false
+  - digest: null
+    path: cluster-272.msa
+    size: 6838
+    symlink: false
+  - digest: null
+    path: cluster-273.msa
+    size: 1932
+    symlink: false
+  - digest: null
+    path: cluster-274.msa
+    size: 1934
+    symlink: false
+  - digest: null
+    path: cluster-275.msa
+    size: 1941
+    symlink: false
+  - digest: null
+    path: cluster-276.msa
+    size: 1803
+    symlink: false
+  - digest: null
+    path: cluster-277.msa
+    size: 3940
+    symlink: false
+  - digest: null
+    path: cluster-278.msa
+    size: 1858
+    symlink: false
+  - digest: null
+    path: cluster-279.msa
+    size: 1857
+    symlink: false
+  - digest: null
+    path: cluster-28.msa
+    size: 1794
+    symlink: false
+  - digest: null
+    path: cluster-280.msa
+    size: 1916
+    symlink: false
+  - digest: null
+    path: cluster-281.msa
+    size: 1814
+    symlink: false
+  - digest: null
+    path: cluster-282.msa
+    size: 1853
+    symlink: false
+  - digest: null
+    path: cluster-283.msa
+    size: 1543
+    symlink: false
+  - digest: null
+    path: cluster-284.msa
+    size: 1620
+    symlink: false
+  - digest: null
+    path: cluster-285.msa
+    size: 1831
+    symlink: false
+  - digest: null
+    path: cluster-286.msa
+    size: 141762
+    symlink: false
+  - digest: null
+    path: cluster-287.msa
+    size: 1555
+    symlink: false
+  - digest: null
+    path: cluster-288.msa
+    size: 1573
+    symlink: false
+  - digest: null
+    path: cluster-289.msa
+    size: 1761
+    symlink: false
+  - digest: null
+    path: cluster-29.msa
+    size: 2975
+    symlink: false
+  - digest: null
+    path: cluster-290.msa
+    size: 5599
+    symlink: false
+  - digest: null
+    path: cluster-291.msa
+    size: 1737
+    symlink: false
+  - digest: null
+    path: cluster-292.msa
+    size: 2360
+    symlink: false
+  - digest: null
+    path: cluster-293.msa
+    size: 151069
+    symlink: false
+  - digest: null
+    path: cluster-294.msa
+    size: 1981
+    symlink: false
+  - digest: null
+    path: cluster-295.msa
+    size: 1893
+    symlink: false
+  - digest: null
+    path: cluster-296.msa
+    size: 2382
+    symlink: false
+  - digest: null
+    path: cluster-297.msa
+    size: 1570
+    symlink: false
+  - digest: null
+    path: cluster-298.msa
+    size: 2339
+    symlink: false
+  - digest: null
+    path: cluster-299.msa
+    size: 10458
+    symlink: false
+  - digest: null
+    path: cluster-3.msa
+    size: 1762
+    symlink: false
+  - digest: null
+    path: cluster-30.msa
+    size: 1182
+    symlink: false
+  - digest: null
+    path: cluster-300.msa
+    size: 32416
+    symlink: false
+  - digest: null
+    path: cluster-301.msa
+    size: 1678
+    symlink: false
+  - digest: null
+    path: cluster-302.msa
+    size: 1671
+    symlink: false
+  - digest: null
+    path: cluster-303.msa
+    size: 2106
+    symlink: false
+  - digest: null
+    path: cluster-304.msa
+    size: 2031
+    symlink: false
+  - digest: null
+    path: cluster-305.msa
+    size: 5069
+    symlink: false
+  - digest: null
+    path: cluster-306.msa
+    size: 2074
+    symlink: false
+  - digest: null
+    path: cluster-307.msa
+    size: 2052
+    symlink: false
+  - digest: null
+    path: cluster-308.msa
+    size: 1934
+    symlink: false
+  - digest: null
+    path: cluster-309.msa
+    size: 3353
+    symlink: false
+  - digest: null
+    path: cluster-31.msa
+    size: 1158
+    symlink: false
+  - digest: null
+    path: cluster-310.msa
+    size: 1361
+    symlink: false
+  - digest: null
+    path: cluster-311.msa
+    size: 920
+    symlink: false
+  - digest: null
+    path: cluster-312.msa
+    size: 903
+    symlink: false
+  - digest: null
+    path: cluster-313.msa
+    size: 915
+    symlink: false
+  - digest: null
+    path: cluster-314.msa
+    size: 1165
+    symlink: false
+  - digest: null
+    path: cluster-315.msa
+    size: 1005
+    symlink: false
+  - digest: null
+    path: cluster-316.msa
+    size: 2440
+    symlink: false
+  - digest: null
+    path: cluster-317.msa
+    size: 6446
+    symlink: false
+  - digest: null
+    path: cluster-318.msa
+    size: 4768
+    symlink: false
+  - digest: null
+    path: cluster-319.msa
+    size: 5625
+    symlink: false
+  - digest: null
+    path: cluster-32.msa
+    size: 1238
+    symlink: false
+  - digest: null
+    path: cluster-320.msa
+    size: 1396
+    symlink: false
+  - digest: null
+    path: cluster-321.msa
+    size: 3509
+    symlink: false
+  - digest: null
+    path: cluster-322.msa
+    size: 24091
+    symlink: false
+  - digest: null
+    path: cluster-323.msa
+    size: 6235
+    symlink: false
+  - digest: null
+    path: cluster-324.msa
+    size: 4863
+    symlink: false
+  - digest: null
+    path: cluster-325.msa
+    size: 2165
+    symlink: false
+  - digest: null
+    path: cluster-326.msa
+    size: 1406
+    symlink: false
+  - digest: null
+    path: cluster-327.msa
+    size: 1363
+    symlink: false
+  - digest: null
+    path: cluster-328.msa
+    size: 1385
+    symlink: false
+  - digest: null
+    path: cluster-329.msa
+    size: 2101
+    symlink: false
+  - digest: null
+    path: cluster-33.msa
+    size: 2514
+    symlink: false
+  - digest: null
+    path: cluster-330.msa
+    size: 2809
+    symlink: false
+  - digest: null
+    path: cluster-331.msa
+    size: 2417
+    symlink: false
+  - digest: null
+    path: cluster-332.msa
+    size: 2182
+    symlink: false
+  - digest: null
+    path: cluster-333.msa
+    size: 3234
+    symlink: false
+  - digest: null
+    path: cluster-334.msa
+    size: 4308
+    symlink: false
+  - digest: null
+    path: cluster-335.msa
+    size: 2148
+    symlink: false
+  - digest: null
+    path: cluster-336.msa
+    size: 968
+    symlink: false
+  - digest: null
+    path: cluster-337.msa
+    size: 2148
+    symlink: false
+  - digest: null
+    path: cluster-338.msa
+    size: 2150
+    symlink: false
+  - digest: null
+    path: cluster-339.msa
+    size: 3233
+    symlink: false
+  - digest: null
+    path: cluster-34.msa
+    size: 1447
+    symlink: false
+  - digest: null
+    path: cluster-340.msa
+    size: 5516
+    symlink: false
+  - digest: null
+    path: cluster-341.msa
+    size: 2204
+    symlink: false
+  - digest: null
+    path: cluster-342.msa
+    size: 3308
+    symlink: false
+  - digest: null
+    path: cluster-343.msa
+    size: 3286
+    symlink: false
+  - digest: null
+    path: cluster-344.msa
+    size: 4079
+    symlink: false
+  - digest: null
+    path: cluster-345.msa
+    size: 2030
+    symlink: false
+  - digest: null
+    path: cluster-346.msa
+    size: 2028
+    symlink: false
+  - digest: null
+    path: cluster-347.msa
+    size: 2022
+    symlink: false
+  - digest: null
+    path: cluster-348.msa
+    size: 2046
+    symlink: false
+  - digest: null
+    path: cluster-349.msa
+    size: 2183
+    symlink: false
+  - digest: null
+    path: cluster-35.msa
+    size: 939
+    symlink: false
+  - digest: null
+    path: cluster-350.msa
+    size: 2213
+    symlink: false
+  - digest: null
+    path: cluster-351.msa
+    size: 1393
+    symlink: false
+  - digest: null
+    path: cluster-352.msa
+    size: 1468
+    symlink: false
+  - digest: null
+    path: cluster-353.msa
+    size: 1470
+    symlink: false
+  - digest: null
+    path: cluster-354.msa
+    size: 1468
+    symlink: false
+  - digest: null
+    path: cluster-355.msa
+    size: 1468
+    symlink: false
+  - digest: null
+    path: cluster-356.msa
+    size: 1473
+    symlink: false
+  - digest: null
+    path: cluster-357.msa
+    size: 2218
+    symlink: false
+  - digest: null
+    path: cluster-358.msa
+    size: 4853
+    symlink: false
+  - digest: null
+    path: cluster-359.msa
+    size: 2777
+    symlink: false
+  - digest: null
+    path: cluster-36.msa
+    size: 1210
+    symlink: false
+  - digest: null
+    path: cluster-360.msa
+    size: 2258
+    symlink: false
+  - digest: null
+    path: cluster-361.msa
+    size: 2379
+    symlink: false
+  - digest: null
+    path: cluster-362.msa
+    size: 2282
+    symlink: false
+  - digest: null
+    path: cluster-363.msa
+    size: 2276
+    symlink: false
+  - digest: null
+    path: cluster-364.msa
+    size: 2312
+    symlink: false
+  - digest: null
+    path: cluster-365.msa
+    size: 2204
+    symlink: false
+  - digest: null
+    path: cluster-366.msa
+    size: 2216
+    symlink: false
+  - digest: null
+    path: cluster-367.msa
+    size: 6493
+    symlink: false
+  - digest: null
+    path: cluster-368.msa
+    size: 6472
+    symlink: false
+  - digest: null
+    path: cluster-369.msa
+    size: 2065
+    symlink: false
+  - digest: null
+    path: cluster-37.msa
+    size: 1187
+    symlink: false
+  - digest: null
+    path: cluster-370.msa
+    size: 2289
+    symlink: false
+  - digest: null
+    path: cluster-371.msa
+    size: 1736
+    symlink: false
+  - digest: null
+    path: cluster-372.msa
+    size: 1976
+    symlink: false
+  - digest: null
+    path: cluster-373.msa
+    size: 1958
+    symlink: false
+  - digest: null
+    path: cluster-374.msa
+    size: 2617
+    symlink: false
+  - digest: null
+    path: cluster-375.msa
+    size: 1292
+    symlink: false
+  - digest: null
+    path: cluster-376.msa
+    size: 1292
+    symlink: false
+  - digest: null
+    path: cluster-377.msa
+    size: 1292
+    symlink: false
+  - digest: null
+    path: cluster-378.msa
+    size: 1295
+    symlink: false
+  - digest: null
+    path: cluster-379.msa
+    size: 1221
+    symlink: false
+  - digest: null
+    path: cluster-38.msa
+    size: 952
+    symlink: false
+  - digest: null
+    path: cluster-380.msa
+    size: 1422
+    symlink: false
+  - digest: null
+    path: cluster-381.msa
+    size: 1239
+    symlink: false
+  - digest: null
+    path: cluster-382.msa
+    size: 2477
+    symlink: false
+  - digest: null
+    path: cluster-383.msa
+    size: 1904
+    symlink: false
+  - digest: null
+    path: cluster-384.msa
+    size: 1694
+    symlink: false
+  - digest: null
+    path: cluster-385.msa
+    size: 2222
+    symlink: false
+  - digest: null
+    path: cluster-386.msa
+    size: 1480
+    symlink: false
+  - digest: null
+    path: cluster-387.msa
+    size: 2863
+    symlink: false
+  - digest: null
+    path: cluster-388.msa
+    size: 1848
+    symlink: false
+  - digest: null
+    path: cluster-389.msa
+    size: 1044
+    symlink: false
+  - digest: null
+    path: cluster-39.msa
+    size: 969
+    symlink: false
+  - digest: null
+    path: cluster-390.msa
+    size: 1713
+    symlink: false
+  - digest: null
+    path: cluster-391.msa
+    size: 1031
+    symlink: false
+  - digest: null
+    path: cluster-392.msa
+    size: 1318
+    symlink: false
+  - digest: null
+    path: cluster-393.msa
+    size: 3407
+    symlink: false
+  - digest: null
+    path: cluster-394.msa
+    size: 2186
+    symlink: false
+  - digest: null
+    path: cluster-395.msa
+    size: 3829
+    symlink: false
+  - digest: null
+    path: cluster-396.msa
+    size: 2605
+    symlink: false
+  - digest: null
+    path: cluster-397.msa
+    size: 2105
+    symlink: false
+  - digest: null
+    path: cluster-398.msa
+    size: 2020
+    symlink: false
+  - digest: null
+    path: cluster-399.msa
+    size: 1765
+    symlink: false
+  - digest: null
+    path: cluster-4.msa
+    size: 1713
+    symlink: false
+  - digest: null
+    path: cluster-40.msa
+    size: 938
+    symlink: false
+  - digest: null
+    path: cluster-400.msa
+    size: 1539
+    symlink: false
+  - digest: null
+    path: cluster-401.msa
+    size: 1770
+    symlink: false
+  - digest: null
+    path: cluster-402.msa
+    size: 1678
+    symlink: false
+  - digest: null
+    path: cluster-403.msa
+    size: 1770
+    symlink: false
+  - digest: null
+    path: cluster-404.msa
+    size: 2407
+    symlink: false
+  - digest: null
+    path: cluster-405.msa
+    size: 1559
+    symlink: false
+  - digest: null
+    path: cluster-406.msa
+    size: 1589
+    symlink: false
+  - digest: null
+    path: cluster-407.msa
+    size: 1113
+    symlink: false
+  - digest: null
+    path: cluster-408.msa
+    size: 1889
+    symlink: false
+  - digest: null
+    path: cluster-409.msa
+    size: 1538
+    symlink: false
+  - digest: null
+    path: cluster-41.msa
+    size: 944
+    symlink: false
+  - digest: null
+    path: cluster-410.msa
+    size: 1549
+    symlink: false
+  - digest: null
+    path: cluster-411.msa
+    size: 1543
+    symlink: false
+  - digest: null
+    path: cluster-412.msa
+    size: 1803
+    symlink: false
+  - digest: null
+    path: cluster-413.msa
+    size: 2307
+    symlink: false
+  - digest: null
+    path: cluster-414.msa
+    size: 1677
+    symlink: false
+  - digest: null
+    path: cluster-415.msa
+    size: 1543
+    symlink: false
+  - digest: null
+    path: cluster-416.msa
+    size: 1877
+    symlink: false
+  - digest: null
+    path: cluster-417.msa
+    size: 1827
+    symlink: false
+  - digest: null
+    path: cluster-418.msa
+    size: 1637
+    symlink: false
+  - digest: null
+    path: cluster-419.msa
+    size: 1621
+    symlink: false
+  - digest: null
+    path: cluster-42.msa
+    size: 1930
+    symlink: false
+  - digest: null
+    path: cluster-420.msa
+    size: 2125
+    symlink: false
+  - digest: null
+    path: cluster-421.msa
+    size: 1997
+    symlink: false
+  - digest: null
+    path: cluster-422.msa
+    size: 1542
+    symlink: false
+  - digest: null
+    path: cluster-423.msa
+    size: 1633
+    symlink: false
+  - digest: null
+    path: cluster-424.msa
+    size: 1950
+    symlink: false
+  - digest: null
+    path: cluster-425.msa
+    size: 1785
+    symlink: false
+  - digest: null
+    path: cluster-426.msa
+    size: 1545
+    symlink: false
+  - digest: null
+    path: cluster-427.msa
+    size: 1776
+    symlink: false
+  - digest: null
+    path: cluster-428.msa
+    size: 1038
+    symlink: false
+  - digest: null
+    path: cluster-429.msa
+    size: 2538
+    symlink: false
+  - digest: null
+    path: cluster-43.msa
+    size: 1168
+    symlink: false
+  - digest: null
+    path: cluster-430.msa
+    size: 2983
+    symlink: false
+  - digest: null
+    path: cluster-431.msa
+    size: 2649
+    symlink: false
+  - digest: null
+    path: cluster-432.msa
+    size: 1060
+    symlink: false
+  - digest: null
+    path: cluster-433.msa
+    size: 1057
+    symlink: false
+  - digest: null
+    path: cluster-434.msa
+    size: 1722
+    symlink: false
+  - digest: null
+    path: cluster-435.msa
+    size: 3086
+    symlink: false
+  - digest: null
+    path: cluster-436.msa
+    size: 3052
+    symlink: false
+  - digest: null
+    path: cluster-437.msa
+    size: 3052
+    symlink: false
+  - digest: null
+    path: cluster-438.msa
+    size: 2521
+    symlink: false
+  - digest: null
+    path: cluster-439.msa
+    size: 2550
+    symlink: false
+  - digest: null
+    path: cluster-44.msa
+    size: 950
+    symlink: false
+  - digest: null
+    path: cluster-440.msa
+    size: 1892
+    symlink: false
+  - digest: null
+    path: cluster-441.msa
+    size: 1896
+    symlink: false
+  - digest: null
+    path: cluster-442.msa
+    size: 1880
+    symlink: false
+  - digest: null
+    path: cluster-443.msa
+    size: 1753
+    symlink: false
+  - digest: null
+    path: cluster-444.msa
+    size: 1850
+    symlink: false
+  - digest: null
+    path: cluster-445.msa
+    size: 3027
+    symlink: false
+  - digest: null
+    path: cluster-446.msa
+    size: 3051
+    symlink: false
+  - digest: null
+    path: cluster-447.msa
+    size: 3022
+    symlink: false
+  - digest: null
+    path: cluster-448.msa
+    size: 3046
+    symlink: false
+  - digest: null
+    path: cluster-449.msa
+    size: 3518
+    symlink: false
+  - digest: null
+    path: cluster-45.msa
+    size: 944
+    symlink: false
+  - digest: null
+    path: cluster-450.msa
+    size: 2036
+    symlink: false
+  - digest: null
+    path: cluster-451.msa
+    size: 3401
+    symlink: false
+  - digest: null
+    path: cluster-452.msa
+    size: 3389
+    symlink: false
+  - digest: null
+    path: cluster-453.msa
+    size: 3349
+    symlink: false
+  - digest: null
+    path: cluster-454.msa
+    size: 1390
+    symlink: false
+  - digest: null
+    path: cluster-455.msa
+    size: 1345
+    symlink: false
+  - digest: null
+    path: cluster-456.msa
+    size: 1333
+    symlink: false
+  - digest: null
+    path: cluster-457.msa
+    size: 1328
+    symlink: false
+  - digest: null
+    path: cluster-458.msa
+    size: 1361
+    symlink: false
+  - digest: null
+    path: cluster-459.msa
+    size: 1403
+    symlink: false
+  - digest: null
+    path: cluster-46.msa
+    size: 1148
+    symlink: false
+  - digest: null
+    path: cluster-460.msa
+    size: 4863
+    symlink: false
+  - digest: null
+    path: cluster-461.msa
+    size: 3413
+    symlink: false
+  - digest: null
+    path: cluster-462.msa
+    size: 3252
+    symlink: false
+  - digest: null
+    path: cluster-463.msa
+    size: 3247
+    symlink: false
+  - digest: null
+    path: cluster-464.msa
+    size: 1880
+    symlink: false
+  - digest: null
+    path: cluster-465.msa
+    size: 1855
+    symlink: false
+  - digest: null
+    path: cluster-466.msa
+    size: 1079
+    symlink: false
+  - digest: null
+    path: cluster-467.msa
+    size: 4047
+    symlink: false
+  - digest: null
+    path: cluster-468.msa
+    size: 1398
+    symlink: false
+  - digest: null
+    path: cluster-469.msa
+    size: 2070
+    symlink: false
+  - digest: null
+    path: cluster-47.msa
+    size: 950
+    symlink: false
+  - digest: null
+    path: cluster-470.msa
+    size: 2079
+    symlink: false
+  - digest: null
+    path: cluster-471.msa
+    size: 1391
+    symlink: false
+  - digest: null
+    path: cluster-472.msa
+    size: 1355
+    symlink: false
+  - digest: null
+    path: cluster-473.msa
+    size: 1355
+    symlink: false
+  - digest: null
+    path: cluster-474.msa
+    size: 1373
+    symlink: false
+  - digest: null
+    path: cluster-475.msa
+    size: 1340
+    symlink: false
+  - digest: null
+    path: cluster-476.msa
+    size: 1329
+    symlink: false
+  - digest: null
+    path: cluster-477.msa
+    size: 1339
+    symlink: false
+  - digest: null
+    path: cluster-478.msa
+    size: 1338
+    symlink: false
+  - digest: null
+    path: cluster-479.msa
+    size: 1171
+    symlink: false
+  - digest: null
+    path: cluster-48.msa
+    size: 1440
+    symlink: false
+  - digest: null
+    path: cluster-480.msa
+    size: 2018
+    symlink: false
+  - digest: null
+    path: cluster-481.msa
+    size: 1303
+    symlink: false
+  - digest: null
+    path: cluster-482.msa
+    size: 1349
+    symlink: false
+  - digest: null
+    path: cluster-483.msa
+    size: 1337
+    symlink: false
+  - digest: null
+    path: cluster-484.msa
+    size: 1390
+    symlink: false
+  - digest: null
+    path: cluster-485.msa
+    size: 2042
+    symlink: false
+  - digest: null
+    path: cluster-486.msa
+    size: 1394
+    symlink: false
+  - digest: null
+    path: cluster-487.msa
+    size: 1048
+    symlink: false
+  - digest: null
+    path: cluster-488.msa
+    size: 1447
+    symlink: false
+  - digest: null
+    path: cluster-489.msa
+    size: 3923
+    symlink: false
+  - digest: null
+    path: cluster-49.msa
+    size: 950
+    symlink: false
+  - digest: null
+    path: cluster-490.msa
+    size: 2708
+    symlink: false
+  - digest: null
+    path: cluster-491.msa
+    size: 2440
+    symlink: false
+  - digest: null
+    path: cluster-492.msa
+    size: 2435
+    symlink: false
+  - digest: null
+    path: cluster-493.msa
+    size: 2435
+    symlink: false
+  - digest: null
+    path: cluster-494.msa
+    size: 2468
+    symlink: false
+  - digest: null
+    path: cluster-495.msa
+    size: 2950
+    symlink: false
+  - digest: null
+    path: cluster-496.msa
+    size: 2521
+    symlink: false
+  - digest: null
+    path: cluster-497.msa
+    size: 2586
+    symlink: false
+  - digest: null
+    path: cluster-498.msa
+    size: 1476
+    symlink: false
+  - digest: null
+    path: cluster-499.msa
+    size: 974
+    symlink: false
+  - digest: null
+    path: cluster-5.msa
+    size: 1649
+    symlink: false
+  - digest: null
+    path: cluster-50.msa
+    size: 994
+    symlink: false
+  - digest: null
+    path: cluster-500.msa
+    size: 972
+    symlink: false
+  - digest: null
+    path: cluster-501.msa
+    size: 974
+    symlink: false
+  - digest: null
+    path: cluster-502.msa
+    size: 2968
+    symlink: false
+  - digest: null
+    path: cluster-503.msa
+    size: 3378
+    symlink: false
+  - digest: null
+    path: cluster-504.msa
+    size: 1662
+    symlink: false
+  - digest: null
+    path: cluster-505.msa
+    size: 1711
+    symlink: false
+  - digest: null
+    path: cluster-506.msa
+    size: 1758
+    symlink: false
+  - digest: null
+    path: cluster-507.msa
+    size: 3482
+    symlink: false
+  - digest: null
+    path: cluster-508.msa
+    size: 2195
+    symlink: false
+  - digest: null
+    path: cluster-509.msa
+    size: 3172
+    symlink: false
+  - digest: null
+    path: cluster-51.msa
+    size: 870
+    symlink: false
+  - digest: null
+    path: cluster-510.msa
+    size: 2458
+    symlink: false
+  - digest: null
+    path: cluster-511.msa
+    size: 2556
+    symlink: false
+  - digest: null
+    path: cluster-512.msa
+    size: 3945
+    symlink: false
+  - digest: null
+    path: cluster-513.msa
+    size: 2540
+    symlink: false
+  - digest: null
+    path: cluster-514.msa
+    size: 998
+    symlink: false
+  - digest: null
+    path: cluster-515.msa
+    size: 2306
+    symlink: false
+  - digest: null
+    path: cluster-516.msa
+    size: 3954
+    symlink: false
+  - digest: null
+    path: cluster-517.msa
+    size: 718
+    symlink: false
+  - digest: null
+    path: cluster-518.msa
+    size: 2795
+    symlink: false
+  - digest: null
+    path: cluster-519.msa
+    size: 2463
+    symlink: false
+  - digest: null
+    path: cluster-52.msa
+    size: 1798
+    symlink: false
+  - digest: null
+    path: cluster-520.msa
+    size: 2534
+    symlink: false
+  - digest: null
+    path: cluster-521.msa
+    size: 2452
+    symlink: false
+  - digest: null
+    path: cluster-522.msa
+    size: 2665
+    symlink: false
+  - digest: null
+    path: cluster-523.msa
+    size: 3216
+    symlink: false
+  - digest: null
+    path: cluster-524.msa
+    size: 3956
+    symlink: false
+  - digest: null
+    path: cluster-525.msa
+    size: 2605
+    symlink: false
+  - digest: null
+    path: cluster-526.msa
+    size: 2640
+    symlink: false
+  - digest: null
+    path: cluster-527.msa
+    size: 4024
+    symlink: false
+  - digest: null
+    path: cluster-528.msa
+    size: 2497
+    symlink: false
+  - digest: null
+    path: cluster-529.msa
+    size: 2465
+    symlink: false
+  - digest: null
+    path: cluster-53.msa
+    size: 831
+    symlink: false
+  - digest: null
+    path: cluster-530.msa
+    size: 2456
+    symlink: false
+  - digest: null
+    path: cluster-531.msa
+    size: 2522
+    symlink: false
+  - digest: null
+    path: cluster-532.msa
+    size: 2437
+    symlink: false
+  - digest: null
+    path: cluster-533.msa
+    size: 3204
+    symlink: false
+  - digest: null
+    path: cluster-534.msa
+    size: 2480
+    symlink: false
+  - digest: null
+    path: cluster-535.msa
+    size: 2849
+    symlink: false
+  - digest: null
+    path: cluster-536.msa
+    size: 2843
+    symlink: false
+  - digest: null
+    path: cluster-537.msa
+    size: 3942
+    symlink: false
+  - digest: null
+    path: cluster-538.msa
+    size: 3941
+    symlink: false
+  - digest: null
+    path: cluster-539.msa
+    size: 4051
+    symlink: false
+  - digest: null
+    path: cluster-54.msa
+    size: 1202
+    symlink: false
+  - digest: null
+    path: cluster-540.msa
+    size: 1337
+    symlink: false
+  - digest: null
+    path: cluster-541.msa
+    size: 1378
+    symlink: false
+  - digest: null
+    path: cluster-542.msa
+    size: 3955
+    symlink: false
+  - digest: null
+    path: cluster-543.msa
+    size: 4015
+    symlink: false
+  - digest: null
+    path: cluster-544.msa
+    size: 696
+    symlink: false
+  - digest: null
+    path: cluster-545.msa
+    size: 2607
+    symlink: false
+  - digest: null
+    path: cluster-546.msa
+    size: 3944
+    symlink: false
+  - digest: null
+    path: cluster-547.msa
+    size: 2417
+    symlink: false
+  - digest: null
+    path: cluster-548.msa
+    size: 2438
+    symlink: false
+  - digest: null
+    path: cluster-549.msa
+    size: 2398
+    symlink: false
+  - digest: null
+    path: cluster-55.msa
+    size: 1180
+    symlink: false
+  - digest: null
+    path: cluster-550.msa
+    size: 4087
+    symlink: false
+  - digest: null
+    path: cluster-551.msa
+    size: 1015
+    symlink: false
+  - digest: null
+    path: cluster-552.msa
+    size: 2710
+    symlink: false
+  - digest: null
+    path: cluster-553.msa
+    size: 1195
+    symlink: false
+  - digest: null
+    path: cluster-554.msa
+    size: 1184
+    symlink: false
+  - digest: null
+    path: cluster-555.msa
+    size: 1538
+    symlink: false
+  - digest: null
+    path: cluster-556.msa
+    size: 1200
+    symlink: false
+  - digest: null
+    path: cluster-557.msa
+    size: 1064
+    symlink: false
+  - digest: null
+    path: cluster-558.msa
+    size: 1015
+    symlink: false
+  - digest: null
+    path: cluster-559.msa
+    size: 1539
+    symlink: false
+  - digest: null
+    path: cluster-56.msa
+    size: 9714
+    symlink: false
+  - digest: null
+    path: cluster-560.msa
+    size: 1214
+    symlink: false
+  - digest: null
+    path: cluster-561.msa
+    size: 1011
+    symlink: false
+  - digest: null
+    path: cluster-562.msa
+    size: 1092
+    symlink: false
+  - digest: null
+    path: cluster-563.msa
+    size: 985
+    symlink: false
+  - digest: null
+    path: cluster-564.msa
+    size: 1174
+    symlink: false
+  - digest: null
+    path: cluster-565.msa
+    size: 1541
+    symlink: false
+  - digest: null
+    path: cluster-566.msa
+    size: 1013
+    symlink: false
+  - digest: null
+    path: cluster-567.msa
+    size: 1539
+    symlink: false
+  - digest: null
+    path: cluster-568.msa
+    size: 1538
+    symlink: false
+  - digest: null
+    path: cluster-569.msa
+    size: 1030
+    symlink: false
+  - digest: null
+    path: cluster-57.msa
+    size: 1747
+    symlink: false
+  - digest: null
+    path: cluster-570.msa
+    size: 1045
+    symlink: false
+  - digest: null
+    path: cluster-571.msa
+    size: 1088
+    symlink: false
+  - digest: null
+    path: cluster-572.msa
+    size: 1136
+    symlink: false
+  - digest: null
+    path: cluster-573.msa
+    size: 991
+    symlink: false
+  - digest: null
+    path: cluster-574.msa
+    size: 536
+    symlink: false
+  - digest: null
+    path: cluster-575.msa
+    size: 537
+    symlink: false
+  - digest: null
+    path: cluster-576.msa
+    size: 537
+    symlink: false
+  - digest: null
+    path: cluster-577.msa
+    size: 860
+    symlink: false
+  - digest: null
+    path: cluster-578.msa
+    size: 1038
+    symlink: false
+  - digest: null
+    path: cluster-579.msa
+    size: 1067
+    symlink: false
+  - digest: null
+    path: cluster-58.msa
+    size: 1671
+    symlink: false
+  - digest: null
+    path: cluster-580.msa
+    size: 1069
+    symlink: false
+  - digest: null
+    path: cluster-581.msa
+    size: 1054
+    symlink: false
+  - digest: null
+    path: cluster-582.msa
+    size: 1014
+    symlink: false
+  - digest: null
+    path: cluster-583.msa
+    size: 2619
+    symlink: false
+  - digest: null
+    path: cluster-59.msa
+    size: 1650
+    symlink: false
+  - digest: null
+    path: cluster-6.msa
+    size: 1144
+    symlink: false
+  - digest: null
+    path: cluster-60.msa
+    size: 1773
+    symlink: false
+  - digest: null
+    path: cluster-61.msa
+    size: 4195
+    symlink: false
+  - digest: null
+    path: cluster-62.msa
+    size: 2493
+    symlink: false
+  - digest: null
+    path: cluster-63.msa
+    size: 4342
+    symlink: false
+  - digest: null
+    path: cluster-64.msa
+    size: 1671
+    symlink: false
+  - digest: null
+    path: cluster-65.msa
+    size: 1756
+    symlink: false
+  - digest: null
+    path: cluster-66.msa
+    size: 1139
+    symlink: false
+  - digest: null
+    path: cluster-67.msa
+    size: 1019
+    symlink: false
+  - digest: null
+    path: cluster-68.msa
+    size: 1619
+    symlink: false
+  - digest: null
+    path: cluster-69.msa
+    size: 1798
+    symlink: false
+  - digest: null
+    path: cluster-7.msa
+    size: 1248
+    symlink: false
+  - digest: null
+    path: cluster-70.msa
+    size: 1867
+    symlink: false
+  - digest: null
+    path: cluster-71.msa
+    size: 1595
+    symlink: false
+  - digest: null
+    path: cluster-72.msa
+    size: 1593
+    symlink: false
+  - digest: null
+    path: cluster-73.msa
+    size: 1620
+    symlink: false
+  - digest: null
+    path: cluster-74.msa
+    size: 1899
+    symlink: false
+  - digest: null
+    path: cluster-75.msa
+    size: 1800
+    symlink: false
+  - digest: null
+    path: cluster-76.msa
+    size: 1924
+    symlink: false
+  - digest: null
+    path: cluster-77.msa
+    size: 2862
+    symlink: false
+  - digest: null
+    path: cluster-78.msa
+    size: 1883
+    symlink: false
+  - digest: null
+    path: cluster-79.msa
+    size: 2593
+    symlink: false
+  - digest: null
+    path: cluster-8.msa
+    size: 1162
+    symlink: false
+  - digest: null
+    path: cluster-80.msa
+    size: 1610
+    symlink: false
+  - digest: null
+    path: cluster-81.msa
+    size: 1668
+    symlink: false
+  - digest: null
+    path: cluster-82.msa
+    size: 1694
+    symlink: false
+  - digest: null
+    path: cluster-83.msa
+    size: 1687
+    symlink: false
+  - digest: null
+    path: cluster-84.msa
+    size: 1655
+    symlink: false
+  - digest: null
+    path: cluster-85.msa
+    size: 1711
+    symlink: false
+  - digest: null
+    path: cluster-86.msa
+    size: 1711
+    symlink: false
+  - digest: null
+    path: cluster-87.msa
+    size: 1585
+    symlink: false
+  - digest: null
+    path: cluster-88.msa
+    size: 2475
+    symlink: false
+  - digest: null
+    path: cluster-89.msa
+    size: 1631
+    symlink: false
+  - digest: null
+    path: cluster-9.msa
+    size: 1340
+    symlink: false
+  - digest: null
+    path: cluster-90.msa
+    size: 1661
+    symlink: false
+  - digest: null
+    path: cluster-91.msa
+    size: 1667
+    symlink: false
+  - digest: null
+    path: cluster-92.msa
+    size: 2135
+    symlink: false
+  - digest: null
+    path: cluster-93.msa
+    size: 2081
+    symlink: false
+  - digest: null
+    path: cluster-94.msa
+    size: 1928
+    symlink: false
+  - digest: null
+    path: cluster-95.msa
+    size: 1929
+    symlink: false
+  - digest: null
+    path: cluster-96.msa
+    size: 2661
+    symlink: false
+  - digest: null
+    path: cluster-97.msa
+    size: 1921
+    symlink: false
+  - digest: null
+    path: cluster-98.msa
+    size: 2075
+    symlink: false
+  - digest: null
+    path: cluster-99.msa
+    size: 1930
+    symlink: false
+  name: arg-annot (90 percent identity)
+  path: /cvmfs/data.galaxyproject.org/byhand/groot_database/arg-annot.90
+  value: arg-annot.90-1.1.2-08112025
+  version: 1.1.2
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

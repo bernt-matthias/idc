@@ -1,0 +1,13 @@
+humann_protein_database:
+- dbkey: 3.6.0
+  digest: abbc21f9ee3335c97df8a747df5304d656d54216a1a0c5c671166153b5aa55c9
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/humann_protein_database.loc
+  manifest:
+  - digest: null
+    path: uniref90_201901b_full.dmnd
+    size: 36332007356
+    symlink: false
+  name: Full UniRef90 for HUManN 2023
+  path: /cvmfs/data.galaxyproject.org/byhand/humann/data/protein_database/uniref-uniref90_diamond-3.6.0-29032023
+  value: uniref-uniref90_diamond-3.6.0-29032023
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

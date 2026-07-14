@@ -1,0 +1,33 @@
+fasta_indexes:
+- dbkey: apiMel4
+  digest: ed318de951fb0ef3fc97381374941132c00703cb3e2804345acdcdb9d598dbb6
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/fasta_indexes.loc
+  manifest:
+  - digest: null
+    path: apiMel4.fa
+    size: 253471381
+    symlink: true
+  - digest: null
+    path: apiMel4.fa.fai
+    size: 159405
+    symlink: false
+  name: A. mellifera 04 Nov 2010 (Amel_4.5/apiMel4) (apiMel4)
+  path: /cvmfs/data.galaxyproject.org/managed/sam_indexes/apiMel4/apiMel4.fa
+  value: apiMel4
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+- dbkey: Amel_4.5
+  digest: da5ba07d07710a7d21a61104e0e88d69ba29abc80563357b3fb3a4ecf0bb4945
+  loc_file: /cvmfs/data.galaxyproject.org/managed/location/fasta_indexes.loc
+  manifest:
+  - digest: null
+    path: Amel_4.5.fa
+    size: 253503285
+    symlink: true
+  - digest: null
+    path: Amel_4.5.fa.fai
+    size: 191311
+    symlink: false
+  name: A. mellifera Nov. 2010 (GCF_000002195.4/Amel_4.5) (Amel_4.5)
+  path: /cvmfs/data.galaxyproject.org/managed/sam_indexes/Amel_4.5/Amel_4.5.fa
+  value: Amel_4.5
+  xml_file: /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml

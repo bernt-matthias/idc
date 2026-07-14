@@ -1,0 +1,53 @@
+bwa_indexes_color:
+- dbkey: '13953'
+  digest: 60cf9682e75b53fce87791089af3872a97c9c1cdd3bb51b417cad56a7c8f582a
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/bwa_index_color.loc
+  manifest:
+  - digest: null
+    path: burkPseu_668.fa.amb
+    size: 12
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.ann
+    size: 72
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.bwt
+    size: 2640204
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.nt.amb
+    size: 12
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.nt.ann
+    size: 72
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.nt.pac
+    size: 1760102
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.pac
+    size: 1760102
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.rbwt
+    size: 2640204
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.rpac
+    size: 1760102
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.rsa
+    size: 880076
+    symlink: false
+  - digest: null
+    path: burkPseu_668.fa.sa
+    size: 880076
+    symlink: false
+  name: 'Burkholderia pseudomallei 668: 13953'
+  path: /cvmfs/data.galaxyproject.org/byhand/microbes/13953/bwa_index/cs/burkPseu_668.fa
+  value: burkPseu_668
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml

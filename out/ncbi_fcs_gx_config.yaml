@@ -1,0 +1,55 @@
+ncbi_fcs_gx_config:
+- digest: 56f38d36df7fdd61058d2df9e2cfff68cf41960158f8b180365e95944aeb7055
+  loc_file: /cvmfs/data.galaxyproject.org/byhand/location/ncbi_fcs_gx_config.tsv
+  manifest:
+  - digest: null
+    path: __KMP_REGISTERED_LIB_1654849_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_2273554_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_2635187_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_3575597_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_3585924_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_3590959_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_3622855_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_3661916_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_3685128_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_789670_353879
+    size: 1024
+    symlink: false
+  - digest: null
+    path: __KMP_REGISTERED_LIB_799285_353879
+    size: 1024
+    symlink: false
+  name: Complete GX database
+  node_cache_dir: /dev/shm/gxdb
+  phone_home: '1'
+  phone_home_label: usegalaxy.org
+  use_source_manifest: '1'
+  value: all
+  xml_file: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml
