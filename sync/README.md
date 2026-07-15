@@ -306,6 +306,8 @@ I (Lucille) think that the command is (if the database is called galaxy and if t
 psql -d galaxy -c "COPY (SELECT  create_time, data_manager_id, job_parameter.job_id, name, value FROM job_parameter JOIN  data_manager_job_association ON job_parameter.job_id = data_manager_job_association.job_id) TO STDOUT WITH HEADER" > all_params_for_DM.tsv
 ```
 
+EU ran this and the result is [here](./20260706_EU_all_params_for_DM.tsv). Unfortunately it seems that there were some manual modifications.
+
 ### all_fasta table
 
 There are specificities for this table.
