@@ -30,6 +30,14 @@ One can use `--tool_data_table_conf` to specifiy the tool_data_table_conf.xml fi
 
 José ran the command for the usegalaxy.eu and the result is [here](./usegalaxy_eu_20260626.yaml).
 
+### Generate hashes and manifest of all indices listed in the tables
+
+Take all_tables_content yaml file and add hash and manifest (contents + hashes). Output yaml per data table.
+
+```bash
+python sync/all_tables_content_add_hashes.py -i sync/test.yml -o sync/test_hashes
+```
+
 ### Get data_manager - table connection
 
 There is a script to get all the `data_manager`s from iuc and the input/output data tables.
