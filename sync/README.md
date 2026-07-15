@@ -30,6 +30,14 @@ One can use `--tool_data_table_conf` to specifiy the tool_data_table_conf.xml fi
 
 José ran the command for the usegalaxy.eu and the result is [here](./usegalaxy_eu_20260626.yaml).
 
+### Generate hashes and manifest of all indices listed in the tables
+
+Take all_tables_content yaml file and add hash and manifest (contents + hashes). Output yaml per data table.
+
+```bash
+python sync/all_tables_content_add_hashes.py -i sync/test.yml -o sync/test_hashes
+```
+
 ### Get data_manager - table connection
 
 There is a script to get all the `data_manager`s from iuc and the input/output data tables.
@@ -321,6 +329,8 @@ I (Lucille) think that the command is (if the database is called galaxy and if t
 ```bash
 psql -d galaxy -c "COPY (SELECT  create_time, data_manager_id, job_parameter.job_id, name, value FROM job_parameter JOIN  data_manager_job_association ON job_parameter.job_id = data_manager_job_association.job_id) TO STDOUT WITH HEADER" > all_params_for_DM.tsv
 ```
+
+EU ran this and the result is [here](./20260706_EU_all_params_for_DM.tsv). Unfortunately it seems that there were some manual modifications.
 
 ### all_fasta table
 

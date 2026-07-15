@@ -1,6 +1,7 @@
 import argparse
 import hashlib
 import logging
+import os
 import os.path
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -52,6 +53,8 @@ with open(args.input, "r") as f:
     all_tables_content = yaml.safe_load(f)
 logger.info("Done")
 
+# Create the output directory
+os.makedirs(str(args.output), exist_ok=True)
 
 def file_hash(path):
     """
@@ -72,16 +75,25 @@ def iter_matching_files(pathspec):
     - directory: iterate (recursive) over the directory contents
     - else (prefix): iterate over the parents contents (recursively)
     """
-    p = Path(pathspec)
 
+    path_list = pathspec.split(",")
+    if len(path_list) > 1:
+        for p in path_list:
+            yield from iter_matching_files(p)
+        return
+
+    p = Path(pathspec)
     if p.is_file():
-        yield (str(p.relative_to(p)), p)
+        parent = p.parent
+        prefix = p.name
+        yield from sorted(
+            (str(f.relative_to(parent)), f) for f in parent.glob(f"{prefix}*") if not f.is_dir()
+        )
 
     elif p.is_dir():
         yield from sorted(
             (str(f.relative_to(p)), f) for f in p.rglob("*") if not f.is_dir()
         )
-
     else:
         # this is in most cases a prefix. we still take all files contained
         # in the parent directory. this is because for instance the blast databases
@@ -109,7 +121,7 @@ def manifest_and_hash(root, max_workers=8):
     """
     comput manifest (all contents + metainfo) and a global hash
     """
-    files = sorted(iter_matching_files(root))
+    files = iter_matching_files(root)
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         manifest = list(executor.map(hash_one, [f for f in files]))
