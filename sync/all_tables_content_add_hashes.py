@@ -83,7 +83,10 @@ def iter_matching_files(pathspec):
         )
 
     else:
-        # Treat final component as a filename prefix
+        # this is in most cases a prefix. we still take all files contained
+        # in the parent directory. this is because for instance the blast databases
+        # also contain files, taxdb.btd, taxdb.bti and taxonomy4blast.sqlite3
+        # which do not match the prefix
         parent = p.parent
         prefix = p.name
 
