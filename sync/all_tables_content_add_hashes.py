@@ -1,6 +1,7 @@
 import argparse
 import hashlib
 import logging
+import os
 import os.path
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -52,6 +53,8 @@ with open(args.input, "r") as f:
     all_tables_content = yaml.safe_load(f)
 logger.info("Done")
 
+# Create the output directory
+os.makedirs(str(args.output), exist_ok=True)
 
 def file_hash(path):
     """
