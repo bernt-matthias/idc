@@ -13,7 +13,6 @@
 The easiest way is to clone the repository:
 
 ```bash
-script_directory=$PWD
 git clone -b datatable_sync https://github.com/lldelisle/idc.git
 script_directory=$PWD/idc/sync/
 ```
@@ -47,6 +46,7 @@ python ${script_directory}/tool_data_table_conf_to_yaml.py --tool_data_table_con
 This step can be really long as the instance can have a lot of indices and each of them can be large so computing a digest of each of them is long.
 
 ```bash
+mkdir ${output_basename}
 python ${script_directory}/all_tables_content_add_hashes.py -i "${output_basename}.yml" -o "${output_basename}" -log info
 ```
 
