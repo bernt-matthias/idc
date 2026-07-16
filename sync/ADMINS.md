@@ -45,9 +45,10 @@ output_basename=usegalaxy_eu_$(date -I)
 python ${script_directory}/tool_data_table_conf_to_yaml.py --tool_data_table_conf ${tool_data_table} -o "${output_basename}.yml"
 
 # For CVMFS
-tool_data_table_cvmfs="/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml /cvmfs/brc.galaxyproject.org/config/tool_data_table_conf.xml /cvmfs/vgp.galaxyproject.org/config/tool_data_table_conf.xml"
-output_basename_cvmfs=CVMFS_$(date -I)
-python ${script_directory}/tool_data_table_conf_to_yaml.py --tool_data_table_conf ${tool_data_table_cvmfs} -o "${output_basename_cvmfs}.yml"
+# Download it from github as there was some typos in the loc files
+cvmfs_yaml=cvmfs_20260715_fixed.yml
+wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/fix_typos_in_fasta_CVMFS/sync/cvmfs_20260715.yml" -O ${cvmfs_yaml}
+output_basename_cvmfs=CVMFS_20260715
 ```
 
 ### Get the digests of all indices
@@ -64,7 +65,7 @@ python ${script_directory}/all_tables_content_add_hashes.py -i "${output_basenam
 
 # For CVMFS
 mkdir ${output_basename_cvmfs}
-python ${script_directory}/all_tables_content_add_hashes.py -i "${output_basename_cvmfs}.yml" -o "${output_basename_cvmfs}" -log info
+python ${script_directory}/all_tables_content_add_hashes.py -i "${cvmfs_yaml}" -o "${output_basename_cvmfs}" -log info
 
 ```
 
