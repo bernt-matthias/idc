@@ -90,6 +90,4 @@ python ${script_directory}/all_fasta_files_to_refget_store.py "${output_basename
 
 ### Share your results
 
-If you chose the `--no-store` option, you need to zip/tar the directory named `${output_basename}` and give it back to Lucille or Matthias.
-
-If you chose to generate a refget_store, we need a zip/tar but without the `${output_basename}/refget/store/sequences` directory.
+We will provide you a s3 bucket to put the 2 directories.
