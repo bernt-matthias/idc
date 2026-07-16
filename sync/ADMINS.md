@@ -35,10 +35,12 @@ wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/all_tables_cont
 ```bash
 tool_data_table="<first.xml> <second.xml> ..."
 output_basename=<your instance name>_$(date -I)
-# For CVMFS
-# tool_data_table="/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml /cvmfs/brc.galaxyproject.org/config/tool_data_table_conf.xml /cvmfs/vgp.galaxyproject.org/config/tool_data_table_conf.xml"
-# output_basename=CVMFS_$(date -I)
 python ${script_directory}/tool_data_table_conf_to_yaml.py --tool_data_table_conf ${tool_data_table} -o "${output_basename}.yml"
+
+# For CVMFS
+tool_data_table_cvmfs="/cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml /cvmfs/brc.galaxyproject.org/config/tool_data_table_conf.xml /cvmfs/vgp.galaxyproject.org/config/tool_data_table_conf.xml"
+output_basename_cvmfs=CVMFS_$(date -I)
+python ${script_directory}/tool_data_table_conf_to_yaml.py --tool_data_table_conf ${tool_data_table_cvmfs} -o "${output_basename_cvmfs}.yml"
 ```
 
 By default this script uses 8 threads to compute checksums for the files referred by one data table entry. The number of threads can be set with `--threads` (default is 8). The actual CPU usage will be much smaller (at least on network storage, i.e. you can use it to hide IO time).
@@ -50,6 +52,10 @@ This step can be really long as the instance can have a lot of indices and each 
 ```bash
 mkdir ${output_basename}
 python ${script_directory}/all_tables_content_add_hashes.py -i "${output_basename}.yml" -o "${output_basename}" -log info
+
+mkdir ${output_basename_cvmfs}
+python ${script_directory}/all_tables_content_add_hashes.py -i "${output_basename_cvmfs}.yml" -o "${output_basename_cvmfs}" -log info
+
 ```
 
 ### Generate Refgetstore instance from all FASTA tables (or just compute the hashes)
@@ -61,14 +67,14 @@ If you prefer to first simply generate hashes use the option `--no-store`.
 This step requires some dependencies.
 
 ```bash
-option=""
-# option="--no-store"
 uv venv .venv
 # Or python -m venv .venv
 . .venv/bin/activate
 uv pip install -r requirements.txt
 # Or pip install -r requirements.txt
-python ${script_directory}/all_fasta_files_to_refget_store.py ${option} "${output_basename}.yml" "${output_basename}"
+python ${script_directory}/all_fasta_files_to_refget_store.py --no-store "${output_basename}.yml" "${output_basename}"
+
+python ${script_directory}/all_fasta_files_to_refget_store.py "${output_basename_cvmfs}.yml" "${output_basename_cvmfs}"
 ```
 
 ### Share your results
