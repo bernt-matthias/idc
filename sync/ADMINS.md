@@ -41,6 +41,8 @@ output_basename=<your instance name>_$(date -I)
 python ${script_directory}/tool_data_table_conf_to_yaml.py --tool_data_table_conf ${tool_data_table} -o "${output_basename}.yml"
 ```
 
+By default this script uses 8 threads to compute checksums for the files referred by one data table entry. The number of threads can be set with `--threads` (default is 8). The actual CPU usage will be much smaller (at least on network storage, i.e. you can use it to hide IO time).
+
 ### Get the digests of all indices
 
 This step can be really long as the instance can have a lot of indices and each of them can be large so computing a digest of each of them is long.
