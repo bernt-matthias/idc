@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- You need to have a ssh access to a linux machine which has read access to all indices.
+- You need to run the procedure from a machine that has read access to all indices and has write access to a working directory.
 - You need to have python/venv installed on this machine.
 - You need to have some space to write the results.
 
