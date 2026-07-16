@@ -23,7 +23,7 @@ uv pip install -r requirements.txt
 There is one script that can be used to list all the indices available per data table using as input all the tool_data_table_conf.xml files (default are the 4 from CVMFS including the brc and vgp).
 
 ```bash
-python sync/tool_data_table_conf_to_yaml.py -o sync/cvmfs_20260626.yml &> sync/cvmfs_20260626.log
+python sync/tool_data_table_conf_to_yaml.py -o sync/cvmfs_20260715.yml &> sync/cvmfs_20260715.log
 ```
 
 One can use `--tool_data_table_conf` to specifiy the tool_data_table_conf.xml files to be considered. 
@@ -227,7 +227,7 @@ It would be more safe to rely on the output of the postgres query if possible.
 Despite this, I ran this first version on the 2 yml I have and inspected the log files.
 
 ```bash
-python sync/all_tables_content_to_fasta_based_yaml.py -i sync/cvmfs_20260701.yml -o sync/cvmfs_20260701_perdbkey.yml -log info 2> sync/cvmfs_20260701_perdbkey.log
+python sync/all_tables_content_to_fasta_based_yaml.py -i sync/cvmfs_20260715.yml -o sync/cvmfs_20260715_perdbkey.yml -log info 2> sync/cvmfs_20260715_perdbkey.log
 python sync/all_tables_content_to_fasta_based_yaml.py -i sync/usegalaxy_eu_20260626.yaml -o sync/usegalaxy_eu_20260626_perdbkey.yml -log info 2> sync/usegalaxy_eu_20260626_perdbkey.log
 ```
 
