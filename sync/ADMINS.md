@@ -26,7 +26,7 @@ script_directory=$PWD
 wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/datatable_sync/sync/tool_data_table_conf_to_yaml.py"
 wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/datatable_sync/sync/all_fasta_files_to_refget_store.py"
 wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/datatable_sync/sync/requirements.txt"
-wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/all_tables_content_add_hashes.py"
+wget "https://raw.githubusercontent.com/lldelisle/idc/refs/heads/datatable_sync/sync/all_tables_content_add_hashes.py"
 ```
 
 ### Get the list of all indices available to users
