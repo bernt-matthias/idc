@@ -331,7 +331,7 @@ Or get it back from [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/ornAna1/bi
 
 #### taeGut2
 
-@mbernt identified the issue:
+@bernt-matthias identified the issue:
 
 ```bash
 file /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa 
