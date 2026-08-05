@@ -120,7 +120,11 @@ def import_fasta_all(
         if store is None:
             store = RefgetStore.in_memory()
 
-        collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
+        try:
+            collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
+        except Exception as e:
+            print(f"WARNING: Could not load {local_fasta_path}: {e}")
+            continue
         add_galaxy_aliases_to_store(store, collection, fasta_record)
 
         refget_metadata_blob = {
