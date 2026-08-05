@@ -249,6 +249,21 @@ ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/ornAna1/seq/
 ERROR: Fasta file /Users/Shared/cvmfs/data.galaxyproject.org/byhand/rn3/seq/rn3canon.fa does not exist, skipping import...
 ```
 
+In addition, the refget store raised an error for:
+
+```bash
+Processing /data/dnb01/cvmfs_hashes/usegalaxy_eu_CVMFS_20260715/rgsi/taeGut2.fa...
+Traceback (most recent call last):
+  File "/data/dnb01/cvmfs_hashes/idc/sync/all_fasta_files_to_refget_store.py", line 249, in <module>
+    main(
+  File "/data/dnb01/cvmfs_hashes/idc/sync/all_fasta_files_to_refget_store.py", line 47, in main
+    import_fasta_all(
+  File "/data/dnb01/cvmfs_hashes/idc/sync/all_fasta_files_to_refget_store.py", line 123, in import_fasta_all
+    collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Error importing FASTA: Invalid UTF-8 in FASTA header
+```
+
 #### ce6
 
 `/cvmfs/data.galaxyproject.org/byhand/ce6/seq/c6.fa`
@@ -314,6 +329,22 @@ Or get it back from [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/ornAna1/bi
 
 `/cvmfs/data.galaxyproject.org/byhand/rn3/seq/rn3canon.fa` should be replaced by `/cvmfs/data.galaxyproject.org/byhand/rn3/seq/rn3.fa`
 
+#### taeGut2
+
+@mbernt identified the issue:
+
+```bash
+file /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa 
+/cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa: gzip compressed data, last modified: Wed Apr 16 16:40:59 2014, from Unix, original size modulo 2^32 1257492349
+```
+
+It seems that the file is directly the fa.gz from UCSC:
+```bash
+$ md5sum /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa
+4dfa1fa3a4eb7cf192ee483e4a28217d  /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa
+$ curl -s https://hgdownload.soe.ucsc.edu/goldenPath/taeGut2/bigZips/md5sum.txt| grep taeGut2.fa.gz
+4dfa1fa3a4eb7cf192ee483e4a28217d  taeGut2.fa.gz
+```
 
 ## Ideas/TODO
 
