@@ -141,13 +141,23 @@ def manifest_and_hash(root, max_workers=8):
 
     return manifest, master.hexdigest()
 
+# sorted_all_tables_names = []
+# if 'all_fasta' in all_tables_content:
+#     sorted_all_tables_names.append('all_fasta')
+# sorted_all_tables_names += [tn for tn in all_tables_content if tn != 'all_fasta']
 
+# for table_name in sorted_all_tables_names:
 for table_name in all_tables_content:
     content_with_hashes = {}
     logger.info(
         f"Checking table {table_name}: {len(all_tables_content[table_name])} entries"
     )
-    for entry in all_tables_content[table_name]:
+    percent_reported = -1
+    for i, entry in enumerate(all_tables_content[table_name]):
+        round_percent = ((i * 100) // len(all_tables_content[table_name]))
+        if round_percent % 10 == 0 and round_percent != percent_reported:
+            logger.info(f"Submitted {round_percent}%")
+            percent_reported = round_percent
         path = None
         for c in entry:
             if entry[c].startswith("/") and c not in ["xml_file", "loc_file"]:
