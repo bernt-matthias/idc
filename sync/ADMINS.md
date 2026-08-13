@@ -81,12 +81,12 @@ This step requires some dependencies.
 uv venv .venv
 # Or python -m venv .venv
 . .venv/bin/activate
-uv pip install -r requirements.txt
-# Or pip install -r requirements.txt
+uv pip install -r ${script_directory}/requirements.txt
+# Or pip install -r ${script_directory}/requirements.txt
 python ${script_directory}/all_fasta_files_to_refget_store.py --no-store "${output_basename}.yml" "${output_basename}"
 
 # For CVMFS
-python ${script_directory}/all_fasta_files_to_refget_store.py "${output_basename_cvmfs}.yml" "${output_basename_cvmfs}"
+python ${script_directory}/all_fasta_files_to_refget_store.py "${cvmfs_yaml}" "${output_basename_cvmfs}"
 ```
 
 ### Share your results
