@@ -26,7 +26,7 @@ There is one script that can be used to list all the indices available per data 
 python sync/tool_data_table_conf_to_yaml.py -o sync/cvmfs_20260715.yml &> sync/cvmfs_20260715.log
 ```
 
-One can use `--tool_data_table_conf` to specifiy the tool_data_table_conf.xml files to be considered. 
+One can use `--tool_data_table_conf` to specifiy the tool_data_table_conf.xml files to be considered.
 
 José ran the command for the usegalaxy.eu and the result is [here](./usegalaxy_eu_20260626.yaml).
 
@@ -44,14 +44,14 @@ There is a script to get all the `data_manager`s from iuc and the input/output d
 The path to tools-iuc is hard coded, please change it if you want to use it.
 
 ```bash
-python sync/tools_iuc_to_table_connection.py 
+python sync/tools_iuc_to_table_connection.py
 ```
 
 The output is [here](./dm_iuc.tsv).
 
 ### Generate datatable entry hashes and manifests
 
-`python sync/all_tables_content_add_hashes.py -i YAML_FILE -o OUT_DIRECTORY/ [--threads THREADS]` takes the yaml file that has been created with `tool_data_table_conf_to_yaml` and adds to each entry: 
+`python sync/all_tables_content_add_hashes.py -i YAML_FILE -o OUT_DIRECTORY/ [--threads THREADS]` takes the yaml file that has been created with `tool_data_table_conf_to_yaml` and adds to each entry:
 
 - manifest, i.e. the (sorted) list of all files in the data table entry with size, file hash, info if its a symlink
 - and a hash digest of the manifest
@@ -79,7 +79,7 @@ Note: the option '--no-store' can be used to skip generating the Refgetstore and
 
 For each reference genome, the following output is generated:
 
-#### JSON file 
+#### JSON file
 Summary files with "GA4GH refget: sequence collections"-compatible digests, as well as overview of sequences, lengths, and names. E.g.:
 
 _/path/to/refget_output_20260626/json/Araly.json:_
@@ -222,7 +222,7 @@ Another example, for hg38, there is hg38full and hg38canon but for the picard_in
 
 Sometimes there are some typos, for example in CVMFS in the bowtie2 index is 'galgal4' and 'galGal4' with names 'Chicken (Nov 2011, Gallus gallus)' and 'Chicken (Gallus gallus): galGal4' respectively.
 
-It would be more safe to rely on the output of the postgres query if possible. 
+It would be more safe to rely on the output of the postgres query if possible.
 
 Despite this, I ran this first version on the 2 yml I have and inspected the log files.
 
@@ -262,6 +262,11 @@ Traceback (most recent call last):
     collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 OSError: Error importing FASTA: Invalid UTF-8 in FASTA header
+```
+
+Other error found during inspections:
+```txt
+2026-08-14 00:42:36,168 - __main__ - ERROR - Could not compute digest of /cvmfs/data.galaxyproject.org/byhand/equCab2/seq/equCab2chrM.fa: [Errno 13] Permission denied: '/cvmfs/data.galaxyproject.org/byhand/equCab2/seq/equCab2chrM.fa'
 ```
 
 #### ce6
@@ -334,7 +339,7 @@ Or get it back from [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/ornAna1/bi
 @bernt-matthias identified the issue:
 
 ```bash
-file /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa 
+file /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa
 /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa: gzip compressed data, last modified: Wed Apr 16 16:40:59 2014, from Unix, original size modulo 2^32 1257492349
 ```
 
@@ -344,6 +349,20 @@ $ md5sum /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa
 4dfa1fa3a4eb7cf192ee483e4a28217d  /cvmfs/data.galaxyproject.org/managed/seq/taeGut2.fa
 $ curl -s https://hgdownload.soe.ucsc.edu/goldenPath/taeGut2/bigZips/md5sum.txt| grep taeGut2.fa.gz
 4dfa1fa3a4eb7cf192ee483e4a28217d  taeGut2.fa.gz
+```
+
+#### equCab2chrM
+
+The file `/cvmfs/data.galaxyproject.org/byhand/equCab2/seq/chrM.fa` do not have read access for users:
+```bash
+$ ls -alh '/cvmfs/data.galaxyproject.org/byhand/equCab2/seq/'
+total 3.0G
+drwxr-xr-x  2 cvmfs cvmfs 4.0K Oct  7  2010 .
+drwxr-xr-x 12 cvmfs cvmfs 4.0K Apr 22  2016 ..
+-rw-------  1 cvmfs cvmfs  17K Aug 31  2010 chrM.fa
+-rwxrwxr-x  1 cvmfs cvmfs 618M Apr 15  2010 equCab2.2bit
+lrwxrwxrwx  1 cvmfs cvmfs    7 May 17  2014 equCab2chrM.fa -> chrM.fa
+-rw-r--r--  1 cvmfs cvmfs 2.4G Aug 28  2009 equCab2.fa
 ```
 
 ## Ideas/TODO
