@@ -151,17 +151,34 @@ for table_name in all_tables_content:
 
     yaml_path = str(args.output) + "/" + table_name + ".yaml"
     if os.path.exists(yaml_path):
-        logger.info(
-            f"Skipping table {table_name}: output present {yaml_path}"
-        )
-        continue
+        with open(yaml_path, 'r') as file
+            content_with_hashes = yaml.safe_load(file)
+            assert table_name in content_with_hashes
+    else:
+        content_with_hashes = {}
+        content_with_hashes[table_name] = []
 
-    content_with_hashes = {}
+    # if the yaml contained data the original data table entries are
+    #reconstructed by removing the manifest and digest keys
+    entries = set()
+    for hashed_old_entry in content_with_hashes[table_name]:
+        old_entry = {}
+        for key in hashed_old_entry:
+            if key not in ["manifest", "digest"]:
+                old_entry[key] = hashed_old_entry[key]
+    entries.add(old_entry)
+
     logger.info(
         f"Checking table {table_name}: {len(all_tables_content[table_name])} entries"
     )
     percent_reported = -1
     for i, entry in enumerate(all_tables_content[table_name]):
+        if entry in entries:
+            logger.info(
+                f"Skipping table {table_name} entry {i}: {entry}"
+            )
+            continue
+        entries.add(entry)
         round_percent = ((i * 100) // len(all_tables_content[table_name]))
         if round_percent % 10 == 0 and round_percent != percent_reported:
             logger.info(f"Submitted {round_percent}%")
@@ -178,8 +195,6 @@ for table_name in all_tables_content:
             logger.error(f"Could not compute digest of {path}: {e}")
             continue
 
-        if not table_name in content_with_hashes:
-            content_with_hashes[table_name] = []
         content_with_hashes[table_name].append(entry)
 
     if len(content_with_hashes) == 0:
