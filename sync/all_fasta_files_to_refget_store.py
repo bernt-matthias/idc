@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import os
 from dataclasses import dataclass, asdict
 
@@ -30,30 +31,32 @@ class AliasRecord:
 
 
 def main(
-    cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path, no_store: bool
+    cvmfs_yaml_path: Path, output_path: Path, cvmfs_mount_prefix: Path, no_store: bool,
+    logger: Any
 ):
     refget_store_path = output_path.joinpath("store")
 
     if no_store:
         store = None
     else:
-        print(f"Created/opened refgetstore at {refget_store_path}")
+        logger.info(f"Created/opened refgetstore at {refget_store_path}")
         store = RefgetStore.on_disk(refget_store_path)
 
-    fasta_all = read_fasta_all_yaml(cvmfs_yaml_path)
+    fasta_all = read_fasta_all_yaml(cvmfs_yaml_path, logger)
 
-    check_for_duplicate_genomes(fasta_all)
+    check_for_duplicate_genomes(fasta_all, logger)
 
     import_fasta_all(
         fasta_all,
         output_path,
         cvmfs_mount_prefix,
         store,
+        logger,
     )
 
 
-def read_fasta_all_yaml(cvmfs_yaml_path: Path) -> list[FastaAllRecord]:
-    print(f"Loading the big yaml file: {cvmfs_yaml_path}")
+def read_fasta_all_yaml(cvmfs_yaml_path: Path, logger: Any) -> list[FastaAllRecord]:
+    logger.info(f"Loading the big yaml file: {cvmfs_yaml_path}")
 
     with open(cvmfs_yaml_path, "r") as cvmfs_yaml_file:
         cvmfs_yaml = yaml.safe_load(cvmfs_yaml_file)
@@ -64,14 +67,14 @@ def read_fasta_all_yaml(cvmfs_yaml_path: Path) -> list[FastaAllRecord]:
     return out
 
 
-def check_for_duplicate_genomes(fasta_all: list[FastaAllRecord]):
+def check_for_duplicate_genomes(fasta_all: list[FastaAllRecord], logger: Any):
     unique_vals = set()
     for fasta_record in fasta_all:
         if fasta_record.value not in unique_vals:
             unique_vals.add(fasta_record.value)
         else:
-            print(
-                f"WARNING: Duplicate unique_build_id value found: {fasta_record.value}"
+            logger.warning(
+                f"Duplicate unique_build_id value found: {fasta_record.value}"
             )
 
 
@@ -80,6 +83,7 @@ def import_fasta_all(
     output_path: Path,
     cvmfs_mount_prefix: Path,
     store: RefgetStore | None,
+    logger: Any,
 ):
     rgsi_output_path = output_path.joinpath("rgsi")
     json_output_path = output_path.joinpath("json")
@@ -103,16 +107,23 @@ def import_fasta_all(
         if os.path.exists(cvmfs_fasta_path):
             if os.path.islink(local_fasta_path):
                 os.unlink(local_fasta_path)
-            print(f"Symlinking {local_fasta_path} to {cvmfs_fasta_path}...")
+            logger.info(f"Symlinking {local_fasta_path} to {cvmfs_fasta_path}...")
             local_fasta_path.symlink_to(cvmfs_fasta_path)
         else:
-            print(
-                f"WARNING: Fasta file {cvmfs_fasta_path} does not exist, skipping import..."
+            logger.warning(
+                f"Fasta file {cvmfs_fasta_path} does not exist, skipping import..."
+            )
+            continue
+
+
+        if not os.access(cvmfs_fasta_path, os.R_OK):
+            logger.warning(
+                f"Fasta file {cvmfs_fasta_path} is not readable, skipping import..."
             )
             continue
 
         if os.path.exists(json_summary_path):
-            print(
+            logger.info(
                 f"JSON summary file {json_summary_path} already exists, skipping import..."
             )
             continue
@@ -123,7 +134,7 @@ def import_fasta_all(
         try:
             collection, new = store.add_sequence_collection_from_fasta(local_fasta_path)
         except Exception as e:
-            print(f"WARNING: Could not load {local_fasta_path}: {e}")
+            logger.info(f"Could not load {local_fasta_path}: {e}")
             continue
         add_galaxy_aliases_to_store(store, collection, fasta_record)
 
@@ -248,11 +259,32 @@ if __name__ == "__main__":
     parser.add_argument(
         "-n", "--no-store", action="store_true", help="Do not create the Refgetstore."
     )
+    parser.add_argument(
+        "-log",
+        "--loglevel",
+        choices=["debug", "info", "warning", "error"],
+        default="warning",
+        help="Provide logging level. Example --loglevel debug, default=warning",
+    )
 
     args = parser.parse_args()
+    logging.getLogger().setLevel(logging.WARNING)
+    logger = logging.getLogger(__name__)
+    # Set the log level for your logger to the desired level (e.g., INFO)
+    logger.setLevel(args.loglevel.upper())
+
+    # Create a handler for logging output (e.g., console handler)
+    handler = logging.StreamHandler()
+    logger.addHandler(handler)
+
+    # Add a formatter to the handler (optional)
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    handler.setFormatter(formatter)
+
     main(
         args.tool_data_table_yaml_path,
         Path.absolute(args.output_path),
         args.cvmfs_mount_prefix,
         args.no_store,
+        logger
     )

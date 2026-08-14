@@ -72,7 +72,7 @@ Background info: https://refget.databio.org/
 Used to generate a refgetstore (See: https://refgenie.org/refget/refgetstore-explained/) from all available fasta files.
 
 ```bash
-python sync/all_fasta_files_to_refget_store.py sync/cvmfs_20260626.yml /path/to/refget_output_20260626/
+python sync/all_fasta_files_to_refget_store.py -log info sync/cvmfs_20260626.yml /path/to/refget_output_20260626/
 ```
 
 Note: the option '--no-store' can be used to skip generating the Refgetstore and only generate the summary files (currently only JSON).
@@ -202,7 +202,7 @@ The output is [here](./test.yml).
 I could then run the refget_store with the option `--no-store` on the test:
 
 ```bash
-python sync/all_fasta_files_to_refget_store.py sync/test.yml sync/test_dig/ &> sync/test_dig.log
+python sync/all_fasta_files_to_refget_store.py sync/test.yml sync/test_dig/ --no-store -log info &> sync/test_dig.log
 ```
 
 The output is [here](./test_dig/).
