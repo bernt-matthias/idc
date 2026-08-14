@@ -1,14 +1,14 @@
-2026-08-14 07:47:43,759 - __main__ - INFO - Loading the big yaml file: sync/test.yml
-2026-08-14 07:47:43,809 - __main__ - INFO - Symlinking /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/apiMel4.fa to /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa...
+2026-08-14 07:59:19,481 - __main__ - INFO - Loading the big yaml file: sync/test.yml
+2026-08-14 07:59:19,531 - __main__ - INFO - Symlinking /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/apiMel4.fa to /cvmfs/data.galaxyproject.org/managed/seq/apiMel4.fa...
+2026-08-14 07:59:19,531 - __main__ - INFO - Processing fasta 1/2.
 Processing /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/apiMel4.fa...
 Added Z45sUmBk1p-HGz1MamiTs5LmH4oNPp4f (5321 seqs) from /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/apiMel4.fa in 0.0s
-Imported 1 file(s) in 1.7s (jobs=1)
-2026-08-14 07:47:45,519 - __main__ - INFO - Processing fasta 1/2.
-2026-08-14 07:47:45,525 - __main__ - INFO - Symlinking /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/Amel_4.5.fa to /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa...
+Imported 1 file(s) in 1.8s (jobs=1)
+2026-08-14 07:59:21,333 - __main__ - INFO - Symlinking /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/Amel_4.5.fa to /cvmfs/data.galaxyproject.org/managed/seq/Amel_4.5.fa...
+2026-08-14 07:59:21,333 - __main__ - INFO - Processing fasta 2/2.
 Processing /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/Amel_4.5.fa...
 Added WVM-8x592B68KwfpbOcMBcAqeNz2ZZy0 (5321 seqs) from /home/delislel/Documents/mygit/idc/sync/test_dig/rgsi/Amel_4.5.fa in 0.0s
-Imported 1 file(s) in 1.7s (jobs=1)
-2026-08-14 07:47:47,255 - __main__ - INFO - Processing fasta 2/2.
+Imported 1 file(s) in 1.5s (jobs=1)
 Appending refget digests and galaxy aliases for "apiMel4" to: /home/delislel/Documents/mygit/idc/sync/test_dig/yaml/all_fasta.yml
 Writing JSON summary file: /home/delislel/Documents/mygit/idc/sync/test_dig/json/apiMel4.json
 Appending refget digests and galaxy aliases for "Amel_4.5" to: /home/delislel/Documents/mygit/idc/sync/test_dig/yaml/all_fasta.yml
