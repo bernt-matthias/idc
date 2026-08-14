@@ -22,12 +22,6 @@ parser.add_argument(
     help="Number of threads to use for hash computation",
 )
 parser.add_argument(
-    "--overwrite",
-    type=bool,
-    default=False,
-    help="Overwrite present yaml output files",
-)
-parser.add_argument(
     "-o", "--output", default="./", type=str, help="Prefix for the yaml ouput files"
 )
 parser.add_argument(
@@ -156,7 +150,10 @@ def manifest_and_hash(root, max_workers=8):
 for table_name in all_tables_content:
 
     yaml_path = str(args.output) + "/" + table_name + ".yaml"
-    if os.path.exists(yaml_path) and not args.overwrite:
+    if os.path.exists(yaml_path):
+        logger.info(
+            f"Skipping table {table_name}: output present {yaml_path}"
+        )
         continue
 
     content_with_hashes = {}
