@@ -94,7 +94,7 @@ def import_fasta_all(
 
     os.chdir(rgsi_output_path)
 
-    for fasta_record in fasta_all:
+    for i, fasta_record in enumerate(fasta_all):
         unique_build_id = fasta_record.value
 
         cvmfs_fasta_path = cvmfs_mount_prefix / Path(fasta_record.path).relative_to(
@@ -136,6 +136,10 @@ def import_fasta_all(
         except Exception as e:
             logger.info(f"Could not load {local_fasta_path}: {e}")
             continue
+
+        logger.info(
+            f"Processing fasta {i + 1}/{len(fasta_all)}."
+        )
         add_galaxy_aliases_to_store(store, collection, fasta_record)
 
         refget_metadata_blob = {
